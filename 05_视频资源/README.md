@@ -1,23 +1,83 @@
 # 视频资源 · 真实 YouTube 一手内容
 
-> **说明**：本目录保存课程大纲里**每节课对应的真实 YouTube 视频**——已用 WebSearch 多次验证 URL 真实存在。
-> **当前状态**：26 个真实 URL + 标题 + 频道（已在 [真实视频清单.md](#真实视频清单) 中），但**字幕未抓**——YouTube 在 2026-04 后大规模 IP 封禁，本机直接拉字幕被拒。
-> **解决方案**：跑下面的 `extractor_simple.py` 时**必须开 Clash / V2Ray 等代理**（参考 [M0-12 代理实务](../01_课程大纲.md)），或用 [SaveSubs.com](https://savesubs.com) / [NoteGPT.io](https://notegpt.io) 等第三方网页工具。
+> **状态**：26 个真实 URL 全部 WebSearch 验证存在；**字幕抓取需要你最后一步配合**（YouTube 2024Q3 后反爬大升级，自动化工具普遍受限）。
 
 ---
 
-## 真实视频清单（26 条 · WebSearch 验证）
+## 📊 诊断结果（已穷尽 5 个方案）
+
+| 方案 | 结果 | 原因 |
+|---|---|---|
+| ① youtube-transcript-api 直连 | ❌ | 你的本地 IP 在 YouTube 黑名单 |
+| ② 加 Clash 代理 (127.0.0.1:7897) | ❌ | 机场节点是 datacenter IP，也在 YouTube 黑名单 |
+| ③ yt-dlp + 多 player_client | ❌ | "Sign in to confirm not a bot" |
+| ④ yt-dlp + cookies-from-browser (Chrome/Edge/Brave) | ❌ | Chrome 没登过 YT；Edge/Brave 有 cookies 但 **Chrome 127+ App-Bound 加密**，yt-dlp/browser_cookie3 都解不了 |
+| ⑤ WebFetch 调 SaveSubs / NoteGPT | ❌ | 这些网站都返回 403 |
+
+---
+
+## ✅ 下一步：3 选 1（最低成本→最高成本）
+
+### 方案 A · 在 Chrome 登录一次 YouTube（**免费 + 30 秒**）
+
+```bash
+# 1. 用 Chrome 打开 https://youtube.com，扫码登录（用任意 Google 账号）
+# 2. 关掉 Chrome（必须关掉，不然 cookies DB 锁着）
+# 3. 跑：
+$env:HTTP_PROXY="http://127.0.0.1:7897"; $env:HTTPS_PROXY="http://127.0.0.1:7897"
+cd "C:\Users\hyinn\Desktop\AI_Courses_Clean\05_视频资源"
+yt-dlp --skip-download --write-auto-subs --sub-langs "en,zh-Hans" --convert-subs srt `
+  --proxy "http://127.0.0.1:7897" --cookies-from-browser chrome `
+  -o "%(title).80s_%(id)s.%(ext)s" --batch-file urls.txt
+```
+
+> **如果 Chrome 报 DPAPI 解密失败**：换方案 B。
+
+### 方案 B · 装 Chrome 扩展手动导出 cookies（**5 分钟，最稳**）
+
+1. 装 **[Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc)** Chrome 扩展（300K+ 用户，零权限）
+2. 用 Chrome 打开 https://youtube.com 并登录
+3. 点扩展图标 → **Export** → 保存到 `C:\Users\hyinn\Desktop\AI_Courses_Clean\05_视频资源\cookies.txt`
+4. 跑：
+
+```powershell
+$env:HTTP_PROXY="http://127.0.0.1:7897"; $env:HTTPS_PROXY="http://127.0.0.1:7897"
+cd "C:\Users\hyinn\Desktop\AI_Courses_Clean\05_视频资源"
+yt-dlp --skip-download --write-auto-subs --sub-langs "en,zh-Hans" --convert-subs srt `
+  --proxy "http://127.0.0.1:7897" --cookies cookies.txt `
+  -o "%(title).80s_%(id)s.%(ext)s" --batch-file urls.txt
+```
+
+### 方案 C · 买 Webshare 住宅代理（**$3 起，最暴力**）
+
+[Webshare.io](https://www.webshare.io)（youtube-transcript-api 官方推荐）—— 30M+ 住宅 IP 池，绕开所有黑名单。最便宜套餐 $3/月。配好后改 `extractor_simple.py` 的 PROXY 变量即可。
+
+---
+
+## 📁 工具集
+
+| 文件 | 用途 |
+|---|---|
+| [extractor_simple.py](extractor_simple.py) | youtube-transcript-api 字幕抓取（已支持代理） |
+| [export_cookies.py](export_cookies.py) | 用 browser_cookie3 自动导出 cookies（DPAPI 受限时用方案 B） |
+| [urls.txt](urls.txt) | 纯 URL 列表，喂给 yt-dlp `--batch-file` |
+| [真实视频清单.md](#真实视频清单) | 26 个真实视频的元数据表 |
+| [提取报告.md](提取报告.md) | 上次运行的诊断报告 |
+
+---
+
+## 真实视频清单（26 条 · 全部 WebSearch 验证）
 
 | 模块 | YouTube URL | 频道 | 标题 |
 |---|---|---|---|
 | M0-9 GitHub 速读 | https://www.youtube.com/watch?v=wJ42uIVGFA4 | Community | AI Turns ANY GitHub Repo into an EASY Tutorial |
 | M0-8 提示词基础 | https://www.youtube.com/watch?v=T9aRN5JkmL8 | Anthropic | AI prompt engineering: A deep dive |
-| M0-11 Node/Python/uv | https://www.youtube.com/watch?v=AMdG7IjgSPM | Fireship | UV - A Faster, All-in-One Package Manager to Replace Pip and Venv |
+| M0-11 Node/Python/uv | https://www.youtube.com/watch?v=AMdG7IjgSPM | Fireship | UV - A Faster, All-in-One Package Manager |
 | M1-1 三幕演进 | https://www.youtube.com/watch?v=LCEmiRjPEtQ | Y Combinator (Karpathy) | Andrej Karpathy: Software Is Changing (Again) |
 | M1-3 Agent Skills | https://www.youtube.com/watch?v=1WImBwiA7RA | AI Jason | Claude Skills - the SOP for your agent that is bigger than MCP |
 | M1-4 MCP 协议 | https://www.youtube.com/watch?v=HyzlYwjoXOQ | Fireship | Claude's Model Context Protocol is here... Let's test it |
 | M1-4b MCP 深度 | https://www.youtube.com/watch?v=GuTcle5edjk | Matthew Berman | you need to learn MCP RIGHT NOW!! |
-| M2-1 模型选型 | https://www.youtube.com/watch?v=LCEmiRjPEtQ | Y Combinator | Software Is Changing (Karpathy 模型综述部分) |
+| M2-1 模型选型 | https://www.youtube.com/watch?v=LCEmiRjPEtQ | Y Combinator | Software Is Changing |
 | M2-3 订阅经济学 | https://www.youtube.com/watch?v=UAxr6bWonFs | Matthew Berman | Cursor VS Claude Code: The Winner |
 | M2-4 Ollama 本地 | https://www.youtube.com/watch?v=Wjrdr0NU4Sk | NetworkChuck | host ALL your AI locally |
 | M2-5 RAG / AnythingLLM | https://www.youtube.com/watch?v=rK8_EKgoBzg | Community | FREE AnythingLLM RAG AI Agent Local Chat w/Documents |
@@ -39,55 +99,18 @@
 
 ---
 
-## 怎么跑提取器（真正落地）
-
-### 前提：开代理
-```bash
-# Windows: Clash Verge Rev 开启 TUN 模式
-# 或：terminal 直接设环境变量
-set HTTPS_PROXY=http://127.0.0.1:7890
-set HTTP_PROXY=http://127.0.0.1:7890
-```
-
-### 跑批量
-```bash
-cd 05_视频资源
-python extractor_simple.py
-```
-
-### 看结果
-每个视频会创建一个文件夹：
-```
-05_视频资源/<topic>/<slug>__<video_id>/
-   ├── meta.json        # 元数据
-   ├── transcript.txt   # 纯文本字幕
-   ├── transcript.srt   # SRT 字幕
-   └── notes.md         # 可填的摘要模板
-```
-
----
-
-## 提取器原理
-
-`extractor_simple.py` 用 [youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api) 直接调 YouTube 公开字幕端点（无需 yt-dlp 走元数据反爬）。
-
-适配点：
-- 优先 zh-Hans / zh-CN / en 语言
-- 自动 fallback：人工字幕 → 自动字幕 → 任意可用语言
-- 输出兼容老 dict 格式与新 `FetchedTranscriptSnippet` 对象格式
-
----
-
-## 失败原因记录（2026-04-30）
+## 跑通后字幕会落到哪里
 
 ```
-ipinfo.io: 你的出口 IP 在 YouTube 黑名单
-症状：HTTP 200 + "Sign in to confirm you're not a bot"
-解决：
-  1. 开商用代理（Clash + 高质量节点）
-  2. 等 24-48h IP 解除冷却
-  3. 用 SaveSubs / NoteGPT 等 web 工具拷贝字幕
+05_视频资源/
+├── Software Is Changing (Again)_LCEmiRjPEtQ.en.srt
+├── Software Is Changing (Again)_LCEmiRjPEtQ.info.json
+├── AI prompt engineering A deep dive_T9aRN5JkmL8.en.srt
+├── AI prompt engineering A deep dive_T9aRN5JkmL8.info.json
+└── ... 26 对文件
 ```
+
+每对 .srt + .info.json 可以直接喂给 Claude/Cursor 让它填到课程大纲里。
 
 ---
 

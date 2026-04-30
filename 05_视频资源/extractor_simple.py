@@ -6,12 +6,17 @@
 直接用 youtube-transcript-api 拿字幕 + 描述（不调用 ydl info 接口）。
 """
 import json
+import os
 import re
 import sys
 from pathlib import Path
 
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api._errors import TranscriptsDisabled, NoTranscriptFound
+from youtube_transcript_api.proxies import GenericProxyConfig
+
+# 可通过环境变量 YT_PROXY 覆盖；默认读 HTTPS_PROXY / HTTP_PROXY
+PROXY = os.environ.get("YT_PROXY") or os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY")
 
 OUT = Path(__file__).resolve().parent
 
@@ -39,7 +44,11 @@ def safe_name(s, n=80):
 def fetch(video_id):
     pref = ['en', 'en-US', 'en-GB', 'zh-Hans', 'zh-CN', 'zh']
     try:
-        api = YouTubeTranscriptApi()
+        if PROXY:
+            cfg = GenericProxyConfig(http_url=PROXY, https_url=PROXY)
+            api = YouTubeTranscriptApi(proxy_config=cfg)
+        else:
+            api = YouTubeTranscriptApi()
         tlist = api.list(video_id)
         for lang in pref:
             try:
@@ -102,6 +111,10 @@ def to_srt(segs):
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
+    if PROXY:
+        print(f"[info] 用代理: {PROXY}")
+    else:
+        print("[info] 未设代理（建议设 HTTPS_PROXY 或 YT_PROXY）")
     summary = []
     ok = fail = 0
     for vid, topic, slug, channel, title in VIDEOS:
