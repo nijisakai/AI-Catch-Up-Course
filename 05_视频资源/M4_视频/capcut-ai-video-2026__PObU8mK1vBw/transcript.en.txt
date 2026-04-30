@@ -1,0 +1,433 @@
+Have you ever burned out juggling too
+many editing tools, writing scripts at
+2:00 a.m., or stressing over your
+faceless YouTube channel content? Yeah,
+me too. It's a lot. One minute you're
+brainstorming ideas, the next you're
+voicing over, adding subtitles, finding
+stock clips. Exhausting. Now, imagine
+one free tool that can do all of that
+for you. Script writing, voice over,
+visuals, even a virtual presenter to be
+on camera instead of you. Sounds like
+sci-fi, right? Well, it's real and it's
+here called Cap Cuts AI Video Maker. The
+same Cap Cut you've seen all over Tik
+Tok. And trust me, it's a solid tool.
+Before we dive in, if you want to try
+this with me, click the link in the
+description to download Cap Cut for
+desktop for free on PC and Mac. Totally
+crossplatform with no catches. Download
+it now so you can follow along. I'm on
+my Mac, but Cap Cut works on Windows PC,
+too. I've installed and opened Capkut
+desktop, logged in, and right on the
+home screen, I spot the magic button, AI
+video maker. I click that and a new
+workspace opens up. This is the AI video
+maker hub. Caput conveniently lays out a
+few AI powered options here. Instant AI
+video, the one-click route. If you
+already have a script ready, just choose
+a style, paste your script, and boom,
+the AI generates the video. Brainstorm
+with AI. Perfect. If you don't have a
+script, this helps you generate ideas
+and a structured script from just a
+topic using an AI powered mind map.
+Avatar video for creating a talking AI
+avatar presenter video. There are
+built-in avatars, trending, casual,
+professional, etc. And even an option to
+create a custom avatar from a photo.
+Great for faceless channels. Match media
+to script. If you have your own script
+and maybe some footage, this can auto
+match your media clips to the scripts
+beats. Pretty wild, right? All these
+features are neatly in one place and
+yes, all free. Pepco basically packed in
+auto captioning, texttospech, script
+generation, avatar video generation into
+this tool. For this demo, let's say I
+have an idea but no finished script.
+I'll use Brainstorm with AI to show you
+how Cap Cut can help craft a script from
+scratch. I click on Brainstorm with AI.
+Cap Cut asks me to enter an idea or
+topic for my video. So, let's do
+something relatable. Top five tips to
+avoid creator burnout. Because, hey,
+that's a struggle we all know. I type
+that in as my brainstorming topic. I hit
+enter and Caput's AI goes to work. In
+seconds, I see a mind map appear with
+several branches of subtopics. It's
+suggesting things like time management,
+batch recording, using AI tools to save
+time. Nice. Those are great points. This
+brainstorm tool basically helps me
+outline a well ststructured video. I can
+click the little AI icons next to each
+subtopic to generate more ideas on that
+point or hit the pin icons to select the
+key points I want to include. It's kind
+of fun. I'm literally brainstorming with
+AI assistant. I'll pick a few key tips
+the AI suggested that I like. Say
+schedule downtime, leverage automation,
+and join a creator community. Now that I
+have my main points pinned, I just click
+generate script and boom, Cap Cut
+generates a full script for my video
+right before my eyes. The script
+includes an intro, the tips as separate
+scenes and a conclusion. Honestly, it's
+pretty good for zero effort. It reads
+like a decent YouTube narrative with a
+logical flow. Of course, AI isn't
+perfect, and you guys know I always
+preach add in your personal touch.
+Overhumanized AI text can slip into
+uncanny valley territory. too slick, not
+quite natural. No wonder some creators
+hesitate. In fact, quick pro tip, make
+sure your opening line absolutely hooks
+the viewer. The AI gave me a generic
+intro, so I'm tweaking it to sound more
+exciting and grabby. You can go further
+and reduce editing time with a solid
+prompt strategy. That's exactly why we
+hammer it inside the generative AI
+course in AI master membership. Our
+members already cut their script in time
+in half, minus the robot vibes there.
+Much better. A little human touch on top
+of the AI generated script goes a long
+way. Overall though, we have a complete
+script in hand with minimal effort. Love
+it. Now that we have our script, Caput
+basically sets up the video project for
+us. I click the scenes button. This
+brings me into the scenes editor where
+each scene or paragraph of my script is
+laid out sequentially almost like a
+storyboard or timeline. Each scene from
+the script is its own segment. At this
+point, Cap Cut might have already done
+some initial automation, splitting the
+script into captions for each scene,
+ready for voice over and visuals. Think
+of this as the foundation. We have text
+for each part of the video. And now we
+just need to dress it up with an avatar,
+voice, footage, etc. And here we'll add
+all the fun stuff. First up, let's get
+ourselves a virtual AI presenter. Since
+this is a faceless video, I want an AI
+avatar to appear on screen and deliver
+these lines for me. Cap's avatar feature
+makes this super easy. In the AI video
+maker interface, I click on avatar
+video. This pulls up a gallery of avatar
+characters to choose from. They have
+avatars and categories like trending,
+casual, professional, etc. Each with a
+different look and vibe. I'm scrolling
+through. There's a friendly looking guy
+in a hoodie, a woman in a suit, even
+some characters. Let's go with a casual
+avatar, someone approachable, like a
+virtual version of me. Instantly, avatar
+appears in the scene as the presenter.
+Here's a fullbodied talking avatar.
+Pretty cool, right now. Caput even lets
+you create your own avatar from a photo
+if you want. I could upload a photo of
+myself and have a digital clone, which
+is insane. That feature has a limited
+free usage, so I will save it for
+another time. For now, our chosen avatar
+will do the job. Don't worry if your
+avatar is just standing on a blank
+background. We'll have visuals and
+captions around them soon. You can also
+resize and position the avatar like
+picturein picture or full screen. I'll
+keep him in the corner for now while we
+add other elements. Next up, let's give
+our avatar a voice. Cap Cut has text to
+speech built in so it can convert our
+script to voice over automatically and
+we have a bunch of voice styles to
+choose from. I click on the voice over
+button the scenes panel or switch to the
+voice tab. Here I see a list of AI
+voices, male, female, different accents
+and languages. There's friendly
+narrators, energetic promo voices, calm
+documentary tones, even different
+languages. If I wanted a Spanish or
+Hindi voice over, it's all right here. I
+will preview a couple. Welcome to
+creating voiceovers. Welcome to creating
+voiceovers.
+&gt;&gt; Welcome to creating voiceovers.
+&gt;&gt; Uh, one voice sounds upbeat and young.
+Another sounds like a formal newscaster.
+Let's go with this voice for example
+because he sounds pretty natural and
+confident for our tips video. With the
+voice selected, I hit apply to all
+scenes. And just like that, Cap Cut
+generates the voice over for the entire
+script scene by scene. Our avatar is now
+talking. Cap Cut has synced the avatar's
+lip movements to the voice. Let's play a
+quick snippet of the video now with
+voice and avatar to see how it's coming
+along.
+&gt;&gt; Are you tired of spending hours
+researching and writing content? You're
+not alone. But do you worry because
+today I'm going to ship.
+&gt;&gt; Well, not bad. The voice is clear and
+the avatar looks like a legit presenter.
+Sure, it's an AI voice, but a pretty
+good one. And remember, if you ever want
+to change the voice, it's as easy as a
+couple clicks to try a different style.
+Cap Cut even has an AI voice changer if
+you want to tweak the tone or add
+character filters, but that's optional.
+For now, I'm happy with the voice. Now,
+let's spice up the visuals. We have a
+talking avatar, yes, but to keep viewers
+engaged, we need cutaways, B-roll, maybe
+some graphics. Cap Cuts AI can handle
+that, too, thanks to the match media to
+script feature. This is where it pulls
+in relevant images or footage to
+automatically accompany our narration. I
+go to the scenes panel and click on the
+media section. Caput gives me a few
+options for adding visuals to each
+scene. Generate AI media. This can
+create AI generated images from text.
+Think of it like having GBT 4.0 image
+generation or midjourney integrated to
+make specific images if needed match
+your media. If I had my own video clips
+or images, I could import them and let
+Cap Cut fit them into the script's
+timeline. Match stock media, the easiest
+for us. Now, Cap Cut will automatically
+find stock videos and images that match
+the script content. I choose match stock
+media. The AI analyzes each scene's text
+and starts suggesting visuals. For
+example, my first tip in the script is
+about researching all night and burning
+out. Cap Cut might grab a stock video of
+a tired person at a computer late at
+night for the tip about scheduling
+downtime. Maybe it picks a clip of
+someone relaxing or a calendar graphic.
+It's shockingly good at finding relevant
+visuals that align with the script.
+Normally, I'd search stock libraries for
+each point I mention, download clips,
+cut them to fit. Here, the AI just does
+it. Of course, I can review and replace
+any clip if I don't like it. Let's say
+for the use AI tools tip, cap code
+suggested a generic tech animation, but
+I prefer screen recording or different
+graphic. I can manually swap that, but
+honestly, the suggestions look pretty on
+point. I will stick with what the AI
+chose for now. Great. Now, our video has
+an avatar, presenter, and illustrative
+footage for each section. What's one
+element nearly every engagement video
+has these days? You've seen those snappy
+subtitles on Tik Toks and shorts, right?
+Cap cuts got us covered there, too. It
+autogenerated captions for a video as
+soon as we had the script and voice over
+in place. Because we provided a script,
+Cap Cut has already turned that into
+timed subtitles for each scene. If I
+play through, I see the text appearing
+in sync as the avatar speaks. No manual
+transcription needed. But we're not
+settling for plain white text at the
+bottom. Nope. Cap Cut offers a bunch of
+stylized caption templates to make the
+text pop in the desktop app. These
+styles are found under the captions or
+text templates section. Let's pick a
+style that fits our video's vibe. There
+are styles with bold colorful fonts,
+dynamic karaoke- like highlighting,
+trendy meme text with animations, you
+name it. For this video about creator
+tips, let's choose a clean but modern
+caption style. say big semi-transparent
+text that appears word by word with a
+slight bounce. I click that template and
+apply it to all our captions. We are
+nearly finished. The last touch that can
+really elevate our video is some
+background music. Caput has a builtin
+music library full of tracks we can use
+royalty-free. Categorize by mood and
+genre. Let's add a little background
+music to give our videos some energy. I
+click on the music tab. There's a list
+of recommended tracks and categories.
+vlog, inspiration, cinematic, chill,
+etc. For our upbeat tips video, I'll
+look under something like inspirational
+or upbeat and find a track.
+[Music]
+Oh, here's one. It's got a nice
+motivating vibe. I hit the plus to add
+it to the timeline. The music is now
+under all our scenes playing along with
+the voice over. I'll quickly adjust the
+volume of the music track so it's not
+too loud under the narration. That
+already sounds more polished. The music
+adds that final professional touch,
+making the video feel complete. If
+you're watching this and thinking, "This
+AI stuff is cool, but I want to go
+deeper and really learn how to use tools
+like this effectively," then I've got
+something for you. We created the
+Generative AI 101 course inside the AI
+Master membership. It's built on
+realworld strategies, stuff we've tested
+and used, not just theory. It starts
+with the basics like writing your first
+prompt and builds all the way up to
+advanced tricks that make your AI output
+genuinely impressive. And it's not an
+overwhelming info dump either. We drop
+fresh lessons weekly so you can learn at
+your own pace. Stay updated and never
+get left behind. Byite-siz modules,
+clean walkthroughs, zero fluff, and
+since you're here with us on A Master,
+we're hooking you up. I want to give you
+a full year 63% off. No catch. It's a
+crazy good deal. So, if you're serious
+about leveling up your AI skills, hit
+the link below and join us inside the
+membership. All right, moment of truth.
+Let's preview our entire video from
+start to finish. In Cap Cut, I hit play
+and watch it through. Our avatar
+introduces the problem of burnout. Each
+tip pops up with relevant B-roll
+footage. Stylish captions animate on Q
+and upbeat music ties it all together.
+Honestly, this looks so good. Now that
+we're happy with it, it's time to export
+the video. I click the bright export
+button the top right corner. We get the
+usual settings. Resolution, format, etc.
+I'll go with 1080p full HD. You can even
+do 4K if you want super high quality.
+Frame rate 30 is fine for this. Format
+MP4. Then I hit export and let Cap Cut
+render everything into a final video
+file. Export is pretty quick. Few
+minutes for our 3minut video. And done.
+It's saved to my computer, ready to
+publish. Cap Cut even gave me an option
+to upload it directly to platforms like
+YouTube or Tik Tok, but I can also just
+manually upload the file. So, here it
+is, our finished AI generated video.
+Let's watch a snippet of the final
+result one more time.
+&gt;&gt; Tip number one, leverage automation for
+factual data and current information.
+Automation can be a gamecher.
+&gt;&gt; As you can see, the quality is really
+good. We've got a well-paced narrative,
+engaging visuals, even an AI presenter
+who doesn't stumble on words. And I
+didn't use any pro editing software or
+expensive assets, just kept cut and some
+creativity. Now, before we wrap up, I
+promise to show you an extra bonus
+workflow. We focused on a standard
+horizontal video, but what about short
+form content like YouTube shorts, Tik
+Toks, or Instagram reels? In the AI hub,
+there's a section for video templates.
+These are pre-esigned formats for
+popular short video styles. Think of
+those trendy meme fact videos, quick
+listicles, or aesthetic reels. Capkid
+provides templates where the style,
+effects, and transitions are already
+set. All you have to do is slot in your
+content. Let's say I want to create a
+15-second motivational quote video for
+Instagram. I can pick a template that I
+like, for example, one with flashy text
+and music that's trending. I select that
+template and Cap Cut asks me for a topic
+or a short script. Maybe I input daily
+motivation. You got this. And hit
+create. Caput will autogenerate a short
+video out of that. It might write a
+snappy script or use my text, choose
+some upbeat music, apply the templates,
+cool animations, and even add a voice
+over all in one go. Literally one click
+and I get a finished vertical video with
+captions, effects, everything matching
+the style I chose. How crazy is that?
+And of course, I can tweak it if needed.
+Maybe change the background video or
+switch the voice over if I prefer a
+different vibe. But the heavy lifting is
+done automatically. This is perfect for
+quickly generating content for social
+media. If you have a long video like the
+one we just made, you could use these
+templates to repurpose it into a teaser
+or highlight clip for Tik Tok in
+seconds. Just rewrite the script or pick
+a key quote and the AI template does the
+rest. Basically, you can become a
+content machine with this. Trust me, in
+the time it used to take me to edit one
+video the old way, I can now have a
+fulllength video and several tailored
+shorts ready to go. If you're excited
+about this, I highly recommend you give
+Caput's AI video maker a try for your
+next project. Remember, it's completely
+free and available for Windows, Mac, and
+even has mobile and web versions. The
+desktop version we used is the most
+powerful, so download it from the link
+below and play around. You might be
+surprised how much you can do. And for
+those wondering, yes, free really means
+free. No watermark on exports or any of
+that nonsense. Hit the like button if
+you enjoyed this and subscribe for more
+practical AI tool demos, tips, and
+tutorials. And don't forget to download
+Cap Cut using the link in the
+description to start making your own AI
+videos. Thanks for watching and I'll see
+you in the next

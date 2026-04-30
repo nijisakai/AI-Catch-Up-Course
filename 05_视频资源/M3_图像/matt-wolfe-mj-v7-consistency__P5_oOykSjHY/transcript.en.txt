@@ -1,0 +1,181 @@
+Imagine taking any picture you've seen
+and in just a few clicks generating
+something really strikingly similar or
+capturing its exact style. In this
+video, I will show you how to recreate
+existing images using Midjourney V7.
+Within Midjourney, image recreation has
+three distinct levels. First level is
+foundational level. Here our aim is
+capturing fundamental essence of an
+image using descriptive keywords and
+language. In order to do that, first we
+will upload the image we want to
+recreate. For this job, you can use
+image icon here and click on choose a
+file or drop it here. Find the image you
+want to recreate. For example, for this
+task, I want to recreate this image and
+upload it to mid journey. Once it's
+uploaded, we will use describe function
+which is very handy using information
+icon here. When you click on it, AI
+analyzes the image and generates a few
+different text prompts and keywords
+which describes and capture the key
+visual elements of this image. Then you
+can take these prompts by clicking on
+them and generate a new image here.
+Don't forget to use atomic prompting
+structure. Always start with fundamental
+art medium at the beginning of your
+prompt. Cinematic photo of a female
+humanoid with blue eyes. And my results
+is ready. And you will realize that this
+fundamental level of we creation is very
+descriptional. It's not quite exact. It
+stays more in the subject and general
+life level, but it doesn't produce an
+exact copy of an image. Now, let's jump
+into level two, exact replication. If
+your goal is to produce a pixel perfect
+duplicate, exact replication is possible
+with a more direct approach. Instead of
+relying on only descriptive capabilities
+of midjourney, we will directly feed the
+image itself as an image prompt for
+visual reference. This is what's known
+as using an image prompt. For this job,
+we will drag and drop the image we want
+to replicate to the section here. As you
+can see, now this image is selected. We
+will still use the same descriptor
+prompt. So, we are not removing it. But
+a parameter called image weight becomes
+critical. It's represented with d- iw
+and it takes values ranging from 0.5 up
+to three. Lower value means the text
+prompt holds more weight than the image
+reference. Words matter more. Higher
+values, the highest tree strongly
+encourages midjourney to prioritize the
+visual information it's getting from the
+image prompt itself. I hit enter and
+generation starts and my results is
+ready. As you can see, we got much
+closer to the original image itself.
+Here's another example. I want to
+recreate this image. I'm going to upload
+it. Build the descriptive language. I
+have a man with a skull-like face and
+glowing red eyes holding his smoking
+cigarettes in its hand and wearing a
+long coat. And I have a neon sign says
+eternity bar. And here we can maybe rely
+on midjourney aesthetics this time and
+increase stylization around 300. And
+let's hit it. Just to show you the
+difference, I ran this prompt two times.
+first one with my personalized style
+which looks like much more realistic.
+But I'm quite happy with the
+personalization being easily accessible
+via P icon here. It definitely shortens
+my prompts because instead of writing a
+lengthy style keywords, I can now just
+use P. And this would most likely
+produce something which I will really
+enjoy. And in the second one, I dropped
+my personal lifestyle and completely
+relied on midjourney aesthetics. and you
+will realize that midjourney aesthetics
+here looks much more illustrative and it
+looks super different than my
+personalized preference. Now let's
+proceed from midjourney aesthetics again
+and I'm going to use exact same prompt.
+Additionally, I will add an image prompt
+here again. So drag and drop here and I
+crank up again the value of image weight
+and I hit enter and you will realize
+that we managed to get a very high
+resemblance to the original image. So
+next level is consistent style.
+Consistent style shifts our attention
+from direct copying to capturing an
+overarching artistic style or
+atmosphere. The specific artistic vibes
+will be visually echoed in an image
+independent from the subject. It's
+almost like setting up a visual
+blueprint or visual specification. So
+I'm going to choose this style as my
+visual blueprint or let's say visual
+specification. I'm going to use this
+subject again. So I copy pasted the
+prompt a detailed prompt and I'm
+dropping photography here because it
+will create the clash with my selected
+visual reference style and I don't need
+image prompt here but what I need is I
+absolutely need a style reference. So
+I'm going to drag and drop this image to
+style reference section. Now the whole
+life changed in comparison to the
+original image I created with the same
+subject. And some people ask for example
+what happens if I use an image prompt
+and style reference together. In this
+case your image prompt will be much more
+dominant more so than star reference.
+There is another layer in consistent
+style which is called moodboard.
+Moodboard is a carefully created visual
+references by providing AI with a
+created collection of AI images. To
+achieve this you need to select
+personalized tab and create mood board.
+And here you can use links. You can pull
+images from your own midJourney gallery
+or upload from your computer. I
+recommend you don't use random images.
+Keep it consistent and aim for around 20
+images to give the AI enough visual
+data. And once you generate the mood
+board, all you need to do is clicking on
+use profile and this will provide you a
+specific code that you can use in your
+prompts which will reference aesthetic
+style of this moodboard directly. So I'm
+going to use same subject again and this
+time I don't have any image prompts but
+I'm relying completely on the mood
+board. I hit enter and you will realize
+that things start to get very
+interesting with this visual moodboard
+style. We achieved two different
+aesthetics than our original image. Next
+thing for consistent style is universal
+style reference codes. As you can see it
+here. Style ref codes are very popular
+on Twitter and many great users are
+sharing super interesting aesthetic
+styles that you can simply replicate. So
+this one shared by pastor. So go check
+his profile. He's really cool. I thought
+this visual aesthetic would fit
+perfectly to my subject. Simply you can
+just copy paste this star reference code
+and you will get visual aesthetic
+similar to this. Here, for example, I
+applied it and you can see we got some
+almost Doomlike super interesting hybrid
+visual aesthetics. I'm still keeping my
+original subject, but now I'm getting
+much stronger visual style echo from
+Pastor Star reference code. Hopefully,
+this video was truly helpful for you.
+Don't forget to give a thumbs up and
+subscribe for more in-depth tutorials.
+If you want to learn more about future
+of storytelling, click

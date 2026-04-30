@@ -3,6 +3,12 @@
   "url": "https://www.youtube.com/watch?v=wVvfXZm4Lvg",
   "title": "Manus - The ALL-IN-ONE AI AGENT",
   "channel": "Matthew Berman",
+  "duration_sec": 0,
+  "upload_date": "",
   "topic": "M6_Agent",
-  "slug": "matthew-berman-manus"
+  "slug": "matthew-berman-manus",
+  "transcripts": {
+    "en_lines": 320,
+    "zh_lines": 0
+  }
 }

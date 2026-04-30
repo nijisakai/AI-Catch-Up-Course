@@ -1,0 +1,259 @@
+Everyone's saying that claude code is so
+much better and they're absolutely
+right. Claude code gives you the full
+context window that gets restricted when
+you use those same models through
+cursor. This means you get significantly
+more powerful AI coding performance.
+Plus, it's incredibly affordable now
+that it works with just the $20 pro
+plan. So, why haven't I switched yet?
+Because despite all this power, there
+have been some major deal breakers that
+kept me stuck on cursor. Issues so
+frustrating that no matter how good
+Claude Code's performance was, I just
+couldn't make it my daily driver. But
+that just changed completely. I just
+discovered something that doesn't just
+solve these problems. It finally makes
+Claude Code the complete package I've
+been waiting for. And once you see what
+this is, you'll understand why this
+changes everything. Now, this tool
+transforms Claude Code in two major
+ways, but there's so much more to it
+than that. I'll also show you additional
+features that will make switching to
+Claude Code with this integrated tool
+irresistible. Now, one of the biggest
+advantages that Cursor had over Claude
+Code was its incredible GUI that made
+everything so much more accessible. You
+could easily add features without any
+hassle whatsoever. For instance, if I
+wanted to paste an image, it was as
+simple as just pasting it directly into
+the interface. And when I needed to add
+MCP servers, I could simply navigate to
+the settings, go into tool integrations,
+and add them right there. Even adding
+rules was straightforward, and it came
+with this beautiful visual editor where
+you could modify your code directly. The
+whole experience was just so much more
+userfriendly compared to claude code.
+But here's where things got interesting.
+Cursor eventually released a feature
+that let you access Claude code from
+within cursor itself. Now, this was
+pretty useful because it could bring
+your errors from cursor directly into
+clawed code. However, it still didn't
+give you the full native Claude code
+experience. Things like MCPS, rule
+files, and creating sub agents still
+required you to jump back into the
+command line and handle everything
+manually. Now, I was willing to work
+with most of these limitations, but
+there was this one feature that I
+absolutely couldn't live without, and
+that was the ability to paste images
+directly. You see in cursor I can paste
+an image and it shows up instantly. But
+when I switch over to claude codes
+interface and try to do the same thing,
+the image simply doesn't appear. I'd
+have to provide the actual file path or
+go back to the terminal where image
+pasting does work. This has honestly
+been one of the most frustrating
+limitations when using clawed code. But
+finally, there's a solution that changes
+everything and it's called Claudia. This
+brings us to my first reason. Claudia
+gives you a complete GUI for Claude code
+and it's absolutely incredible. When you
+open Claudia, you'll see two distinct
+modes, Claude Code agents and Claude
+Code projects. Now, Claude Code agents
+is where things get really exciting.
+This feature transforms the entire GUI
+experience. Inside Claude Code agents,
+you can create your own custom agents
+with remarkable simplicity. These agents
+leverage Claude's custom commands,
+something we've covered in previous
+videos, allowing you to build
+specialized AI assistants. The setup
+process is intuitive. You name your
+agent, choose an icon, select the
+default model, and Claudia creates a
+completely isolated sandbox for your
+project. This means your agent operates
+separately from your main working
+environment. You control exactly what it
+can do, reading files, writing to them,
+or searching the internet. The real
+power comes from the system prompt,
+which defines how your agent behaves.
+Let me show you an example. I created a
+web search agent specifically for
+development tasks. I named it web search
+agent. Customized the icon, selected the
+model, and disabled write access since
+it only needs to read files for context
+and search the web. I gave it a focused
+system prompt explaining that it
+specializes in programming and software
+development, prioritizing official
+documentation and delivering only
+relevant information to keep me
+productive. Let me demonstrate how this
+works. When I execute the agent, I can
+select any project path. In this case,
+my notion clone directory. I can choose
+the model and enter my task. For
+instance, I'll ask it to research the
+best Shad CN components for my site.
+Watch as it initializes and begins
+working on the task. And there we have
+it. The exact Shad CN components we
+needed, complete with helpful
+implementation tips. Oh, and if you're
+enjoying the content we're making, I'd
+really appreciate it if you hit that
+subscribe button. We're also testing out
+channel memberships. Launched the first
+tier as a test and 82 people have joined
+so far. The support's been incredible,
+so we're thinking about launching
+additional tiers. Right now, members get
+priority replies to your comments.
+Perfect if you need feedback or have
+questions. The second option is Claude
+Code projects. And this reveals the
+second reason why Claude Code is so much
+more powerful. Here you'll find all your
+sessions. Every time you initialize
+Claude in different folders, they appear
+in this organized view. You can
+initialize a new Claude code session,
+choose your folder, select a model, and
+even configure Claude's reasoning level
+based on your prompt requirements. Let
+me show you a real example. I opened
+this project where I asked Claude to
+create a mobile app prototype using
+HTML, specifically an Uber app prototype
+with custom theme requirements. Claude
+responded exactly as it normally does,
+starting with a to-do list. But now that
+to-do list appears in this beautiful GUI
+format. You can watch as it works
+through each task systematically, then
+moves on to writing the actual files,
+completing every item on the list. The
+result, a complete app prototype from a
+single prompt. The UI is solid and with
+better prompting, it could be even more
+impressive. But what matters is that
+this entire process now happens within
+an intuitive visual interface. To
+demonstrate the second reason, I built
+this Nex.js app. I told Claude to create
+a Next.js JS app and build a notion
+landing page clone inside it. It created
+its own to-do list and followed it step
+by step, writing to files, checking
+them, and notifying me when complete.
+Another incredible feature of this new
+GUI is the built-in preview window. You
+can paste your URL and it opens your
+site directly within the interface.
+Remember that image issue I had when
+using clawed code inside cursor? That's
+completely solved here. It automatically
+captures any issues you're experiencing.
+You can see it caught this contrast
+problem and lets you paste images
+directly without manual file paths. Just
+enter your prompt below and you're good
+to go. Now, I'll be honest, there are a
+few UI issues since the project is still
+in development. It's already usable, but
+there are some small bugs that will be
+resolved soon. I'm telling it to fix the
+contrast issue, and it's handling that.
+But the real second reason why this GUI
+is so much more powerful is checkpoints.
+When working with Cursor, you get
+checkpoints for every prompt you send,
+allowing you to restore previous states
+if anything goes wrong. This is one of
+Cursor's most powerful features. You
+don't worry about Git commits since not
+every developer wants to deal with Git.
+Having this built-in gives you complete
+assurance that whatever the AI does is
+reversible. This new tool brings that
+same power with its timeline feature and
+checkpoint system. I created a
+checkpoint before making this change. So
+if it doesn't fix correctly, I can
+instantly return to my original state.
+That's the power of this new GUI. You
+also get a usage dashboard showing your
+consumption plus a claw.md file so you
+don't have to manually edit things in
+terminal. One of the most powerful
+features is adding MCP servers directly
+from the interface. No more JSON files,
+no more wrapping everything in single
+quotes and typing manually in terminal.
+Just copy paste the values, add your
+arguments and commands for SSC servers.
+Paste the URL and your MCP server is
+ready to use. Using MCP servers with
+cloud code has never been easier. And
+this tool makes Claude code accessible
+to developers who don't want to live in
+the terminal. For me, this is a complete
+gamecher. Now you might be thinking, is
+it easy to install? Well, it requires a
+few steps. It's available for all
+platforms, Mac, Windows, and Linux. But
+currently you need to install it from
+source. That means building the app
+yourself using the provided code and
+instructions. Don't worry though, the
+process is straightforward if you follow
+along. In the GitHub repository, scroll
+down to see the prerequisites. You'll
+need Rust installed, bun installed, and
+Git, which comes pre-installed on Mac
+and Linux, but Windows users may need to
+install it separately. Since this runs
+on top of cloud code, you'll need that
+installed as well. Once you have all
+prerequisites ready, copy this command
+and paste it into your terminal. This
+clones the repository and moves you into
+the directory. Next, run bun install
+followed by the build command. You have
+two options here. Development build,
+useful if you want to modify the open-
+source code and view changes in your
+browser or production build, which
+creates a readytouse application. Follow
+these commands in sequence and the app
+will appear as an icon in your
+applications folder ready to launch.
+That brings us to the end of this video.
+If you'd like to support the channel and
+help us keep making videos like this,
+you can do so by using the super thanks
+button below. As always, thank you for
+watching and I'll see you in the next
+one.

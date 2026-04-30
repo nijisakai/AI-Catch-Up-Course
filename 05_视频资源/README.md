@@ -1,56 +1,53 @@
-# 视频资源 · 真实 YouTube 一手内容
+# 视频资源 · 真实 YouTube 一手内容（**字幕已成功抓取**）
 
-> **状态**：26 个真实 URL 全部 WebSearch 验证存在；**字幕抓取需要你最后一步配合**（YouTube 2024Q3 后反爬大升级，自动化工具普遍受限）。
+> **状态**：✅ **25 个视频字幕全部抓到**（18,313 行英文 + 5,647 行中文，自动翻译）。
+> **整理后路径**：`05_视频资源/<topic>/<slug>__<id>/{transcript.en.txt, transcript.zh.txt, meta.json, notes.md}`
+> **完整报告**：见 [提取报告.md](提取报告.md)
 
 ---
 
-## 📊 诊断结果（已穷尽 5 个方案）
+## 📊 走通的方案（4 个关键技术点同时满足）
 
-| 方案 | 结果 | 原因 |
+| # | 关键 | 配置 |
 |---|---|---|
-| ① youtube-transcript-api 直连 | ❌ | 你的本地 IP 在 YouTube 黑名单 |
-| ② 加 Clash 代理 (127.0.0.1:7897) | ❌ | 机场节点是 datacenter IP，也在 YouTube 黑名单 |
-| ③ yt-dlp + 多 player_client | ❌ | "Sign in to confirm not a bot" |
-| ④ yt-dlp + cookies-from-browser (Chrome/Edge/Brave) | ❌ | Chrome 没登过 YT；Edge/Brave 有 cookies 但 **Chrome 127+ App-Bound 加密**，yt-dlp/browser_cookie3 都解不了 |
-| ⑤ WebFetch 调 SaveSubs / NoteGPT | ❌ | 这些网站都返回 403 |
+| 1 | **真实登录 cookies** | Chrome 登录 YT → Get cookies.txt LOCALLY 扩展导出 → cookies.txt（404 行 + 含 SAPISID/LOGIN_INFO/__Secure-1PSID）|
+| 2 | **JS runtime 解 n-challenge** | `--js-runtimes node`（用本机 Node 24.11.0）|
+| 3 | **远程 challenge solver** | `--remote-components "ejs:github"`（yt-dlp 自动从 GitHub 拉下解码脚本）|
+| 4 | **代理绕 IP 黑名单** | `--proxy "http://127.0.0.1:7897"`（你提供的 Clash）|
+
+> 任一项缺失，都会被 YouTube 反爬识破（错误信息会从「IP 黑名单」→「bot detection」→「n-challenge failed」→「Only images available」逐级倒退）。
 
 ---
 
-## ✅ 下一步：3 选 1（最低成本→最高成本）
-
-### 方案 A · 在 Chrome 登录一次 YouTube（**免费 + 30 秒**）
-
-```bash
-# 1. 用 Chrome 打开 https://youtube.com，扫码登录（用任意 Google 账号）
-# 2. 关掉 Chrome（必须关掉，不然 cookies DB 锁着）
-# 3. 跑：
-$env:HTTP_PROXY="http://127.0.0.1:7897"; $env:HTTPS_PROXY="http://127.0.0.1:7897"
-cd "C:\Users\hyinn\Desktop\AI_Courses_Clean\05_视频资源"
-yt-dlp --skip-download --write-auto-subs --sub-langs "en,zh-Hans" --convert-subs srt `
-  --proxy "http://127.0.0.1:7897" --cookies-from-browser chrome `
-  -o "%(title).80s_%(id)s.%(ext)s" --batch-file urls.txt
-```
-
-> **如果 Chrome 报 DPAPI 解密失败**：换方案 B。
-
-### 方案 B · 装 Chrome 扩展手动导出 cookies（**5 分钟，最稳**）
-
-1. 装 **[Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc)** Chrome 扩展（300K+ 用户，零权限）
-2. 用 Chrome 打开 https://youtube.com 并登录
-3. 点扩展图标 → **Export** → 保存到 `C:\Users\hyinn\Desktop\AI_Courses_Clean\05_视频资源\cookies.txt`
-4. 跑：
+## ✅ 跑通命令（已验证可用，复制即跑）
 
 ```powershell
-$env:HTTP_PROXY="http://127.0.0.1:7897"; $env:HTTPS_PROXY="http://127.0.0.1:7897"
+$env:HTTP_PROXY="http://127.0.0.1:7897"
+$env:HTTPS_PROXY="http://127.0.0.1:7897"
+$env:Path = "C:\Users\hyinn\AppData\Local\nvm\v24.11.0;$env:Path"
 cd "C:\Users\hyinn\Desktop\AI_Courses_Clean\05_视频资源"
-yt-dlp --skip-download --write-auto-subs --sub-langs "en,zh-Hans" --convert-subs srt `
+
+& "C:\Users\hyinn\AppData\Roaming\Python\Python313\Scripts\yt-dlp.exe" `
+  --skip-download --write-auto-subs --write-subs --sub-langs "en,zh-Hans" `
   --proxy "http://127.0.0.1:7897" --cookies cookies.txt `
+  --js-runtimes node --remote-components "ejs:github" `
+  --write-info-json --ignore-errors `
   -o "%(title).80s_%(id)s.%(ext)s" --batch-file urls.txt
+
+# 整理到 per-video 文件夹
+python organize_transcripts.py
+python rebuild_report.py
 ```
 
-### 方案 C · 买 Webshare 住宅代理（**$3 起，最暴力**）
+## 拿到的字幕用来做什么
 
-[Webshare.io](https://www.webshare.io)（youtube-transcript-api 官方推荐）—— 30M+ 住宅 IP 池，绕开所有黑名单。最便宜套餐 $3/月。配好后改 `extractor_simple.py` 的 PROXY 变量即可。
+每个 per-video 文件夹（`05_视频资源/<topic>/<slug>__<id>/`）有：
+- `transcript.en.txt` — 干净英文纯文本（去时间戳/去重）
+- `transcript.zh.txt` — 中文自动翻译（9 个有，YouTube 自带翻译）
+- `notes.md` — 待填的"摘要 / 关键 3-5 条 / 与课程串联"模板
+- `meta.json` — 元数据（title / channel / topic / 字幕行数）
+
+**下一步**：把每个 `transcript.en.txt` + `notes.md` 喂给 Claude/Cursor，让 AI 自动填好 `notes.md` 的摘要——这就是"花园老师 AI 教程资源合集"那种把 100+ 视频汇总进知识库的自动化路径。
 
 ---
 

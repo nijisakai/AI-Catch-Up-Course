@@ -1,0 +1,612 @@
+what's going on guys Josh pook here and
+in today's video we are going to be
+taking a look at the all-in-one desktop
+and Docker AI application with built-in
+rag AI agents and more this tool is
+extremely easy to set up I'm going to
+show you how you can do it in the next 5
+minutes this is anything llm you can
+configure it to use AI agents with
+pretty much any model and you can use it
+to chat with your documents do local reg
+with your own private data that isn't
+shared and then you can create AI agents
+and give them access to tools like web
+searching web scraping generating charts
+and much more let's dive right into
+[Music]
+it all right guys so all the links will
+be linked down below including the link
+to the GitHub repo right here as well as
+the link to the official anything llm
+website right so some of the features of
+anything llm includes a oneclick
+installation so it's very very simple
+you can literally click download
+anything llm right here and it will
+start downloading onto your system we'll
+do that in just a second um fully
+private like I mentioned before so so it
+can run fully on your device without any
+internet connectivity if needed all
+right it supports so many different
+models so many different you know closed
+Source models open source models olama
+LM Studio you name it it is within
+anything llm all right and you can
+upload many different documents from
+PDFs txts MDS markdown files really you
+know almost anything you can think of in
+a file format you can upload to anything
+llm and use it within your local rag all
+right and they say batteries included so
+anything llm comes with a locally
+running default for your llm embedder
+and storage for full privacy out of box
+so they have their own embedder as well
+as Vector store that is 100% private all
+right so first things first is we're
+going to click on download anything llm
+and then you can select of course your
+different operating system whether
+that's Mac uh windows or l and then
+actually download it and install it onto
+your system all right you could also
+self-host it and deploy it on you know
+these different Services Docker AWS
+digital ocean render gcp Railway a bunch
+more but you know the simplest way that
+I found is to simply just download the
+installer okay now once you actually
+install anything llm you can open it on
+your desktop and initially once you
+actually open it for the first time it
+will walk you through you know selecting
+your default llm M you know you'll have
+multiple different llm providers to
+select from so if I go here go to let's
+just check out our instant settings so
+it will kind of look like this you'll
+see the llm providers you can select
+anything llm open AI Azure anthropic
+Gemini hugging face olama LM Studio
+local AI together AI fireworks mistal
+perplexity open router Gro all right you
+get the point guys you can see so many
+different ones from Deep seek X Ai and
+then you can you know if it's API key is
+required you can enter that in and then
+select the specific model so we got for
+open AI we have pretty much all the
+different models you can see here if I
+go here and go to olama you'll see that
+it automatically has the AMA base URL
+right here if you need to change that
+for whatever reason you could you can
+change some of the advanced settings
+here and then you'll see the different
+ol models right here so um these are
+just the ones I have right now so like
+quen 22 we got llama
+3.1 and if you don't know how to um set
+up AMA you can simply just go to ama.com
+and then make sure you download olama
+and then um you can just literally click
+on download AMA and then go to models
+right here and find a specific model you
+want like llama 3.2 and then just run
+this command in your terminal once you
+have oama set up onto your system and
+then that will download the model right
+the same thing with LM Studio you can do
+that or really any of these different
+ones so you can use local models with
+this which is really nice or you could
+use closed Source models so either one
+works I'm just going to keep it with
+open AI here just to make sure
+everything goes quickly for this video
+but you can definitely use this with uh
+like I said local open- Source models as
+well I will also ask you on the next
+page I believe for the vector database
+and then better I I can't remember if it
+exactly shows that on the setup page you
+can literally just go through the setup
+page it really doesn't matter necessar
+necessarily what you choose for that um
+I believe it will ask you to create a
+workspace because all those settings
+that you pick you can change afterwards
+so um that's what I'm showing you right
+now so there's really two areas of
+anything llm this is like kind of the
+chat interface you know the the
+interface that looks similar to
+something like chat GPT where we have
+over here on the left we have our
+workspaces so for example a workspace is
+right here another workspace is right
+here and then we have our chats
+basically within that workspace so these
+are called threads and basically you can
+configure settings individually for each
+workspace so like here's the general
+settings where we can change our name we
+could delete a workspace we could change
+the chat settings for this specific
+workspace so right here it um you could
+use the system default and this will use
+the system llm preferences for this
+workspace so that's I'll show you that's
+like the one that you set up at the
+start or you can change this as well you
+can change the system default and I'll
+like I'll show you how to get there in
+just a second um but yeah you could also
+really pick any specific llm here so you
+could have different workspaces with
+different llm set up if need be so you
+could have like your local workspace
+your open AI workspace your anthropic
+one and then you can have different
+options here like uh chat uh chat mode
+so you can do chat query um chat history
+right here prompts so basic prompt query
+mode refusal prompt LL
+temperature and you can read the
+descriptions here in case you're
+wondering what each one of these are you
+can simply update workspace all right
+and then here we have our Vector
+database so we can see U all the
+different settings here we can see the
+max Contex Snippets we can see the
+document similarity threshold right here
+from low medium high no and you could
+reset Vector database and then we also
+have agent configuration so you'll see
+here you can do the same thing you could
+select a specific agent for or a
+specific llm for the agent side of
+things and I'll show you how you can use
+agents in just just a second now if you
+click on configure agent skills this
+will actually take you to like your
+anything llm instant settings so this is
+like where you can change your default
+like I was showing you before your
+default llm which right now rs's open AI
+you can change your default Vector
+database all right so by default it's uh
+on Lance DB this is 100% local V Vector
+DB that runs on the same instance of
+anything llm all right you could also
+use chroma you could also use pine cone
+you could also use hudon we8 all these
+different ones right here Astra DB and
+then EMB better so anything llm also
+like I said has their own embedder so
+using their pre uh built-in embedding uh
+provider or anything llm zero setup
+required so these are really nice very
+convenient that anything llm has these
+built in all all local all private and
+then of course you can do open AI Azure
+local AI LM Studio coh here um you know
+all these different ones right here if
+you you want okay next is the text
+splitter and chunking so here I'm not
+going to go over what that is it's to do
+with the rag side of things um you know
+search that up if you don't know what
+that is but you can change the settings
+for that here text Chunk size as well as
+text Chunk overlap and you can see a
+description of each here too that should
+help you out also too if you don't know
+what any of these settings are check out
+the docs I'll leave those in the
+description down below and I'll go over
+some of that in just a second Now voice
+and speech so you can change the speech
+to text preference so you can choose the
+provider right here so local whisper
+runs a whisper model locally on device
+you can select the model right here
+which is this one by default and then
+text the speech preference right here
+you could see the system native one so
+using the built-in TTS uh service if
+supported open AI 11 Labs you can even
+use um Piper
+TTS okay a bunch of different stuff you
+could use open AI uh API compatible ones
+as well and then transcript right here
+here so open AI right here or anything
+llm built in one now using the local
+whisper model on machines with limited
+Ram or CPU can install anything llm when
+processing media files we recommend at
+least 2 GB of RAM and uploads uh files
+of 10 megabytes uh or more um the
+built-in model will automatically
+download on the first use 250 megabytes
+okay and then admin settings so we have
+General admin settings right here so
+enable network discovery we have
+workspace chats right here so you can
+see all the different workspace chats we
+go ahead delete some if need be you
+could order fine tune model right here
+you could clear chats export chats and
+CSV Json all these other ones right here
+and then agent skills so this is where
+you can enable or disable certain agent
+skills so by default these three right
+here are enabled such as Rag and
+long-term memory so this is where you
+can use rag for your AI agents like I
+could upload a document or PDF whatever
+ask it questions about that document
+using the agent and then I could also
+say you know if it I ask it a specific
+question about a document like let's say
+a book or something and then it gives me
+retrieves that answer for it I could say
+hey remember this and then it would
+store it in its long-term memory and
+then if I go to a new session where I
+didn't upload that document it would
+actually remember that right so that's
+pretty cool and then View and summarize
+documents so that one's enabled by
+default and then scrape websites right
+here so allow the agent to view and
+scrape content on websites next is
+generate and save files to browser um
+generate charts okay so some models
+don't work as well with this generate
+charts web search so live web searching
+and browsing so here you can enable uh
+you know different ones like Google
+search engine allows 100 queries a day
+so it's free you can go to this link
+right here set it up you can get your
+search engine ID as well as your program
+uh as your as well as your programmatic
+access API key right here and just put
+those in there there you could also use
+um the search API right here you could
+use Ser serper dodev you could use Bing
+search surley search NG you could use
+tavali a bunch of different options
+there and a lot of those do also have
+free um plans or give you like a free uh
+amount of tokens that you can use so you
+can go ahead and use those as well and
+then SQL connector so you can actually
+connect to a specific SQL database and
+then use your agent to um basically ask
+question questions regarding the SQL
+connection right here so we can use post
+grass MySQL SQL Server right here could
+fill in the all the information right
+here about our database and then save
+the connection I'm not going to do that
+right now now you can also create custom
+skills so you would have to import these
+you can go and check out the anything
+llm agent docs surrounding this if you
+did want to create custom agent skills
+I'm not going to cover that right now
+and then customization so you can change
+some stuff uh just regarding the
+language to display um some stuff around
+the appearance some custom messages you
+can change new system message or new
+user message and then you have different
+tools so event logs right here you can
+check these out developer API so you can
+generate a new API key like so um and
+then browser extension so you can
+generate a new browser API key and you
+can go ahead check out the docs read
+more about the browser API the docker uh
+developer API and you could check out
+their GitHub and check out those
+extensions as well the browser uh
+extension and all that good stuff okay
+now that we went over the main system
+settings let's go ahead and just like
+test out a new workspace so if I go here
+type in the workspace name save now if I
+click on the workspace settings you can
+see like I said the settings here you
+could go change some of these if need be
+I'm just going to select this right here
+I'll select this update workspace um
+actually I could have just kept it the
+same since we already have open AI as
+our default um llm let's go ahead into
+uh a thread right here so first off you
+could go ahead and just like talk to it
+right so here I said hi and now we're
+just getting streamed from open AI um
+just some basic text right here now if
+we go ahead and click on this is going
+to allow us to upload different things
+to our rag so what can we upload for
+well let's go ahead and start off by
+uploading a document all right so I'm
+going to upload this document on agent q
+and agent e and I'm going to open that
+you'll see both these documents are now
+uploading right here so these are
+documents on different videos I actually
+did on these specific tools okay so this
+one had an issue we'll just ignore that
+we'll just keep agent Q for now um I
+could probably re-upload it but you'll
+see here agent Q is now in here if I
+click on agent Q I want to right here
+you'll on the right you'll see our
+stride workspace so this over here is on
+our document so if you want to add a
+bunch of different like we add some
+similar documents to other workspaces we
+could do so or have you know only
+specific documents in a specific
+workspace
+this allows it to make it very easy to
+manage and then we can click on move to
+workspace as you'll see it's moved over
+to our workspace and then we can click
+save and embed and this is going to
+actually update the workspace and embed
+this document into our um Vector store
+right here all right as you can see
+workspace updated successfully now we
+have that document within our workspace
+okay so that's great um now we can also
+go ahead and use the buil-in scraper
+right here so if I go
+https and then R agents.com all right
+you'll actually already see that I have
+this already let me just delete this and
+then we can just run this again so fetch
+website you can do this for any website
+and it is going to scrape it and link
+uploaded successfully so now I can go
+ahead and click on this and move it to
+workspace I'm not going to embed it yet
+because we're going to do a couple more
+things um so yeah you can create new
+folders here organize your documents
+which is really nice can upload all
+these different types of documents audio
+files spreadsheet
+and you can also go to data connectors
+right here so this is really cool
+because we can do things like connected
+GitHub repo if want if we want right so
+you can enter in the credentials right
+here the access token the URL the branch
+if there's any files to ignore um you
+can do get git lab
+repo bulk link scraper right here so
+this is really cool too you could you
+know scrape um links in bulk right and
+change some of the settings here um you
+know Confluence right here and then
+YouTube transcript uh scraper right here
+so if I go ahead and go to my YouTube
+channel and grab a specific YouTube
+video URL let's say I grab one of the
+videos I made yester a few days ago I'm
+going to paste this right here and then
+collect transcript this is the one I did
+on screenshot to code you'll see here
+screenshot to code has successfully been
+um scraped and we can go ahead and we
+will see that we got screenshot to code
+right here so I can go ahead move to
+workspace and let me just remove this
+one to workspace so now we have these
+two new ones right here that we're going
+to actually embed let's save that and if
+everything goes well both of those yep
+so now we have three different documents
+embedded into our workspace all right
+you could remove documents from
+workspace you could pin documents to
+workspace and that's pretty much it
+regarding documents okay now that we
+have some documents in our workspace I
+go ahead and start chatting with this
+and ask it specific questions regarding
+them it should be able to pull those uh
+answers so I just asked it what is agent
+Q now it's giving us you know agent Q is
+an advanced AI system designed for
+autonomous web navigation blah blah blah
+blah blah and we can actually click on
+show citations and we we see that the
+citation is right here if I click on
+that citation we'll actually see where
+it's we can see referenced for times we
+can see all the different information
+regarding what it you know used and
+whatnot so pretty cool stuff if I go
+ahead exit this we could ask it another
+question we could say what stride agents
+all right now we can see stride agents
+is a platform form that offers AI
+powered Solutions designed to enhance
+appointment booking blah blah blah blah
+blah we say what screenshot to code and
+it should pull that information as well
+show citations show citations and we can
+see all that information all right down
+here you have a few different options so
+one you can attach different files to
+the chat two you can view available
+slash commands for chatting so we got
+like reset so clear your chat history
+and begin a new chat um we can change to
+different text size from small to large
+to normal we can speak uh speak our
+prompt right here so if I go ahead click
+on this okay so now it should actually
+work okay so it actually just downloaded
+once you click that mic it's going to
+download The Whisper model and now we
+can actually speak so if I click and I
+start typing or I'm starting to speak
+right now and then I click stop now it
+should actually um upload our text right
+here or what we spoke into the model all
+right so as you can see here it
+basically showed what we spoke right
+here and it got a response of course
+this isn't correct uh you know a correct
+prompt so I was just showcasing that now
+a few things too you can copy the
+response you can actually it seems like
+you're DES use TTS right here you can
+use um you can edit the response right
+here you can generate a new response you
+could give a good like rate that as a
+good response and you can also Fork the
+response so if I click on Fork it's
+actually going to make a fork of this
+thread from that specific response so
+you actually have two similar um
+conversations with the same contacts all
+the same information and that's useful
+as well all right next is this little at
+sign this is one of the things that
+you're going to use a lot if you're
+using uh AI agents so we have here the
+at agent um you know um at sign right
+here also keep note that it does say
+custom agents are coming soon so this is
+really cool because anything LM is
+constantly upgrading and improving their
+system which is really nice so if I
+click on at agent now the at agent isn't
+uh invoked so swapping over into agent
+chat so now if like we configured a
+different llm for our agent let's say
+then it would actually start using that
+llm all right so now we can actually ask
+it to do something let's say recent open
+AI news okay so now it should actually
+use search in Google because that's what
+we put in we use the Google search and
+it's found 10 different results and it's
+looking over them and now it provided us
+four different updates so this is GPT 40
+update integration with Del okay so
+these are definitely not the best this
+is actually super old news so I'm
+actually going to go ahead and try not
+using the Google method and see if I get
+better results so I'm going to try
+changing the web search to serd right
+here let's click save just a test and
+I'm going to search again recent open AI
+news and now it's using the serper dodev
+to search for uh open AI news and let's
+see so we got the news page right here
+we got the wired um okay so definitely
+not the best uh as we can see here um
+not pulling the most upto-date news
+realistically it should be showing
+things like uh search GPT etc etc it
+looks like it's just you know pulling
+some of the top search results maybe I
+could say you know what maybe it's
+actually my prompt let's say recent open
+AI news he recent open AI News November
+um 5th 2024 okay so this is actually
+definitely more recent open AI news um
+so as you can see if I click here this
+is a Reuters one November 5th 2024 so
+definitely you know you want to be
+specific with the prompts um but yeah if
+you do are specific with the prompts it
+does work pretty pretty well all right
+next I'm saying generate a chart of the
+recent open AI News November 2024 and we
+can see here it's rendering a pie chart
+right here and we can see the different
+um open AI news right so you know
+definitely not something I would
+actually use necessarily like for open
+AI news but I was just trying to use the
+open AI or the agent chart just to show
+case what that is and how that works and
+it did it correctly now I'm going to say
+summarize the agent Q document all right
+so it's looking for the available
+documents found three documents looking
+at the available documents found three
+grabbing all the context for agent q and
+now it summarized the documents purpose
+Technologies performance applications
+Innovation features challenges and
+future work and more there we go it
+pretty much summarized it now of course
+you could go ahead play around with some
+of the different other agent
+capabilities and features and tools and
+like they said they are adding more and
+you can also add custom ones so that's
+pretty cool I am really excited to see
+how anything llm continues to improve
+its tool and I know a lot of you guys
+really love using olama or LM Studio or
+local models so I think this is really
+good for that as well as using a nice a
+private chat interface especially well
+you know if you're using local models of
+course if you're not using close Source
+models but a private chat guey that
+allows you to easily build agents build
+rag have your agents have access to
+tools um in a nice interface that's very
+very easy to set up but anyways let me
+know what your thoughts are about
+anything llm in the comments down below
+you use it already or are using another
+tool you have a better tool that you
+prefer over anything llm and if you guys
+are new to this channel we upload videos
+every single day on AI automation
+Marketing sales business growth so if
+you like that type of content and you
+got some value here make sure to like
+the video comment down below and
+subscribe to stay up to date with the
+daily uploads also too guys if you
+haven't already joined our free
+community stri community.com our free
+Facebook group and Discord Channel I'll
+leave a link down below and then for
+some of you that run a business and you
+need help growing your business with
+Marketing sales operations outbound
+prospecting paid ads or even
+implementing AI agents like AI
+appointment Setters AI Co callers AI
+textur or complete Ai call center
+operation into your business to help you
+accelerate your stride and scale and
+book a call down below at executive
+strive.com apply to speak to myself and
+my team and see if there's a potential
+fit other than that guys I will see you
+in tomorrow's video keep hustling keep
+grinding and of course guys accelerate
+your stride take care

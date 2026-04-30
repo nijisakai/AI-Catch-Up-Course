@@ -1,8 +1,14 @@
 {
   "video_id": "LCEmiRjPEtQ",
   "url": "https://www.youtube.com/watch?v=LCEmiRjPEtQ",
-  "title": "Software Is Changing (Again)",
+  "title": "Andrej Karpathy: Software Is Changing (Again)",
   "channel": "Y Combinator (Karpathy)",
+  "duration_sec": 2340,
+  "upload_date": "",
   "topic": "M1_AI底层逻辑",
-  "slug": "karpathy-software-changing-again"
+  "slug": "karpathy-software-changing-again",
+  "transcripts": {
+    "en_lines": 1137,
+    "zh_lines": 1099
+  }
 }

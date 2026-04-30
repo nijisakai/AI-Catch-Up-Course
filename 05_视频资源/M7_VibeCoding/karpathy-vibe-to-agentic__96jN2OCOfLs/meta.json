@@ -1,8 +1,14 @@
 {
   "video_id": "96jN2OCOfLs",
   "url": "https://www.youtube.com/watch?v=96jN2OCOfLs",
-  "title": "From Vibe Coding to Agentic Engineering",
+  "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering",
   "channel": "Karpathy talk",
+  "duration_sec": 0,
+  "upload_date": "",
   "topic": "M7_VibeCoding",
-  "slug": "karpathy-vibe-to-agentic"
+  "slug": "karpathy-vibe-to-agentic",
+  "transcripts": {
+    "en_lines": 883,
+    "zh_lines": 0
+  }
 }

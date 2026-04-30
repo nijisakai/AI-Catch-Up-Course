@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:05.440
+Have you ever looked at a complex GitHub project&nbsp;
+and wished it was easier to understand? Well,&nbsp;&nbsp;
+
+00:00:05.440 --> 00:00:10.480
+now there is a solution! We've just launched&nbsp;
+a brand new online service that takes any&nbsp;&nbsp;
+
+00:00:10.480 --> 00:00:17.360
+GitHub codebase and transforms it into a simple,&nbsp;
+easy-to-follow tutorial using AI. Check this out!&nbsp;&nbsp;
+
+00:00:17.360 --> 00:00:22.480
+This is the page. You can see all the latest&nbsp;
+tutorials generated right here – folks have&nbsp;&nbsp;
+
+00:00:22.480 --> 00:00:28.960
+been busy in just the last few hours! And yes,&nbsp;
+the entire underlying project is open-sourced.&nbsp;
+
+00:00:28.960 --> 00:00:35.360
+Using it is incredibly simple. All you need to&nbsp;
+do is paste a GitHub link into this input box.&nbsp;&nbsp;
+
+00:00:35.360 --> 00:00:42.160
+For example, let's use this GitHub repository for&nbsp;
+the Python SDK of the Modal Context Protocol. It's&nbsp;&nbsp;
+
+00:00:42.160 --> 00:00:48.000
+super popular, tons of stars, everyone wants to&nbsp;
+use it to connect AI agents with tools. But let's&nbsp;&nbsp;
+
+00:00:48.000 --> 00:00:53.760
+be honest, the GitHub README can be a bit dense&nbsp;
+and not very beginner-friendly. So, instead of&nbsp;&nbsp;
+
+00:00:53.760 --> 00:00:59.920
+struggling, I just copy the link, paste it right&nbsp;
+here, and hit the button 'Generate Tutorial.'&nbsp;
+
+00:00:59.920 --> 00:01:06.000
+Our AI then gets to work. It crawls the GitHub&nbsp;
+repo, intelligently identifies the key files&nbsp;&nbsp;
+
+00:01:06.000 --> 00:01:11.840
+to read – automatically unchecking things like&nbsp;
+licenses but focusing on markdown and Python code&nbsp;&nbsp;
+
+00:01:11.840 --> 00:01:16.640
+files. You can even customize this selection&nbsp;
+if you want. Once you click on the 'Generate&nbsp;&nbsp;
+
+00:01:16.640 --> 00:01:22.640
+Tutorial' button, it takes about 5 minutes.&nbsp;
+You'll see the AI working behind the scenes: it is&nbsp;&nbsp;
+
+00:01:22.640 --> 00:01:28.800
+fetching the repo, reading the files, identifying&nbsp;
+core abstractions, building a knowledge graph, and&nbsp;&nbsp;
+
+00:01:28.800 --> 00:01:34.880
+finally, writing the tutorial chapter by chapter.
+And boom! You are automatically redirected to&nbsp;&nbsp;
+
+00:01:34.880 --> 00:01:40.000
+your customized tutorial. Look at this:&nbsp;
+it starts with a high-level summary of the&nbsp;&nbsp;
+
+00:01:40.000 --> 00:01:44.960
+project and a neat diagram breaking down core&nbsp;
+abstractions like the command line interface,&nbsp;&nbsp;
+
+00:01:44.960 --> 00:01:50.240
+Fast MCP Servers, and key primitives.
+The chapters are logically organized,&nbsp;&nbsp;
+
+00:01:50.240 --> 00:01:55.760
+starting from the high-level entry points and&nbsp;
+the basic ideas, then gradually diving deeper.&nbsp;&nbsp;
+
+00:01:55.760 --> 00:02:01.760
+You learn about MCP services, primitives, and how&nbsp;
+to use resources, and even what happens behind&nbsp;&nbsp;
+
+00:02:01.760 --> 00:02:07.520
+the scenes with helpful sequence diagrams.&nbsp;
+It's not just how to use it, but also how it&nbsp;&nbsp;
+
+00:02:07.520 --> 00:02:14.800
+is implemented. For instance, Chapter 5 here&nbsp;
+delves into transport layers – standard I/O,&nbsp;&nbsp;
+
+00:02:14.800 --> 00:02:20.320
+HTTP, WebSockets – it's all there!
+Now, this online service is built on&nbsp;&nbsp;
+
+00:02:20.320 --> 00:02:25.760
+our open-source project, which has over 8,000&nbsp;
+stars right now! I've previously made YouTube&nbsp;&nbsp;
+
+00:02:25.760 --> 00:02:31.040
+videos diving deep into its development and even&nbsp;
+did an interview with Angel about its journey.&nbsp;&nbsp;
+
+00:02:31.040 --> 00:02:37.120
+Both got a ton of views and positive feedback.
+So, with all that passion from you, we thought,&nbsp;&nbsp;
+
+00:02:37.120 --> 00:02:42.240
+'Why not make it even easier for everyone to use&nbsp;
+that?' And that's why we've built this online&nbsp;&nbsp;
+
+00:02:42.240 --> 00:02:47.040
+service. No more feeling overwhelmed by complex&nbsp;
+codebases. If you want to learn something new,&nbsp;&nbsp;
+
+00:02:47.040 --> 00:02:51.920
+this is the way to go. It's a simple service&nbsp;
+wrapping our powerful open-source project,&nbsp;&nbsp;
+
+00:02:51.920 --> 00:02:55.440
+making it super user-friendly.
+We are already thinking about new&nbsp;&nbsp;
+
+00:02:55.440 --> 00:02:59.440
+features, so try it out! The link is in the&nbsp;
+description. Let us know what you think and&nbsp;&nbsp;
+
+00:02:59.440 --> 00:03:04.000
+how it goes. This is a quick video, but I hope&nbsp;
+you find it useful. See you in the next one!
+

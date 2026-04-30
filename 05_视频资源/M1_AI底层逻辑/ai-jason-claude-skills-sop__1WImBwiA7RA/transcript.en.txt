@@ -1,0 +1,177 @@
+Cloud just introduced this concept
+called agent skills. It might look
+complicated, but it's actually really
+simple ideas, but super powerful. And
+many things that it might be even bigger
+than MCP. So, a cloud core skill you can
+almost consider as a combination of both
+a prompt instruction to teach agent how
+to do certain skills, as well as a list
+of assets and tools like predefined
+functions and templates guidelines to
+make it produce more consistent result.
+But two and assets are kind of optional.
+It can be as simple as just one single
+prompt as well. For example, for the
+brand guideline skill, it's literally
+just one single prompt including very
+specific brand guideline that you want
+agent to follow. Same thing here, I also
+have a UI design skills. They're just
+one single prompt. So, all the skills
+start with this skill.md file. Including
+this short description YAML explained to
+agent when to use this skill. And this
+description will always be added to the
+agent context, so it will know what kind
+of skills it has access to. And when
+agent decide to call the skill, this is
+where the rest of the context below will
+be loaded. So, this part almost feel
+like cloud core commands. So, skill.md
+is the most necessary part of a skill.
+For more complex skill, you can also
+include more resource. For example, for
+this skill to generate algorithm art, it
+also include resource like example
+implementation and get agent to read
+those example reference before they
+implement to making sure we have more
+consistent result. But more importantly,
+you can also include some predefined
+functions. Like in this Slack GIF
+creator skill, it already imported a
+package and predefined functions. And
+the instruction here basically tell the
+agent how to use those functions to
+create a nice GIF out of box. And here's
+why I think skills might be even better
+than MCPs. So, MCP has been an awesome
+way to extend agent's capability. By
+connecting agent with new MCPs, you can
+suddenly do new things that it couldn't
+do before. The problem is that MCP in
+practical is not that easy to use.
+Firstly, MCP can consume whole bunch of
+tokens that is unnecessary because each
+MCP can contain a bundle of different
+tools. And each tool here will including
+the description about when to use this
+tool, as well as input schema. And all
+those tokens will be loaded to agent
+context regardless whether this is
+useful or not. And more importantly,
+quite often MCP builder will want to
+build the tools in a more modular way,
+so it's reusable and more composable.
+But that also means most of MCP is not
+something you just connect and use. You
+want to give agent more detailed
+instruction about the order of when to
+use which tool. And that makes setup
+more complicated. But on the other hand,
+the way skill is set up allow you to
+consume much less token, but perform
+much more complicated tasks. Let's take
+Chassis and MCP as example. At default,
+it has seven different tools for
+different purpose. In fact, load the
+context, you will see those Chassis and
+MCP tools already take about 4.2
+thousand token. But you can't imagine,
+if we turn that into a Chassis and
+skill, we can probably reduce token from
+4.2 thousand to just 70. And that means
+your agent can be equipped with many
+more skills and it should just work out
+of box because skill.md can already
+contain all the reference instructions.
+Without further ado, let's show example.
+So, here under doc cloud/skills, we have
+loaded a list of different skills. And
+there's one skill called Slack GIF
+creator, which including the
+description, the full details about how
+to create a GIF, as well as some
+predefined functions. So, if I ask it to
+create a GIF for my Slack around daily
+standup time, you will try to call this
+command Slack GIF creator with a custom
+prompt. As I mentioned before, this
+skill is basically reuse the command
+infrastructure. If you click it yes, it
+will start loading all skills here. Then
+it will create this Python code and run
+this Python code, which generates GIF.
+It doesn't look perfect, but thing is
+that it's very easy for you to think
+about how to improve this skill or
+pipeline by just improving those
+predefined functions. There's another
+skill called algorithm art. If I tell it
+to help me create animated Zen style
+mountain algorithm art. Again, it will
+call this command. It will firstly
+create a MD file to really design and
+plan the artwork. It will read the
+template file that we define here as
+example reference. Then it just
+generates animated art using P5.js.
+Meanwhile, another really cool thing
+about skill is that you can also start
+using skill for your own code base as a
+way to make agent self-improving. So,
+here's how I create skills for my own
+code base. So, I'm building this cloud
+platform for super design. And we have
+this fairly large mono repo. And what I
+do is that I load the skill creator
+skill inside the doc cloud folder. So, I
+can give it a prompt. We have the front
+end in this folder and also share
+package here. Please go investigate our
+current convention and tell me what's
+the best practice for any new UI
+component. Great. So, it did a quite
+deep investigation and come back with
+the convention. Now, let's create a
+skill called front end including all the
+best practice for front end
+implementation for our code base. Let's
+start with how to add UI components. So,
+it will try to call the skill. Initially
+skill front end, which will be created
+here. Including file that generates
+generic description. Obviously, you can
+update that. Also, it start including
+those best practice about our front end
+and UI implementation. It even created
+further reference file for the component
+guideline, as well as style guide. With
+this one, next time if I ask it to
+create new UI component like let's
+create new UI component for emoji and
+image picker in our front end, it will
+firstly call the skills to get the best
+practice and coding convention in our
+code base first and then start building
+things properly following the best
+practice. So, this is how you can use
+skill feature to really extend agent's
+capability and make it continuously
+improving. I just started this repo
+called awesome cloud skills. And one of
+most of them is from official cloud, but
+I start adding some stuff like UI
+design, which including very specific
+prompt that I've been using. And I'll
+keep adding new stuff. Also, feel free
+to contribute and create PRs. And
+meanwhile, if you're interested in
+diving into cloud skills more, we're
+diving a bit deeper in our upcoming
+weekly workshop at AI builder club. So,
+you can click on the link below to join
+if you're interested. I hope you enjoyed
+this video. Thank you and I'll see you
+next time.

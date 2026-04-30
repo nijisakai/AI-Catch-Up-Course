@@ -1,0 +1,639 @@
+Hey there. How's it going everybody? In
+this video, we're going to be learning
+about UV, which is a new package manager
+for Python that's growing pretty quickly
+in popularity. Now, the goal with UV is
+pretty ambitious. They want it to be a
+single tool that can replace pip for
+installing packages, venv or virtual env
+for creating and managing virtual
+environments. Uh, pip tools for
+generating lock files, and even pip x
+for installing and running Python tools.
+UV combines all of these tools into one.
+And also, it's quite a bit faster than
+those other options since it's written
+in Rust. It's created and maintained by
+Astral, which is the same team behind
+the Roughliner that's also becoming very
+popular. And we're going to look at
+Rough in an upcoming tutorial as well.
+But in this video, we'll compare how a
+UV workflow compares to a standard
+workflow with PIP and Venv and try to
+get a sense of why so many people are
+switching over to using this as their
+default. So, with that said, let's go
+ahead and get started. All right, so
+first let's get UV installed on our
+system. There are a few different ways
+to install this, and I'll show you the
+one that I'm going to use, but also
+mention some alternatives. Uh, I'm on a
+Mac and I like using Homebrew. So,
+that's the method that I'm going to use
+here and it's probably the easiest way
+if you already have Homebrew set up, but
+I'm also going to leave a link to this
+installation page in the description
+section below so that you can see the
+other ways that we can install this
+here. So, for example, you can see that
+they have a standalone installer with uh
+just using a curl command on Mac or uh
+Linux. On Windows, you can run a
+PowerShell command and then they have a
+bunch of different options here as well.
+Um, but like I said, I'm going to be
+using the homebrew option. So, let me go
+back to my terminal here and I'm going
+to install this uh using homebrew. And
+I'll just say brew install
+UV. And once it says that's installed, I
+should be able to test this just by
+running uv. And we can see there that uh
+we get a list of all the commands that
+we can use with this. So that is
+installed and it's working. So now that
+we have UV installed, let's take a look
+at how it's used compared to the
+traditional tools that we might be more
+familiar with. So if I were to start
+working on a new Python project, here's
+basically what I normally would have
+done. So I would create a directory for
+my project. So I'm going to create a
+directory here and I'll just call this
+old way. and then I will cd into that
+directory. And then probably one of the
+first things that you'd want to do is
+create a new virtual environment. So I
+would do something like Python 3 and I
+would use venv here. I'll just create a
+virtual environment called veenv. Uh now
+if you've not if you're not familiar
+with virtual environments, don't worry
+about it. I'm just showing you the old
+way for now and we'll look at the uh UV
+way which is a lot simpler here in just
+a second. So, I'm going to create this
+virtual environment here. And then we'd
+want to activate that virtual
+environment. So, uh I'm on a Mac, so I
+would say I would source that. And that
+is going to be in the bin directory.
+Activate. And we can see I have my
+terminal set up here to show me when I'm
+within a virtual environment. So, we can
+see that that is active. And then, uh
+normally we would uh just use pip to
+install whatever packages that we wanted
+on this new project. So let's say that I
+wanted to use flask and request. So I
+would say pip install flask request and
+then we would go about it that way. And
+we can see that just took a couple of
+seconds there. And then after we had
+whatever packages we wanted installed,
+then we would create the project
+structure for this new project. Uh so
+for now, let's just create a simple
+main. py file. So let me go ahead and
+clear my screen here. I'll just do a uh
+touch main. py which just creates a
+blank main. py file. And now let me uh
+list everything off in my directory
+here. So we can see that we have our
+virtual environment here.
+Envy file. And after I worked on my
+script here for a bit, I'd likely want
+to create a requirements file so that I
+can reproduce this project and share it
+with other people. Uh so to do that uh
+using the old way using pip uh I would
+say pip freeze and then I would redirect
+this to a uh
+requirements.txt file. And if we look at
+this file so I will just cat that out.
+Then we can see that it lists all of our
+dependencies here of the packages that
+we installed. And we only installed
+flask and request but both of those uh
+depend on other packages of their own.
+So that's why we're seeing additional
+dependencies listed here. Uh so then if
+I pass this off to someone else, then
+they could recreate my project by
+creating and activating their own
+virtual environment and then installing
+the dependencies uh from this
+requirements.txt file that I have here.
+So that is a lot of steps and it's not
+exactly the most intuitive process
+especially for newcomers. So now let's
+see how this compares to using UV. So
+I'm going to go up one directory here
+back to my desktop and we can see that
+we just have that old way project there.
+And now let's create a new project using
+UV. So instead of creating a new
+directory from scratch like I did
+before, I can instead let UV do that for
+me just by saying UV and we'll call this
+new app. So I'll run that, we can see
+that it initialized a project. And now
+if I cd into this new application here.
+And just a quick side note, if you
+already had a project directory but
+didn't create it using uv, then you
+could also cd into that directory and
+just run
+uvit uh without the directory name and
+it will set up the directory you're
+currently using as a new application.
+And I didn't add any additional options
+to it when I created this, but UV does
+have a few different project types to
+choose from when initializing a project.
+So first there is the app option and app
+is the default. So this is what was run
+when I just created uh my new project
+here. And like I said, this is the
+default. This is what I use most often.
+It creates a simple project structure
+for applications, scripts, uh web
+servers and things like that. Uh but
+there is also lib and lib creates a
+project that is designed to be built and
+distributed as a Python package. Uh I'd
+say most of us will be using the app
+default. Uh but the option to create
+distributable Python packages is there
+if you're curious. So let me clear this
+out. Okay. Okay, so now let's look at
+what UV created for us with the default
+init for an application. So if I list
+all the files here, so first we have a
+git directory and a git ignore file. So
+UV automatically initializes a git
+repository for us, which is nice because
+most of us will want to track our code
+within version control anyway. Uh the
+git ignore file has some common uh
+python specific files that we typically
+don't want to track in git uh like cache
+files and the virtual environment.
+There's also a python version file which
+contains the python version this project
+is configured to use. UV uses this to
+ensure that we're working with a
+consistent Python version as we're
+building this application. Uh right now
+it probably contains the version of
+Python that we have installed on our
+system. Uh but we can change this if
+needed. And then we have a readme file
+uh which is currently empty. Uh but this
+is where you'd typically add
+documentation about your project. And
+then this main.py file here is a simple
+starter Python file for our application.
+Uh UV creates this as a placeholder
+where we can begin writing our code. And
+finally we have the pi project.totml
+file uh which is a modern way to
+configure Python projects. So let's take
+a quick look at that. Uh I'm just going
+to go ahead and open up this entire
+project within VS Code. Okay. And now
+let me open up that pi project.l file
+that we saw before. So this has some
+basic information about our application.
+And at the bottom we can see it's
+listing our dependencies. Right now it's
+an empty list because we haven't added
+any packages uh that we're going to use
+for this application yet. Now, this is
+normally where we'd create and activate
+our virtual environment, but we don't
+need to do that here. Uh, UV will handle
+that for us automatically the first time
+that we run a command that actually
+needs it. Uh, so let's add those
+packages in uh that we used in our last
+example. So, I'm going to go back to the
+terminal here. So, now I'm going to
+install flash and request like we did
+before, but instead of pip, I'm going to
+use uv. So I'll say uv add flask and
+request. And if I run that then we can
+see that finishes up. It was a bit
+quicker than the pip installation was.
+And also if I look towards the top here
+we can see that it tells us the Python
+interpreter that it's using and also
+detected that we need a virtual
+environment. So it created this.v VNV
+directory here uh right here for us in
+our project and then it installs flask
+and request into that environment and
+there are a couple other things that it
+did here as well. Uh if I open that
+project back up then we can see that it
+also updated our piprototl file here to
+list flask and request as dependencies.
+Uh another thing is that it created this
+uv.lock file for us. So let me open this
+up. And this lock file records the exact
+versions of all the packages installed
+including subd dependencies. Uh so this
+ensures that your environment is
+perfectly reproducible and it does all
+of that without us creating or
+activating any virtual environments. So
+basically it helps to uh prevent the
+classic problem of it working on one
+machine and not working on another
+because of some small discrepancy
+somewhere. And UV also has this uh nice
+feature here for visualizing and
+understanding our dependencies. So if I
+wanted to see a tree of my dependencies
+to see what relies on what, then I could
+just run UV tree here within my project.
+And we can see that our two main ones
+here are Flask and request. And within
+Flask, these are the subd dependencies
+here. And with request, these are the
+subd dependencies here. Okay. So now
+let's say that we work on our
+application for a while and now we want
+to run it. How would we do that from the
+command line if that virtual environment
+isn't activated? So from an IDE, this
+should be fairly simple. Uh for example,
+let me open up that main.py file here
+within VS Code. So I'll open this up. So
+within most IDE, you should have an easy
+way to find virtual environments within
+your current project. Mine automatically
+selects virtual environments inside of
+my projects if they exist. Uh, but we
+actually open this project before that
+environment was created. So to select
+it, I just have to navigate down here to
+the bottom right. And we can see that
+it's using this uh
+3.13 here. And I'm just going to have it
+select this virtual environment here
+within my directory. And just to make
+sure that this works, uh, let's print
+out the Python executable that's
+executing our script. Uh, that way we
+can be sure that it's using the correct
+environment. So to do this, I'll just
+import CIS. And then where we are
+printing out here, I will print out uh
+CIS.executable. So now if I save this
+and run it within VS code, then we can
+see here that it is using that correct
+uh Python virtual environment. So, we're
+within our new app and our virtual
+environment here. So, we're able to run
+this easily from an IDE. But now, let's
+go back to our terminal and see how we
+would run it from there. So, let me
+clear out my terminal here. And
+actually, I never deactivated this
+virtual environment from before. Uh,
+glad that didn't screw anything up. Let
+me go ahead and deactivate that really
+quick. Okay. So, now with UV, we're not
+in that same paradigm of having our
+environment active at all times.
+Instead, we're going to let UV handle
+that for us. So, instead of doing
+something like uh Python main. py, uh
+we're going to instead say uv run main.
+py. And if I run this, then we can see
+that we don't have any virtual
+environments active right now. Uh but uv
+runs the code and automatically uses
+that virtual environment that it created
+earlier. Uh but now let me show you
+something that's pretty impressive. So
+let's say that the virtual environment
+gets removed or deleted. So I'll go
+ahead and just delete that completely
+from my project. So I will uh
+say remove that virtual environment. And
+now we can see that there is no virtual
+environment here. And normally this
+would screw us up. Uh we'd have to go in
+and create this environment again.
+activate it and then install the
+packages to run our code and then
+finally be able to run our code. But all
+of the information that we need to run
+this code is in our PI project and lock
+files. So with UV, if I just try to run
+this again with UV run main. py, if I
+run this, then we can see that it runs
+that just fine. And what it did was it
+saw that we didn't have a virtual
+environment. So it created that for us.
+Then it installed all of those packages
+very quickly. And then it ran the code
+for us, all with one command. And not
+only that, but it was extremely fast as
+well. Much faster than if we'd done this
+with pip and VNV. And we don't even need
+to run that main. py file to get it to
+create our environment and install those
+dependencies. Uh, so if I were to pass
+this off to someone and they wanted to
+get their environment ready without
+running the application, then they could
+simply use UV sync. And I'll show how
+this works. So first, let me delete that
+virtual environment again. So it's not
+within our project. And now if I pass
+this off to someone and they have this
+on their machine, then they can simply
+run UV sync. And when they run that, we
+can see that it recreated the exact same
+environment using the UV lock file. And
+now if we wanted to remove a dependency,
+then I could just say UV remove flask.
+And if I run that, it takes that off.
+And that would remove that package and
+update the PI project and lock file. And
+then they could simply send that back to
+me without their virtual environment.
+and I could run UV sync and get synced
+up with those dependencies. So, I find
+all of this a lot easier, especially for
+beginners. Uh, instead of running five
+to six different commands and having to
+understand virtual environments, uh,
+we've got a much more streamlined
+process that does all the complexity be
+behind the scenes. And one of the
+biggest advantages that you'll notice
+with UV, especially over time, is its
+smart global caching system. Uh so this
+means that if we have 10 different
+projects that all use the same version
+of Flask, uh UV only stores that Flask
+version and its dependencies once on our
+disk, which saves a lot of space. So
+your environments still remain
+completely isolated from each other. So
+there's no risk of conflicts there. Uh
+but you get the dispace savings and
+major speed improvements when installing
+packages that you've used before. And
+that's especially noticeable when
+recreating environments or setting up
+new projects with familiar dependencies
+because with pip and venv different
+virtual environments for different
+projects might contain duplicate copies
+of the same packages. Uh so not only do
+you save disc space but you also save on
+download times and what used to take
+minutes with pip can be almost
+instantaneous with UV. And I know that
+there's a lot of new tools out there and
+it can get a bit overwhelming. So, some
+of you may be thinking, "Okay, this
+looks cool, but I'm used to pip and I
+don't feel like learning a new tool
+right now." Uh, well, the good thing
+about this is that UV provides a UV pip
+subcommand that acts as a direct faster
+replacement for pip itself. So, you can
+actually just keep using familiar
+commands if you want to transition
+gradually. So, let me show you what I
+mean by that. Uh so let's say that we go
+back to our previous project where we
+used pip and install another package. So
+let me switch over to that old way
+project that we created before. So in
+here we haven't set this up with UV. If
+I look at the files in this directory
+then we should only have our Python
+script and our
+requirements.txt file. So if I wanted to
+work on this, uh, we could activate the
+environment and then use pip to install
+a package using pip. But UV has a pip
+command that behaves the same as pip.
+And if you have a virtual environment in
+your project already, then it will find
+that for you. So if I wanted to add uh,
+numpy for example, then I could say uv
+and then pip install numpy. And if I run
+that then we can see that that
+installed. And now if I say uv pip list
+then we can see that now we have flask
+request and we also have numpy there. So
+this uh pip subcomand here is nice for
+transitioning over to UV. Uh but you do
+miss out on a lot of the functionality
+that makes UV so useful. So for example,
+uh since it's just doing what pip would
+do, it's not creating that pi project or
+lock file in the background. So if I
+look in this directory, then we can see
+that we still only have the same files
+as before. So if I wanted this
+requirements.txt file uh to be up to
+date with the packages that we just
+installed, then we'd have to do a uv pip
+freeze uh to overwrite that. So, the
+option to use pip commands is there if
+you want it, but I'd really recommend
+just getting started with using UV uh
+with its own commands. And I think
+you'll find it fairly easy to learn and
+use. Now, if I wanted to migrate this
+project here over to using UV's workflow
+instead of pips, then I could just say
+UVIT and run this. And that will create
+the project structure that we saw
+before. And then I'd have to add those
+packages from the requirements.txt file.
+So first let me show that it created
+this project structure that we saw
+before. And now I want to add those
+To do that I can just say uv add- r
+requirements.txt. And if I run that it
+will install all of those. And if I look
+at the pi projectl file then we can see
+that now all of those are listed in our
+dependencies. So at that point if you
+wanted to move forward only using uv
+then you could delete that
+requirements.txt file and rely solely on
+your pi project and lock files. Okay. So
+now let me switch back over to uh the
+other directory that I created before in
+this new app. Now, another really cool
+feature of UV is that it can replace pip
+X for installing Pythonbased command
+line tools. Now, if you don't know what
+Pip X does, it basically allows you to
+install Python command line tools that
+you can use anywhere on your system and
+not just in a specific project. Uh, so
+llinters, formatterers, things like
+that. Uh those are things that you'll
+likely just want to install once and use
+across multiple different projects as
+opposed to installing them in every
+project individually. And we can also do
+this with UV. So for example, let's say
+that we wanted to install Rough, which
+is a popular Python litter that's also
+made by Astral. So normally, uh you
+might install this with pip X, but we
+can use UV instead. And this is a tool.
+So I can say UV tool install
+rough. And what this does is it installs
+rough in an isolated environment but
+makes it available on your path. So
+let's confirm that that's installed and
+accessible from anywhere. Uh I'm on a
+Mac so I can do that by saying which
+rough. And we can see that it did
+install it here in my uh local bin
+directory of my home folder. So that
+should be available anywhere on the
+system. And rough is a llinter. So with
+that installed, I can check my Python
+code. So if I wanted to check this
+project, I could say rough check. It
+says that all checks pass there. And if
+I had a more strict rough configuration,
+then that might come back with some
+improvements uh to change my code in
+ways that I want. And I'll be doing a
+rough tutorial in the near future also.
+Uh, so be sure that you're subscribed if
+you'd like to be notified when that's
+released. Okay. So, it's just as easy to
+remove a tool. So, let me clear my
+terminal here. So, to remove a tool, I
+can say UV tool uninstall rough. And
+now, if I check my system again for that
+rough command, we can see that it's not
+found. Now, one really cool thing about
+UV is that we don't even need to install
+these tools permanently on our system.
+in order to use them. Uh so if you just
+want to test out a tool or use it a few
+times for a specific task without
+permanently installing it, then we can
+do that by saying UV tool run. So let me
+clear this out. UV tool run. So if I
+wanted to run that same rough check
+command, then I could say rough check.
+And we can see that that works just like
+it did before. But if I search for rough
+on my system, then we can see that it's
+not installed. So that UV tool run
+command installs it in a temporary
+environment, runs it, and then cleans it
+up afterwards, which is super useful,
+and it does it all very quickly. And
+running different tools like this is
+very popular in UV. Uh, so they've
+actually made a shortcut for UV tool
+run, and that is UVX. So I can do the
+same thing just by saying uvx rough
+check and that is the same thing as this
+uv tool run rough check. So if I run
+that we can see we get the same thing.
+If I search for rough it's still not
+installed. So that is super useful for
+running tools without installing them.
+Uh but I use rough a lot. So I'm
+actually going to go ahead and install
+that permanently. So I'll just go ahead
+and do that. and keep that installed.
+And we can check the tools that we have
+installed by saying UV tool list. And we
+can see here that right now we only have
+rough. And we can upgrade those
+individually if you want, but most
+likely uh you'd probably want to update
+them all at once. Uh to do this, I could
+say UV tool upgrade and then we could
+just do a d-all here. If I run that, we
+can see that there's nothing to upgrade
+since we just installed that. So, I
+really like UV's tool integration here.
+Uh, it's taking all of these things that
+used to be separate tools like pip, pip
+x, and virtual environments and making
+them feel naturally like they belonged
+as a single tool to begin with. And
+there's even more that UV can do that we
+haven't covered. So, it has ways of
+managing different Python versions, has
+commands for building and uploading your
+own Python packages to Pippi, uh, and
+even has some features designed to help,
+uh, build optimized Docker containers.
+But those are things that we could cover
+in a more advanced tutorial if anyone is
+interested in that. But I think what we
+went over here covers the majority of
+what most of you will use UV for. Uh,
+I've been using it myself for some time
+now and really don't see myself going
+back to using PIP or virtual
+environments the way that I was before.
+Uh, it's also uh what I'm going to be
+using in future videos. So, I wanted to
+make this quick tutorial that I could
+point people towards if they see me
+using UV in a future video and have
+questions about that or why I'm using
+that over PIP. But with that said, I
+think that's going to do it for this
+video. Hopefully now you feel like you
+have a good idea of how UV works and how
+it can simplify your Python package
+management. Uh we've seen how it
+replaces multiple tools with a single
+interface and how it can be dramatically
+faster than those traditional tools. Now
+in a future video I'm going to be
+covering Rough which is a llinter built
+by the same team and that's another tool
+that I've migrated over to using in my
+daily workflow. So, big props to the
+team at Astral because they've
+definitely put out some great tools
+lately uh that have become super popular
+in the Python community. But if anyone
+has any questions about what we covered
+in this video, then feel free to ask in
+the comment section below and I'll do my
+best to answer those. And if you enjoy
+these tutorials and would like to
+support them, then there are several
+ways you can do that. The easiest way is
+to simply like the video and give it a
+thumbs up. Also, it's a huge help to
+share these videos with anyone who you
+think would find them useful. And if you
+have the means, you can contribute
+through Patreon or YouTube. And there
+are links to those pages in the
+description section below. Be sure to
+subscribe for future videos. And thank
+you all for watching.

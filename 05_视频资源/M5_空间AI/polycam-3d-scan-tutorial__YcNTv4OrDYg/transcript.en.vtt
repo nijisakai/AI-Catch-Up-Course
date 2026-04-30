@@ -1,0 +1,1096 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.510 align:start position:0%
+ 
+what's<00:00:00.420><c> up</c><00:00:00.659><c> guys</c><00:00:00.840><c> Nono</c><00:00:01.500><c> here</c><00:00:01.680><c> in</c><00:00:02.220><c> this</c><00:00:02.340><c> video</c>
+
+00:00:02.510 --> 00:00:02.520 align:start position:0%
+what's up guys Nono here in this video
+ 
+
+00:00:02.520 --> 00:00:04.490 align:start position:0%
+what's up guys Nono here in this video
+we'll<00:00:02.879><c> learn</c><00:00:03.120><c> how</c><00:00:03.300><c> to</c><00:00:03.419><c> create</c><00:00:03.659><c> a</c><00:00:03.959><c> 3D</c><00:00:04.259><c> model</c>
+
+00:00:04.490 --> 00:00:04.500 align:start position:0%
+we'll learn how to create a 3D model
+ 
+
+00:00:04.500 --> 00:00:07.670 align:start position:0%
+we'll learn how to create a 3D model
+like<00:00:05.279><c> this</c><00:00:05.580><c> one</c><00:00:06.240><c> and</c><00:00:06.720><c> this</c><00:00:06.899><c> by</c><00:00:07.020><c> only</c><00:00:07.259><c> using</c>
+
+00:00:07.670 --> 00:00:07.680 align:start position:0%
+like this one and this by only using
+ 
+
+00:00:07.680 --> 00:00:09.650 align:start position:0%
+like this one and this by only using
+your<00:00:07.919><c> smartphone</c><00:00:08.340><c> and</c><00:00:08.820><c> you</c><00:00:09.000><c> can</c><00:00:09.059><c> use</c><00:00:09.179><c> this</c><00:00:09.360><c> 3D</c>
+
+00:00:09.650 --> 00:00:09.660 align:start position:0%
+your smartphone and you can use this 3D
+ 
+
+00:00:09.660 --> 00:00:12.410 align:start position:0%
+your smartphone and you can use this 3D
+model<00:00:09.840><c> in</c><00:00:10.260><c> any</c><00:00:10.440><c> renderer</c><00:00:10.980><c> be</c><00:00:11.400><c> it</c><00:00:11.580><c> lumion</c><00:00:11.940><c> D5</c>
+
+00:00:12.410 --> 00:00:12.420 align:start position:0%
+model in any renderer be it lumion D5
+ 
+
+00:00:12.420 --> 00:00:14.690 align:start position:0%
+model in any renderer be it lumion D5
+render<00:00:12.780><c> Unreal</c><00:00:13.380><c> Engine</c><00:00:13.559><c> or</c><00:00:13.860><c> Corona</c><00:00:14.460><c> render</c>
+
+00:00:14.690 --> 00:00:14.700 align:start position:0%
+render Unreal Engine or Corona render
+ 
+
+00:00:14.700 --> 00:00:16.670 align:start position:0%
+render Unreal Engine or Corona render
+and<00:00:15.120><c> no</c><00:00:15.299><c> you</c><00:00:15.660><c> don't</c><00:00:15.780><c> have</c><00:00:15.960><c> to</c><00:00:16.199><c> use</c><00:00:16.320><c> an</c><00:00:16.560><c> iPhone</c>
+
+00:00:16.670 --> 00:00:16.680 align:start position:0%
+and no you don't have to use an iPhone
+ 
+
+00:00:16.680 --> 00:00:19.430 align:start position:0%
+and no you don't have to use an iPhone
+for<00:00:17.100><c> this</c><00:00:17.279><c> it</c><00:00:17.760><c> works</c><00:00:18.119><c> both</c><00:00:18.240><c> on</c><00:00:18.539><c> Android</c><00:00:18.779><c> and</c>
+
+00:00:19.430 --> 00:00:19.440 align:start position:0%
+for this it works both on Android and
+ 
+
+00:00:19.440 --> 00:00:21.410 align:start position:0%
+for this it works both on Android and
+iOS<00:00:19.859><c> we</c><00:00:20.460><c> are</c><00:00:20.580><c> going</c><00:00:20.699><c> to</c><00:00:20.820><c> use</c><00:00:20.939><c> a</c><00:00:21.119><c> technique</c>
+
+00:00:21.410 --> 00:00:21.420 align:start position:0%
+iOS we are going to use a technique
+ 
+
+00:00:21.420 --> 00:00:23.269 align:start position:0%
+iOS we are going to use a technique
+called<00:00:21.779><c> photogrammetry</c><00:00:22.680><c> and</c><00:00:22.859><c> what</c><00:00:23.100><c> is</c>
+
+00:00:23.269 --> 00:00:23.279 align:start position:0%
+called photogrammetry and what is
+ 
+
+00:00:23.279 --> 00:00:25.429 align:start position:0%
+called photogrammetry and what is
+photogrammetry<00:00:24.060><c> you</c><00:00:24.240><c> ask</c><00:00:24.420><c> to</c><00:00:24.900><c> put</c><00:00:25.019><c> it</c><00:00:25.199><c> simple</c>
+
+00:00:25.429 --> 00:00:25.439 align:start position:0%
+photogrammetry you ask to put it simple
+ 
+
+00:00:25.439 --> 00:00:28.009 align:start position:0%
+photogrammetry you ask to put it simple
+it<00:00:26.039><c> is</c><00:00:26.160><c> a</c><00:00:26.340><c> photography</c><00:00:26.880><c> mapping</c><00:00:27.359><c> technique</c><00:00:27.779><c> of</c>
+
+00:00:28.009 --> 00:00:28.019 align:start position:0%
+it is a photography mapping technique of
+ 
+
+00:00:28.019 --> 00:00:30.349 align:start position:0%
+it is a photography mapping technique of
+objects<00:00:28.500><c> and</c><00:00:28.859><c> in</c><00:00:29.039><c> our</c><00:00:29.160><c> case</c><00:00:29.400><c> it</c><00:00:29.699><c> allows</c><00:00:30.000><c> us</c><00:00:30.119><c> to</c>
+
+00:00:30.349 --> 00:00:30.359 align:start position:0%
+objects and in our case it allows us to
+ 
+
+00:00:30.359 --> 00:00:33.110 align:start position:0%
+objects and in our case it allows us to
+take<00:00:30.599><c> several</c><00:00:31.380><c> photos</c><00:00:31.560><c> of</c><00:00:31.920><c> an</c><00:00:32.099><c> object</c><00:00:32.340><c> and</c>
+
+00:00:33.110 --> 00:00:33.120 align:start position:0%
+take several photos of an object and
+ 
+
+00:00:33.120 --> 00:00:35.389 align:start position:0%
+take several photos of an object and
+translate<00:00:33.300><c> that</c><00:00:33.719><c> into</c><00:00:34.020><c> a</c><00:00:34.200><c> 3D</c><00:00:34.500><c> model</c><00:00:34.680><c> the</c><00:00:35.280><c> most</c>
+
+00:00:35.389 --> 00:00:35.399 align:start position:0%
+translate that into a 3D model the most
+ 
+
+00:00:35.399 --> 00:00:37.610 align:start position:0%
+translate that into a 3D model the most
+popular<00:00:35.700><c> company</c><00:00:36.120><c> doing</c><00:00:36.480><c> this</c><00:00:36.719><c> is</c><00:00:37.079><c> quick</c><00:00:37.320><c> saw</c>
+
+00:00:37.610 --> 00:00:37.620 align:start position:0%
+popular company doing this is quick saw
+ 
+
+00:00:37.620 --> 00:00:40.729 align:start position:0%
+popular company doing this is quick saw
+with<00:00:38.100><c> their</c><00:00:38.280><c> Mega</c><00:00:38.579><c> scans</c><00:00:39.000><c> from</c><00:00:39.960><c> small</c><00:00:40.200><c> plants</c>
+
+00:00:40.729 --> 00:00:40.739 align:start position:0%
+with their Mega scans from small plants
+ 
+
+00:00:40.739 --> 00:00:42.709 align:start position:0%
+with their Mega scans from small plants
+to<00:00:40.980><c> massive</c><00:00:41.340><c> Cliffs</c><00:00:41.760><c> since</c><00:00:42.300><c> it's</c><00:00:42.540><c> a</c>
+
+00:00:42.709 --> 00:00:42.719 align:start position:0%
+to massive Cliffs since it's a
+ 
+
+00:00:42.719 --> 00:00:45.049 align:start position:0%
+to massive Cliffs since it's a
+photograph<00:00:43.020><c> from</c><00:00:43.500><c> The</c><00:00:43.739><c> Real</c><00:00:43.920><c> World</c><00:00:44.160><c> the</c>
+
+00:00:45.049 --> 00:00:45.059 align:start position:0%
+photograph from The Real World the
+ 
+
+00:00:45.059 --> 00:00:47.869 align:start position:0%
+photograph from The Real World the
+results<00:00:45.239><c> are</c><00:00:45.780><c> super</c><00:00:46.079><c> detailed</c><00:00:46.680><c> realistic</c><00:00:47.399><c> 3D</c>
+
+00:00:47.869 --> 00:00:47.879 align:start position:0%
+results are super detailed realistic 3D
+ 
+
+00:00:47.879 --> 00:00:50.510 align:start position:0%
+results are super detailed realistic 3D
+models<00:00:48.360><c> and</c><00:00:48.600><c> textures</c><00:00:49.020><c> we</c><00:00:49.860><c> are</c><00:00:50.039><c> going</c><00:00:50.160><c> to</c><00:00:50.340><c> use</c>
+
+00:00:50.510 --> 00:00:50.520 align:start position:0%
+models and textures we are going to use
+ 
+
+00:00:50.520 --> 00:00:52.729 align:start position:0%
+models and textures we are going to use
+an<00:00:50.760><c> app</c><00:00:51.000><c> called</c><00:00:51.180><c> polycam</c><00:00:52.020><c> which</c><00:00:52.500><c> you</c><00:00:52.620><c> can</c>
+
+00:00:52.729 --> 00:00:52.739 align:start position:0%
+an app called polycam which you can
+ 
+
+00:00:52.739 --> 00:00:55.130 align:start position:0%
+an app called polycam which you can
+download<00:00:52.800><c> from</c><00:00:53.280><c> the</c><00:00:53.460><c> app</c><00:00:53.579><c> store</c><00:00:53.820><c> on</c><00:00:54.120><c> iOS</c><00:00:54.539><c> or</c>
+
+00:00:55.130 --> 00:00:55.140 align:start position:0%
+download from the app store on iOS or
+ 
+
+00:00:55.140 --> 00:00:57.290 align:start position:0%
+download from the app store on iOS or
+the<00:00:55.260><c> Play</c><00:00:55.440><c> Store</c><00:00:55.680><c> on</c><00:00:56.100><c> Android</c><00:00:56.219><c> after</c><00:00:56.760><c> doing</c><00:00:57.059><c> so</c>
+
+00:00:57.290 --> 00:00:57.300 align:start position:0%
+the Play Store on Android after doing so
+ 
+
+00:00:57.300 --> 00:01:00.110 align:start position:0%
+the Play Store on Android after doing so
+open<00:00:57.780><c> the</c><00:00:58.020><c> app</c><00:00:58.260><c> and</c><00:00:58.620><c> this</c><00:00:58.800><c> is</c><00:00:58.920><c> the</c><00:00:59.160><c> interface</c>
+
+00:01:00.110 --> 00:01:00.120 align:start position:0%
+open the app and this is the interface
+ 
+
+00:01:00.120 --> 00:01:02.510 align:start position:0%
+open the app and this is the interface
+first<00:01:00.719><c> you</c><00:01:01.020><c> need</c><00:01:01.199><c> to</c><00:01:01.260><c> create</c><00:01:01.440><c> an</c><00:01:01.680><c> account</c><00:01:01.860><c> this</c>
+
+00:01:02.510 --> 00:01:02.520 align:start position:0%
+first you need to create an account this
+ 
+
+00:01:02.520 --> 00:01:04.310 align:start position:0%
+first you need to create an account this
+way<00:01:02.699><c> you</c><00:01:03.059><c> have</c><00:01:03.180><c> all</c><00:01:03.539><c> your</c><00:01:03.660><c> models</c><00:01:04.080><c> on</c><00:01:04.199><c> the</c>
+
+00:01:04.310 --> 00:01:04.320 align:start position:0%
+way you have all your models on the
+ 
+
+00:01:04.320 --> 00:01:05.270 align:start position:0%
+way you have all your models on the
+clouds
+
+00:01:05.270 --> 00:01:05.280 align:start position:0%
+clouds
+ 
+
+00:01:05.280 --> 00:01:07.609 align:start position:0%
+clouds
+on<00:01:05.820><c> the</c><00:01:05.939><c> top</c><00:01:06.060><c> you</c><00:01:06.360><c> can</c><00:01:06.420><c> see</c><00:01:06.659><c> this</c><00:01:06.900><c> light</c><00:01:07.200><c> bulb</c>
+
+00:01:07.609 --> 00:01:07.619 align:start position:0%
+on the top you can see this light bulb
+ 
+
+00:01:07.619 --> 00:01:09.950 align:start position:0%
+on the top you can see this light bulb
+icon<00:01:07.979><c> which</c><00:01:08.520><c> has</c><00:01:08.760><c> some</c><00:01:09.000><c> tips</c><00:01:09.240><c> on</c><00:01:09.479><c> how</c><00:01:09.720><c> to</c><00:01:09.840><c> use</c>
+
+00:01:09.950 --> 00:01:09.960 align:start position:0%
+icon which has some tips on how to use
+ 
+
+00:01:09.960 --> 00:01:12.230 align:start position:0%
+icon which has some tips on how to use
+the<00:01:10.200><c> app</c><00:01:10.380><c> and</c><00:01:10.799><c> take</c><00:01:10.920><c> your</c><00:01:11.159><c> photos</c><00:01:11.340><c> as</c><00:01:12.000><c> you</c><00:01:12.119><c> can</c>
+
+00:01:12.230 --> 00:01:12.240 align:start position:0%
+the app and take your photos as you can
+ 
+
+00:01:12.240 --> 00:01:14.330 align:start position:0%
+the app and take your photos as you can
+see<00:01:12.420><c> it's</c><00:01:12.780><c> best</c><00:01:12.960><c> to</c><00:01:13.200><c> take</c><00:01:13.320><c> photos</c><00:01:13.560><c> from</c><00:01:13.920><c> all</c>
+
+00:01:14.330 --> 00:01:14.340 align:start position:0%
+see it's best to take photos from all
+ 
+
+00:01:14.340 --> 00:01:16.550 align:start position:0%
+see it's best to take photos from all
+angles<00:01:14.700><c> a</c><00:01:15.180><c> minimum</c><00:01:15.479><c> of</c><00:01:15.600><c> 80</c><00:01:15.840><c> photos</c><00:01:16.200><c> is</c>
+
+00:01:16.550 --> 00:01:16.560 align:start position:0%
+angles a minimum of 80 photos is
+ 
+
+00:01:16.560 --> 00:01:19.010 align:start position:0%
+angles a minimum of 80 photos is
+recommended<00:01:17.100><c> and</c><00:01:17.820><c> I</c><00:01:18.119><c> suggest</c><00:01:18.360><c> even</c><00:01:18.659><c> taking</c>
+
+00:01:19.010 --> 00:01:19.020 align:start position:0%
+recommended and I suggest even taking
+ 
+
+00:01:19.020 --> 00:01:21.350 align:start position:0%
+recommended and I suggest even taking
+some<00:01:19.380><c> close-up</c><00:01:19.860><c> shots</c><00:01:20.159><c> on</c><00:01:20.880><c> the</c><00:01:21.000><c> bottom</c><00:01:21.240><c> left</c>
+
+00:01:21.350 --> 00:01:21.360 align:start position:0%
+some close-up shots on the bottom left
+ 
+
+00:01:21.360 --> 00:01:24.410 align:start position:0%
+some close-up shots on the bottom left
+we<00:01:21.840><c> have</c><00:01:21.960><c> this</c><00:01:22.200><c> icon</c><00:01:22.560><c> that</c><00:01:22.740><c> says</c><00:01:23.100><c> Auto</c><00:01:23.460><c> this</c>
+
+00:01:24.410 --> 00:01:24.420 align:start position:0%
+we have this icon that says Auto this
+ 
+
+00:01:24.420 --> 00:01:26.630 align:start position:0%
+we have this icon that says Auto this
+will<00:01:24.540><c> take</c><00:01:24.780><c> automatically</c><00:01:25.500><c> the</c><00:01:25.799><c> photos</c><00:01:25.979><c> also</c>
+
+00:01:26.630 --> 00:01:26.640 align:start position:0%
+will take automatically the photos also
+ 
+
+00:01:26.640 --> 00:01:28.969 align:start position:0%
+will take automatically the photos also
+press<00:01:26.880><c> the</c><00:01:27.060><c> start</c><00:01:27.299><c> button</c><00:01:27.720><c> I</c><00:01:28.439><c> like</c><00:01:28.619><c> to</c><00:01:28.799><c> have</c>
+
+00:01:28.969 --> 00:01:28.979 align:start position:0%
+press the start button I like to have
+ 
+
+00:01:28.979 --> 00:01:31.429 align:start position:0%
+press the start button I like to have
+control<00:01:29.220><c> of</c><00:01:29.520><c> what</c><00:01:29.759><c> photos</c><00:01:30.000><c> I</c><00:01:30.420><c> want</c><00:01:30.540><c> to</c><00:01:30.720><c> take</c><00:01:30.900><c> so</c>
+
+00:01:31.429 --> 00:01:31.439 align:start position:0%
+control of what photos I want to take so
+ 
+
+00:01:31.439 --> 00:01:33.710 align:start position:0%
+control of what photos I want to take so
+I<00:01:31.619><c> switch</c><00:01:31.799><c> this</c><00:01:32.040><c> to</c><00:01:32.280><c> manual</c><00:01:32.580><c> now</c><00:01:33.240><c> there</c><00:01:33.479><c> are</c><00:01:33.659><c> a</c>
+
+00:01:33.710 --> 00:01:33.720 align:start position:0%
+I switch this to manual now there are a
+ 
+
+00:01:33.720 --> 00:01:35.630 align:start position:0%
+I switch this to manual now there are a
+couple<00:01:33.900><c> of</c><00:01:34.020><c> things</c><00:01:34.259><c> you</c><00:01:34.560><c> might</c><00:01:34.740><c> want</c><00:01:34.920><c> to</c><00:01:35.040><c> do</c><00:01:35.220><c> if</c>
+
+00:01:35.630 --> 00:01:35.640 align:start position:0%
+couple of things you might want to do if
+ 
+
+00:01:35.640 --> 00:01:37.670 align:start position:0%
+couple of things you might want to do if
+you<00:01:35.700><c> want</c><00:01:35.880><c> the</c><00:01:36.119><c> best</c><00:01:36.299><c> 3D</c><00:01:36.780><c> model</c><00:01:37.020><c> out</c><00:01:37.380><c> of</c><00:01:37.560><c> the</c>
+
+00:01:37.670 --> 00:01:37.680 align:start position:0%
+you want the best 3D model out of the
+ 
+
+00:01:37.680 --> 00:01:39.530 align:start position:0%
+you want the best 3D model out of the
+capture<00:01:38.040><c> you</c><00:01:38.220><c> are</c><00:01:38.400><c> going</c><00:01:38.520><c> to</c><00:01:38.640><c> make</c><00:01:38.759><c> you'll</c>
+
+00:01:39.530 --> 00:01:39.540 align:start position:0%
+capture you are going to make you'll
+ 
+
+00:01:39.540 --> 00:01:41.270 align:start position:0%
+capture you are going to make you'll
+have<00:01:39.720><c> to</c><00:01:39.900><c> shoot</c><00:01:40.020><c> around</c><00:01:40.259><c> the</c><00:01:40.560><c> object</c><00:01:40.860><c> so</c>
+
+00:01:41.270 --> 00:01:41.280 align:start position:0%
+have to shoot around the object so
+ 
+
+00:01:41.280 --> 00:01:42.950 align:start position:0%
+have to shoot around the object so
+either<00:01:41.460><c> you</c><00:01:41.700><c> place</c><00:01:41.880><c> your</c><00:01:42.060><c> object</c><00:01:42.360><c> in</c><00:01:42.659><c> a</c><00:01:42.840><c> place</c>
+
+00:01:42.950 --> 00:01:42.960 align:start position:0%
+either you place your object in a place
+ 
+
+00:01:42.960 --> 00:01:46.069 align:start position:0%
+either you place your object in a place
+you<00:01:43.200><c> can</c><00:01:43.320><c> move</c><00:01:43.500><c> around</c><00:01:43.740><c> it</c><00:01:44.040><c> or</c><00:01:44.759><c> in</c><00:01:45.000><c> my</c><00:01:45.180><c> case</c><00:01:45.360><c> I</c>
+
+00:01:46.069 --> 00:01:46.079 align:start position:0%
+you can move around it or in my case I
+ 
+
+00:01:46.079 --> 00:01:47.990 align:start position:0%
+you can move around it or in my case I
+went<00:01:46.259><c> to</c><00:01:46.500><c> Ikea</c><00:01:46.920><c> and</c><00:01:47.159><c> bought</c><00:01:47.400><c> this</c><00:01:47.700><c> round</c>
+
+00:01:47.990 --> 00:01:48.000 align:start position:0%
+went to Ikea and bought this round
+ 
+
+00:01:48.000 --> 00:01:49.969 align:start position:0%
+went to Ikea and bought this round
+kitchen<00:01:48.360><c> wooden</c><00:01:49.020><c> tray</c><00:01:49.259><c> it's</c><00:01:49.740><c> quite</c>
+
+00:01:49.969 --> 00:01:49.979 align:start position:0%
+kitchen wooden tray it's quite
+ 
+
+00:01:49.979 --> 00:01:52.310 align:start position:0%
+kitchen wooden tray it's quite
+affordable<00:01:50.460><c> and</c><00:01:50.939><c> perfect</c><00:01:51.119><c> to</c><00:01:51.420><c> take</c><00:01:51.600><c> photos</c><00:01:51.899><c> of</c>
+
+00:01:52.310 --> 00:01:52.320 align:start position:0%
+affordable and perfect to take photos of
+ 
+
+00:01:52.320 --> 00:01:54.950 align:start position:0%
+affordable and perfect to take photos of
+small<00:01:52.619><c> to</c><00:01:52.860><c> medium</c><00:01:53.159><c> sized</c><00:01:53.579><c> objects</c><00:01:54.420><c> if</c><00:01:54.840><c> you</c>
+
+00:01:54.950 --> 00:01:54.960 align:start position:0%
+small to medium sized objects if you
+ 
+
+00:01:54.960 --> 00:01:57.109 align:start position:0%
+small to medium sized objects if you
+have<00:01:55.140><c> some</c><00:01:55.380><c> light</c><00:01:55.560><c> with</c><00:01:55.920><c> a</c><00:01:56.040><c> soft</c><00:01:56.220><c> box</c><00:01:56.520><c> I</c>
+
+00:01:57.109 --> 00:01:57.119 align:start position:0%
+have some light with a soft box I
+ 
+
+00:01:57.119 --> 00:01:59.389 align:start position:0%
+have some light with a soft box I
+recommend<00:01:57.420><c> using</c><00:01:57.780><c> it</c><00:01:57.960><c> because</c><00:01:58.439><c> this</c><00:01:58.860><c> way</c><00:01:59.040><c> you</c>
+
+00:01:59.389 --> 00:01:59.399 align:start position:0%
+recommend using it because this way you
+ 
+
+00:01:59.399 --> 00:02:01.670 align:start position:0%
+recommend using it because this way you
+will<00:01:59.520><c> not</c><00:01:59.700><c> have</c><00:01:59.939><c> any</c><00:02:00.299><c> harsh</c><00:02:00.780><c> Shadows</c><00:02:01.200><c> baked</c>
+
+00:02:01.670 --> 00:02:01.680 align:start position:0%
+will not have any harsh Shadows baked
+ 
+
+00:02:01.680 --> 00:02:04.069 align:start position:0%
+will not have any harsh Shadows baked
+into<00:02:01.860><c> the</c><00:02:02.100><c> texture</c><00:02:02.460><c> of</c><00:02:02.700><c> your</c><00:02:02.820><c> 3D</c><00:02:03.180><c> object</c><00:02:03.479><c> if</c>
+
+00:02:04.069 --> 00:02:04.079 align:start position:0%
+into the texture of your 3D object if
+ 
+
+00:02:04.079 --> 00:02:05.929 align:start position:0%
+into the texture of your 3D object if
+you don't<00:02:04.380><c> have</c><00:02:04.560><c> any</c><00:02:04.740><c> soft</c><00:02:04.920><c> box</c><00:02:05.219><c> just</c><00:02:05.700><c> shoot</c>
+
+00:02:05.929 --> 00:02:05.939 align:start position:0%
+you don't have any soft box just shoot
+ 
+
+00:02:05.939 --> 00:02:08.270 align:start position:0%
+you don't have any soft box just shoot
+next<00:02:06.240><c> to</c><00:02:06.420><c> a</c><00:02:06.659><c> window</c><00:02:06.780><c> without</c><00:02:07.200><c> direct</c><00:02:07.680><c> sunlight</c>
+
+00:02:08.270 --> 00:02:08.280 align:start position:0%
+next to a window without direct sunlight
+ 
+
+00:02:08.280 --> 00:02:10.790 align:start position:0%
+next to a window without direct sunlight
+that<00:02:08.880><c> works</c><00:02:09.239><c> great</c><00:02:09.479><c> as</c><00:02:09.720><c> well</c><00:02:09.899><c> by</c><00:02:10.380><c> the</c><00:02:10.560><c> way</c><00:02:10.619><c> just</c>
+
+00:02:10.790 --> 00:02:10.800 align:start position:0%
+that works great as well by the way just
+ 
+
+00:02:10.800 --> 00:02:12.830 align:start position:0%
+that works great as well by the way just
+like<00:02:10.979><c> my</c><00:02:11.220><c> Instagram</c><00:02:11.340><c> with</c><00:02:12.000><c> your</c><00:02:12.120><c> best</c><00:02:12.360><c> scanned</c>
+
+00:02:12.830 --> 00:02:12.840 align:start position:0%
+like my Instagram with your best scanned
+ 
+
+00:02:12.840 --> 00:02:14.690 align:start position:0%
+like my Instagram with your best scanned
+3D<00:02:13.140><c> models</c><00:02:13.560><c> if</c><00:02:14.040><c> you</c><00:02:14.099><c> would</c><00:02:14.280><c> like</c><00:02:14.400><c> to</c><00:02:14.580><c> get</c>
+
+00:02:14.690 --> 00:02:14.700 align:start position:0%
+3D models if you would like to get
+ 
+
+00:02:14.700 --> 00:02:17.150 align:start position:0%
+3D models if you would like to get
+featured<00:02:15.180><c> on</c><00:02:15.420><c> my</c><00:02:15.599><c> Instagram</c><00:02:15.720><c> stories</c><00:02:16.379><c> now</c><00:02:16.920><c> I</c>
+
+00:02:17.150 --> 00:02:17.160 align:start position:0%
+featured on my Instagram stories now I
+ 
+
+00:02:17.160 --> 00:02:18.589 align:start position:0%
+featured on my Instagram stories now I
+just<00:02:17.280><c> placed</c><00:02:17.640><c> the</c><00:02:17.760><c> object</c><00:02:18.000><c> in</c><00:02:18.300><c> the</c><00:02:18.420><c> center</c>
+
+00:02:18.589 --> 00:02:18.599 align:start position:0%
+just placed the object in the center
+ 
+
+00:02:18.599 --> 00:02:21.890 align:start position:0%
+just placed the object in the center
+hold<00:02:19.440><c> my</c><00:02:19.680><c> phone</c><00:02:19.920><c> in</c><00:02:20.280><c> the</c><00:02:20.400><c> same</c><00:02:20.580><c> position</c><00:02:20.900><c> and</c>
+
+00:02:21.890 --> 00:02:21.900 align:start position:0%
+hold my phone in the same position and
+ 
+
+00:02:21.900 --> 00:02:23.750 align:start position:0%
+hold my phone in the same position and
+then<00:02:22.020><c> I</c><00:02:22.200><c> just</c><00:02:22.379><c> rotate</c><00:02:22.800><c> the</c><00:02:22.920><c> plate</c><00:02:23.280><c> for</c><00:02:23.580><c> each</c>
+
+00:02:23.750 --> 00:02:23.760 align:start position:0%
+then I just rotate the plate for each
+ 
+
+00:02:23.760 --> 00:02:25.130 align:start position:0%
+then I just rotate the plate for each
+new<00:02:24.000><c> photo</c>
+
+00:02:25.130 --> 00:02:25.140 align:start position:0%
+new photo
+ 
+
+00:02:25.140 --> 00:02:27.050 align:start position:0%
+new photo
+I<00:02:25.739><c> take</c><00:02:25.920><c> several</c><00:02:26.280><c> photos</c><00:02:26.520><c> from</c><00:02:26.879><c> different</c>
+
+00:02:27.050 --> 00:02:27.060 align:start position:0%
+I take several photos from different
+ 
+
+00:02:27.060 --> 00:02:30.170 align:start position:0%
+I take several photos from different
+angles<00:02:27.599><c> so</c><00:02:28.020><c> I</c><00:02:28.200><c> can</c><00:02:28.260><c> capture</c><00:02:28.620><c> all</c><00:02:28.920><c> the</c><00:02:29.040><c> details</c>
+
+00:02:30.170 --> 00:02:30.180 align:start position:0%
+angles so I can capture all the details
+ 
+
+00:02:30.180 --> 00:02:32.570 align:start position:0%
+angles so I can capture all the details
+as<00:02:30.660><c> I</c><00:02:30.780><c> mentioned</c><00:02:31.020><c> before</c><00:02:31.260><c> I</c><00:02:31.920><c> also</c><00:02:32.160><c> take</c><00:02:32.340><c> some</c>
+
+00:02:32.570 --> 00:02:32.580 align:start position:0%
+as I mentioned before I also take some
+ 
+
+00:02:32.580 --> 00:02:34.670 align:start position:0%
+as I mentioned before I also take some
+close-up<00:02:32.940><c> shots</c><00:02:33.300><c> to</c><00:02:33.660><c> get</c><00:02:33.780><c> the</c><00:02:33.959><c> best</c><00:02:34.140><c> details</c>
+
+00:02:34.670 --> 00:02:34.680 align:start position:0%
+close-up shots to get the best details
+ 
+
+00:02:34.680 --> 00:02:36.410 align:start position:0%
+close-up shots to get the best details
+and<00:02:35.280><c> by</c><00:02:35.400><c> the</c><00:02:35.520><c> way</c><00:02:35.580><c> if</c><00:02:35.819><c> you</c><00:02:35.940><c> can't</c><00:02:36.120><c> shoot</c>
+
+00:02:36.410 --> 00:02:36.420 align:start position:0%
+and by the way if you can't shoot
+ 
+
+00:02:36.420 --> 00:02:38.750 align:start position:0%
+and by the way if you can't shoot
+against<00:02:36.780><c> the</c><00:02:37.140><c> white</c><00:02:37.440><c> wall</c><00:02:37.680><c> or</c><00:02:38.280><c> just</c><00:02:38.400><c> put</c><00:02:38.580><c> a</c>
+
+00:02:38.750 --> 00:02:38.760 align:start position:0%
+against the white wall or just put a
+ 
+
+00:02:38.760 --> 00:02:40.970 align:start position:0%
+against the white wall or just put a
+piece<00:02:39.000><c> of</c><00:02:39.060><c> paper</c><00:02:39.239><c> in</c><00:02:39.720><c> front</c><00:02:39.840><c> of</c><00:02:39.959><c> it</c><00:02:40.140><c> so</c><00:02:40.680><c> it</c><00:02:40.860><c> will</c>
+
+00:02:40.970 --> 00:02:40.980 align:start position:0%
+piece of paper in front of it so it will
+ 
+
+00:02:40.980 --> 00:02:42.770 align:start position:0%
+piece of paper in front of it so it will
+be<00:02:41.099><c> easier</c><00:02:41.459><c> for</c><00:02:41.700><c> the</c><00:02:41.879><c> software</c><00:02:42.180><c> to</c><00:02:42.420><c> cut</c><00:02:42.599><c> out</c>
+
+00:02:42.770 --> 00:02:42.780 align:start position:0%
+be easier for the software to cut out
+ 
+
+00:02:42.780 --> 00:02:44.509 align:start position:0%
+be easier for the software to cut out
+your<00:02:42.959><c> object</c><00:02:43.319><c> after</c><00:02:43.739><c> you</c><00:02:43.980><c> take</c><00:02:44.160><c> all</c><00:02:44.340><c> your</c>
+
+00:02:44.509 --> 00:02:44.519 align:start position:0%
+your object after you take all your
+ 
+
+00:02:44.519 --> 00:02:46.430 align:start position:0%
+your object after you take all your
+photos<00:02:44.700><c> you</c><00:02:45.239><c> can</c><00:02:45.360><c> click</c><00:02:45.660><c> here</c><00:02:45.840><c> on</c><00:02:46.140><c> the</c><00:02:46.260><c> images</c>
+
+00:02:46.430 --> 00:02:46.440 align:start position:0%
+photos you can click here on the images
+ 
+
+00:02:46.440 --> 00:02:49.309 align:start position:0%
+photos you can click here on the images
+and<00:02:47.400><c> see</c><00:02:47.519><c> the</c><00:02:47.700><c> photos</c><00:02:47.819><c> you</c><00:02:48.120><c> have</c><00:02:48.300><c> taken</c><00:02:48.599><c> you</c>
+
+00:02:49.309 --> 00:02:49.319 align:start position:0%
+and see the photos you have taken you
+ 
+
+00:02:49.319 --> 00:02:51.470 align:start position:0%
+and see the photos you have taken you
+can<00:02:49.440><c> quickly</c><00:02:49.739><c> swipe</c><00:02:50.160><c> for</c><00:02:50.400><c> them</c><00:02:50.640><c> and</c><00:02:51.180><c> if</c><00:02:51.360><c> you</c>
+
+00:02:51.470 --> 00:02:51.480 align:start position:0%
+can quickly swipe for them and if you
+ 
+
+00:02:51.480 --> 00:02:53.750 align:start position:0%
+can quickly swipe for them and if you
+see<00:02:51.599><c> one</c><00:02:51.840><c> that</c><00:02:52.019><c> is</c><00:02:52.200><c> autofocus</c><00:02:52.860><c> you</c><00:02:53.400><c> can</c><00:02:53.519><c> click</c>
+
+00:02:53.750 --> 00:02:53.760 align:start position:0%
+see one that is autofocus you can click
+ 
+
+00:02:53.760 --> 00:02:56.210 align:start position:0%
+see one that is autofocus you can click
+the<00:02:53.940><c> trash</c><00:02:54.180><c> icon</c><00:02:54.660><c> to</c><00:02:54.840><c> delete</c><00:02:55.019><c> it</c><00:02:55.319><c> here</c><00:02:55.920><c> in</c><00:02:56.099><c> the</c>
+
+00:02:56.210 --> 00:02:56.220 align:start position:0%
+the trash icon to delete it here in the
+ 
+
+00:02:56.220 --> 00:02:58.369 align:start position:0%
+the trash icon to delete it here in the
+detail<00:02:56.519><c> section</c><00:02:56.819><c> you</c><00:02:57.480><c> can</c><00:02:57.540><c> select</c><00:02:57.900><c> which</c><00:02:58.140><c> type</c>
+
+00:02:58.369 --> 00:02:58.379 align:start position:0%
+detail section you can select which type
+ 
+
+00:02:58.379 --> 00:03:00.229 align:start position:0%
+detail section you can select which type
+of<00:02:58.560><c> processing</c><00:02:59.040><c> you</c><00:02:59.220><c> want</c><00:02:59.400><c> if</c><00:02:59.879><c> you're</c><00:03:00.060><c> going</c>
+
+00:03:00.229 --> 00:03:00.239 align:start position:0%
+of processing you want if you're going
+ 
+
+00:03:00.239 --> 00:03:01.970 align:start position:0%
+of processing you want if you're going
+to<00:03:00.300><c> use</c><00:03:00.420><c> this</c><00:03:00.599><c> for</c><00:03:00.780><c> rendering</c><00:03:01.260><c> I</c><00:03:01.680><c> recommend</c>
+
+00:03:01.970 --> 00:03:01.980 align:start position:0%
+to use this for rendering I recommend
+ 
+
+00:03:01.980 --> 00:03:04.369 align:start position:0%
+to use this for rendering I recommend
+using<00:03:02.459><c> the</c><00:03:02.640><c> full</c><00:03:02.879><c> since</c><00:03:03.420><c> it</c><00:03:03.660><c> has</c><00:03:03.840><c> a</c><00:03:04.080><c> higher</c>
+
+00:03:04.369 --> 00:03:04.379 align:start position:0%
+using the full since it has a higher
+ 
+
+00:03:04.379 --> 00:03:06.110 align:start position:0%
+using the full since it has a higher
+poly<00:03:04.680><c> count</c><00:03:04.860><c> and</c><00:03:05.459><c> higher</c><00:03:05.879><c> resolution</c>
+
+00:03:06.110 --> 00:03:06.120 align:start position:0%
+poly count and higher resolution
+ 
+
+00:03:06.120 --> 00:03:08.390 align:start position:0%
+poly count and higher resolution
+textures<00:03:06.720><c> it</c><00:03:07.379><c> also</c><00:03:07.620><c> comes</c><00:03:07.860><c> with</c><00:03:08.040><c> all</c><00:03:08.280><c> the</c>
+
+00:03:08.390 --> 00:03:08.400 align:start position:0%
+textures it also comes with all the
+ 
+
+00:03:08.400 --> 00:03:11.570 align:start position:0%
+textures it also comes with all the
+necessary<00:03:08.760><c> Maps</c><00:03:09.660><c> select</c><00:03:10.440><c> use</c><00:03:10.680><c> object</c><00:03:11.099><c> masking</c>
+
+00:03:11.570 --> 00:03:11.580 align:start position:0%
+necessary Maps select use object masking
+ 
+
+00:03:11.580 --> 00:03:13.550 align:start position:0%
+necessary Maps select use object masking
+if<00:03:12.120><c> you</c><00:03:12.239><c> don't</c><00:03:12.360><c> want</c><00:03:12.599><c> the</c><00:03:12.840><c> background</c><00:03:13.140><c> to</c><00:03:13.440><c> be</c>
+
+00:03:13.550 --> 00:03:13.560 align:start position:0%
+if you don't want the background to be
+ 
+
+00:03:13.560 --> 00:03:16.009 align:start position:0%
+if you don't want the background to be
+processed<00:03:14.099><c> then</c><00:03:14.819><c> just</c><00:03:15.000><c> click</c><00:03:15.360><c> here</c><00:03:15.480><c> upload</c>
+
+00:03:16.009 --> 00:03:16.019 align:start position:0%
+processed then just click here upload
+ 
+
+00:03:16.019 --> 00:03:18.830 align:start position:0%
+processed then just click here upload
+and<00:03:16.200><c> process</c><00:03:16.560><c> to</c><00:03:17.099><c> let</c><00:03:17.280><c> the</c><00:03:17.519><c> magic</c><00:03:17.700><c> begin</c><00:03:18.060><c> after</c>
+
+00:03:18.830 --> 00:03:18.840 align:start position:0%
+and process to let the magic begin after
+ 
+
+00:03:18.840 --> 00:03:20.990 align:start position:0%
+and process to let the magic begin after
+it's<00:03:19.080><c> done</c><00:03:19.379><c> it</c><00:03:19.739><c> will</c><00:03:19.860><c> show</c><00:03:20.099><c> you</c><00:03:20.220><c> the</c><00:03:20.459><c> model</c><00:03:20.640><c> on</c>
+
+00:03:20.990 --> 00:03:21.000 align:start position:0%
+it's done it will show you the model on
+ 
+
+00:03:21.000 --> 00:03:22.729 align:start position:0%
+it's done it will show you the model on
+your<00:03:21.180><c> phone</c><00:03:21.360><c> you</c><00:03:21.840><c> can</c><00:03:21.959><c> see</c><00:03:22.080><c> this</c><00:03:22.319><c> looks</c><00:03:22.560><c> very</c>
+
+00:03:22.729 --> 00:03:22.739 align:start position:0%
+your phone you can see this looks very
+ 
+
+00:03:22.739 --> 00:03:25.190 align:start position:0%
+your phone you can see this looks very
+good<00:03:22.980><c> and</c><00:03:23.220><c> really</c><00:03:23.459><c> detailed</c><00:03:23.940><c> now</c><00:03:24.780><c> on</c><00:03:25.080><c> the</c>
+
+00:03:25.190 --> 00:03:25.200 align:start position:0%
+good and really detailed now on the
+ 
+
+00:03:25.200 --> 00:03:28.490 align:start position:0%
+good and really detailed now on the
+computer<00:03:25.379><c> let's</c><00:03:26.220><c> go</c><00:03:26.400><c> to</c><00:03:26.580><c> polycam.com</c><00:03:27.480><c> and</c><00:03:28.319><c> log</c>
+
+00:03:28.490 --> 00:03:28.500 align:start position:0%
+computer let's go to polycam.com and log
+ 
+
+00:03:28.500 --> 00:03:31.190 align:start position:0%
+computer let's go to polycam.com and log
+into<00:03:28.680><c> our</c><00:03:28.980><c> account</c><00:03:29.280><c> we</c><00:03:30.180><c> can</c><00:03:30.300><c> see</c><00:03:30.480><c> here</c><00:03:30.720><c> all</c><00:03:31.080><c> the</c>
+
+00:03:31.190 --> 00:03:31.200 align:start position:0%
+into our account we can see here all the
+ 
+
+00:03:31.200 --> 00:03:33.530 align:start position:0%
+into our account we can see here all the
+models<00:03:31.560><c> we</c><00:03:31.739><c> created</c><00:03:32.519><c> let's</c><00:03:32.940><c> click</c><00:03:33.300><c> on</c><00:03:33.360><c> this</c>
+
+00:03:33.530 --> 00:03:33.540 align:start position:0%
+models we created let's click on this
+ 
+
+00:03:33.540 --> 00:03:35.570 align:start position:0%
+models we created let's click on this
+one<00:03:33.720><c> we</c><00:03:34.319><c> can</c><00:03:34.440><c> inspect</c><00:03:34.739><c> here</c><00:03:34.920><c> the</c><00:03:35.159><c> model</c><00:03:35.340><c> as</c>
+
+00:03:35.570 --> 00:03:35.580 align:start position:0%
+one we can inspect here the model as
+ 
+
+00:03:35.580 --> 00:03:41.050 align:start position:0%
+one we can inspect here the model as
+well
+
+00:03:41.050 --> 00:03:41.060 align:start position:0%
+ 
+ 
+
+00:03:41.060 --> 00:03:43.970 align:start position:0%
+ 
+and<00:03:42.060><c> now</c><00:03:42.239><c> in</c><00:03:42.360><c> the</c><00:03:42.480><c> top</c><00:03:42.599><c> right</c><00:03:42.780><c> corner</c><00:03:43.200><c> we</c><00:03:43.860><c> have</c>
+
+00:03:43.970 --> 00:03:43.980 align:start position:0%
+and now in the top right corner we have
+ 
+
+00:03:43.980 --> 00:03:45.710 align:start position:0%
+and now in the top right corner we have
+the<00:03:44.220><c> export</c><00:03:44.519><c> button</c>
+
+00:03:45.710 --> 00:03:45.720 align:start position:0%
+the export button
+ 
+
+00:03:45.720 --> 00:03:49.430 align:start position:0%
+the export button
+I<00:03:46.200><c> usually</c><00:03:46.440><c> select</c><00:03:46.860><c> fbx</c><00:03:47.459><c> and</c><00:03:47.640><c> obj</c><00:03:48.180><c> fbx</c><00:03:49.080><c> comes</c>
+
+00:03:49.430 --> 00:03:49.440 align:start position:0%
+I usually select fbx and obj fbx comes
+ 
+
+00:03:49.440 --> 00:03:51.229 align:start position:0%
+I usually select fbx and obj fbx comes
+with<00:03:49.560><c> the</c><00:03:49.739><c> textures</c><00:03:50.159><c> already</c><00:03:50.459><c> applied</c><00:03:50.940><c> to</c><00:03:51.060><c> the</c>
+
+00:03:51.229 --> 00:03:51.239 align:start position:0%
+with the textures already applied to the
+ 
+
+00:03:51.239 --> 00:03:53.030 align:start position:0%
+with the textures already applied to the
+object<00:03:51.480><c> but</c><00:03:52.140><c> I</c><00:03:52.379><c> like</c><00:03:52.500><c> to</c><00:03:52.620><c> have</c><00:03:52.799><c> them</c>
+
+00:03:53.030 --> 00:03:53.040 align:start position:0%
+object but I like to have them
+ 
+
+00:03:53.040 --> 00:03:55.309 align:start position:0%
+object but I like to have them
+separately<00:03:53.519><c> as</c><00:03:53.760><c> well</c><00:03:53.940><c> so</c><00:03:54.239><c> I</c><00:03:54.360><c> download</c><00:03:54.540><c> the</c><00:03:54.840><c> obj</c>
+
+00:03:55.309 --> 00:03:55.319 align:start position:0%
+separately as well so I download the obj
+ 
+
+00:03:55.319 --> 00:03:57.110 align:start position:0%
+separately as well so I download the obj
+which<00:03:55.680><c> comes</c><00:03:55.980><c> with</c><00:03:56.099><c> the</c><00:03:56.280><c> texture</c><00:03:56.640><c> separately</c>
+
+00:03:57.110 --> 00:03:57.120 align:start position:0%
+which comes with the texture separately
+ 
+
+00:03:57.120 --> 00:03:59.690 align:start position:0%
+which comes with the texture separately
+let's<00:03:57.900><c> open</c><00:03:58.200><c> the</c><00:03:58.440><c> model</c><00:03:58.560><c> in</c><00:03:58.980><c> any</c><00:03:59.159><c> 3D</c><00:03:59.519><c> model</c>
+
+00:03:59.690 --> 00:03:59.700 align:start position:0%
+let's open the model in any 3D model
+ 
+
+00:03:59.700 --> 00:04:02.030 align:start position:0%
+let's open the model in any 3D model
+application<00:04:00.239><c> and</c><00:04:00.959><c> delete</c><00:04:01.200><c> the</c><00:04:01.500><c> areas</c><00:04:01.799><c> we</c>
+
+00:04:02.030 --> 00:04:02.040 align:start position:0%
+application and delete the areas we
+ 
+
+00:04:02.040 --> 00:04:03.410 align:start position:0%
+application and delete the areas we
+don't<00:04:02.220><c> need</c>
+
+00:04:03.410 --> 00:04:03.420 align:start position:0%
+don't need
+ 
+
+00:04:03.420 --> 00:04:06.289 align:start position:0%
+don't need
+save<00:04:03.840><c> it</c><00:04:04.140><c> and</c><00:04:04.560><c> let's</c><00:04:04.799><c> import</c><00:04:05.040><c> it</c><00:04:05.340><c> to</c><00:04:05.700><c> any</c><00:04:05.940><c> 3D</c>
+
+00:04:06.289 --> 00:04:06.299 align:start position:0%
+save it and let's import it to any 3D
+ 
+
+00:04:06.299 --> 00:04:08.449 align:start position:0%
+save it and let's import it to any 3D
+renderer<00:04:06.780><c> in</c><00:04:07.260><c> my</c><00:04:07.319><c> case</c><00:04:07.500><c> I'm</c><00:04:07.860><c> going</c><00:04:08.099><c> to</c><00:04:08.220><c> load</c>
+
+00:04:08.449 --> 00:04:08.459 align:start position:0%
+renderer in my case I'm going to load
+ 
+
+00:04:08.459 --> 00:04:10.130 align:start position:0%
+renderer in my case I'm going to load
+the<00:04:08.640><c> Italian</c>
+
+00:04:10.130 --> 00:04:10.140 align:start position:0%
+the Italian
+ 
+
+00:04:10.140 --> 00:04:12.910 align:start position:0%
+the Italian
+I<00:04:10.620><c> just</c><00:04:10.739><c> click</c><00:04:11.099><c> import</c><00:04:11.280><c> and</c><00:04:12.180><c> then</c><00:04:12.360><c> press</c><00:04:12.659><c> OK</c>
+
+00:04:12.910 --> 00:04:12.920 align:start position:0%
+I just click import and then press OK
+ 
+
+00:04:12.920 --> 00:04:15.410 align:start position:0%
+I just click import and then press OK
+and<00:04:13.920><c> as</c><00:04:14.040><c> you</c><00:04:14.159><c> can</c><00:04:14.280><c> see</c><00:04:14.400><c> it</c><00:04:14.700><c> comes</c><00:04:14.939><c> already</c><00:04:15.060><c> with</c>
+
+00:04:15.410 --> 00:04:15.420 align:start position:0%
+and as you can see it comes already with
+ 
+
+00:04:15.420 --> 00:04:17.750 align:start position:0%
+and as you can see it comes already with
+all<00:04:15.780><c> the</c><00:04:15.959><c> textures</c><00:04:16.320><c> applied</c><00:04:16.799><c> I</c><00:04:17.400><c> don't</c><00:04:17.459><c> need</c><00:04:17.639><c> to</c>
+
+00:04:17.750 --> 00:04:17.760 align:start position:0%
+all the textures applied I don't need to
+ 
+
+00:04:17.760 --> 00:04:19.969 align:start position:0%
+all the textures applied I don't need to
+do<00:04:17.880><c> anything</c><00:04:18.180><c> else</c><00:04:18.540><c> let's</c><00:04:19.320><c> just</c><00:04:19.560><c> take</c><00:04:19.680><c> a</c><00:04:19.859><c> quick</c>
+
+00:04:19.969 --> 00:04:19.979 align:start position:0%
+do anything else let's just take a quick
+ 
+
+00:04:19.979 --> 00:04:20.930 align:start position:0%
+do anything else let's just take a quick
+render
+
+00:04:20.930 --> 00:04:20.940 align:start position:0%
+render
+ 
+
+00:04:20.940 --> 00:04:24.050 align:start position:0%
+render
+it<00:04:21.720><c> looks</c><00:04:22.139><c> pretty</c><00:04:22.320><c> good</c><00:04:22.560><c> especially</c><00:04:23.340><c> for</c><00:04:23.639><c> a</c><00:04:23.820><c> 3D</c>
+
+00:04:24.050 --> 00:04:24.060 align:start position:0%
+it looks pretty good especially for a 3D
+ 
+
+00:04:24.060 --> 00:04:26.150 align:start position:0%
+it looks pretty good especially for a 3D
+model<00:04:24.240><c> that</c><00:04:24.600><c> took</c><00:04:24.840><c> less</c><00:04:25.080><c> than</c><00:04:25.259><c> 5</c><00:04:25.560><c> minutes</c><00:04:25.860><c> to</c>
+
+00:04:26.150 --> 00:04:26.160 align:start position:0%
+model that took less than 5 minutes to
+ 
+
+00:04:26.160 --> 00:04:28.670 align:start position:0%
+model that took less than 5 minutes to
+make<00:04:26.340><c> now</c><00:04:27.000><c> let's</c><00:04:27.120><c> load</c><00:04:27.479><c> the</c><00:04:27.600><c> same</c><00:04:27.780><c> model</c><00:04:27.960><c> in</c><00:04:28.320><c> D5</c>
+
+00:04:28.670 --> 00:04:28.680 align:start position:0%
+make now let's load the same model in D5
+ 
+
+00:04:28.680 --> 00:04:30.950 align:start position:0%
+make now let's load the same model in D5
+render<00:04:29.040><c> we</c><00:04:29.580><c> will</c><00:04:29.759><c> click</c><00:04:30.060><c> this</c><00:04:30.240><c> icon</c><00:04:30.600><c> to</c><00:04:30.780><c> import</c>
+
+00:04:30.950 --> 00:04:30.960 align:start position:0%
+render we will click this icon to import
+ 
+
+00:04:30.960 --> 00:04:33.170 align:start position:0%
+render we will click this icon to import
+and<00:04:31.680><c> as</c><00:04:31.919><c> you</c><00:04:32.040><c> can</c><00:04:32.100><c> see</c><00:04:32.220><c> here</c><00:04:32.460><c> we</c><00:04:32.699><c> need</c><00:04:32.820><c> to</c><00:04:32.940><c> load</c>
+
+00:04:33.170 --> 00:04:33.180 align:start position:0%
+and as you can see here we need to load
+ 
+
+00:04:33.180 --> 00:04:34.969 align:start position:0%
+and as you can see here we need to load
+the<00:04:33.300><c> textures</c><00:04:33.720><c> so</c><00:04:34.259><c> I'll</c><00:04:34.380><c> go</c><00:04:34.620><c> to</c><00:04:34.740><c> the</c><00:04:34.860><c> model</c>
+
+00:04:34.969 --> 00:04:34.979 align:start position:0%
+the textures so I'll go to the model
+ 
+
+00:04:34.979 --> 00:04:38.870 align:start position:0%
+the textures so I'll go to the model
+folder<00:04:35.580><c> and</c><00:04:36.000><c> load</c><00:04:36.360><c> the</c><00:04:36.419><c> textures</c>
+
+00:04:38.870 --> 00:04:38.880 align:start position:0%
+ 
+ 
+
+00:04:38.880 --> 00:04:42.170 align:start position:0%
+ 
+I'll<00:04:39.240><c> adjust</c><00:04:39.479><c> some</c><00:04:39.780><c> values</c>
+
+00:04:42.170 --> 00:04:42.180 align:start position:0%
+I'll adjust some values
+ 
+
+00:04:42.180 --> 00:04:44.330 align:start position:0%
+I'll adjust some values
+and<00:04:42.600><c> this</c><00:04:42.780><c> is</c><00:04:42.900><c> the</c><00:04:43.080><c> final</c><00:04:43.259><c> result</c>
+
+00:04:44.330 --> 00:04:44.340 align:start position:0%
+and this is the final result
+ 
+
+00:04:44.340 --> 00:04:46.610 align:start position:0%
+and this is the final result
+and<00:04:44.759><c> again</c><00:04:44.880><c> it's</c><00:04:45.240><c> basically</c><00:04:45.660><c> the</c><00:04:45.960><c> same</c><00:04:46.139><c> as</c><00:04:46.380><c> the</c>
+
+00:04:46.610 --> 00:04:46.620 align:start position:0%
+and again it's basically the same as the
+ 
+
+00:04:46.620 --> 00:04:48.590 align:start position:0%
+and again it's basically the same as the
+real<00:04:46.740><c> world</c><00:04:46.919><c> object</c><00:04:47.400><c> he</c><00:04:47.820><c> looks</c><00:04:48.180><c> really</c><00:04:48.360><c> good</c>
+
+00:04:48.590 --> 00:04:48.600 align:start position:0%
+real world object he looks really good
+ 
+
+00:04:48.600 --> 00:04:50.930 align:start position:0%
+real world object he looks really good
+by<00:04:49.199><c> the</c><00:04:49.320><c> way</c><00:04:49.380><c> you</c><00:04:49.620><c> can</c><00:04:49.680><c> use</c><00:04:49.860><c> this</c><00:04:50.040><c> polycam</c><00:04:50.699><c> app</c>
+
+00:04:50.930 --> 00:04:50.940 align:start position:0%
+by the way you can use this polycam app
+ 
+
+00:04:50.940 --> 00:04:53.990 align:start position:0%
+by the way you can use this polycam app
+for<00:04:51.240><c> free</c><00:04:51.360><c> and</c><00:04:51.900><c> get</c><00:04:52.080><c> 100</c><00:04:52.320><c> captures</c><00:04:52.979><c> or</c><00:04:53.639><c> you</c><00:04:53.880><c> can</c>
+
+00:04:53.990 --> 00:04:54.000 align:start position:0%
+for free and get 100 captures or you can
+ 
+
+00:04:54.000 --> 00:04:56.810 align:start position:0%
+for free and get 100 captures or you can
+subscribe<00:04:54.419><c> for</c><00:04:54.660><c> a</c><00:04:54.840><c> monthly</c><00:04:55.080><c> fee</c><00:04:55.380><c> and</c><00:04:55.560><c> get</c><00:04:55.820><c> 154</c>
+
+00:04:56.810 --> 00:04:56.820 align:start position:0%
+subscribe for a monthly fee and get 154
+ 
+
+00:04:56.820 --> 00:04:59.450 align:start position:0%
+subscribe for a monthly fee and get 154
+captures<00:04:57.360><c> per</c><00:04:57.600><c> month</c><00:04:57.780><c> and</c><00:04:58.620><c> access</c><00:04:58.860><c> all</c><00:04:59.280><c> your</c>
+
+00:04:59.450 --> 00:04:59.460 align:start position:0%
+captures per month and access all your
+ 
+
+00:04:59.460 --> 00:05:01.730 align:start position:0%
+captures per month and access all your
+model<00:04:59.639><c> captures</c><00:05:00.180><c> on</c><00:05:00.540><c> the</c><00:05:00.660><c> web</c><00:05:00.840><c> and</c><00:05:01.259><c> Export</c><00:05:01.500><c> to</c>
+
+00:05:01.730 --> 00:05:01.740 align:start position:0%
+model captures on the web and Export to
+ 
+
+00:05:01.740 --> 00:05:03.650 align:start position:0%
+model captures on the web and Export to
+all<00:05:02.040><c> formats</c><00:05:02.580><c> I</c><00:05:03.060><c> hope</c><00:05:03.180><c> you</c><00:05:03.300><c> enjoyed</c><00:05:03.540><c> this</c>
+
+00:05:03.650 --> 00:05:03.660 align:start position:0%
+all formats I hope you enjoyed this
+ 
+
+00:05:03.660 --> 00:05:05.689 align:start position:0%
+all formats I hope you enjoyed this
+tutorial<00:05:04.080><c> and</c><00:05:04.440><c> let</c><00:05:04.620><c> me</c><00:05:04.800><c> know</c><00:05:04.919><c> in</c><00:05:05.160><c> the</c><00:05:05.340><c> comments</c>
+
+00:05:05.689 --> 00:05:05.699 align:start position:0%
+tutorial and let me know in the comments
+ 
+
+00:05:05.699 --> 00:05:08.090 align:start position:0%
+tutorial and let me know in the comments
+below<00:05:06.060><c> what</c><00:05:06.540><c> you</c><00:05:06.660><c> think</c><00:05:06.840><c> of</c><00:05:07.080><c> this</c><00:05:07.320><c> app</c><00:05:07.500><c> for</c><00:05:07.740><c> 3D</c>
+
+00:05:08.090 --> 00:05:08.100 align:start position:0%
+below what you think of this app for 3D
+ 
+
+00:05:08.100 --> 00:05:10.370 align:start position:0%
+below what you think of this app for 3D
+model<00:05:08.220><c> scans</c><00:05:08.699><c> don't</c><00:05:09.360><c> forget</c><00:05:09.540><c> to</c><00:05:09.840><c> give</c><00:05:10.139><c> it</c><00:05:10.259><c> a</c>
+
+00:05:10.370 --> 00:05:10.380 align:start position:0%
+model scans don't forget to give it a
+ 
+
+00:05:10.380 --> 00:05:11.990 align:start position:0%
+model scans don't forget to give it a
+like<00:05:10.560><c> and</c><00:05:10.860><c> tag</c><00:05:11.040><c> me</c><00:05:11.160><c> on</c><00:05:11.340><c> Instagram</c><00:05:11.460><c> with</c><00:05:11.820><c> your</c>
+
+00:05:11.990 --> 00:05:12.000 align:start position:0%
+like and tag me on Instagram with your
+ 
+
+00:05:12.000 --> 00:05:14.150 align:start position:0%
+like and tag me on Instagram with your
+3D<00:05:12.360><c> scans</c><00:05:12.660><c> to</c><00:05:12.900><c> get</c><00:05:13.020><c> features</c><00:05:13.440><c> on</c><00:05:13.680><c> my</c><00:05:13.800><c> stories</c>
+
+00:05:14.150 --> 00:05:14.160 align:start position:0%
+3D scans to get features on my stories
+ 
+
+00:05:14.160 --> 00:05:17.660 align:start position:0%
+3D scans to get features on my stories
+and<00:05:14.520><c> I'll</c><00:05:14.639><c> see</c><00:05:14.820><c> you</c><00:05:14.940><c> in</c><00:05:15.120><c> the</c><00:05:15.240><c> next</c><00:05:15.360><c> video</c>
+

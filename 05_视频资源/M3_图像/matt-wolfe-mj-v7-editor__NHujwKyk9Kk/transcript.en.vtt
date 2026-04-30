@@ -1,0 +1,3192 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.199 --> 00:00:05.150 align:start position:0%
+ 
+I've<00:00:01.600><c> created</c><00:00:02.399><c> almost</c><00:00:03.080><c> 25,000</c><00:00:04.080><c> images</c><00:00:04.560><c> with</c>
+
+00:00:05.150 --> 00:00:05.160 align:start position:0%
+I've created almost 25,000 images with
+ 
+
+00:00:05.160 --> 00:00:07.950 align:start position:0%
+I've created almost 25,000 images with
+Midshine,<00:00:06.160><c> so</c><00:00:06.400><c> I</c><00:00:06.640><c> know</c><00:00:06.799><c> the</c><00:00:07.040><c> tool</c><00:00:07.359><c> pretty</c>
+
+00:00:07.950 --> 00:00:07.960 align:start position:0%
+Midshine, so I know the tool pretty
+ 
+
+00:00:07.960 --> 00:00:10.549 align:start position:0%
+Midshine, so I know the tool pretty
+well.<00:00:08.960><c> Today,</c><00:00:09.440><c> I</c><00:00:09.679><c> want</c><00:00:09.840><c> to</c><00:00:10.000><c> talk</c><00:00:10.160><c> about</c><00:00:10.400><c> the</c>
+
+00:00:10.549 --> 00:00:10.559 align:start position:0%
+well. Today, I want to talk about the
+ 
+
+00:00:10.559 --> 00:00:13.669 align:start position:0%
+well. Today, I want to talk about the
+Mid<00:00:10.880><c> Churnney</c><00:00:11.559><c> editor.</c><00:00:12.559><c> It</c><00:00:12.800><c> has</c><00:00:12.960><c> been</c><00:00:13.280><c> around</c>
+
+00:00:13.669 --> 00:00:13.679 align:start position:0%
+Mid Churnney editor. It has been around
+ 
+
+00:00:13.679 --> 00:00:16.790 align:start position:0%
+Mid Churnney editor. It has been around
+for<00:00:13.920><c> a</c><00:00:14.160><c> while,</c><00:00:15.040><c> but</c><00:00:15.360><c> now</c><00:00:15.839><c> you</c><00:00:16.080><c> can</c><00:00:16.240><c> also</c><00:00:16.560><c> work</c>
+
+00:00:16.790 --> 00:00:16.800 align:start position:0%
+for a while, but now you can also work
+ 
+
+00:00:16.800 --> 00:00:19.790 align:start position:0%
+for a while, but now you can also work
+with<00:00:17.480><c> layers.</c><00:00:18.480><c> That's</c><00:00:18.800><c> very</c>
+
+00:00:19.790 --> 00:00:19.800 align:start position:0%
+with layers. That's very
+ 
+
+00:00:19.800 --> 00:00:23.029 align:start position:0%
+with layers. That's very
+useful.<00:00:20.800><c> I</c><00:00:21.039><c> tested</c><00:00:21.680><c> the</c><00:00:22.080><c> editor</c><00:00:22.560><c> from</c><00:00:22.800><c> a</c>
+
+00:00:23.029 --> 00:00:23.039 align:start position:0%
+useful. I tested the editor from a
+ 
+
+00:00:23.039 --> 00:00:26.230 align:start position:0%
+useful. I tested the editor from a
+beginner's<00:00:23.600><c> view</c><00:00:24.400><c> and</c><00:00:24.800><c> tried</c><00:00:25.439><c> many</c><00:00:25.840><c> different</c>
+
+00:00:26.230 --> 00:00:26.240 align:start position:0%
+beginner's view and tried many different
+ 
+
+00:00:26.240 --> 00:00:27.990 align:start position:0%
+beginner's view and tried many different
+things.
+
+00:00:27.990 --> 00:00:28.000 align:start position:0%
+things.
+ 
+
+00:00:28.000 --> 00:00:32.069 align:start position:0%
+things.
+I'll<00:00:28.400><c> show</c><00:00:28.560><c> you</c><00:00:29.439><c> step</c><00:00:29.760><c> by</c><00:00:30.000><c> step</c><00:00:30.560><c> how</c><00:00:30.880><c> it</c><00:00:31.119><c> works.</c>
+
+00:00:32.069 --> 00:00:32.079 align:start position:0%
+I'll show you step by step how it works.
+ 
+
+00:00:32.079 --> 00:00:33.990 align:start position:0%
+I'll show you step by step how it works.
+If<00:00:32.239><c> you</c><00:00:32.399><c> want</c><00:00:32.559><c> to</c><00:00:32.719><c> further</c><00:00:33.120><c> customize</c><00:00:33.600><c> images</c>
+
+00:00:33.990 --> 00:00:34.000 align:start position:0%
+If you want to further customize images
+ 
+
+00:00:34.000 --> 00:00:35.990 align:start position:0%
+If you want to further customize images
+in<00:00:34.160><c> MidJourney,</c><00:00:35.040><c> then</c><00:00:35.280><c> you've</c><00:00:35.520><c> come</c><00:00:35.680><c> to</c><00:00:35.840><c> the</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+in MidJourney, then you've come to the
+ 
+
+00:00:36.000 --> 00:00:37.990 align:start position:0%
+in MidJourney, then you've come to the
+right<00:00:36.160><c> place</c><00:00:36.960><c> because</c><00:00:37.200><c> the</c><00:00:37.440><c> editor</c><00:00:37.840><c> in</c>
+
+00:00:37.990 --> 00:00:38.000 align:start position:0%
+right place because the editor in
+ 
+
+00:00:38.000 --> 00:00:40.389 align:start position:0%
+right place because the editor in
+Midjourney<00:00:38.879><c> is</c><00:00:39.200><c> exactly</c><00:00:39.600><c> the</c><00:00:39.840><c> right</c><00:00:40.079><c> solution</c>
+
+00:00:40.389 --> 00:00:40.399 align:start position:0%
+Midjourney is exactly the right solution
+ 
+
+00:00:40.399 --> 00:00:42.630 align:start position:0%
+Midjourney is exactly the right solution
+for<00:00:40.640><c> this.</c><00:00:41.520><c> There</c><00:00:41.760><c> are</c><00:00:41.920><c> actually</c><00:00:42.239><c> two</c><00:00:42.480><c> of</c>
+
+00:00:42.630 --> 00:00:42.640 align:start position:0%
+for this. There are actually two of
+ 
+
+00:00:42.640 --> 00:00:44.869 align:start position:0%
+for this. There are actually two of
+them.<00:00:43.360><c> One</c><00:00:43.680><c> can</c><00:00:43.840><c> be</c><00:00:44.000><c> found</c><00:00:44.160><c> on</c><00:00:44.399><c> the</c><00:00:44.480><c> left</c><00:00:44.719><c> in</c>
+
+00:00:44.869 --> 00:00:44.879 align:start position:0%
+them. One can be found on the left in
+ 
+
+00:00:44.879 --> 00:00:47.270 align:start position:0%
+them. One can be found on the left in
+the<00:00:45.239><c> navigation.</c><00:00:46.239><c> This</c><00:00:46.399><c> is</c><00:00:46.559><c> the</c><00:00:46.719><c> so-called</c>
+
+00:00:47.270 --> 00:00:47.280 align:start position:0%
+the navigation. This is the so-called
+ 
+
+00:00:47.280 --> 00:00:49.590 align:start position:0%
+the navigation. This is the so-called
+external<00:00:47.760><c> image</c><00:00:48.000><c> editor.</c><00:00:48.559><c> If</c><00:00:48.800><c> I</c><00:00:48.960><c> click</c><00:00:49.120><c> on</c><00:00:49.280><c> it,</c>
+
+00:00:49.590 --> 00:00:49.600 align:start position:0%
+external image editor. If I click on it,
+ 
+
+00:00:49.600 --> 00:00:51.670 align:start position:0%
+external image editor. If I click on it,
+I<00:00:49.760><c> am</c><00:00:49.920><c> redirected</c><00:00:50.480><c> to</c><00:00:50.559><c> the</c><00:00:50.719><c> edit</c><00:00:51.039><c> your</c><00:00:51.200><c> images</c>
+
+00:00:51.670 --> 00:00:51.680 align:start position:0%
+I am redirected to the edit your images
+ 
+
+00:00:51.680 --> 00:00:53.510 align:start position:0%
+I am redirected to the edit your images
+page.<00:00:52.320><c> Assuming</c><00:00:52.719><c> you</c><00:00:52.960><c> haven't</c><00:00:53.199><c> worked</c><00:00:53.360><c> with</c>
+
+00:00:53.510 --> 00:00:53.520 align:start position:0%
+page. Assuming you haven't worked with
+ 
+
+00:00:53.520 --> 00:00:55.990 align:start position:0%
+page. Assuming you haven't worked with
+it<00:00:53.760><c> yet,</c><00:00:54.239><c> you</c><00:00:54.480><c> will</c><00:00:54.559><c> initially</c><00:00:55.039><c> only</c><00:00:55.360><c> see</c><00:00:55.520><c> this</c>
+
+00:00:55.990 --> 00:00:56.000 align:start position:0%
+it yet, you will initially only see this
+ 
+
+00:00:56.000 --> 00:00:59.590 align:start position:0%
+it yet, you will initially only see this
+edit<00:00:56.559><c> new</c><00:00:56.879><c> image</c><00:00:57.879><c> section.</c><00:00:58.879><c> If</c><00:00:59.120><c> you</c><00:00:59.280><c> click</c><00:00:59.440><c> on</c>
+
+00:00:59.590 --> 00:00:59.600 align:start position:0%
+edit new image section. If you click on
+ 
+
+00:00:59.600 --> 00:01:01.430 align:start position:0%
+edit new image section. If you click on
+it,<00:01:00.000><c> you</c><00:01:00.160><c> now</c><00:01:00.399><c> have</c><00:01:00.480><c> the</c><00:01:00.719><c> option</c><00:01:00.879><c> of</c><00:01:01.120><c> either</c>
+
+00:01:01.430 --> 00:01:01.440 align:start position:0%
+it, you now have the option of either
+ 
+
+00:01:01.440 --> 00:01:03.910 align:start position:0%
+it, you now have the option of either
+using<00:01:01.760><c> images</c><00:01:02.160><c> from</c><00:01:02.399><c> a</c><00:01:02.559><c> URL</c><00:01:03.039><c> or</c><00:01:03.359><c> uploading</c>
+
+00:01:03.910 --> 00:01:03.920 align:start position:0%
+using images from a URL or uploading
+ 
+
+00:01:03.920 --> 00:01:06.390 align:start position:0%
+using images from a URL or uploading
+images<00:01:04.400><c> from</c><00:01:04.640><c> an</c><00:01:04.879><c> external</c><00:01:05.360><c> source.</c><00:01:06.000><c> If</c><00:01:06.159><c> we</c>
+
+00:01:06.390 --> 00:01:06.400 align:start position:0%
+images from an external source. If we
+ 
+
+00:01:06.400 --> 00:01:08.789 align:start position:0%
+images from an external source. If we
+want<00:01:06.479><c> to</c><00:01:06.640><c> use</c><00:01:06.799><c> the</c><00:01:07.040><c> URL,</c><00:01:07.920><c> simply</c><00:01:08.320><c> rightclick</c>
+
+00:01:08.789 --> 00:01:08.799 align:start position:0%
+want to use the URL, simply rightclick
+ 
+
+00:01:08.799 --> 00:01:10.789 align:start position:0%
+want to use the URL, simply rightclick
+on<00:01:08.960><c> an</c><00:01:09.119><c> image</c><00:01:09.360><c> of</c><00:01:09.520><c> your</c><00:01:09.680><c> choice</c><00:01:10.400><c> and</c><00:01:10.640><c> then</c>
+
+00:01:10.789 --> 00:01:10.799 align:start position:0%
+on an image of your choice and then
+ 
+
+00:01:10.799 --> 00:01:14.030 align:start position:0%
+on an image of your choice and then
+click<00:01:11.040><c> on</c><00:01:11.280><c> copy</c><00:01:11.680><c> image</c><00:01:12.080><c> URL</c><00:01:12.960><c> under</c><00:01:13.360><c> share</c><00:01:13.600><c> and</c>
+
+00:01:14.030 --> 00:01:14.040 align:start position:0%
+click on copy image URL under share and
+ 
+
+00:01:14.040 --> 00:01:16.789 align:start position:0%
+click on copy image URL under share and
+save.<00:01:15.040><c> Then</c><00:01:15.280><c> simply</c><00:01:15.680><c> return</c><00:01:16.080><c> to</c><00:01:16.240><c> the</c><00:01:16.400><c> edit</c>
+
+00:01:16.789 --> 00:01:16.799 align:start position:0%
+save. Then simply return to the edit
+ 
+
+00:01:16.799 --> 00:01:19.990 align:start position:0%
+save. Then simply return to the edit
+from<00:01:17.040><c> URL</c><00:01:17.920><c> input</c><00:01:18.400><c> mask</c><00:01:19.119><c> and</c><00:01:19.280><c> then</c><00:01:19.520><c> paste</c><00:01:19.840><c> the</c>
+
+00:01:19.990 --> 00:01:20.000 align:start position:0%
+from URL input mask and then paste the
+ 
+
+00:01:20.000 --> 00:01:22.550 align:start position:0%
+from URL input mask and then paste the
+link<00:01:20.240><c> you</c><00:01:20.479><c> just</c><00:01:20.640><c> copied</c><00:01:21.040><c> there.</c><00:01:21.920><c> Midjourney</c>
+
+00:01:22.550 --> 00:01:22.560 align:start position:0%
+link you just copied there. Midjourney
+ 
+
+00:01:22.560 --> 00:01:25.350 align:start position:0%
+link you just copied there. Midjourney
+will<00:01:22.799><c> then</c><00:01:22.960><c> use</c><00:01:23.200><c> exactly</c><00:01:23.600><c> this</c><00:01:23.840><c> image</c><00:01:24.360><c> here.</c>
+
+00:01:25.350 --> 00:01:25.360 align:start position:0%
+will then use exactly this image here.
+ 
+
+00:01:25.360 --> 00:01:27.270 align:start position:0%
+will then use exactly this image here.
+The<00:01:25.600><c> second</c><00:01:25.840><c> way</c><00:01:26.080><c> to</c><00:01:26.240><c> activate</c><00:01:26.640><c> the</c><00:01:26.880><c> external</c>
+
+00:01:27.270 --> 00:01:27.280 align:start position:0%
+The second way to activate the external
+ 
+
+00:01:27.280 --> 00:01:30.310 align:start position:0%
+The second way to activate the external
+image<00:01:27.600><c> editor</c><00:01:28.000><c> is</c><00:01:28.640><c> as</c><00:01:28.960><c> already</c><00:01:29.360><c> mentioned</c>
+
+00:01:30.310 --> 00:01:30.320 align:start position:0%
+image editor is as already mentioned
+ 
+
+00:01:30.320 --> 00:01:32.950 align:start position:0%
+image editor is as already mentioned
+this<00:01:30.640><c> brown</c><00:01:31.079><c> button.</c><00:01:32.079><c> This</c><00:01:32.320><c> allows</c><00:01:32.640><c> you</c><00:01:32.799><c> to</c>
+
+00:01:32.950 --> 00:01:32.960 align:start position:0%
+this brown button. This allows you to
+ 
+
+00:01:32.960 --> 00:01:35.590 align:start position:0%
+this brown button. This allows you to
+select<00:01:33.200><c> an</c><00:01:33.520><c> image</c><00:01:33.840><c> from</c><00:01:34.079><c> your</c><00:01:34.320><c> hard</c><00:01:34.560><c> disk.</c><00:01:35.439><c> But</c>
+
+00:01:35.590 --> 00:01:35.600 align:start position:0%
+select an image from your hard disk. But
+ 
+
+00:01:35.600 --> 00:01:37.710 align:start position:0%
+select an image from your hard disk. But
+there<00:01:35.840><c> is</c><00:01:36.000><c> actually</c><00:01:36.240><c> a</c><00:01:36.560><c> third</c><00:01:36.799><c> way</c><00:01:36.960><c> to</c><00:01:37.200><c> edit</c>
+
+00:01:37.710 --> 00:01:37.720 align:start position:0%
+there is actually a third way to edit
+ 
+
+00:01:37.720 --> 00:01:40.230 align:start position:0%
+there is actually a third way to edit
+images.<00:01:38.720><c> Simply</c><00:01:39.119><c> click</c><00:01:39.360><c> on</c><00:01:39.520><c> an</c><00:01:39.680><c> image</c><00:01:39.920><c> of</c><00:01:40.079><c> your</c>
+
+00:01:40.230 --> 00:01:40.240 align:start position:0%
+images. Simply click on an image of your
+ 
+
+00:01:40.240 --> 00:01:42.270 align:start position:0%
+images. Simply click on an image of your
+choice<00:01:40.960><c> and</c><00:01:41.200><c> you</c><00:01:41.360><c> will</c><00:01:41.520><c> see</c><00:01:41.680><c> the</c>
+
+00:01:42.270 --> 00:01:42.280 align:start position:0%
+choice and you will see the
+ 
+
+00:01:42.280 --> 00:01:44.950 align:start position:0%
+choice and you will see the
+inconspicuous<00:01:43.280><c> edit</c><00:01:43.680><c> button</c><00:01:44.240><c> at</c><00:01:44.479><c> the</c><00:01:44.640><c> bottom</c>
+
+00:01:44.950 --> 00:01:44.960 align:start position:0%
+inconspicuous edit button at the bottom
+ 
+
+00:01:44.960 --> 00:01:47.030 align:start position:0%
+inconspicuous edit button at the bottom
+right.<00:01:45.680><c> Now</c><00:01:45.920><c> it</c><00:01:46.079><c> may</c><00:01:46.240><c> be</c><00:01:46.320><c> that</c><00:01:46.479><c> this</c><00:01:46.640><c> is</c><00:01:46.799><c> not</c>
+
+00:01:47.030 --> 00:01:47.040 align:start position:0%
+right. Now it may be that this is not
+ 
+
+00:01:47.040 --> 00:01:49.030 align:start position:0%
+right. Now it may be that this is not
+visible<00:01:47.360><c> for</c><00:01:47.600><c> you.</c><00:01:48.240><c> This</c><00:01:48.479><c> is</c><00:01:48.640><c> probably</c>
+
+00:01:49.030 --> 00:01:49.040 align:start position:0%
+visible for you. This is probably
+ 
+
+00:01:49.040 --> 00:01:51.030 align:start position:0%
+visible for you. This is probably
+because<00:01:49.280><c> you</c><00:01:49.520><c> have</c><00:01:49.680><c> not</c><00:01:49.840><c> yet</c><00:01:50.079><c> activated</c><00:01:50.720><c> its</c>
+
+00:01:51.030 --> 00:01:51.040 align:start position:0%
+because you have not yet activated its
+ 
+
+00:01:51.040 --> 00:01:54.270 align:start position:0%
+because you have not yet activated its
+visibility<00:01:52.000><c> via</c><00:01:52.399><c> more</c><00:01:52.720><c> options</c><00:01:53.520><c> and</c><00:01:53.840><c> more</c>
+
+00:01:54.270 --> 00:01:54.280 align:start position:0%
+visibility via more options and more
+ 
+
+00:01:54.280 --> 00:01:56.789 align:start position:0%
+visibility via more options and more
+actions.<00:01:55.280><c> If</c><00:01:55.439><c> I</c><00:01:55.600><c> uncheck</c><00:01:56.000><c> the</c><00:01:56.159><c> box,</c><00:01:56.479><c> you</c><00:01:56.640><c> can</c>
+
+00:01:56.789 --> 00:01:56.799 align:start position:0%
+actions. If I uncheck the box, you can
+ 
+
+00:01:56.799 --> 00:01:59.350 align:start position:0%
+actions. If I uncheck the box, you can
+see<00:01:56.880><c> what</c><00:01:57.240><c> happens.</c><00:01:58.240><c> This</c><00:01:58.479><c> means</c><00:01:58.960><c> simply</c>
+
+00:01:59.350 --> 00:01:59.360 align:start position:0%
+see what happens. This means simply
+ 
+
+00:01:59.360 --> 00:02:02.230 align:start position:0%
+see what happens. This means simply
+click<00:01:59.600><c> on</c><00:02:00.240><c> more</c><00:02:00.560><c> options</c><00:02:01.280><c> and</c><00:02:01.600><c> place</c><00:02:01.759><c> a</c><00:02:02.000><c> red</c>
+
+00:02:02.230 --> 00:02:02.240 align:start position:0%
+click on more options and place a red
+ 
+
+00:02:02.240 --> 00:02:04.870 align:start position:0%
+click on more options and place a red
+check<00:02:02.399><c> mark</c><00:02:02.719><c> next</c><00:02:02.960><c> to</c><00:02:03.119><c> more</c><00:02:03.560><c> actions.</c><00:02:04.560><c> Then</c>
+
+00:02:04.870 --> 00:02:04.880 align:start position:0%
+check mark next to more actions. Then
+ 
+
+00:02:04.880 --> 00:02:07.670 align:start position:0%
+check mark next to more actions. Then
+simply<00:02:05.200><c> click</c><00:02:05.439><c> on</c><00:02:06.159><c> edit.</c><00:02:06.880><c> Now</c><00:02:07.119><c> we</c><00:02:07.280><c> are</c><00:02:07.360><c> in</c><00:02:07.520><c> the</c>
+
+00:02:07.670 --> 00:02:07.680 align:start position:0%
+simply click on edit. Now we are in the
+ 
+
+00:02:07.680 --> 00:02:10.869 align:start position:0%
+simply click on edit. Now we are in the
+internal<00:02:08.160><c> image</c><00:02:08.679><c> editor.</c><00:02:09.679><c> Confusing</c><00:02:10.560><c> a</c>
+
+00:02:10.869 --> 00:02:10.879 align:start position:0%
+internal image editor. Confusing a
+ 
+
+00:02:10.879 --> 00:02:13.589 align:start position:0%
+internal image editor. Confusing a
+little.<00:02:11.440><c> This</c><00:02:11.760><c> internal</c><00:02:12.239><c> editor</c><00:02:12.640><c> is</c><00:02:12.879><c> used</c><00:02:13.360><c> as</c>
+
+00:02:13.589 --> 00:02:13.599 align:start position:0%
+little. This internal editor is used as
+ 
+
+00:02:13.599 --> 00:02:16.229 align:start position:0%
+little. This internal editor is used as
+the<00:02:13.840><c> name</c><00:02:14.080><c> suggests</c><00:02:15.040><c> to</c><00:02:15.280><c> modify</c><00:02:15.760><c> images</c>
+
+00:02:16.229 --> 00:02:16.239 align:start position:0%
+the name suggests to modify images
+ 
+
+00:02:16.239 --> 00:02:18.790 align:start position:0%
+the name suggests to modify images
+created<00:02:16.720><c> purely</c><00:02:17.120><c> via</c><00:02:17.440><c> midjourney.</c><00:02:18.319><c> We</c><00:02:18.560><c> also</c>
+
+00:02:18.790 --> 00:02:18.800 align:start position:0%
+created purely via midjourney. We also
+ 
+
+00:02:18.800 --> 00:02:20.630 align:start position:0%
+created purely via midjourney. We also
+find<00:02:18.959><c> the</c><00:02:19.200><c> normal</c><00:02:19.599><c> standard</c><00:02:20.000><c> functions</c><00:02:20.480><c> in</c>
+
+00:02:20.630 --> 00:02:20.640 align:start position:0%
+find the normal standard functions in
+ 
+
+00:02:20.640 --> 00:02:22.869 align:start position:0%
+find the normal standard functions in
+the<00:02:20.800><c> top</c><00:02:20.959><c> right</c><00:02:21.200><c> hand</c><00:02:21.440><c> corner.</c><00:02:22.239><c> More</c><00:02:22.560><c> on</c><00:02:22.720><c> this</c>
+
+00:02:22.869 --> 00:02:22.879 align:start position:0%
+the top right hand corner. More on this
+ 
+
+00:02:22.879 --> 00:02:25.190 align:start position:0%
+the top right hand corner. More on this
+in<00:02:23.120><c> a</c><00:02:23.280><c> moment.</c><00:02:24.160><c> What</c><00:02:24.400><c> is</c><00:02:24.560><c> different</c><00:02:24.800><c> here</c>
+
+00:02:25.190 --> 00:02:25.200 align:start position:0%
+in a moment. What is different here
+ 
+
+00:02:25.200 --> 00:02:27.910 align:start position:0%
+in a moment. What is different here
+however<00:02:25.840><c> is</c><00:02:26.080><c> the</c><00:02:26.400><c> vary</c><00:02:26.800><c> function</c><00:02:27.520><c> and</c><00:02:27.760><c> the</c>
+
+00:02:27.910 --> 00:02:27.920 align:start position:0%
+however is the vary function and the
+ 
+
+00:02:27.920 --> 00:02:30.710 align:start position:0%
+however is the vary function and the
+editor<00:02:28.400><c> actions</c><00:02:28.879><c> field.</c><00:02:29.840><c> There</c><00:02:30.080><c> we</c><00:02:30.239><c> find</c><00:02:30.480><c> the</c>
+
+00:02:30.710 --> 00:02:30.720 align:start position:0%
+editor actions field. There we find the
+ 
+
+00:02:30.720 --> 00:02:33.830 align:start position:0%
+editor actions field. There we find the
+open<00:02:31.120><c> and</c><00:02:31.280><c> edit</c><00:02:31.599><c> tab</c><00:02:31.920><c> button.</c><00:02:32.800><c> In</c><00:02:33.040><c> short,</c>
+
+00:02:33.830 --> 00:02:33.840 align:start position:0%
+open and edit tab button. In short,
+ 
+
+00:02:33.840 --> 00:02:35.509 align:start position:0%
+open and edit tab button. In short,
+clicking<00:02:34.160><c> on</c><00:02:34.319><c> it</c><00:02:34.480><c> triggers</c><00:02:34.800><c> the</c><00:02:35.040><c> same</c><00:02:35.200><c> action</c>
+
+00:02:35.509 --> 00:02:35.519 align:start position:0%
+clicking on it triggers the same action
+ 
+
+00:02:35.519 --> 00:02:38.070 align:start position:0%
+clicking on it triggers the same action
+as<00:02:35.680><c> clicking</c><00:02:36.000><c> on</c><00:02:36.160><c> edit</c><00:02:36.879><c> in</c><00:02:37.120><c> the</c><00:02:37.280><c> navigation</c><00:02:37.840><c> on</c>
+
+00:02:38.070 --> 00:02:38.080 align:start position:0%
+as clicking on edit in the navigation on
+ 
+
+00:02:38.080 --> 00:02:40.229 align:start position:0%
+as clicking on edit in the navigation on
+the<00:02:38.239><c> left.</c><00:02:39.120><c> But</c><00:02:39.280><c> now</c><00:02:39.519><c> let's</c><00:02:39.760><c> work</c><00:02:39.920><c> with</c><00:02:40.080><c> the</c>
+
+00:02:40.229 --> 00:02:40.239 align:start position:0%
+the left. But now let's work with the
+ 
+
+00:02:40.239 --> 00:02:43.710 align:start position:0%
+the left. But now let's work with the
+more<00:02:40.480><c> versatile</c><00:02:41.040><c> tool,</c><00:02:41.840><c> the</c><00:02:42.239><c> external</c><00:02:42.800><c> image</c>
+
+00:02:43.710 --> 00:02:43.720 align:start position:0%
+more versatile tool, the external image
+ 
+
+00:02:43.720 --> 00:02:46.949 align:start position:0%
+more versatile tool, the external image
+editor.<00:02:44.720><c> To</c><00:02:44.959><c> do</c><00:02:45.040><c> this,</c><00:02:45.360><c> click</c><00:02:45.599><c> on</c><00:02:45.840><c> edit</c><00:02:46.560><c> in</c><00:02:46.800><c> the</c>
+
+00:02:46.949 --> 00:02:46.959 align:start position:0%
+editor. To do this, click on edit in the
+ 
+
+00:02:46.959 --> 00:02:49.830 align:start position:0%
+editor. To do this, click on edit in the
+navigation<00:02:47.440><c> on</c><00:02:47.680><c> the</c><00:02:47.840><c> left.</c><00:02:48.480><c> Then</c><00:02:48.800><c> click</c><00:02:49.040><c> on</c>
+
+00:02:49.830 --> 00:02:49.840 align:start position:0%
+navigation on the left. Then click on
+ 
+
+00:02:49.840 --> 00:02:52.790 align:start position:0%
+navigation on the left. Then click on
+edit<00:02:50.319><c> new</c><00:02:50.599><c> image.</c><00:02:51.599><c> And</c><00:02:51.840><c> now</c><00:02:52.000><c> I</c><00:02:52.239><c> select</c><00:02:52.560><c> the</c>
+
+00:02:52.790 --> 00:02:52.800 align:start position:0%
+edit new image. And now I select the
+ 
+
+00:02:52.800 --> 00:02:55.589 align:start position:0%
+edit new image. And now I select the
+brown<00:02:53.360><c> edit</c><00:02:53.920><c> uploaded</c><00:02:54.560><c> image</c><00:02:54.879><c> field</c><00:02:55.120><c> to</c><00:02:55.360><c> edit</c>
+
+00:02:55.589 --> 00:02:55.599 align:start position:0%
+brown edit uploaded image field to edit
+ 
+
+00:02:55.599 --> 00:02:57.830 align:start position:0%
+brown edit uploaded image field to edit
+an<00:02:55.840><c> image.</c><00:02:56.800><c> I've</c><00:02:57.120><c> already</c><00:02:57.440><c> prepared</c>
+
+00:02:57.830 --> 00:02:57.840 align:start position:0%
+an image. I've already prepared
+ 
+
+00:02:57.840 --> 00:02:59.910 align:start position:0%
+an image. I've already prepared
+something<00:02:58.080><c> for</c><00:02:58.400><c> this.</c><00:02:59.120><c> This</c><00:02:59.440><c> blurred</c>
+
+00:02:59.910 --> 00:02:59.920 align:start position:0%
+something for this. This blurred
+ 
+
+00:02:59.920 --> 00:03:03.270 align:start position:0%
+something for this. This blurred
+background<00:03:00.400><c> image.</c><00:03:01.280><c> The</c><00:03:01.519><c> two</c><00:03:01.760><c> tabs</c><00:03:02.239><c> edit</c><00:03:02.959><c> and</c>
+
+00:03:03.270 --> 00:03:03.280 align:start position:0%
+background image. The two tabs edit and
+ 
+
+00:03:03.280 --> 00:03:05.589 align:start position:0%
+background image. The two tabs edit and
+retexture<00:03:04.239><c> are</c><00:03:04.480><c> crucial</c><00:03:04.800><c> here.</c><00:03:05.280><c> Both</c>
+
+00:03:05.589 --> 00:03:05.599 align:start position:0%
+retexture are crucial here. Both
+ 
+
+00:03:05.599 --> 00:03:07.509 align:start position:0%
+retexture are crucial here. Both
+functions<00:03:06.000><c> are</c><00:03:06.239><c> fundamentally</c><00:03:06.879><c> different.</c>
+
+00:03:07.509 --> 00:03:07.519 align:start position:0%
+functions are fundamentally different.
+ 
+
+00:03:07.519 --> 00:03:10.550 align:start position:0%
+functions are fundamentally different.
+With<00:03:07.840><c> edit</c><00:03:08.480><c> you</c><00:03:08.720><c> can</c><00:03:08.800><c> edit</c><00:03:09.200><c> images</c><00:03:10.159><c> just</c><00:03:10.400><c> like</c>
+
+00:03:10.550 --> 00:03:10.560 align:start position:0%
+With edit you can edit images just like
+ 
+
+00:03:10.560 --> 00:03:13.670 align:start position:0%
+With edit you can edit images just like
+in<00:03:10.720><c> a</c><00:03:10.879><c> graphics</c><00:03:11.280><c> program.</c><00:03:12.239><c> With</c><00:03:12.680><c> retexture</c>
+
+00:03:13.670 --> 00:03:13.680 align:start position:0%
+in a graphics program. With retexture
+ 
+
+00:03:13.680 --> 00:03:15.509 align:start position:0%
+in a graphics program. With retexture
+you<00:03:13.920><c> can</c><00:03:14.080><c> change</c><00:03:14.319><c> the</c><00:03:14.640><c> style</c><00:03:14.879><c> and</c><00:03:15.120><c> color</c><00:03:15.360><c> of</c>
+
+00:03:15.509 --> 00:03:15.519 align:start position:0%
+you can change the style and color of
+ 
+
+00:03:15.519 --> 00:03:18.270 align:start position:0%
+you can change the style and color of
+images<00:03:16.480><c> i.e</c><00:03:16.879><c> their</c><00:03:17.280><c> entire</c>
+
+00:03:18.270 --> 00:03:18.280 align:start position:0%
+images i.e their entire
+ 
+
+00:03:18.280 --> 00:03:20.869 align:start position:0%
+images i.e their entire
+substance.<00:03:19.280><c> Step</c><00:03:19.680><c> one</c><00:03:19.920><c> is</c><00:03:20.159><c> the</c><00:03:20.400><c> edit</c>
+
+00:03:20.869 --> 00:03:20.879 align:start position:0%
+substance. Step one is the edit
+ 
+
+00:03:20.879 --> 00:03:23.509 align:start position:0%
+substance. Step one is the edit
+function.<00:03:21.840><c> The</c><00:03:22.080><c> tools</c><00:03:22.480><c> that</c><00:03:22.720><c> we</c><00:03:22.879><c> see</c><00:03:23.040><c> directly</c>
+
+00:03:23.509 --> 00:03:23.519 align:start position:0%
+function. The tools that we see directly
+ 
+
+00:03:23.519 --> 00:03:25.430 align:start position:0%
+function. The tools that we see directly
+below<00:03:24.159><c> become</c><00:03:24.560><c> relevant</c><00:03:24.879><c> when</c><00:03:25.120><c> we</c><00:03:25.280><c> have</c>
+
+00:03:25.430 --> 00:03:25.440 align:start position:0%
+below become relevant when we have
+ 
+
+00:03:25.440 --> 00:03:28.070 align:start position:0%
+below become relevant when we have
+already<00:03:25.840><c> executed</c><00:03:26.319><c> a</c><00:03:26.640><c> task.</c><00:03:27.280><c> More</c><00:03:27.519><c> on</c><00:03:27.680><c> this</c><00:03:27.840><c> in</c>
+
+00:03:28.070 --> 00:03:28.080 align:start position:0%
+already executed a task. More on this in
+ 
+
+00:03:28.080 --> 00:03:30.550 align:start position:0%
+already executed a task. More on this in
+a<00:03:28.239><c> moment.</c><00:03:28.720><c> The</c><00:03:29.040><c> first</c><00:03:29.200><c> tool</c><00:03:29.680><c> is</c><00:03:30.000><c> called</c><00:03:30.239><c> move</c>
+
+00:03:30.550 --> 00:03:30.560 align:start position:0%
+a moment. The first tool is called move
+ 
+
+00:03:30.560 --> 00:03:32.789 align:start position:0%
+a moment. The first tool is called move
+and<00:03:30.879><c> resize.</c><00:03:31.760><c> If</c><00:03:32.000><c> you</c><00:03:32.159><c> activate</c><00:03:32.560><c> this</c>
+
+00:03:32.789 --> 00:03:32.799 align:start position:0%
+and resize. If you activate this
+ 
+
+00:03:32.799 --> 00:03:34.710 align:start position:0%
+and resize. If you activate this
+function,<00:03:33.519><c> the</c><00:03:33.760><c> image</c><00:03:34.000><c> will</c><00:03:34.239><c> have</c><00:03:34.319><c> a</c><00:03:34.480><c> white</c>
+
+00:03:34.710 --> 00:03:34.720 align:start position:0%
+function, the image will have a white
+ 
+
+00:03:34.720 --> 00:03:36.949 align:start position:0%
+function, the image will have a white
+handle<00:03:35.120><c> in</c><00:03:35.280><c> each</c><00:03:35.519><c> corner.</c><00:03:36.000><c> If</c><00:03:36.239><c> I</c><00:03:36.400><c> move</c><00:03:36.640><c> one</c><00:03:36.879><c> of</c>
+
+00:03:36.949 --> 00:03:36.959 align:start position:0%
+handle in each corner. If I move one of
+ 
+
+00:03:36.959 --> 00:03:38.869 align:start position:0%
+handle in each corner. If I move one of
+these<00:03:37.200><c> white</c><00:03:37.519><c> fields</c><00:03:38.080><c> while</c><00:03:38.400><c> holding</c><00:03:38.640><c> down</c>
+
+00:03:38.869 --> 00:03:38.879 align:start position:0%
+these white fields while holding down
+ 
+
+00:03:38.879 --> 00:03:40.949 align:start position:0%
+these white fields while holding down
+the<00:03:39.040><c> mouse</c><00:03:39.360><c> button,</c><00:03:39.840><c> I</c><00:03:40.080><c> can</c><00:03:40.239><c> reduce</c><00:03:40.640><c> or</c>
+
+00:03:40.949 --> 00:03:40.959 align:start position:0%
+the mouse button, I can reduce or
+ 
+
+00:03:40.959 --> 00:03:43.190 align:start position:0%
+the mouse button, I can reduce or
+enlarge<00:03:41.360><c> the</c><00:03:41.599><c> image.</c><00:03:42.239><c> The</c><00:03:42.400><c> other</c><00:03:42.560><c> alternative</c>
+
+00:03:43.190 --> 00:03:43.200 align:start position:0%
+enlarge the image. The other alternative
+ 
+
+00:03:43.200 --> 00:03:45.350 align:start position:0%
+enlarge the image. The other alternative
+is<00:03:43.440><c> this</c><00:03:43.680><c> slider</c><00:03:44.159><c> on</c><00:03:44.319><c> the</c><00:03:44.400><c> left,</c><00:03:44.959><c> you</c><00:03:45.120><c> can</c><00:03:45.280><c> use</c>
+
+00:03:45.350 --> 00:03:45.360 align:start position:0%
+is this slider on the left, you can use
+ 
+
+00:03:45.360 --> 00:03:47.910 align:start position:0%
+is this slider on the left, you can use
+it<00:03:45.519><c> to</c><00:03:45.680><c> change</c><00:03:45.920><c> images</c><00:03:46.319><c> by</c><00:03:46.560><c> percentage.</c><00:03:47.519><c> A</c><00:03:47.680><c> pro</c>
+
+00:03:47.910 --> 00:03:47.920 align:start position:0%
+it to change images by percentage. A pro
+ 
+
+00:03:47.920 --> 00:03:49.990 align:start position:0%
+it to change images by percentage. A pro
+tip<00:03:48.239><c> at</c><00:03:48.480><c> this</c><00:03:48.640><c> point,</c><00:03:49.200><c> don't</c><00:03:49.519><c> reduce</c><00:03:49.760><c> the</c>
+
+00:03:49.990 --> 00:03:50.000 align:start position:0%
+tip at this point, don't reduce the
+ 
+
+00:03:50.000 --> 00:03:52.229 align:start position:0%
+tip at this point, don't reduce the
+image<00:03:50.239><c> too</c><00:03:50.480><c> much</c><00:03:51.200><c> because</c><00:03:51.440><c> the</c><00:03:51.760><c> smaller</c><00:03:52.080><c> the</c>
+
+00:03:52.229 --> 00:03:52.239 align:start position:0%
+image too much because the smaller the
+ 
+
+00:03:52.239 --> 00:03:54.229 align:start position:0%
+image too much because the smaller the
+image<00:03:52.480><c> is,</c><00:03:52.959><c> the</c><00:03:53.200><c> wilder</c><00:03:53.599><c> midjourneys</c>
+
+00:03:54.229 --> 00:03:54.239 align:start position:0%
+image is, the wilder midjourneys
+ 
+
+00:03:54.239 --> 00:03:56.949 align:start position:0%
+image is, the wilder midjourneys
+interpretations<00:03:55.159><c> become.</c><00:03:56.159><c> Stay</c><00:03:56.400><c> roughly</c><00:03:56.799><c> in</c>
+
+00:03:56.949 --> 00:03:56.959 align:start position:0%
+interpretations become. Stay roughly in
+ 
+
+00:03:56.959 --> 00:03:59.110 align:start position:0%
+interpretations become. Stay roughly in
+the<00:03:57.120><c> same</c><00:03:57.280><c> range</c><00:03:57.519><c> as</c><00:03:57.680><c> what</c><00:03:57.840><c> you</c><00:03:58.000><c> see</c><00:03:58.159><c> here.</c><00:03:58.959><c> You</c>
+
+00:03:59.110 --> 00:03:59.120 align:start position:0%
+the same range as what you see here. You
+ 
+
+00:03:59.120 --> 00:04:01.270 align:start position:0%
+the same range as what you see here. You
+can<00:03:59.280><c> simply</c><00:03:59.599><c> grab</c><00:03:59.920><c> the</c><00:04:00.080><c> image</c><00:04:00.560><c> and</c><00:04:00.799><c> move</c><00:04:01.040><c> it</c><00:04:01.120><c> to</c>
+
+00:04:01.270 --> 00:04:01.280 align:start position:0%
+can simply grab the image and move it to
+ 
+
+00:04:01.280 --> 00:04:02.869 align:start position:0%
+can simply grab the image and move it to
+a<00:04:01.439><c> position</c><00:04:01.680><c> of</c><00:04:01.840><c> your</c><00:04:02.080><c> choice</c><00:04:02.319><c> within</c><00:04:02.640><c> the</c>
+
+00:04:02.869 --> 00:04:02.879 align:start position:0%
+a position of your choice within the
+ 
+
+00:04:02.879 --> 00:04:04.949 align:start position:0%
+a position of your choice within the
+canvas.<00:04:03.519><c> You</c><00:04:03.760><c> can</c><00:04:03.920><c> also</c><00:04:04.159><c> change</c><00:04:04.400><c> the</c><00:04:04.560><c> aspect</c>
+
+00:04:04.949 --> 00:04:04.959 align:start position:0%
+canvas. You can also change the aspect
+ 
+
+00:04:04.959 --> 00:04:07.350 align:start position:0%
+canvas. You can also change the aspect
+ratio<00:04:05.439><c> here.</c><00:04:06.080><c> I</c><00:04:06.319><c> reset</c><00:04:06.720><c> the</c><00:04:07.040><c> entire</c>
+
+00:04:07.350 --> 00:04:07.360 align:start position:0%
+ratio here. I reset the entire
+ 
+
+00:04:07.360 --> 00:04:09.750 align:start position:0%
+ratio here. I reset the entire
+arrangement<00:04:07.920><c> for</c><00:04:08.159><c> now.</c><00:04:08.879><c> For</c><00:04:08.959><c> example,</c><00:04:09.519><c> you</c>
+
+00:04:09.750 --> 00:04:09.760 align:start position:0%
+arrangement for now. For example, you
+ 
+
+00:04:09.760 --> 00:04:13.670 align:start position:0%
+arrangement for now. For example, you
+can<00:04:09.840><c> change</c><00:04:10.080><c> the</c><00:04:10.319><c> canvas</c><00:04:10.640><c> size</c><00:04:10.879><c> to</c><00:04:11.319><c> 3x4,</c><00:04:12.680><c> 2x3,</c>
+
+00:04:13.670 --> 00:04:13.680 align:start position:0%
+can change the canvas size to 3x4, 2x3,
+ 
+
+00:04:13.680 --> 00:04:15.469 align:start position:0%
+can change the canvas size to 3x4, 2x3,
+16x9,<00:04:14.640><c> or</c>
+
+00:04:15.469 --> 00:04:15.479 align:start position:0%
+16x9, or
+ 
+
+00:04:15.479 --> 00:04:17.670 align:start position:0%
+16x9, or
+9x6.<00:04:16.479><c> And</c><00:04:16.720><c> of</c><00:04:16.880><c> course,</c><00:04:17.040><c> you</c><00:04:17.199><c> can</c><00:04:17.280><c> use</c><00:04:17.440><c> the</c>
+
+00:04:17.670 --> 00:04:17.680 align:start position:0%
+9x6. And of course, you can use the
+ 
+
+00:04:17.680 --> 00:04:20.469 align:start position:0%
+9x6. And of course, you can use the
+slider<00:04:18.079><c> again</c><00:04:18.320><c> to</c><00:04:18.560><c> adjust</c><00:04:18.799><c> the</c><00:04:18.959><c> image</c><00:04:19.479><c> scale.</c>
+
+00:04:20.469 --> 00:04:20.479 align:start position:0%
+slider again to adjust the image scale.
+ 
+
+00:04:20.479 --> 00:04:23.230 align:start position:0%
+slider again to adjust the image scale.
+By<00:04:20.720><c> the</c><00:04:20.880><c> way,</c><00:04:21.280><c> more</c><00:04:21.519><c> than</c><00:04:21.840><c> 100%</c><00:04:22.639><c> is</c><00:04:22.880><c> not</c>
+
+00:04:23.230 --> 00:04:23.240 align:start position:0%
+By the way, more than 100% is not
+ 
+
+00:04:23.240 --> 00:04:25.830 align:start position:0%
+By the way, more than 100% is not
+possible.<00:04:24.240><c> In</c><00:04:24.479><c> this</c><00:04:24.639><c> tutorial,</c><00:04:25.440><c> we</c><00:04:25.680><c> will</c>
+
+00:04:25.830 --> 00:04:25.840 align:start position:0%
+possible. In this tutorial, we will
+ 
+
+00:04:25.840 --> 00:04:27.510 align:start position:0%
+possible. In this tutorial, we will
+initially<00:04:26.240><c> stick</c><00:04:26.400><c> to</c><00:04:26.560><c> the</c><00:04:26.800><c> standard</c><00:04:27.120><c> format</c>
+
+00:04:27.510 --> 00:04:27.520 align:start position:0%
+initially stick to the standard format
+ 
+
+00:04:27.520 --> 00:04:30.629 align:start position:0%
+initially stick to the standard format
+of<00:04:27.759><c> 16x9.</c><00:04:29.120><c> Incidentally,</c><00:04:30.080><c> you</c><00:04:30.240><c> can</c><00:04:30.400><c> see</c><00:04:30.479><c> that</c>
+
+00:04:30.629 --> 00:04:30.639 align:start position:0%
+of 16x9. Incidentally, you can see that
+ 
+
+00:04:30.639 --> 00:04:32.550 align:start position:0%
+of 16x9. Incidentally, you can see that
+the<00:04:30.800><c> tools</c><00:04:31.199><c> below</c><00:04:31.520><c> edit</c><00:04:31.919><c> have</c><00:04:32.160><c> now</c><00:04:32.400><c> been</c>
+
+00:04:32.550 --> 00:04:32.560 align:start position:0%
+the tools below edit have now been
+ 
+
+00:04:32.560 --> 00:04:36.310 align:start position:0%
+the tools below edit have now been
+activated.<00:04:33.520><c> These</c><00:04:33.840><c> are</c><00:04:34.080><c> undo</c><00:04:34.880><c> or</c><00:04:35.199><c> redo</c><00:04:36.000><c> or</c>
+
+00:04:36.310 --> 00:04:36.320 align:start position:0%
+activated. These are undo or redo or
+ 
+
+00:04:36.320 --> 00:04:39.270 align:start position:0%
+activated. These are undo or redo or
+reset.<00:04:37.199><c> I</c><00:04:37.440><c> can</c><00:04:37.520><c> use</c><00:04:37.759><c> undo</c><00:04:38.240><c> to</c><00:04:38.400><c> go</c><00:04:38.560><c> back</c><00:04:38.800><c> step</c><00:04:39.120><c> by</c>
+
+00:04:39.270 --> 00:04:39.280 align:start position:0%
+reset. I can use undo to go back step by
+ 
+
+00:04:39.280 --> 00:04:41.189 align:start position:0%
+reset. I can use undo to go back step by
+step<00:04:39.520><c> to</c><00:04:39.680><c> the</c><00:04:39.919><c> activities</c><00:04:40.400><c> I've</c><00:04:40.639><c> carried</c><00:04:40.960><c> out</c>
+
+00:04:41.189 --> 00:04:41.199 align:start position:0%
+step to the activities I've carried out
+ 
+
+00:04:41.199 --> 00:04:44.629 align:start position:0%
+step to the activities I've carried out
+so<00:04:41.440><c> far.</c><00:04:42.240><c> Redo</c><00:04:42.720><c> is</c><00:04:43.320><c> self-explanatory.</c><00:04:44.320><c> With</c>
+
+00:04:44.629 --> 00:04:44.639 align:start position:0%
+so far. Redo is self-explanatory. With
+ 
+
+00:04:44.639 --> 00:04:46.790 align:start position:0%
+so far. Redo is self-explanatory. With
+reset,<00:04:45.199><c> I</c><00:04:45.440><c> return</c><00:04:45.680><c> to</c><00:04:45.840><c> the</c><00:04:46.000><c> original</c><00:04:46.400><c> state</c><00:04:46.639><c> of</c>
+
+00:04:46.790 --> 00:04:46.800 align:start position:0%
+reset, I return to the original state of
+ 
+
+00:04:46.800 --> 00:04:49.189 align:start position:0%
+reset, I return to the original state of
+the<00:04:46.960><c> image.</c><00:04:47.600><c> If</c><00:04:47.759><c> we</c><00:04:48.000><c> next</c><00:04:48.240><c> look</c><00:04:48.400><c> at</c><00:04:48.560><c> the</c><00:04:48.720><c> paint</c>
+
+00:04:49.189 --> 00:04:49.199 align:start position:0%
+the image. If we next look at the paint
+ 
+
+00:04:49.199 --> 00:04:52.070 align:start position:0%
+the image. If we next look at the paint
+tool,<00:04:49.680><c> we</c><00:04:49.840><c> find</c><00:04:50.080><c> two</c><00:04:50.320><c> editing</c><00:04:50.800><c> options,</c><00:04:51.600><c> erase</c>
+
+00:04:52.070 --> 00:04:52.080 align:start position:0%
+tool, we find two editing options, erase
+ 
+
+00:04:52.080 --> 00:04:54.629 align:start position:0%
+tool, we find two editing options, erase
+and<00:04:52.400><c> restore.</c><00:04:53.360><c> Below</c><00:04:53.680><c> this,</c><00:04:54.000><c> I</c><00:04:54.160><c> can</c><00:04:54.320><c> define</c>
+
+00:04:54.629 --> 00:04:54.639 align:start position:0%
+and restore. Below this, I can define
+ 
+
+00:04:54.639 --> 00:04:57.189 align:start position:0%
+and restore. Below this, I can define
+the<00:04:54.800><c> brush</c><00:04:55.120><c> size.</c><00:04:56.400><c> If</c><00:04:56.639><c> you</c><00:04:56.720><c> look</c><00:04:56.880><c> at</c><00:04:57.040><c> the</c>
+
+00:04:57.189 --> 00:04:57.199 align:start position:0%
+the brush size. If you look at the
+ 
+
+00:04:57.199 --> 00:04:58.790 align:start position:0%
+the brush size. If you look at the
+image,<00:04:57.600><c> you</c><00:04:57.759><c> will</c><00:04:57.919><c> see</c><00:04:58.080><c> this</c><00:04:58.320><c> slightly</c>
+
+00:04:58.790 --> 00:04:58.800 align:start position:0%
+image, you will see this slightly
+ 
+
+00:04:58.800 --> 00:05:01.590 align:start position:0%
+image, you will see this slightly
+transparent<00:04:59.560><c> circle.</c><00:05:00.560><c> This</c><00:05:00.800><c> is</c><00:05:00.960><c> the</c><00:05:01.199><c> size</c><00:05:01.440><c> of</c>
+
+00:05:01.590 --> 00:05:01.600 align:start position:0%
+transparent circle. This is the size of
+ 
+
+00:05:01.600 --> 00:05:04.150 align:start position:0%
+transparent circle. This is the size of
+your<00:05:01.840><c> brush.</c><00:05:02.639><c> I</c><00:05:02.880><c> can</c><00:05:03.040><c> not</c><00:05:03.199><c> only</c><00:05:03.520><c> reduce</c><00:05:03.840><c> or</c>
+
+00:05:04.150 --> 00:05:04.160 align:start position:0%
+your brush. I can not only reduce or
+ 
+
+00:05:04.160 --> 00:05:05.990 align:start position:0%
+your brush. I can not only reduce or
+enlarge<00:05:04.560><c> it</c><00:05:04.720><c> with</c><00:05:04.880><c> the</c><00:05:04.960><c> mouse</c><00:05:05.199><c> wheel,</c><00:05:05.680><c> but</c>
+
+00:05:05.990 --> 00:05:06.000 align:start position:0%
+enlarge it with the mouse wheel, but
+ 
+
+00:05:06.000 --> 00:05:08.310 align:start position:0%
+enlarge it with the mouse wheel, but
+also<00:05:06.240><c> with</c><00:05:06.400><c> the</c><00:05:06.639><c> slider</c><00:05:07.039><c> on</c><00:05:07.199><c> the</c><00:05:07.320><c> left.</c>
+
+00:05:08.310 --> 00:05:08.320 align:start position:0%
+also with the slider on the left.
+ 
+
+00:05:08.320 --> 00:05:10.710 align:start position:0%
+also with the slider on the left.
+Another<00:05:08.639><c> pro</c><00:05:08.960><c> tip,</c><00:05:09.680><c> always</c><00:05:10.080><c> make</c><00:05:10.240><c> the</c><00:05:10.400><c> brush</c>
+
+00:05:10.710 --> 00:05:10.720 align:start position:0%
+Another pro tip, always make the brush
+ 
+
+00:05:10.720 --> 00:05:12.390 align:start position:0%
+Another pro tip, always make the brush
+slightly<00:05:11.120><c> larger</c><00:05:11.759><c> so</c><00:05:11.919><c> that</c><00:05:12.080><c> you</c><00:05:12.240><c> give</c>
+
+00:05:12.390 --> 00:05:12.400 align:start position:0%
+slightly larger so that you give
+ 
+
+00:05:12.400 --> 00:05:14.550 align:start position:0%
+slightly larger so that you give
+midjourney<00:05:13.039><c> the</c><00:05:13.280><c> freedom</c><00:05:13.600><c> to</c><00:05:13.840><c> interpret</c><00:05:14.320><c> the</c>
+
+00:05:14.550 --> 00:05:14.560 align:start position:0%
+midjourney the freedom to interpret the
+ 
+
+00:05:14.560 --> 00:05:18.310 align:start position:0%
+midjourney the freedom to interpret the
+image<00:05:14.800><c> better.</c><00:05:16.000><c> If</c><00:05:16.240><c> I</c><00:05:16.400><c> now</c><00:05:16.639><c> mark</c><00:05:16.880><c> an</c><00:05:17.120><c> area</c><00:05:17.680><c> with</c>
+
+00:05:18.310 --> 00:05:18.320 align:start position:0%
+image better. If I now mark an area with
+ 
+
+00:05:18.320 --> 00:05:20.950 align:start position:0%
+image better. If I now mark an area with
+erase,<00:05:19.280><c> for</c><00:05:19.360><c> example,</c><00:05:19.759><c> these</c><00:05:20.080><c> flags</c><00:05:20.479><c> here,</c>
+
+00:05:20.950 --> 00:05:20.960 align:start position:0%
+erase, for example, these flags here,
+ 
+
+00:05:20.960 --> 00:05:23.270 align:start position:0%
+erase, for example, these flags here,
+and<00:05:21.120><c> then</c><00:05:21.360><c> click</c><00:05:21.600><c> on</c><00:05:21.840><c> restore,</c><00:05:22.800><c> you</c><00:05:23.039><c> will</c><00:05:23.199><c> see</c>
+
+00:05:23.270 --> 00:05:23.280 align:start position:0%
+and then click on restore, you will see
+ 
+
+00:05:23.280 --> 00:05:25.390 align:start position:0%
+and then click on restore, you will see
+a<00:05:23.520><c> shadow</c><00:05:23.759><c> of</c><00:05:24.000><c> the</c><00:05:24.160><c> original</c><00:05:24.560><c> image</c><00:05:24.960><c> in</c><00:05:25.199><c> the</c>
+
+00:05:25.390 --> 00:05:25.400 align:start position:0%
+a shadow of the original image in the
+ 
+
+00:05:25.400 --> 00:05:27.670 align:start position:0%
+a shadow of the original image in the
+background.<00:05:26.400><c> You</c><00:05:26.639><c> now</c><00:05:26.800><c> have</c><00:05:26.960><c> the</c><00:05:27.199><c> option</c><00:05:27.440><c> of</c>
+
+00:05:27.670 --> 00:05:27.680 align:start position:0%
+background. You now have the option of
+ 
+
+00:05:27.680 --> 00:05:30.469 align:start position:0%
+background. You now have the option of
+refining<00:05:28.240><c> your</c><00:05:28.759><c> selection.</c><00:05:29.759><c> To</c><00:05:30.080><c> do</c><00:05:30.160><c> this,</c>
+
+00:05:30.469 --> 00:05:30.479 align:start position:0%
+refining your selection. To do this,
+ 
+
+00:05:30.479 --> 00:05:32.710 align:start position:0%
+refining your selection. To do this,
+simply<00:05:30.800><c> reduce</c><00:05:31.120><c> the</c><00:05:31.360><c> brush</c><00:05:31.600><c> size</c><00:05:31.919><c> slightly</c>
+
+00:05:32.710 --> 00:05:32.720 align:start position:0%
+simply reduce the brush size slightly
+ 
+
+00:05:32.720 --> 00:05:34.590 align:start position:0%
+simply reduce the brush size slightly
+and<00:05:32.960><c> remove</c><00:05:33.280><c> what</c><00:05:33.520><c> you</c><00:05:33.680><c> have</c><00:05:33.840><c> already</c>
+
+00:05:34.590 --> 00:05:34.600 align:start position:0%
+and remove what you have already
+ 
+
+00:05:34.600 --> 00:05:38.230 align:start position:0%
+and remove what you have already
+selected.<00:05:35.600><c> If</c><00:05:35.759><c> I</c><00:05:36.000><c> now</c><00:05:36.240><c> click</c><00:05:36.479><c> on</c><00:05:36.960><c> submit</c><00:05:37.440><c> edit,</c>
+
+00:05:38.230 --> 00:05:38.240 align:start position:0%
+selected. If I now click on submit edit,
+ 
+
+00:05:38.240 --> 00:05:40.230 align:start position:0%
+selected. If I now click on submit edit,
+MidJourney<00:05:38.880><c> is</c><00:05:39.039><c> instructed</c><00:05:39.520><c> to</c><00:05:39.759><c> only</c><00:05:40.000><c> make</c>
+
+00:05:40.230 --> 00:05:40.240 align:start position:0%
+MidJourney is instructed to only make
+ 
+
+00:05:40.240 --> 00:05:43.110 align:start position:0%
+MidJourney is instructed to only make
+changes<00:05:40.960><c> in</c><00:05:41.199><c> the</c><00:05:41.440><c> area</c><00:05:41.680><c> you</c><00:05:41.919><c> have</c><00:05:42.080><c> selected.</c>
+
+00:05:43.110 --> 00:05:43.120 align:start position:0%
+changes in the area you have selected.
+ 
+
+00:05:43.120 --> 00:05:45.469 align:start position:0%
+changes in the area you have selected.
+Let<00:05:43.280><c> me</c><00:05:43.440><c> first</c><00:05:43.680><c> reset</c><00:05:44.080><c> the</c><00:05:44.240><c> entire</c><00:05:44.639><c> setup</c><00:05:45.039><c> via</c>
+
+00:05:45.469 --> 00:05:45.479 align:start position:0%
+Let me first reset the entire setup via
+ 
+
+00:05:45.479 --> 00:05:48.230 align:start position:0%
+Let me first reset the entire setup via
+reset.<00:05:46.479><c> I'll</c><00:05:46.800><c> show</c><00:05:46.960><c> you</c><00:05:47.120><c> the</c><00:05:47.360><c> smart</c><00:05:47.759><c> select</c>
+
+00:05:48.230 --> 00:05:48.240 align:start position:0%
+reset. I'll show you the smart select
+ 
+
+00:05:48.240 --> 00:05:50.950 align:start position:0%
+reset. I'll show you the smart select
+function<00:05:48.880><c> in</c><00:05:49.120><c> a</c><00:05:49.280><c> moment.</c><00:05:50.240><c> First,</c><00:05:50.479><c> let's</c><00:05:50.720><c> jump</c>
+
+00:05:50.950 --> 00:05:50.960 align:start position:0%
+function in a moment. First, let's jump
+ 
+
+00:05:50.960 --> 00:05:53.350 align:start position:0%
+function in a moment. First, let's jump
+to<00:05:51.120><c> the</c><00:05:51.440><c> layers</c><00:05:51.840><c> topic.</c><00:05:52.560><c> You'll</c><00:05:52.800><c> find</c><00:05:52.960><c> this</c><00:05:53.120><c> at</c>
+
+00:05:53.350 --> 00:05:53.360 align:start position:0%
+to the layers topic. You'll find this at
+ 
+
+00:05:53.360 --> 00:05:56.230 align:start position:0%
+to the layers topic. You'll find this at
+the<00:05:53.440><c> bottom</c><00:05:53.680><c> left.</c><00:05:54.639><c> As</c><00:05:54.800><c> the</c><00:05:55.039><c> term</c><00:05:55.360><c> suggests,</c>
+
+00:05:56.230 --> 00:05:56.240 align:start position:0%
+the bottom left. As the term suggests,
+ 
+
+00:05:56.240 --> 00:05:57.990 align:start position:0%
+the bottom left. As the term suggests,
+you<00:05:56.400><c> can</c><00:05:56.560><c> place</c><00:05:56.800><c> different</c><00:05:57.280><c> layers</c><00:05:57.440><c> on</c><00:05:57.680><c> top</c><00:05:57.840><c> of</c>
+
+00:05:57.990 --> 00:05:58.000 align:start position:0%
+you can place different layers on top of
+ 
+
+00:05:58.000 --> 00:06:00.189 align:start position:0%
+you can place different layers on top of
+each<00:05:58.160><c> other,</c><00:05:58.720><c> just</c><00:05:58.960><c> like</c><00:05:59.039><c> in</c><00:05:59.280><c> Photoshop,</c><00:05:59.919><c> for</c>
+
+00:06:00.189 --> 00:06:00.199 align:start position:0%
+each other, just like in Photoshop, for
+ 
+
+00:06:00.199 --> 00:06:02.950 align:start position:0%
+each other, just like in Photoshop, for
+example.<00:06:01.199><c> I've</c><00:06:01.440><c> tested</c><00:06:01.759><c> this</c><00:06:02.080><c> extensively</c>
+
+00:06:02.950 --> 00:06:02.960 align:start position:0%
+example. I've tested this extensively
+ 
+
+00:06:02.960 --> 00:06:04.790 align:start position:0%
+example. I've tested this extensively
+and<00:06:03.280><c> found</c><00:06:03.440><c> that</c><00:06:03.600><c> it</c><00:06:03.840><c> actually</c><00:06:04.160><c> works</c><00:06:04.479><c> very</c>
+
+00:06:04.790 --> 00:06:04.800 align:start position:0%
+and found that it actually works very
+ 
+
+00:06:04.800 --> 00:06:07.510 align:start position:0%
+and found that it actually works very
+well<00:06:05.280><c> with</c><00:06:05.600><c> one</c><00:06:05.759><c> to</c><00:06:06.000><c> two</c><00:06:06.400><c> layers.</c><00:06:07.120><c> If</c><00:06:07.280><c> there</c>
+
+00:06:07.510 --> 00:06:07.520 align:start position:0%
+well with one to two layers. If there
+ 
+
+00:06:07.520 --> 00:06:09.670 align:start position:0%
+well with one to two layers. If there
+are<00:06:07.680><c> several</c><00:06:08.160><c> layers,</c><00:06:08.639><c> midjourney</c><00:06:09.360><c> still</c><00:06:09.520><c> has</c>
+
+00:06:09.670 --> 00:06:09.680 align:start position:0%
+are several layers, midjourney still has
+ 
+
+00:06:09.680 --> 00:06:12.150 align:start position:0%
+are several layers, midjourney still has
+a<00:06:09.840><c> bit</c><00:06:09.919><c> of</c><00:06:10.000><c> a</c><00:06:10.240><c> problem.</c><00:06:11.120><c> So,</c><00:06:11.360><c> what</c><00:06:11.600><c> exactly</c><00:06:12.000><c> can</c>
+
+00:06:12.150 --> 00:06:12.160 align:start position:0%
+a bit of a problem. So, what exactly can
+ 
+
+00:06:12.160 --> 00:06:14.230 align:start position:0%
+a bit of a problem. So, what exactly can
+you<00:06:12.319><c> do</c><00:06:12.479><c> here?</c><00:06:13.120><c> Simply</c><00:06:13.440><c> click</c><00:06:13.680><c> on</c><00:06:13.840><c> the</c><00:06:14.000><c> word</c>
+
+00:06:14.230 --> 00:06:14.240 align:start position:0%
+you do here? Simply click on the word
+ 
+
+00:06:14.240 --> 00:06:17.830 align:start position:0%
+you do here? Simply click on the word
+add<00:06:14.880><c> and</c><00:06:15.199><c> upload</c><00:06:15.680><c> an</c><00:06:16.080><c> external</c><00:06:16.639><c> image.</c><00:06:17.600><c> I</c>
+
+00:06:17.830 --> 00:06:17.840 align:start position:0%
+add and upload an external image. I
+ 
+
+00:06:17.840 --> 00:06:19.990 align:start position:0%
+add and upload an external image. I
+select<00:06:18.160><c> an</c><00:06:18.319><c> image</c><00:06:18.639><c> from</c><00:06:18.800><c> my</c><00:06:19.120><c> external</c><00:06:19.680><c> hard</c>
+
+00:06:19.990 --> 00:06:20.000 align:start position:0%
+select an image from my external hard
+ 
+
+00:06:20.000 --> 00:06:22.469 align:start position:0%
+select an image from my external hard
+disk<00:06:20.560><c> and</c><00:06:20.800><c> add</c><00:06:20.960><c> it</c><00:06:21.120><c> to</c><00:06:21.280><c> my</c><00:06:21.440><c> composition</c><00:06:22.000><c> as</c><00:06:22.240><c> a</c>
+
+00:06:22.469 --> 00:06:22.479 align:start position:0%
+disk and add it to my composition as a
+ 
+
+00:06:22.479 --> 00:06:24.950 align:start position:0%
+disk and add it to my composition as a
+second<00:06:22.800><c> layer,</c><00:06:23.039><c> so</c><00:06:23.199><c> to</c><00:06:23.440><c> speak.</c><00:06:24.160><c> This</c><00:06:24.400><c> image</c><00:06:24.720><c> of</c>
+
+00:06:24.950 --> 00:06:24.960 align:start position:0%
+second layer, so to speak. This image of
+ 
+
+00:06:24.960 --> 00:06:27.189 align:start position:0%
+second layer, so to speak. This image of
+a<00:06:25.120><c> single</c><00:06:25.440><c> penguin</c><00:06:26.160><c> is</c><00:06:26.400><c> now</c><00:06:26.560><c> in</c><00:06:26.800><c> front</c><00:06:26.880><c> of</c><00:06:27.039><c> my</c>
+
+00:06:27.189 --> 00:06:27.199 align:start position:0%
+a single penguin is now in front of my
+ 
+
+00:06:27.199 --> 00:06:29.350 align:start position:0%
+a single penguin is now in front of my
+background<00:06:27.600><c> image</c><00:06:27.919><c> and</c><00:06:28.160><c> is</c><00:06:28.319><c> marked</c><00:06:28.639><c> red</c><00:06:29.039><c> as</c>
+
+00:06:29.350 --> 00:06:29.360 align:start position:0%
+background image and is marked red as
+ 
+
+00:06:29.360 --> 00:06:31.590 align:start position:0%
+background image and is marked red as
+active<00:06:30.080><c> at</c><00:06:30.319><c> the</c><00:06:30.479><c> bottom</c><00:06:30.800><c> left.</c><00:06:31.280><c> You</c><00:06:31.520><c> can</c>
+
+00:06:31.590 --> 00:06:31.600 align:start position:0%
+active at the bottom left. You can
+ 
+
+00:06:31.600 --> 00:06:33.749 align:start position:0%
+active at the bottom left. You can
+select<00:06:31.919><c> the</c><00:06:32.160><c> individual</c><00:06:32.720><c> layers</c><00:06:32.960><c> at</c><00:06:33.120><c> any</c><00:06:33.360><c> time</c>
+
+00:06:33.749 --> 00:06:33.759 align:start position:0%
+select the individual layers at any time
+ 
+
+00:06:33.759 --> 00:06:35.909 align:start position:0%
+select the individual layers at any time
+and<00:06:34.000><c> delete</c><00:06:34.319><c> them</c><00:06:34.560><c> again.</c><00:06:35.039><c> The</c><00:06:35.280><c> one</c><00:06:35.440><c> marked</c><00:06:35.759><c> in</c>
+
+00:06:35.909 --> 00:06:35.919 align:start position:0%
+and delete them again. The one marked in
+ 
+
+00:06:35.919 --> 00:06:38.070 align:start position:0%
+and delete them again. The one marked in
+red<00:06:36.160><c> is</c><00:06:36.400><c> currently</c><00:06:36.720><c> being</c><00:06:36.960><c> edited.</c><00:06:37.600><c> By</c><00:06:37.919><c> using</c>
+
+00:06:38.070 --> 00:06:38.080 align:start position:0%
+red is currently being edited. By using
+ 
+
+00:06:38.080 --> 00:06:40.230 align:start position:0%
+red is currently being edited. By using
+this<00:06:38.319><c> image</c><00:06:38.560><c> of</c><00:06:38.639><c> the</c><00:06:38.800><c> penguin,</c><00:06:39.600><c> I</c><00:06:39.840><c> can</c><00:06:40.000><c> now</c>
+
+00:06:40.230 --> 00:06:40.240 align:start position:0%
+this image of the penguin, I can now
+ 
+
+00:06:40.240 --> 00:06:43.749 align:start position:0%
+this image of the penguin, I can now
+explain<00:06:40.639><c> the</c><00:06:41.199><c> smart</c><00:06:41.600><c> select</c><00:06:42.080><c> tool</c><00:06:42.880><c> very</c><00:06:43.199><c> well.</c>
+
+00:06:43.749 --> 00:06:43.759 align:start position:0%
+explain the smart select tool very well.
+ 
+
+00:06:43.759 --> 00:06:46.590 align:start position:0%
+explain the smart select tool very well.
+Here<00:06:44.000><c> we</c><00:06:44.160><c> find</c><00:06:44.319><c> the</c><00:06:44.560><c> include</c><00:06:45.440><c> and</c><00:06:45.759><c> exclude</c>
+
+00:06:46.590 --> 00:06:46.600 align:start position:0%
+Here we find the include and exclude
+ 
+
+00:06:46.600 --> 00:06:49.749 align:start position:0%
+Here we find the include and exclude
+functions.<00:06:47.600><c> If</c><00:06:47.840><c> I</c><00:06:48.000><c> select</c><00:06:48.400><c> include</c><00:06:49.280><c> and</c><00:06:49.600><c> click</c>
+
+00:06:49.749 --> 00:06:49.759 align:start position:0%
+functions. If I select include and click
+ 
+
+00:06:49.759 --> 00:06:51.510 align:start position:0%
+functions. If I select include and click
+on<00:06:49.919><c> the</c><00:06:50.080><c> penguin</c><00:06:50.560><c> with</c><00:06:50.720><c> the</c><00:06:50.880><c> left</c><00:06:51.199><c> mouse</c>
+
+00:06:51.510 --> 00:06:51.520 align:start position:0%
+on the penguin with the left mouse
+ 
+
+00:06:51.520 --> 00:06:54.070 align:start position:0%
+on the penguin with the left mouse
+button,<00:06:52.160><c> midjourney</c><00:06:52.800><c> recognizes</c><00:06:53.440><c> the</c><00:06:53.680><c> figure</c>
+
+00:06:54.070 --> 00:06:54.080 align:start position:0%
+button, midjourney recognizes the figure
+ 
+
+00:06:54.080 --> 00:06:56.029 align:start position:0%
+button, midjourney recognizes the figure
+and<00:06:54.319><c> marks</c><00:06:54.639><c> it</c><00:06:54.800><c> with</c><00:06:54.960><c> this</c><00:06:55.199><c> green</c>
+
+00:06:56.029 --> 00:06:56.039 align:start position:0%
+and marks it with this green
+ 
+
+00:06:56.039 --> 00:06:58.950 align:start position:0%
+and marks it with this green
+hatching.<00:06:57.039><c> Exclude</c><00:06:57.680><c> removes</c><00:06:58.080><c> selected</c><00:06:58.560><c> areas</c>
+
+00:06:58.950 --> 00:06:58.960 align:start position:0%
+hatching. Exclude removes selected areas
+ 
+
+00:06:58.960 --> 00:07:02.070 align:start position:0%
+hatching. Exclude removes selected areas
+again.<00:06:59.919><c> That</c><00:07:00.160><c> was</c><00:07:00.400><c> step</c><00:07:00.639><c> one.</c><00:07:01.520><c> Now</c><00:07:01.759><c> you</c><00:07:02.000><c> can</c>
+
+00:07:02.070 --> 00:07:02.080 align:start position:0%
+again. That was step one. Now you can
+ 
+
+00:07:02.080 --> 00:07:05.189 align:start position:0%
+again. That was step one. Now you can
+use<00:07:02.560><c> erase</c><00:07:02.800><c> selection</c><00:07:03.599><c> to</c><00:07:03.919><c> delete</c><00:07:04.319><c> the</c><00:07:04.720><c> active</c>
+
+00:07:05.189 --> 00:07:05.199 align:start position:0%
+use erase selection to delete the active
+ 
+
+00:07:05.199 --> 00:07:07.189 align:start position:0%
+use erase selection to delete the active
+selection<00:07:05.599><c> from</c><00:07:05.840><c> the</c><00:07:06.000><c> image.</c><00:07:06.800><c> In</c><00:07:07.039><c> other</c>
+
+00:07:07.189 --> 00:07:07.199 align:start position:0%
+selection from the image. In other
+ 
+
+00:07:07.199 --> 00:07:09.909 align:start position:0%
+selection from the image. In other
+words,<00:07:07.599><c> cut</c><00:07:07.840><c> a</c><00:07:08.000><c> hole</c><00:07:08.240><c> in</c><00:07:08.400><c> the</c><00:07:08.560><c> image</c><00:07:09.120><c> or</c><00:07:09.360><c> use</c>
+
+00:07:09.909 --> 00:07:09.919 align:start position:0%
+words, cut a hole in the image or use
+ 
+
+00:07:09.919 --> 00:07:12.150 align:start position:0%
+words, cut a hole in the image or use
+erase<00:07:10.240><c> background</c><00:07:10.720><c> to</c><00:07:10.960><c> remove</c><00:07:11.199><c> the</c><00:07:11.440><c> area</c><00:07:11.919><c> that</c>
+
+00:07:12.150 --> 00:07:12.160 align:start position:0%
+erase background to remove the area that
+ 
+
+00:07:12.160 --> 00:07:15.350 align:start position:0%
+erase background to remove the area that
+is<00:07:12.400><c> now</c><00:07:12.639><c> not</c><00:07:12.880><c> highlighted</c><00:07:13.360><c> in</c><00:07:13.880><c> green.</c><00:07:14.880><c> This</c><00:07:15.120><c> is</c>
+
+00:07:15.350 --> 00:07:15.360 align:start position:0%
+is now not highlighted in green. This is
+ 
+
+00:07:15.360 --> 00:07:18.150 align:start position:0%
+is now not highlighted in green. This is
+exactly<00:07:15.759><c> the</c><00:07:16.000><c> inverse</c><00:07:16.520><c> effect.</c><00:07:17.520><c> However,</c><00:07:17.919><c> we</c>
+
+00:07:18.150 --> 00:07:18.160 align:start position:0%
+exactly the inverse effect. However, we
+ 
+
+00:07:18.160 --> 00:07:20.469 align:start position:0%
+exactly the inverse effect. However, we
+want<00:07:18.319><c> the</c><00:07:18.479><c> figure</c><00:07:18.800><c> to</c><00:07:18.960><c> remain</c><00:07:19.680><c> and</c><00:07:20.000><c> only</c><00:07:20.240><c> the</c>
+
+00:07:20.469 --> 00:07:20.479 align:start position:0%
+want the figure to remain and only the
+ 
+
+00:07:20.479 --> 00:07:22.550 align:start position:0%
+want the figure to remain and only the
+background<00:07:20.800><c> to</c><00:07:21.039><c> be</c><00:07:21.120><c> removed.</c><00:07:21.919><c> That's</c><00:07:22.160><c> why</c><00:07:22.319><c> I</c>
+
+00:07:22.550 --> 00:07:22.560 align:start position:0%
+background to be removed. That's why I
+ 
+
+00:07:22.560 --> 00:07:25.670 align:start position:0%
+background to be removed. That's why I
+click<00:07:22.800><c> on</c><00:07:23.759><c> erase</c><00:07:24.160><c> background</c><00:07:24.680><c> here.</c>
+
+00:07:25.670 --> 00:07:25.680 align:start position:0%
+click on erase background here.
+ 
+
+00:07:25.680 --> 00:07:26.950 align:start position:0%
+click on erase background here.
+Incidentally,<00:07:26.160><c> if</c><00:07:26.319><c> you</c><00:07:26.479><c> have</c><00:07:26.639><c> made</c><00:07:26.800><c> a</c>
+
+00:07:26.950 --> 00:07:26.960 align:start position:0%
+Incidentally, if you have made a
+ 
+
+00:07:26.960 --> 00:07:29.830 align:start position:0%
+Incidentally, if you have made a
+mistake,<00:07:27.759><c> you</c><00:07:27.919><c> can</c><00:07:28.080><c> use</c><00:07:28.240><c> the</c><00:07:28.479><c> undo</c><00:07:29.039><c> and</c><00:07:29.360><c> redo</c>
+
+00:07:29.830 --> 00:07:29.840 align:start position:0%
+mistake, you can use the undo and redo
+ 
+
+00:07:29.840 --> 00:07:32.309 align:start position:0%
+mistake, you can use the undo and redo
+functions<00:07:30.400><c> at</c><00:07:30.720><c> any</c><00:07:31.039><c> time</c><00:07:31.360><c> and</c><00:07:31.680><c> go</c><00:07:31.840><c> back</c><00:07:32.080><c> step</c>
+
+00:07:32.309 --> 00:07:32.319 align:start position:0%
+functions at any time and go back step
+ 
+
+00:07:32.319 --> 00:07:34.790 align:start position:0%
+functions at any time and go back step
+by<00:07:32.560><c> step.</c><00:07:32.960><c> The</c><00:07:33.199><c> penguin</c><00:07:33.520><c> is</c><00:07:33.680><c> still</c><00:07:34.080><c> layer</c><00:07:34.160><c> 1.</c>
+
+00:07:34.790 --> 00:07:34.800 align:start position:0%
+by step. The penguin is still layer 1.
+ 
+
+00:07:34.800 --> 00:07:37.110 align:start position:0%
+by step. The penguin is still layer 1.
+The<00:07:35.039><c> background</c><00:07:35.360><c> is</c><00:07:35.680><c> layer</c><00:07:35.919><c> two.</c><00:07:36.560><c> On</c><00:07:36.720><c> the</c><00:07:36.880><c> far</c>
+
+00:07:37.110 --> 00:07:37.120 align:start position:0%
+The background is layer two. On the far
+ 
+
+00:07:37.120 --> 00:07:39.189 align:start position:0%
+The background is layer two. On the far
+right,<00:07:37.440><c> we</c><00:07:37.599><c> see</c><00:07:37.680><c> the</c><00:07:37.919><c> basic</c><00:07:38.240><c> element,</c><00:07:38.880><c> the</c>
+
+00:07:39.189 --> 00:07:39.199 align:start position:0%
+right, we see the basic element, the
+ 
+
+00:07:39.199 --> 00:07:41.510 align:start position:0%
+right, we see the basic element, the
+original<00:07:39.599><c> image.</c><00:07:40.400><c> If</c><00:07:40.560><c> we</c><00:07:40.800><c> now</c><00:07:40.960><c> combine</c><00:07:41.360><c> the</c>
+
+00:07:41.510 --> 00:07:41.520 align:start position:0%
+original image. If we now combine the
+ 
+
+00:07:41.520 --> 00:07:43.710 align:start position:0%
+original image. If we now combine the
+individual<00:07:42.000><c> tools</c><00:07:42.400><c> with</c><00:07:42.639><c> each</c><00:07:42.800><c> other,</c><00:07:43.520><c> for</c>
+
+00:07:43.710 --> 00:07:43.720 align:start position:0%
+individual tools with each other, for
+ 
+
+00:07:43.720 --> 00:07:47.029 align:start position:0%
+individual tools with each other, for
+example,<00:07:44.720><c> move</c><00:07:45.039><c> and</c><00:07:45.479><c> resize,</c><00:07:46.479><c> then</c><00:07:46.720><c> I</c><00:07:46.880><c> can</c>
+
+00:07:47.029 --> 00:07:47.039 align:start position:0%
+example, move and resize, then I can
+ 
+
+00:07:47.039 --> 00:07:48.629 align:start position:0%
+example, move and resize, then I can
+move<00:07:47.199><c> the</c><00:07:47.360><c> penguin</c><00:07:47.759><c> to</c><00:07:47.919><c> a</c><00:07:48.160><c> different</c><00:07:48.319><c> position</c>
+
+00:07:48.629 --> 00:07:48.639 align:start position:0%
+move the penguin to a different position
+ 
+
+00:07:48.639 --> 00:07:50.550 align:start position:0%
+move the penguin to a different position
+in<00:07:48.880><c> the</c><00:07:49.039><c> image.</c><00:07:49.840><c> Now,</c><00:07:50.080><c> the</c><00:07:50.319><c> actual</c>
+
+00:07:50.550 --> 00:07:50.560 align:start position:0%
+in the image. Now, the actual
+ 
+
+00:07:50.560 --> 00:07:53.430 align:start position:0%
+in the image. Now, the actual
+modification<00:07:51.280><c> process</c><00:07:51.800><c> begins.</c><00:07:52.800><c> To</c><00:07:53.039><c> do</c><00:07:53.120><c> this,</c>
+
+00:07:53.430 --> 00:07:53.440 align:start position:0%
+modification process begins. To do this,
+ 
+
+00:07:53.440 --> 00:07:56.230 align:start position:0%
+modification process begins. To do this,
+I<00:07:53.599><c> go</c><00:07:53.759><c> to</c><00:07:54.080><c> layer</c><00:07:54.240><c> 2,</c><00:07:54.879><c> the</c><00:07:55.120><c> background</c><00:07:55.520><c> image,</c>
+
+00:07:56.230 --> 00:07:56.240 align:start position:0%
+I go to layer 2, the background image,
+ 
+
+00:07:56.240 --> 00:07:59.189 align:start position:0%
+I go to layer 2, the background image,
+and<00:07:56.560><c> select</c><00:07:56.800><c> the</c><00:07:57.120><c> erase</c><00:07:57.800><c> function.</c><00:07:58.800><c> What</c><00:07:58.960><c> I'm</c>
+
+00:07:59.189 --> 00:07:59.199 align:start position:0%
+and select the erase function. What I'm
+ 
+
+00:07:59.199 --> 00:08:01.589 align:start position:0%
+and select the erase function. What I'm
+about<00:07:59.440><c> to</c><00:07:59.599><c> show</c><00:07:59.680><c> you</c><00:07:59.919><c> is</c><00:08:00.080><c> crucial.</c><00:08:01.280><c> You</c><00:08:01.520><c> have</c>
+
+00:08:01.589 --> 00:08:01.599 align:start position:0%
+about to show you is crucial. You have
+ 
+
+00:08:01.599 --> 00:08:03.029 align:start position:0%
+about to show you is crucial. You have
+to<00:08:01.680><c> give</c><00:08:01.840><c> MidJourney</c><00:08:02.479><c> the</c><00:08:02.639><c> option</c><00:08:02.800><c> of</c>
+
+00:08:03.029 --> 00:08:03.039 align:start position:0%
+to give MidJourney the option of
+ 
+
+00:08:03.039 --> 00:08:05.589 align:start position:0%
+to give MidJourney the option of
+blending<00:08:03.440><c> the</c><00:08:03.599><c> two</c><00:08:03.919><c> layers</c><00:08:04.080><c> into</c><00:08:04.400><c> each</c><00:08:04.639><c> other.</c>
+
+00:08:05.589 --> 00:08:05.599 align:start position:0%
+blending the two layers into each other.
+ 
+
+00:08:05.599 --> 00:08:07.990 align:start position:0%
+blending the two layers into each other.
+To<00:08:05.840><c> do</c><00:08:06.000><c> this,</c><00:08:06.240><c> I</c><00:08:06.479><c> take</c><00:08:06.639><c> the</c><00:08:06.800><c> brush</c><00:08:07.280><c> and</c><00:08:07.680><c> erase</c>
+
+00:08:07.990 --> 00:08:08.000 align:start position:0%
+To do this, I take the brush and erase
+ 
+
+00:08:08.000 --> 00:08:09.749 align:start position:0%
+To do this, I take the brush and erase
+image<00:08:08.319><c> content</c><00:08:08.720><c> at</c><00:08:08.960><c> the</c><00:08:09.120><c> transition</c><00:08:09.520><c> between</c>
+
+00:08:09.749 --> 00:08:09.759 align:start position:0%
+image content at the transition between
+ 
+
+00:08:09.759 --> 00:08:12.950 align:start position:0%
+image content at the transition between
+the<00:08:09.919><c> two</c><00:08:10.360><c> objects.</c><00:08:11.360><c> In</c><00:08:11.599><c> this</c><00:08:11.840><c> specific</c><00:08:12.240><c> case,</c>
+
+00:08:12.950 --> 00:08:12.960 align:start position:0%
+the two objects. In this specific case,
+ 
+
+00:08:12.960 --> 00:08:14.390 align:start position:0%
+the two objects. In this specific case,
+I<00:08:13.199><c> want</c><00:08:13.280><c> the</c><00:08:13.520><c> transition</c><00:08:13.919><c> between</c><00:08:14.160><c> the</c>
+
+00:08:14.390 --> 00:08:14.400 align:start position:0%
+I want the transition between the
+ 
+
+00:08:14.400 --> 00:08:16.550 align:start position:0%
+I want the transition between the
+penguin<00:08:14.960><c> and</c><00:08:15.199><c> the</c><00:08:15.440><c> background</c><00:08:15.759><c> to</c><00:08:16.000><c> be</c><00:08:16.160><c> nicely</c>
+
+00:08:16.550 --> 00:08:16.560 align:start position:0%
+penguin and the background to be nicely
+ 
+
+00:08:16.560 --> 00:08:19.189 align:start position:0%
+penguin and the background to be nicely
+interpolated<00:08:17.280><c> by</c><00:08:17.720><c> midjourney.</c><00:08:18.720><c> If</c><00:08:18.960><c> I've</c>
+
+00:08:19.189 --> 00:08:19.199 align:start position:0%
+interpolated by midjourney. If I've
+ 
+
+00:08:19.199 --> 00:08:21.589 align:start position:0%
+interpolated by midjourney. If I've
+inadvertently<00:08:20.080><c> performed</c><00:08:20.400><c> a</c><00:08:20.639><c> wrong</c><00:08:20.800><c> action,</c>
+
+00:08:21.589 --> 00:08:21.599 align:start position:0%
+inadvertently performed a wrong action,
+ 
+
+00:08:21.599 --> 00:08:25.830 align:start position:0%
+inadvertently performed a wrong action,
+I<00:08:21.840><c> can</c><00:08:21.919><c> either</c><00:08:22.240><c> click</c><00:08:22.599><c> undo</c><00:08:23.599><c> or</c><00:08:23.919><c> use</c><00:08:24.840><c> restore.</c>
+
+00:08:25.830 --> 00:08:25.840 align:start position:0%
+I can either click undo or use restore.
+ 
+
+00:08:25.840 --> 00:08:27.670 align:start position:0%
+I can either click undo or use restore.
+Then<00:08:26.000><c> I</c><00:08:26.240><c> can</c><00:08:26.319><c> remove</c><00:08:26.639><c> what</c><00:08:26.879><c> I</c><00:08:26.960><c> have</c><00:08:27.120><c> marked</c>
+
+00:08:27.670 --> 00:08:27.680 align:start position:0%
+Then I can remove what I have marked
+ 
+
+00:08:27.680 --> 00:08:29.430 align:start position:0%
+Then I can remove what I have marked
+incorrectly.
+
+00:08:29.430 --> 00:08:29.440 align:start position:0%
+incorrectly.
+ 
+
+00:08:29.440 --> 00:08:32.070 align:start position:0%
+incorrectly.
+Next,<00:08:29.919><c> I</c><00:08:30.160><c> add</c><00:08:30.319><c> the</c><00:08:30.479><c> prompt</c><00:08:31.199><c> a</c><00:08:31.360><c> penguin</c><00:08:31.840><c> looks</c>
+
+00:08:32.070 --> 00:08:32.080 align:start position:0%
+Next, I add the prompt a penguin looks
+ 
+
+00:08:32.080 --> 00:08:34.469 align:start position:0%
+Next, I add the prompt a penguin looks
+amazed<00:08:32.719><c> to</c><00:08:32.959><c> the</c><00:08:33.120><c> top</c><00:08:33.279><c> of</c><00:08:33.360><c> the</c><00:08:33.599><c> command</c><00:08:33.919><c> bar</c><00:08:34.240><c> and</c>
+
+00:08:34.469 --> 00:08:34.479 align:start position:0%
+amazed to the top of the command bar and
+ 
+
+00:08:34.479 --> 00:08:38.070 align:start position:0%
+amazed to the top of the command bar and
+then<00:08:34.719><c> click</c><00:08:34.959><c> on</c><00:08:35.760><c> submit</c><00:08:36.360><c> edit.</c><00:08:37.360><c> Midjourney</c>
+
+00:08:38.070 --> 00:08:38.080 align:start position:0%
+then click on submit edit. Midjourney
+ 
+
+00:08:38.080 --> 00:08:40.230 align:start position:0%
+then click on submit edit. Midjourney
+now<00:08:38.240><c> leaves</c><00:08:38.560><c> the</c><00:08:38.800><c> basic</c><00:08:39.120><c> structure</c><00:08:39.760><c> with</c><00:08:40.080><c> the</c>
+
+00:08:40.230 --> 00:08:40.240 align:start position:0%
+now leaves the basic structure with the
+ 
+
+00:08:40.240 --> 00:08:42.709 align:start position:0%
+now leaves the basic structure with the
+individual<00:08:40.880><c> layers.</c><00:08:41.839><c> If</c><00:08:42.000><c> I</c><00:08:42.159><c> click</c><00:08:42.399><c> on</c><00:08:42.560><c> the</c>
+
+00:08:42.709 --> 00:08:42.719 align:start position:0%
+individual layers. If I click on the
+ 
+
+00:08:42.719 --> 00:08:45.350 align:start position:0%
+individual layers. If I click on the
+basic<00:08:43.120><c> element</c><00:08:43.440><c> on</c><00:08:43.680><c> the</c><00:08:43.839><c> top</c><00:08:44.080><c> right</c><00:08:44.399><c> again,</c><00:08:45.120><c> I</c>
+
+00:08:45.350 --> 00:08:45.360 align:start position:0%
+basic element on the top right again, I
+ 
+
+00:08:45.360 --> 00:08:47.750 align:start position:0%
+basic element on the top right again, I
+can<00:08:45.519><c> change</c><00:08:45.760><c> my</c><00:08:46.080><c> entire</c><00:08:46.480><c> job</c><00:08:46.800><c> again,</c><00:08:47.519><c> even</c>
+
+00:08:47.750 --> 00:08:47.760 align:start position:0%
+can change my entire job again, even
+ 
+
+00:08:47.760 --> 00:08:49.430 align:start position:0%
+can change my entire job again, even
+though<00:08:48.000><c> midjourney</c><00:08:48.560><c> is</c><00:08:48.800><c> already</c><00:08:49.040><c> working</c><00:08:49.279><c> on</c>
+
+00:08:49.430 --> 00:08:49.440 align:start position:0%
+though midjourney is already working on
+ 
+
+00:08:49.440 --> 00:08:52.150 align:start position:0%
+though midjourney is already working on
+the<00:08:49.600><c> new</c><00:08:49.880><c> job.</c><00:08:50.880><c> This</c><00:08:51.120><c> means</c><00:08:51.360><c> that</c><00:08:51.600><c> whatever</c><00:08:51.920><c> is</c>
+
+00:08:52.150 --> 00:08:52.160 align:start position:0%
+the new job. This means that whatever is
+ 
+
+00:08:52.160 --> 00:08:54.470 align:start position:0%
+the new job. This means that whatever is
+outlined<00:08:52.560><c> in</c><00:08:52.720><c> red</c><00:08:52.959><c> at</c><00:08:53.200><c> the</c><00:08:53.279><c> top</c><00:08:53.519><c> right</c><00:08:54.160><c> is</c>
+
+00:08:54.470 --> 00:08:54.480 align:start position:0%
+outlined in red at the top right is
+ 
+
+00:08:54.480 --> 00:08:57.430 align:start position:0%
+outlined in red at the top right is
+shown<00:08:54.720><c> here</c><00:08:54.959><c> as</c><00:08:55.200><c> an</c><00:08:55.360><c> enlarged</c><00:08:55.920><c> image.</c><00:08:56.959><c> I</c><00:08:57.200><c> now</c>
+
+00:08:57.430 --> 00:08:57.440 align:start position:0%
+shown here as an enlarged image. I now
+ 
+
+00:08:57.440 --> 00:08:59.990 align:start position:0%
+shown here as an enlarged image. I now
+select<00:08:57.760><c> one</c><00:08:58.000><c> of</c><00:08:58.080><c> these</c><00:08:58.320><c> four</c><00:08:58.600><c> pictures.</c><00:08:59.600><c> It</c><00:08:59.839><c> is</c>
+
+00:08:59.990 --> 00:09:00.000 align:start position:0%
+select one of these four pictures. It is
+ 
+
+00:09:00.000 --> 00:09:02.470 align:start position:0%
+select one of these four pictures. It is
+outlined<00:09:00.399><c> in</c><00:09:00.640><c> red</c><00:09:00.880><c> at</c><00:09:01.120><c> the</c><00:09:01.279><c> top</c><00:09:01.440><c> right</c><00:09:02.160><c> and</c>
+
+00:09:02.470 --> 00:09:02.480 align:start position:0%
+outlined in red at the top right and
+ 
+
+00:09:02.480 --> 00:09:05.269 align:start position:0%
+outlined in red at the top right and
+displayed<00:09:02.959><c> here</c><00:09:03.279><c> in</c><00:09:03.440><c> large.</c><00:09:04.399><c> Midjourney</c><00:09:05.040><c> has</c>
+
+00:09:05.269 --> 00:09:05.279 align:start position:0%
+displayed here in large. Midjourney has
+ 
+
+00:09:05.279 --> 00:09:07.430 align:start position:0%
+displayed here in large. Midjourney has
+now<00:09:05.519><c> perfectly</c><00:09:06.080><c> modeled</c><00:09:06.480><c> the</c><00:09:06.640><c> penguin</c><00:09:07.120><c> into</c>
+
+00:09:07.430 --> 00:09:07.440 align:start position:0%
+now perfectly modeled the penguin into
+ 
+
+00:09:07.440 --> 00:09:09.750 align:start position:0%
+now perfectly modeled the penguin into
+the<00:09:07.600><c> background</c><00:09:08.560><c> without</c><00:09:08.959><c> you</c><00:09:09.200><c> having</c><00:09:09.440><c> to</c><00:09:09.600><c> do</c>
+
+00:09:09.750 --> 00:09:09.760 align:start position:0%
+the background without you having to do
+ 
+
+00:09:09.760 --> 00:09:12.630 align:start position:0%
+the background without you having to do
+any<00:09:10.000><c> major</c><00:09:10.440><c> editing.</c><00:09:11.440><c> By</c><00:09:11.600><c> the</c><00:09:11.760><c> way,</c><00:09:12.240><c> if</c><00:09:12.480><c> you</c>
+
+00:09:12.630 --> 00:09:12.640 align:start position:0%
+any major editing. By the way, if you
+ 
+
+00:09:12.640 --> 00:09:14.150 align:start position:0%
+any major editing. By the way, if you
+have<00:09:12.800><c> to</c><00:09:12.959><c> stop</c><00:09:13.200><c> working</c><00:09:13.440><c> on</c><00:09:13.600><c> a</c><00:09:13.839><c> current</c>
+
+00:09:14.150 --> 00:09:14.160 align:start position:0%
+have to stop working on a current
+ 
+
+00:09:14.160 --> 00:09:16.230 align:start position:0%
+have to stop working on a current
+project,<00:09:14.959><c> you</c><00:09:15.200><c> don't</c><00:09:15.360><c> need</c><00:09:15.519><c> to</c><00:09:15.680><c> worry</c><00:09:15.920><c> that</c>
+
+00:09:16.230 --> 00:09:16.240 align:start position:0%
+project, you don't need to worry that
+ 
+
+00:09:16.240 --> 00:09:18.949 align:start position:0%
+project, you don't need to worry that
+everything<00:09:16.560><c> is</c><00:09:16.800><c> gone.</c><00:09:17.680><c> Midjourney</c><00:09:18.399><c> saves</c><00:09:18.720><c> the</c>
+
+00:09:18.949 --> 00:09:18.959 align:start position:0%
+everything is gone. Midjourney saves the
+ 
+
+00:09:18.959 --> 00:09:21.910 align:start position:0%
+everything is gone. Midjourney saves the
+log.<00:09:19.680><c> Simply</c><00:09:20.160><c> restart</c><00:09:20.560><c> the</c><00:09:20.800><c> application.</c><00:09:21.680><c> Go</c>
+
+00:09:21.910 --> 00:09:21.920 align:start position:0%
+log. Simply restart the application. Go
+ 
+
+00:09:21.920 --> 00:09:24.070 align:start position:0%
+log. Simply restart the application. Go
+to<00:09:22.080><c> edit</c><00:09:22.720><c> and</c><00:09:22.959><c> you</c><00:09:23.120><c> will</c><00:09:23.360><c> find</c><00:09:23.519><c> your</c><00:09:23.760><c> last</c>
+
+00:09:24.070 --> 00:09:24.080 align:start position:0%
+to edit and you will find your last
+ 
+
+00:09:24.080 --> 00:09:27.110 align:start position:0%
+to edit and you will find your last
+edited<00:09:24.640><c> file</c><00:09:24.959><c> there</c><00:09:25.440><c> under</c><00:09:25.839><c> recent.</c><00:09:26.640><c> It's</c><00:09:26.880><c> as</c>
+
+00:09:27.110 --> 00:09:27.120 align:start position:0%
+edited file there under recent. It's as
+ 
+
+00:09:27.120 --> 00:09:29.110 align:start position:0%
+edited file there under recent. It's as
+simple<00:09:27.279><c> as</c><00:09:27.440><c> that.</c><00:09:28.000><c> Then</c><00:09:28.240><c> just</c><00:09:28.480><c> click</c><00:09:28.720><c> on</c><00:09:28.880><c> it</c>
+
+00:09:29.110 --> 00:09:29.120 align:start position:0%
+simple as that. Then just click on it
+ 
+
+00:09:29.120 --> 00:09:30.870 align:start position:0%
+simple as that. Then just click on it
+again<00:09:29.519><c> and</c><00:09:29.839><c> all</c><00:09:29.920><c> the</c><00:09:30.160><c> elements</c><00:09:30.480><c> are</c><00:09:30.640><c> there</c>
+
+00:09:30.870 --> 00:09:30.880 align:start position:0%
+again and all the elements are there
+ 
+
+00:09:30.880 --> 00:09:33.670 align:start position:0%
+again and all the elements are there
+again.<00:09:31.519><c> So</c><00:09:31.760><c> nothing</c><00:09:32.000><c> has</c><00:09:32.440><c> disappeared.</c><00:09:33.440><c> Of</c>
+
+00:09:33.670 --> 00:09:33.680 align:start position:0%
+again. So nothing has disappeared. Of
+ 
+
+00:09:33.680 --> 00:09:35.269 align:start position:0%
+again. So nothing has disappeared. Of
+course<00:09:33.839><c> I</c><00:09:34.080><c> can</c><00:09:34.240><c> still</c><00:09:34.399><c> go</c><00:09:34.640><c> backwards</c><00:09:35.040><c> and</c>
+
+00:09:35.269 --> 00:09:35.279 align:start position:0%
+course I can still go backwards and
+ 
+
+00:09:35.279 --> 00:09:37.350 align:start position:0%
+course I can still go backwards and
+forwards.<00:09:36.080><c> Everything</c><00:09:36.399><c> you</c><00:09:36.640><c> have</c><00:09:36.800><c> done</c><00:09:37.120><c> and</c>
+
+00:09:37.350 --> 00:09:37.360 align:start position:0%
+forwards. Everything you have done and
+ 
+
+00:09:37.360 --> 00:09:39.269 align:start position:0%
+forwards. Everything you have done and
+all<00:09:37.519><c> the</c><00:09:37.680><c> images</c><00:09:38.160><c> are</c><00:09:38.399><c> still</c><00:09:38.640><c> there.</c><00:09:39.040><c> Now</c>
+
+00:09:39.269 --> 00:09:39.279 align:start position:0%
+all the images are still there. Now
+ 
+
+00:09:39.279 --> 00:09:40.949 align:start position:0%
+all the images are still there. Now
+let's<00:09:39.600><c> continue</c><00:09:39.839><c> to</c><00:09:40.080><c> change</c><00:09:40.320><c> this</c><00:09:40.640><c> picture</c>
+
+00:09:40.949 --> 00:09:40.959 align:start position:0%
+let's continue to change this picture
+ 
+
+00:09:40.959 --> 00:09:43.030 align:start position:0%
+let's continue to change this picture
+here.<00:09:41.360><c> To</c><00:09:41.600><c> do</c><00:09:41.760><c> this,</c><00:09:42.080><c> I'll</c><00:09:42.320><c> choose</c><00:09:42.560><c> an</c><00:09:42.720><c> image</c>
+
+00:09:43.030 --> 00:09:43.040 align:start position:0%
+here. To do this, I'll choose an image
+ 
+
+00:09:43.040 --> 00:09:44.790 align:start position:0%
+here. To do this, I'll choose an image
+from<00:09:43.279><c> the</c><00:09:43.440><c> four</c><00:09:43.680><c> suggestions</c><00:09:44.160><c> that</c><00:09:44.399><c> I</c><00:09:44.560><c> like</c>
+
+00:09:44.790 --> 00:09:44.800 align:start position:0%
+from the four suggestions that I like
+ 
+
+00:09:44.800 --> 00:09:47.269 align:start position:0%
+from the four suggestions that I like
+best.<00:09:45.600><c> I'll</c><00:09:45.839><c> take</c><00:09:46.080><c> this</c><00:09:46.320><c> one.</c><00:09:46.800><c> By</c><00:09:46.959><c> the</c><00:09:47.120><c> way,</c>
+
+00:09:47.269 --> 00:09:47.279 align:start position:0%
+best. I'll take this one. By the way,
+ 
+
+00:09:47.279 --> 00:09:49.110 align:start position:0%
+best. I'll take this one. By the way,
+you<00:09:47.440><c> can</c><00:09:47.519><c> see</c><00:09:47.600><c> that</c><00:09:47.839><c> this</c><00:09:48.080><c> picture</c><00:09:48.320><c> is</c><00:09:48.560><c> new</c><00:09:48.880><c> and</c>
+
+00:09:49.110 --> 00:09:49.120 align:start position:0%
+you can see that this picture is new and
+ 
+
+00:09:49.120 --> 00:09:51.350 align:start position:0%
+you can see that this picture is new and
+has<00:09:49.360><c> no</c><00:09:49.600><c> further</c><00:09:50.080><c> layers.</c><00:09:50.800><c> Please</c><00:09:51.120><c> don't</c>
+
+00:09:51.350 --> 00:09:51.360 align:start position:0%
+has no further layers. Please don't
+ 
+
+00:09:51.360 --> 00:09:54.870 align:start position:0%
+has no further layers. Please don't
+confuse<00:09:51.760><c> the</c><00:09:52.200><c> two.</c><00:09:53.200><c> Next,</c><00:09:53.600><c> I</c><00:09:53.920><c> select</c><00:09:54.320><c> move</c><00:09:54.560><c> and</c>
+
+00:09:54.870 --> 00:09:54.880 align:start position:0%
+confuse the two. Next, I select move and
+ 
+
+00:09:54.880 --> 00:09:57.190 align:start position:0%
+confuse the two. Next, I select move and
+resize<00:09:55.440><c> again</c><00:09:55.920><c> and</c><00:09:56.240><c> place</c><00:09:56.480><c> the</c><00:09:56.640><c> image</c><00:09:56.880><c> in</c><00:09:57.040><c> the</c>
+
+00:09:57.190 --> 00:09:57.200 align:start position:0%
+resize again and place the image in the
+ 
+
+00:09:57.200 --> 00:09:59.990 align:start position:0%
+resize again and place the image in the
+middle<00:09:57.600><c> at</c><00:09:57.839><c> a</c><00:09:58.080><c> reduced</c><00:09:58.560><c> size.</c><00:09:59.519><c> Again,</c>
+
+00:09:59.990 --> 00:10:00.000 align:start position:0%
+middle at a reduced size. Again,
+ 
+
+00:10:00.000 --> 00:10:01.750 align:start position:0%
+middle at a reduced size. Again,
+remember<00:10:00.399><c> not</c><00:10:00.560><c> to</c><00:10:00.800><c> reduce</c><00:10:01.040><c> the</c><00:10:01.279><c> image</c><00:10:01.519><c> too</c>
+
+00:10:01.750 --> 00:10:01.760 align:start position:0%
+remember not to reduce the image too
+ 
+
+00:10:01.760 --> 00:10:04.110 align:start position:0%
+remember not to reduce the image too
+much.<00:10:02.720><c> Midjourney</c><00:10:03.360><c> remains</c><00:10:03.760><c> very</c>
+
+00:10:04.110 --> 00:10:04.120 align:start position:0%
+much. Midjourney remains very
+ 
+
+00:10:04.120 --> 00:10:06.310 align:start position:0%
+much. Midjourney remains very
+unconventional<00:10:05.120><c> and</c><00:10:05.360><c> could</c><00:10:05.600><c> simply</c><00:10:05.920><c> insert</c>
+
+00:10:06.310 --> 00:10:06.320 align:start position:0%
+unconventional and could simply insert
+ 
+
+00:10:06.320 --> 00:10:09.190 align:start position:0%
+unconventional and could simply insert
+something<00:10:06.640><c> unwanted</c><00:10:07.519><c> into</c><00:10:07.920><c> the</c><00:10:08.080><c> image</c><00:10:08.720><c> if</c><00:10:09.040><c> it</c>
+
+00:10:09.190 --> 00:10:09.200 align:start position:0%
+something unwanted into the image if it
+ 
+
+00:10:09.200 --> 00:10:12.630 align:start position:0%
+something unwanted into the image if it
+has<00:10:09.360><c> too</c><00:10:09.600><c> much</c><00:10:10.040><c> leeway.</c><00:10:11.040><c> I</c><00:10:11.279><c> press</c><00:10:11.680><c> submit</c><00:10:12.080><c> edit</c>
+
+00:10:12.630 --> 00:10:12.640 align:start position:0%
+has too much leeway. I press submit edit
+ 
+
+00:10:12.640 --> 00:10:15.190 align:start position:0%
+has too much leeway. I press submit edit
+again<00:10:12.959><c> with</c><00:10:13.200><c> the</c><00:10:13.360><c> same</c><00:10:13.600><c> prompt.</c><00:10:14.560><c> Of</c><00:10:14.800><c> course,</c><00:10:15.040><c> I</c>
+
+00:10:15.190 --> 00:10:15.200 align:start position:0%
+again with the same prompt. Of course, I
+ 
+
+00:10:15.200 --> 00:10:17.269 align:start position:0%
+again with the same prompt. Of course, I
+could<00:10:15.360><c> have</c><00:10:15.519><c> written</c><00:10:15.760><c> a</c><00:10:16.000><c> different</c><00:10:16.240><c> request.</c>
+
+00:10:17.269 --> 00:10:17.279 align:start position:0%
+could have written a different request.
+ 
+
+00:10:17.279 --> 00:10:19.829 align:start position:0%
+could have written a different request.
+with<00:10:17.519><c> my</c><00:10:17.760><c> prompt.</c><00:10:18.480><c> Midjourney</c><00:10:19.120><c> now</c><00:10:19.360><c> expands</c>
+
+00:10:19.829 --> 00:10:19.839 align:start position:0%
+with my prompt. Midjourney now expands
+ 
+
+00:10:19.839 --> 00:10:22.069 align:start position:0%
+with my prompt. Midjourney now expands
+the<00:10:20.000><c> image</c><00:10:20.240><c> on</c><00:10:20.480><c> all</c><00:10:20.640><c> sides</c><00:10:21.200><c> and</c><00:10:21.440><c> performs</c><00:10:21.839><c> a</c>
+
+00:10:22.069 --> 00:10:22.079 align:start position:0%
+the image on all sides and performs a
+ 
+
+00:10:22.079 --> 00:10:25.190 align:start position:0%
+the image on all sides and performs a
+zoom<00:10:22.399><c> effect</c><00:10:22.959><c> to</c><00:10:23.200><c> put</c><00:10:23.360><c> it</c><00:10:23.800><c> bluntly.</c><00:10:24.800><c> If</c><00:10:25.040><c> we</c>
+
+00:10:25.190 --> 00:10:25.200 align:start position:0%
+zoom effect to put it bluntly. If we
+ 
+
+00:10:25.200 --> 00:10:27.350 align:start position:0%
+zoom effect to put it bluntly. If we
+click<00:10:25.360><c> again</c><00:10:25.600><c> on</c><00:10:25.760><c> the</c><00:10:26.000><c> basic</c><00:10:26.320><c> element,</c><00:10:27.120><c> this</c>
+
+00:10:27.350 --> 00:10:27.360 align:start position:0%
+click again on the basic element, this
+ 
+
+00:10:27.360 --> 00:10:29.829 align:start position:0%
+click again on the basic element, this
+was<00:10:27.519><c> our</c><00:10:27.839><c> source</c><00:10:28.160><c> image.</c><00:10:29.120><c> That's</c><00:10:29.360><c> where</c><00:10:29.600><c> I</c>
+
+00:10:29.829 --> 00:10:29.839 align:start position:0%
+was our source image. That's where I
+ 
+
+00:10:29.839 --> 00:10:32.310 align:start position:0%
+was our source image. That's where I
+basically<00:10:30.399><c> assembled</c><00:10:30.880><c> the</c><00:10:31.120><c> entire</c><00:10:31.440><c> scene.</c>
+
+00:10:32.310 --> 00:10:32.320 align:start position:0%
+basically assembled the entire scene.
+ 
+
+00:10:32.320 --> 00:10:34.630 align:start position:0%
+basically assembled the entire scene.
+Then<00:10:32.480><c> I</c><00:10:32.640><c> took</c><00:10:32.880><c> this</c><00:10:33.120><c> picture</c><00:10:33.920><c> and</c><00:10:34.240><c> in</c><00:10:34.480><c> the</c>
+
+00:10:34.630 --> 00:10:34.640 align:start position:0%
+Then I took this picture and in the
+ 
+
+00:10:34.640 --> 00:10:36.870 align:start position:0%
+Then I took this picture and in the
+latest<00:10:35.040><c> version,</c><00:10:35.839><c> I</c><00:10:36.079><c> have</c><00:10:36.160><c> a</c><00:10:36.399><c> somewhat</c>
+
+00:10:36.870 --> 00:10:36.880 align:start position:0%
+latest version, I have a somewhat
+ 
+
+00:10:36.880 --> 00:10:39.670 align:start position:0%
+latest version, I have a somewhat
+wide-angle<00:10:37.600><c> shot.</c><00:10:38.560><c> Of</c><00:10:38.800><c> course,</c><00:10:39.200><c> it's</c><00:10:39.519><c> clear</c>
+
+00:10:39.670 --> 00:10:39.680 align:start position:0%
+wide-angle shot. Of course, it's clear
+ 
+
+00:10:39.680 --> 00:10:41.990 align:start position:0%
+wide-angle shot. Of course, it's clear
+that<00:10:40.000><c> not</c><00:10:40.240><c> all</c><00:10:40.480><c> pictures</c><00:10:40.800><c> are</c><00:10:41.040><c> perfect.</c>
+
+00:10:41.990 --> 00:10:42.000 align:start position:0%
+that not all pictures are perfect.
+ 
+
+00:10:42.000 --> 00:10:43.590 align:start position:0%
+that not all pictures are perfect.
+That's<00:10:42.160><c> why</c><00:10:42.399><c> MidJourney</c><00:10:43.040><c> gives</c><00:10:43.200><c> you</c><00:10:43.360><c> four</c>
+
+00:10:43.590 --> 00:10:43.600 align:start position:0%
+That's why MidJourney gives you four
+ 
+
+00:10:43.600 --> 00:10:45.910 align:start position:0%
+That's why MidJourney gives you four
+alternatives<00:10:44.240><c> to</c><00:10:44.480><c> choose</c><00:10:44.720><c> from.</c><00:10:45.600><c> This</c>
+
+00:10:45.910 --> 00:10:45.920 align:start position:0%
+alternatives to choose from. This
+ 
+
+00:10:45.920 --> 00:10:48.470 align:start position:0%
+alternatives to choose from. This
+picture<00:10:46.399><c> already</c><00:10:46.800><c> looks</c><00:10:47.120><c> quite</c><00:10:47.440><c> good</c><00:10:48.000><c> and</c><00:10:48.240><c> so</c>
+
+00:10:48.470 --> 00:10:48.480 align:start position:0%
+picture already looks quite good and so
+ 
+
+00:10:48.480 --> 00:10:51.110 align:start position:0%
+picture already looks quite good and so
+you<00:10:48.640><c> can</c><00:10:48.800><c> gradually</c><00:10:49.279><c> refine</c><00:10:49.680><c> your</c><00:10:49.920><c> image.</c><00:10:50.880><c> In</c>
+
+00:10:51.110 --> 00:10:51.120 align:start position:0%
+you can gradually refine your image. In
+ 
+
+00:10:51.120 --> 00:10:53.350 align:start position:0%
+you can gradually refine your image. In
+this<00:10:51.360><c> picture,</c><00:10:52.000><c> the</c><00:10:52.320><c> penguin</c><00:10:52.720><c> is</c><00:10:52.880><c> standing</c><00:10:53.200><c> on</c>
+
+00:10:53.350 --> 00:10:53.360 align:start position:0%
+this picture, the penguin is standing on
+ 
+
+00:10:53.360 --> 00:10:55.910 align:start position:0%
+this picture, the penguin is standing on
+a<00:10:53.519><c> small</c><00:10:53.760><c> hill.</c><00:10:54.560><c> I</c><00:10:54.800><c> actually</c><00:10:55.040><c> like</c><00:10:55.279><c> that</c><00:10:55.519><c> very</c>
+
+00:10:55.910 --> 00:10:55.920 align:start position:0%
+a small hill. I actually like that very
+ 
+
+00:10:55.920 --> 00:10:58.310 align:start position:0%
+a small hill. I actually like that very
+much.<00:10:56.880><c> And</c><00:10:57.120><c> now</c><00:10:57.279><c> comes</c><00:10:57.519><c> the</c><00:10:57.760><c> part</c><00:10:57.920><c> that</c><00:10:58.160><c> makes</c>
+
+00:10:58.310 --> 00:10:58.320 align:start position:0%
+much. And now comes the part that makes
+ 
+
+00:10:58.320 --> 00:10:59.949 align:start position:0%
+much. And now comes the part that makes
+midjourney<00:10:58.959><c> quite</c>
+
+00:10:59.949 --> 00:10:59.959 align:start position:0%
+midjourney quite
+ 
+
+00:10:59.959 --> 00:11:01.990 align:start position:0%
+midjourney quite
+extraordinary.<00:11:00.959><c> But</c><00:11:01.120><c> before</c><00:11:01.440><c> we</c><00:11:01.600><c> go</c><00:11:01.760><c> any</c>
+
+00:11:01.990 --> 00:11:02.000 align:start position:0%
+extraordinary. But before we go any
+ 
+
+00:11:02.000 --> 00:11:05.110 align:start position:0%
+extraordinary. But before we go any
+deeper,<00:11:02.720><c> here's</c><00:11:03.040><c> another</c><00:11:03.279><c> pro</c><00:11:03.640><c> tip.</c><00:11:04.640><c> When</c><00:11:04.880><c> you</c>
+
+00:11:05.110 --> 00:11:05.120 align:start position:0%
+deeper, here's another pro tip. When you
+ 
+
+00:11:05.120 --> 00:11:07.110 align:start position:0%
+deeper, here's another pro tip. When you
+found<00:11:05.360><c> a</c><00:11:05.600><c> picture</c><00:11:05.920><c> you</c><00:11:06.160><c> like,</c><00:11:06.720><c> always</c>
+
+00:11:07.110 --> 00:11:07.120 align:start position:0%
+found a picture you like, always
+ 
+
+00:11:07.120 --> 00:11:09.190 align:start position:0%
+found a picture you like, always
+remember<00:11:07.440><c> to</c><00:11:07.680><c> mark</c><00:11:07.920><c> it</c><00:11:08.399><c> so</c><00:11:08.640><c> that</c><00:11:08.800><c> it</c><00:11:09.040><c> is</c>
+
+00:11:09.190 --> 00:11:09.200 align:start position:0%
+remember to mark it so that it is
+ 
+
+00:11:09.200 --> 00:11:11.509 align:start position:0%
+remember to mark it so that it is
+displayed<00:11:09.680><c> large</c><00:11:10.320><c> and</c><00:11:10.480><c> then</c><00:11:10.720><c> save</c><00:11:11.040><c> it</c><00:11:11.200><c> via</c>
+
+00:11:11.509 --> 00:11:11.519 align:start position:0%
+displayed large and then save it via
+ 
+
+00:11:11.519 --> 00:11:14.069 align:start position:0%
+displayed large and then save it via
+upscale<00:11:12.000><c> to</c><00:11:12.240><c> gallery.</c><00:11:13.279><c> If</c><00:11:13.519><c> you</c><00:11:13.680><c> don't</c><00:11:13.920><c> do</c>
+
+00:11:14.069 --> 00:11:14.079 align:start position:0%
+upscale to gallery. If you don't do
+ 
+
+00:11:14.079 --> 00:11:15.990 align:start position:0%
+upscale to gallery. If you don't do
+this,<00:11:14.560><c> your</c><00:11:14.800><c> image</c><00:11:15.040><c> will</c><00:11:15.279><c> not</c><00:11:15.440><c> be</c><00:11:15.600><c> transferred</c>
+
+00:11:15.990 --> 00:11:16.000 align:start position:0%
+this, your image will not be transferred
+ 
+
+00:11:16.000 --> 00:11:18.630 align:start position:0%
+this, your image will not be transferred
+to<00:11:16.160><c> your</c><00:11:16.399><c> normal</c><00:11:16.720><c> midjourney</c><00:11:17.399><c> gallery.</c><00:11:18.399><c> You</c>
+
+00:11:18.630 --> 00:11:18.640 align:start position:0%
+to your normal midjourney gallery. You
+ 
+
+00:11:18.640 --> 00:11:20.550 align:start position:0%
+to your normal midjourney gallery. You
+could<00:11:18.800><c> also</c><00:11:19.120><c> download</c><00:11:19.519><c> images</c><00:11:19.920><c> directly</c><00:11:20.320><c> from</c>
+
+00:11:20.550 --> 00:11:20.560 align:start position:0%
+could also download images directly from
+ 
+
+00:11:20.560 --> 00:11:23.110 align:start position:0%
+could also download images directly from
+the<00:11:20.720><c> editor,</c><00:11:21.519><c> but</c><00:11:21.680><c> I</c><00:11:21.920><c> always</c><00:11:22.240><c> go</c><00:11:22.399><c> the</c><00:11:22.640><c> way</c><00:11:22.800><c> via</c>
+
+00:11:23.110 --> 00:11:23.120 align:start position:0%
+the editor, but I always go the way via
+ 
+
+00:11:23.120 --> 00:11:25.269 align:start position:0%
+the editor, but I always go the way via
+upscale.<00:11:24.079><c> But</c><00:11:24.240><c> now</c><00:11:24.480><c> back</c><00:11:24.640><c> to</c><00:11:24.800><c> the</c><00:11:24.959><c> very</c>
+
+00:11:25.269 --> 00:11:25.279 align:start position:0%
+upscale. But now back to the very
+ 
+
+00:11:25.279 --> 00:11:27.750 align:start position:0%
+upscale. But now back to the very
+special<00:11:25.600><c> part.</c><00:11:26.480><c> This</c><00:11:26.720><c> is</c><00:11:26.800><c> a</c><00:11:27.040><c> really</c><00:11:27.360><c> powerful</c>
+
+00:11:27.750 --> 00:11:27.760 align:start position:0%
+special part. This is a really powerful
+ 
+
+00:11:27.760 --> 00:11:30.710 align:start position:0%
+special part. This is a really powerful
+feature<00:11:28.480><c> if</c><00:11:28.800><c> you</c><00:11:28.959><c> know</c><00:11:29.120><c> how</c><00:11:29.279><c> to</c><00:11:29.440><c> use</c><00:11:29.680><c> it.</c><00:11:30.560><c> You</c>
+
+00:11:30.710 --> 00:11:30.720 align:start position:0%
+feature if you know how to use it. You
+ 
+
+00:11:30.720 --> 00:11:33.590 align:start position:0%
+feature if you know how to use it. You
+can<00:11:30.880><c> add</c><00:11:31.120><c> incredible</c><00:11:31.680><c> depth</c><00:11:32.000><c> to</c><00:11:32.320><c> your</c><00:11:32.600><c> image.</c>
+
+00:11:33.590 --> 00:11:33.600 align:start position:0%
+can add incredible depth to your image.
+ 
+
+00:11:33.600 --> 00:11:35.670 align:start position:0%
+can add incredible depth to your image.
+How<00:11:33.839><c> does</c><00:11:34.000><c> it</c><00:11:34.240><c> work?</c><00:11:34.880><c> Select</c><00:11:35.200><c> one</c><00:11:35.440><c> of</c><00:11:35.519><c> your</c>
+
+00:11:35.670 --> 00:11:35.680 align:start position:0%
+How does it work? Select one of your
+ 
+
+00:11:35.680 --> 00:11:38.630 align:start position:0%
+How does it work? Select one of your
+images<00:11:36.160><c> in</c><00:11:36.399><c> the</c><00:11:36.560><c> editor.</c><00:11:37.360><c> Reduce</c><00:11:37.680><c> its</c><00:11:37.920><c> size.</c>
+
+00:11:38.630 --> 00:11:38.640 align:start position:0%
+images in the editor. Reduce its size.
+ 
+
+00:11:38.640 --> 00:11:40.790 align:start position:0%
+images in the editor. Reduce its size.
+Place<00:11:38.880><c> it</c><00:11:39.040><c> in</c><00:11:39.279><c> the</c><00:11:39.440><c> middle.</c><00:11:40.000><c> And</c><00:11:40.240><c> now</c><00:11:40.480><c> comes</c>
+
+00:11:40.790 --> 00:11:40.800 align:start position:0%
+Place it in the middle. And now comes
+ 
+
+00:11:40.800 --> 00:11:42.990 align:start position:0%
+Place it in the middle. And now comes
+the<00:11:41.040><c> big</c><00:11:41.279><c> moment</c><00:11:41.680><c> of</c>
+
+00:11:42.990 --> 00:11:43.000 align:start position:0%
+the big moment of
+ 
+
+00:11:43.000 --> 00:11:45.030 align:start position:0%
+the big moment of
+personalization.<00:11:44.000><c> In</c><00:11:44.240><c> the</c><00:11:44.320><c> top</c><00:11:44.560><c> right</c><00:11:44.800><c> hand</c>
+
+00:11:45.030 --> 00:11:45.040 align:start position:0%
+personalization. In the top right hand
+ 
+
+00:11:45.040 --> 00:11:47.190 align:start position:0%
+personalization. In the top right hand
+corner<00:11:45.200><c> of</c><00:11:45.360><c> the</c><00:11:45.519><c> editor,</c><00:11:46.160><c> there</c><00:11:46.320><c> is</c><00:11:46.480><c> this</c><00:11:46.880><c> P</c>
+
+00:11:47.190 --> 00:11:47.200 align:start position:0%
+corner of the editor, there is this P
+ 
+
+00:11:47.200 --> 00:11:49.870 align:start position:0%
+corner of the editor, there is this P
+symbol<00:11:48.000><c> which</c><00:11:48.240><c> stands</c><00:11:48.560><c> for</c>
+
+00:11:49.870 --> 00:11:49.880 align:start position:0%
+symbol which stands for
+ 
+
+00:11:49.880 --> 00:11:51.829 align:start position:0%
+symbol which stands for
+personalization.<00:11:50.880><c> Click</c><00:11:51.120><c> on</c><00:11:51.200><c> it</c><00:11:51.360><c> and</c><00:11:51.600><c> switch</c>
+
+00:11:51.829 --> 00:11:51.839 align:start position:0%
+personalization. Click on it and switch
+ 
+
+00:11:51.839 --> 00:11:54.069 align:start position:0%
+personalization. Click on it and switch
+on<00:11:52.079><c> the</c><00:11:52.279><c> function.</c><00:11:53.279><c> This</c><00:11:53.600><c> basically</c>
+
+00:11:54.069 --> 00:11:54.079 align:start position:0%
+on the function. This basically
+ 
+
+00:11:54.079 --> 00:11:56.910 align:start position:0%
+on the function. This basically
+activates<00:11:54.640><c> it</c><00:11:55.360><c> yet</c><00:11:55.600><c> without</c><00:11:56.000><c> further</c>
+
+00:11:56.910 --> 00:11:56.920 align:start position:0%
+activates it yet without further
+ 
+
+00:11:56.920 --> 00:11:59.190 align:start position:0%
+activates it yet without further
+specifications.<00:11:57.920><c> Now</c><00:11:58.240><c> select</c><00:11:58.480><c> a</c><00:11:58.640><c> mood</c><00:11:58.959><c> board</c>
+
+00:11:59.190 --> 00:11:59.200 align:start position:0%
+specifications. Now select a mood board
+ 
+
+00:11:59.200 --> 00:12:01.990 align:start position:0%
+specifications. Now select a mood board
+that<00:11:59.360><c> you</c><00:11:59.519><c> particularly</c><00:12:00.160><c> like.</c><00:12:01.040><c> I</c><00:12:01.279><c> use</c><00:12:01.519><c> faces</c>
+
+00:12:01.990 --> 00:12:02.000 align:start position:0%
+that you particularly like. I use faces
+ 
+
+00:12:02.000 --> 00:12:04.710 align:start position:0%
+that you particularly like. I use faces
+colorful.<00:12:03.120><c> You</c><00:12:03.360><c> could</c><00:12:03.600><c> also</c><00:12:03.839><c> combine</c><00:12:04.320><c> several</c>
+
+00:12:04.710 --> 00:12:04.720 align:start position:0%
+colorful. You could also combine several
+ 
+
+00:12:04.720 --> 00:12:06.710 align:start position:0%
+colorful. You could also combine several
+styles<00:12:05.120><c> with</c><00:12:05.279><c> each</c><00:12:05.519><c> other,</c><00:12:06.079><c> but</c><00:12:06.320><c> this</c><00:12:06.480><c> will</c>
+
+00:12:06.710 --> 00:12:06.720 align:start position:0%
+styles with each other, but this will
+ 
+
+00:12:06.720 --> 00:12:09.110 align:start position:0%
+styles with each other, but this will
+eventually<00:12:07.120><c> become</c><00:12:07.440><c> a</c><00:12:07.680><c> huge</c><00:12:08.000><c> mishmash</c><00:12:08.880><c> with</c>
+
+00:12:09.110 --> 00:12:09.120 align:start position:0%
+eventually become a huge mishmash with
+ 
+
+00:12:09.120 --> 00:12:10.590 align:start position:0%
+eventually become a huge mishmash with
+no<00:12:09.440><c> clear</c>
+
+00:12:10.590 --> 00:12:10.600 align:start position:0%
+no clear
+ 
+
+00:12:10.600 --> 00:12:12.590 align:start position:0%
+no clear
+identification.<00:12:11.600><c> You</c><00:12:11.760><c> can</c><00:12:11.920><c> see</c><00:12:12.000><c> that</c>
+
+00:12:12.590 --> 00:12:12.600 align:start position:0%
+identification. You can see that
+ 
+
+00:12:12.600 --> 00:12:15.190 align:start position:0%
+identification. You can see that
+personalization<00:12:13.600><c> is</c><00:12:13.920><c> active</c><00:12:14.320><c> by</c><00:12:14.480><c> the</c><00:12:14.639><c> red</c><00:12:14.880><c> P</c>
+
+00:12:15.190 --> 00:12:15.200 align:start position:0%
+personalization is active by the red P
+ 
+
+00:12:15.200 --> 00:12:18.389 align:start position:0%
+personalization is active by the red P
+symbol.<00:12:16.160><c> Now</c><00:12:16.399><c> midjourney</c><00:12:17.040><c> knows</c><00:12:17.760><c> I</c><00:12:18.079><c> have</c><00:12:18.240><c> to</c>
+
+00:12:18.389 --> 00:12:18.399 align:start position:0%
+symbol. Now midjourney knows I have to
+ 
+
+00:12:18.399 --> 00:12:20.230 align:start position:0%
+symbol. Now midjourney knows I have to
+transfer<00:12:18.800><c> the</c><00:12:18.959><c> selected</c><00:12:19.440><c> style</c><00:12:19.760><c> to</c><00:12:19.920><c> the</c><00:12:20.079><c> new</c>
+
+00:12:20.230 --> 00:12:20.240 align:start position:0%
+transfer the selected style to the new
+ 
+
+00:12:20.240 --> 00:12:24.790 align:start position:0%
+transfer the selected style to the new
+image.<00:12:21.120><c> Now</c><00:12:21.360><c> I</c><00:12:21.600><c> click</c><00:12:21.839><c> on</c><00:12:22.639><c> submit</c><00:12:23.120><c> edit</c><00:12:23.839><c> again.</c>
+
+00:12:24.790 --> 00:12:24.800 align:start position:0%
+image. Now I click on submit edit again.
+ 
+
+00:12:24.800 --> 00:12:26.389 align:start position:0%
+image. Now I click on submit edit again.
+For<00:12:25.040><c> this</c><00:12:25.279><c> example,</c><00:12:25.600><c> I</c><00:12:25.839><c> have</c><00:12:26.000><c> slightly</c>
+
+00:12:26.389 --> 00:12:26.399 align:start position:0%
+For this example, I have slightly
+ 
+
+00:12:26.399 --> 00:12:28.710 align:start position:0%
+For this example, I have slightly
+modified<00:12:26.800><c> the</c><00:12:26.959><c> prompt.</c><00:12:27.680><c> The</c><00:12:27.920><c> changes</c><00:12:28.399><c> relate</c>
+
+00:12:28.710 --> 00:12:28.720 align:start position:0%
+modified the prompt. The changes relate
+ 
+
+00:12:28.720 --> 00:12:31.350 align:start position:0%
+modified the prompt. The changes relate
+exclusively<00:12:29.360><c> to</c><00:12:29.600><c> the</c><00:12:29.760><c> gray</c><00:12:30.079><c> area</c><00:12:30.800><c> marked</c><00:12:31.200><c> here</c>
+
+00:12:31.350 --> 00:12:31.360 align:start position:0%
+exclusively to the gray area marked here
+ 
+
+00:12:31.360 --> 00:12:34.389 align:start position:0%
+exclusively to the gray area marked here
+in<00:12:31.519><c> the</c><00:12:31.680><c> image.</c><00:12:32.480><c> Now</c><00:12:32.720><c> we</c><00:12:32.959><c> can</c><00:12:33.040><c> see</c><00:12:33.200><c> the</c><00:12:33.440><c> result.</c>
+
+00:12:34.389 --> 00:12:34.399 align:start position:0%
+in the image. Now we can see the result.
+ 
+
+00:12:34.399 --> 00:12:36.470 align:start position:0%
+in the image. Now we can see the result.
+Midjourney<00:12:35.120><c> leaves</c><00:12:35.360><c> the</c><00:12:35.600><c> original</c><00:12:35.920><c> style</c><00:12:36.240><c> in</c>
+
+00:12:36.470 --> 00:12:36.480 align:start position:0%
+Midjourney leaves the original style in
+ 
+
+00:12:36.480 --> 00:12:38.550 align:start position:0%
+Midjourney leaves the original style in
+the<00:12:36.639><c> center</c><00:12:37.200><c> and</c><00:12:37.440><c> generates</c><00:12:37.920><c> a</c><00:12:38.079><c> new</c><00:12:38.240><c> theme</c>
+
+00:12:38.550 --> 00:12:38.560 align:start position:0%
+the center and generates a new theme
+ 
+
+00:12:38.560 --> 00:12:40.310 align:start position:0%
+the center and generates a new theme
+that<00:12:38.800><c> matches</c><00:12:39.120><c> the</c><00:12:39.360><c> style</c><00:12:39.600><c> of</c><00:12:39.680><c> the</c><00:12:39.839><c> mood</c><00:12:40.079><c> board</c>
+
+00:12:40.310 --> 00:12:40.320 align:start position:0%
+that matches the style of the mood board
+ 
+
+00:12:40.320 --> 00:12:42.790 align:start position:0%
+that matches the style of the mood board
+you<00:12:40.560><c> have</c><00:12:40.839><c> selected.</c><00:12:41.839><c> Midjourney</c><00:12:42.560><c> also</c>
+
+00:12:42.790 --> 00:12:42.800 align:start position:0%
+you have selected. Midjourney also
+ 
+
+00:12:42.800 --> 00:12:45.190 align:start position:0%
+you have selected. Midjourney also
+ensures<00:12:43.200><c> that</c><00:12:43.360><c> the</c><00:12:43.600><c> two</c><00:12:43.839><c> images</c><00:12:44.560><c> are</c><00:12:44.800><c> blended</c>
+
+00:12:45.190 --> 00:12:45.200 align:start position:0%
+ensures that the two images are blended
+ 
+
+00:12:45.200 --> 00:12:47.350 align:start position:0%
+ensures that the two images are blended
+into<00:12:45.440><c> one</c><00:12:45.680><c> another.</c><00:12:46.480><c> This</c><00:12:46.720><c> allows</c><00:12:46.959><c> you</c><00:12:47.200><c> to</c>
+
+00:12:47.350 --> 00:12:47.360 align:start position:0%
+into one another. This allows you to
+ 
+
+00:12:47.360 --> 00:12:49.990 align:start position:0%
+into one another. This allows you to
+create<00:12:47.680><c> completely</c><00:12:48.240><c> new</c><00:12:48.519><c> scenes.</c><00:12:49.519><c> Of</c><00:12:49.760><c> course,</c>
+
+00:12:49.990 --> 00:12:50.000 align:start position:0%
+create completely new scenes. Of course,
+ 
+
+00:12:50.000 --> 00:12:52.470 align:start position:0%
+create completely new scenes. Of course,
+I<00:12:50.240><c> can</c><00:12:50.399><c> resize</c><00:12:50.880><c> the</c><00:12:51.040><c> output</c><00:12:51.760><c> and</c><00:12:52.000><c> write</c><00:12:52.240><c> a</c>
+
+00:12:52.470 --> 00:12:52.480 align:start position:0%
+I can resize the output and write a
+ 
+
+00:12:52.480 --> 00:12:56.110 align:start position:0%
+I can resize the output and write a
+different<00:12:52.720><c> prompt.</c><00:12:53.600><c> for</c><00:12:53.959><c> example,</c><00:12:54.959><c> trees</c><00:12:55.440><c> and</c>
+
+00:12:56.110 --> 00:12:56.120 align:start position:0%
+different prompt. for example, trees and
+ 
+
+00:12:56.120 --> 00:12:59.110 align:start position:0%
+different prompt. for example, trees and
+orcs.<00:12:57.120><c> Erase</c><00:12:57.519><c> the</c><00:12:57.760><c> current</c><00:12:58.000><c> profile</c><00:12:58.639><c> and</c><00:12:58.880><c> then</c>
+
+00:12:59.110 --> 00:12:59.120 align:start position:0%
+orcs. Erase the current profile and then
+ 
+
+00:12:59.120 --> 00:13:00.629 align:start position:0%
+orcs. Erase the current profile and then
+select<00:12:59.360><c> a</c><00:12:59.600><c> new</c><00:12:59.760><c> style</c><00:13:00.000><c> from</c><00:13:00.160><c> your</c><00:13:00.320><c> mood</c>
+
+00:13:00.629 --> 00:13:00.639 align:start position:0%
+select a new style from your mood
+ 
+
+00:13:00.639 --> 00:13:04.470 align:start position:0%
+select a new style from your mood
+boards.<00:13:01.519><c> For</c><00:13:01.519><c> example,</c><00:13:02.480><c> cool</c><00:13:02.800><c> guy.</c><00:13:03.760><c> And</c><00:13:03.920><c> now</c>
+
+00:13:04.470 --> 00:13:04.480 align:start position:0%
+boards. For example, cool guy. And now
+ 
+
+00:13:04.480 --> 00:13:06.870 align:start position:0%
+boards. For example, cool guy. And now
+in<00:13:04.639><c> the</c><00:13:04.880><c> next</c><00:13:05.120><c> step,</c><00:13:05.680><c> midjourney</c><00:13:06.320><c> adds</c><00:13:06.639><c> the</c>
+
+00:13:06.870 --> 00:13:06.880 align:start position:0%
+in the next step, midjourney adds the
+ 
+
+00:13:06.880 --> 00:13:09.110 align:start position:0%
+in the next step, midjourney adds the
+new<00:13:07.120><c> style</c><00:13:07.680><c> of</c><00:13:07.920><c> the</c><00:13:08.079><c> second</c><00:13:08.320><c> mood</c><00:13:08.639><c> board</c><00:13:08.880><c> into</c>
+
+00:13:09.110 --> 00:13:09.120 align:start position:0%
+new style of the second mood board into
+ 
+
+00:13:09.120 --> 00:13:12.150 align:start position:0%
+new style of the second mood board into
+the<00:13:09.279><c> scene.</c><00:13:10.240><c> Here</c><00:13:10.480><c> is</c><00:13:10.639><c> one</c><00:13:10.880><c> last</c><00:13:11.120><c> test</c><00:13:11.839><c> again</c>
+
+00:13:12.150 --> 00:13:12.160 align:start position:0%
+the scene. Here is one last test again
+ 
+
+00:13:12.160 --> 00:13:13.629 align:start position:0%
+the scene. Here is one last test again
+with<00:13:12.399><c> a</c><00:13:12.560><c> different</c>
+
+00:13:13.629 --> 00:13:13.639 align:start position:0%
+with a different
+ 
+
+00:13:13.639 --> 00:13:16.470 align:start position:0%
+with a different
+prompt.<00:13:14.639><c> I</c><00:13:14.880><c> simply</c><00:13:15.200><c> write</c><00:13:15.519><c> another</c><00:13:15.839><c> prompt</c>
+
+00:13:16.470 --> 00:13:16.480 align:start position:0%
+prompt. I simply write another prompt
+ 
+
+00:13:16.480 --> 00:13:19.030 align:start position:0%
+prompt. I simply write another prompt
+and<00:13:16.800><c> select</c><00:13:17.120><c> the</c><00:13:17.519><c> flower</c><00:13:17.920><c> details</c><00:13:18.720><c> mood</c>
+
+00:13:19.030 --> 00:13:19.040 align:start position:0%
+and select the flower details mood
+ 
+
+00:13:19.040 --> 00:13:21.509 align:start position:0%
+and select the flower details mood
+board.<00:13:20.000><c> Unfortunately,</c><00:13:20.880><c> you</c><00:13:21.120><c> can't</c><00:13:21.360><c> see</c>
+
+00:13:21.509 --> 00:13:21.519 align:start position:0%
+board. Unfortunately, you can't see
+ 
+
+00:13:21.519 --> 00:13:23.350 align:start position:0%
+board. Unfortunately, you can't see
+which<00:13:21.760><c> style</c><00:13:22.079><c> is</c><00:13:22.240><c> hidden</c><00:13:22.560><c> behind</c><00:13:22.800><c> which</c><00:13:23.040><c> mood</c>
+
+00:13:23.350 --> 00:13:23.360 align:start position:0%
+which style is hidden behind which mood
+ 
+
+00:13:23.360 --> 00:13:25.110 align:start position:0%
+which style is hidden behind which mood
+board's<00:13:23.760><c> name.</c><00:13:24.399><c> You</c><00:13:24.560><c> either</c><00:13:24.880><c> have</c><00:13:25.040><c> to</c>
+
+00:13:25.110 --> 00:13:25.120 align:start position:0%
+board's name. You either have to
+ 
+
+00:13:25.120 --> 00:13:27.269 align:start position:0%
+board's name. You either have to
+memorize<00:13:25.600><c> the</c><00:13:25.839><c> styles,</c><00:13:26.639><c> which</c><00:13:26.880><c> is</c><00:13:27.040><c> most</c>
+
+00:13:27.269 --> 00:13:27.279 align:start position:0%
+memorize the styles, which is most
+ 
+
+00:13:27.279 --> 00:13:29.829 align:start position:0%
+memorize the styles, which is most
+likely<00:13:27.600><c> not</c><00:13:27.839><c> possible</c><00:13:28.160><c> in</c><00:13:28.399><c> most</c><00:13:28.639><c> cases,</c><00:13:29.600><c> or</c>
+
+00:13:29.829 --> 00:13:29.839 align:start position:0%
+likely not possible in most cases, or
+ 
+
+00:13:29.839 --> 00:13:32.389 align:start position:0%
+likely not possible in most cases, or
+it's<00:13:30.000><c> a</c><00:13:30.160><c> bit</c><00:13:30.320><c> of</c><00:13:30.600><c> guesswork.</c><00:13:31.600><c> And</c><00:13:31.760><c> again,</c><00:13:32.160><c> the</c>
+
+00:13:32.389 --> 00:13:32.399 align:start position:0%
+it's a bit of guesswork. And again, the
+ 
+
+00:13:32.399 --> 00:13:34.470 align:start position:0%
+it's a bit of guesswork. And again, the
+image<00:13:32.639><c> has</c><00:13:32.880><c> changed.</c><00:13:33.600><c> Don't</c><00:13:33.920><c> forget</c><00:13:34.240><c> to</c>
+
+00:13:34.470 --> 00:13:34.480 align:start position:0%
+image has changed. Don't forget to
+ 
+
+00:13:34.480 --> 00:13:37.190 align:start position:0%
+image has changed. Don't forget to
+deactivate<00:13:35.279><c> personalization</c><00:13:36.160><c> again</c><00:13:36.720><c> if</c><00:13:36.959><c> you</c>
+
+00:13:37.190 --> 00:13:37.200 align:start position:0%
+deactivate personalization again if you
+ 
+
+00:13:37.200 --> 00:13:39.509 align:start position:0%
+deactivate personalization again if you
+no<00:13:37.360><c> longer</c><00:13:37.680><c> want</c><00:13:37.839><c> to</c><00:13:38.000><c> use</c><00:13:38.160><c> it.</c><00:13:38.880><c> If</c><00:13:39.120><c> I</c><00:13:39.279><c> want</c><00:13:39.360><c> to</c>
+
+00:13:39.509 --> 00:13:39.519 align:start position:0%
+no longer want to use it. If I want to
+ 
+
+00:13:39.519 --> 00:13:41.030 align:start position:0%
+no longer want to use it. If I want to
+see<00:13:39.600><c> what</c><00:13:39.839><c> I've</c><00:13:40.079><c> already</c><00:13:40.320><c> edited</c><00:13:40.720><c> in</c><00:13:40.959><c> the</c>
+
+00:13:41.030 --> 00:13:41.040 align:start position:0%
+see what I've already edited in the
+ 
+
+00:13:41.040 --> 00:13:44.150 align:start position:0%
+see what I've already edited in the
+editor,<00:13:41.839><c> I</c><00:13:42.079><c> click</c><00:13:42.240><c> on</c><00:13:42.480><c> view</c><00:13:42.800><c> all</c><00:13:43.519><c> in</c><00:13:43.760><c> the</c><00:13:43.920><c> top</c>
+
+00:13:44.150 --> 00:13:44.160 align:start position:0%
+editor, I click on view all in the top
+ 
+
+00:13:44.160 --> 00:13:46.310 align:start position:0%
+editor, I click on view all in the top
+leftand<00:13:44.639><c> corner.</c><00:13:45.200><c> This</c><00:13:45.519><c> takes</c><00:13:45.839><c> me</c><00:13:46.000><c> to</c><00:13:46.160><c> the</c>
+
+00:13:46.310 --> 00:13:46.320 align:start position:0%
+leftand corner. This takes me to the
+ 
+
+00:13:46.320 --> 00:13:49.190 align:start position:0%
+leftand corner. This takes me to the
+already<00:13:46.880><c> familiar</c><00:13:47.519><c> edit</c><00:13:47.920><c> your</c><00:13:48.160><c> images</c><00:13:48.560><c> page.</c>
+
+00:13:49.190 --> 00:13:49.200 align:start position:0%
+already familiar edit your images page.
+ 
+
+00:13:49.200 --> 00:13:51.269 align:start position:0%
+already familiar edit your images page.
+Here<00:13:49.440><c> I</c><00:13:49.680><c> can</c><00:13:49.760><c> select</c><00:13:50.079><c> all</c><00:13:50.240><c> the</c><00:13:50.480><c> images</c><00:13:50.959><c> I</c><00:13:51.120><c> have</c>
+
+00:13:51.269 --> 00:13:51.279 align:start position:0%
+Here I can select all the images I have
+ 
+
+00:13:51.279 --> 00:13:53.350 align:start position:0%
+Here I can select all the images I have
+created<00:13:51.920><c> by</c><00:13:52.160><c> holding</c><00:13:52.480><c> down</c><00:13:52.639><c> the</c><00:13:52.800><c> left</c><00:13:53.040><c> mouse</c>
+
+00:13:53.350 --> 00:13:53.360 align:start position:0%
+created by holding down the left mouse
+ 
+
+00:13:53.360 --> 00:13:56.590 align:start position:0%
+created by holding down the left mouse
+button<00:13:53.920><c> and</c><00:13:54.079><c> then</c><00:13:54.320><c> hide</c><00:13:54.639><c> them</c><00:13:54.800><c> using</c><00:13:55.360><c> more</c><00:13:56.160><c> and</c>
+
+00:13:56.590 --> 00:13:56.600 align:start position:0%
+button and then hide them using more and
+ 
+
+00:13:56.600 --> 00:13:58.870 align:start position:0%
+button and then hide them using more and
+hide.<00:13:57.600><c> If</c><00:13:57.839><c> you</c><00:13:57.920><c> want</c><00:13:58.000><c> to</c><00:13:58.160><c> delete</c><00:13:58.399><c> your</c><00:13:58.639><c> job</c>
+
+00:13:58.870 --> 00:13:58.880 align:start position:0%
+hide. If you want to delete your job
+ 
+
+00:13:58.880 --> 00:14:00.949 align:start position:0%
+hide. If you want to delete your job
+completely<00:13:59.279><c> in</c><00:13:59.440><c> the</c><00:13:59.600><c> editor,</c><00:14:00.399><c> simply</c><00:14:00.720><c> click</c>
+
+00:14:00.949 --> 00:14:00.959 align:start position:0%
+completely in the editor, simply click
+ 
+
+00:14:00.959 --> 00:14:03.269 align:start position:0%
+completely in the editor, simply click
+on<00:14:01.120><c> the</c><00:14:01.279><c> small</c><00:14:01.600><c> dust</c><00:14:01.920><c> bin</c><00:14:02.240><c> icon</c><00:14:02.720><c> on</c><00:14:02.959><c> the</c><00:14:03.120><c> right</c>
+
+00:14:03.269 --> 00:14:03.279 align:start position:0%
+on the small dust bin icon on the right
+ 
+
+00:14:03.279 --> 00:14:05.829 align:start position:0%
+on the small dust bin icon on the right
+of<00:14:03.440><c> the</c><00:14:03.600><c> image.</c><00:14:04.560><c> Now</c><00:14:04.800><c> you</c><00:14:05.040><c> can</c><00:14:05.199><c> restart</c><00:14:05.600><c> from</c>
+
+00:14:05.829 --> 00:14:05.839 align:start position:0%
+of the image. Now you can restart from
+ 
+
+00:14:05.839 --> 00:14:08.150 align:start position:0%
+of the image. Now you can restart from
+the<00:14:06.120><c> beginning.</c><00:14:07.120><c> The</c><00:14:07.360><c> images</c><00:14:07.680><c> which</c><00:14:07.920><c> I</c>
+
+00:14:08.150 --> 00:14:08.160 align:start position:0%
+the beginning. The images which I
+ 
+
+00:14:08.160 --> 00:14:10.550 align:start position:0%
+the beginning. The images which I
+transferred<00:14:08.639><c> via</c><00:14:08.959><c> upscale</c><00:14:09.519><c> to</c><00:14:09.760><c> gallery</c><00:14:10.320><c> can</c>
+
+00:14:10.550 --> 00:14:10.560 align:start position:0%
+transferred via upscale to gallery can
+ 
+
+00:14:10.560 --> 00:14:12.710 align:start position:0%
+transferred via upscale to gallery can
+now<00:14:10.720><c> be</c><00:14:10.880><c> found</c><00:14:11.120><c> in</c><00:14:11.279><c> the</c><00:14:11.440><c> overview</c><00:14:11.920><c> section.</c>
+
+00:14:12.710 --> 00:14:12.720 align:start position:0%
+now be found in the overview section.
+ 
+
+00:14:12.720 --> 00:14:14.870 align:start position:0%
+now be found in the overview section.
+Let's<00:14:13.040><c> now</c><00:14:13.279><c> have</c><00:14:13.360><c> a</c><00:14:13.600><c> look</c><00:14:13.760><c> at</c><00:14:13.920><c> the</c><00:14:14.160><c> retexture</c>
+
+00:14:14.870 --> 00:14:14.880 align:start position:0%
+Let's now have a look at the retexture
+ 
+
+00:14:14.880 --> 00:14:17.829 align:start position:0%
+Let's now have a look at the retexture
+function<00:14:15.440><c> in</c><00:14:15.760><c> step</c><00:14:16.079><c> two.</c><00:14:16.959><c> To</c><00:14:17.199><c> do</c><00:14:17.360><c> this,</c><00:14:17.680><c> click</c>
+
+00:14:17.829 --> 00:14:17.839 align:start position:0%
+function in step two. To do this, click
+ 
+
+00:14:17.839 --> 00:14:20.470 align:start position:0%
+function in step two. To do this, click
+on<00:14:18.000><c> the</c><00:14:18.240><c> retexture</c><00:14:18.959><c> tab</c><00:14:19.279><c> on</c><00:14:19.519><c> the</c><00:14:19.600><c> right.</c><00:14:20.320><c> We</c>
+
+00:14:20.470 --> 00:14:20.480 align:start position:0%
+on the retexture tab on the right. We
+ 
+
+00:14:20.480 --> 00:14:22.790 align:start position:0%
+on the retexture tab on the right. We
+will<00:14:20.720><c> ignore</c><00:14:20.959><c> the</c><00:14:21.199><c> rest</c><00:14:21.360><c> for</c><00:14:21.600><c> this</c><00:14:21.760><c> test.</c><00:14:22.560><c> At</c>
+
+00:14:22.790 --> 00:14:22.800 align:start position:0%
+will ignore the rest for this test. At
+ 
+
+00:14:22.800 --> 00:14:24.430 align:start position:0%
+will ignore the rest for this test. At
+this<00:14:22.959><c> point,</c><00:14:23.199><c> it</c><00:14:23.360><c> is</c><00:14:23.519><c> important</c><00:14:23.839><c> to</c><00:14:24.079><c> think</c>
+
+00:14:24.430 --> 00:14:24.440 align:start position:0%
+this point, it is important to think
+ 
+
+00:14:24.440 --> 00:14:27.269 align:start position:0%
+this point, it is important to think
+creatively.<00:14:25.440><c> For</c><00:14:25.600><c> example,</c><00:14:26.160><c> enter</c><00:14:26.800><c> knitted</c>
+
+00:14:27.269 --> 00:14:27.279 align:start position:0%
+creatively. For example, enter knitted
+ 
+
+00:14:27.279 --> 00:14:30.350 align:start position:0%
+creatively. For example, enter knitted
+penguin<00:14:28.000><c> and</c><00:14:28.160><c> then</c><00:14:28.399><c> click</c><00:14:28.639><c> on</c><00:14:29.279><c> submit</c>
+
+00:14:30.350 --> 00:14:30.360 align:start position:0%
+penguin and then click on submit
+ 
+
+00:14:30.360 --> 00:14:32.310 align:start position:0%
+penguin and then click on submit
+retexture.<00:14:31.360><c> This</c><00:14:31.600><c> will</c><00:14:31.760><c> produce</c><00:14:32.079><c> the</c>
+
+00:14:32.310 --> 00:14:32.320 align:start position:0%
+retexture. This will produce the
+ 
+
+00:14:32.320 --> 00:14:34.710 align:start position:0%
+retexture. This will produce the
+following<00:14:32.839><c> results.</c><00:14:33.839><c> Pay</c><00:14:34.079><c> attention</c><00:14:34.320><c> to</c><00:14:34.480><c> the</c>
+
+00:14:34.710 --> 00:14:34.720 align:start position:0%
+following results. Pay attention to the
+ 
+
+00:14:34.720 --> 00:14:36.710 align:start position:0%
+following results. Pay attention to the
+flags<00:14:34.959><c> and</c><00:14:35.120><c> the</c><00:14:35.279><c> figures</c><00:14:35.519><c> in</c><00:14:35.760><c> the</c><00:14:35.839><c> background.</c>
+
+00:14:36.710 --> 00:14:36.720 align:start position:0%
+flags and the figures in the background.
+ 
+
+00:14:36.720 --> 00:14:39.550 align:start position:0%
+flags and the figures in the background.
+Here<00:14:37.120><c> we</c><00:14:37.279><c> see</c><00:14:37.440><c> the</c><00:14:37.680><c> free</c><00:14:38.199><c> interpretation</c><00:14:39.199><c> of</c>
+
+00:14:39.550 --> 00:14:39.560 align:start position:0%
+Here we see the free interpretation of
+ 
+
+00:14:39.560 --> 00:14:41.990 align:start position:0%
+Here we see the free interpretation of
+midjourney<00:14:40.560><c> which</c><00:14:40.880><c> visualized</c><00:14:41.440><c> a</c><00:14:41.600><c> knitted</c>
+
+00:14:41.990 --> 00:14:42.000 align:start position:0%
+midjourney which visualized a knitted
+ 
+
+00:14:42.000 --> 00:14:44.790 align:start position:0%
+midjourney which visualized a knitted
+depiction<00:14:42.399><c> from</c><00:14:42.800><c> your</c><00:14:43.120><c> 3D</c><00:14:43.600><c> rendering.</c><00:14:44.560><c> This</c>
+
+00:14:44.790 --> 00:14:44.800 align:start position:0%
+depiction from your 3D rendering. This
+ 
+
+00:14:44.800 --> 00:14:47.189 align:start position:0%
+depiction from your 3D rendering. This
+produces<00:14:45.279><c> results</c><00:14:45.680><c> like</c><00:14:45.920><c> this</c><00:14:46.480><c> or</c><00:14:46.800><c> something</c>
+
+00:14:47.189 --> 00:14:47.199 align:start position:0%
+produces results like this or something
+ 
+
+00:14:47.199 --> 00:14:49.269 align:start position:0%
+produces results like this or something
+similar.<00:14:47.839><c> Again,</c><00:14:48.240><c> remember</c><00:14:48.480><c> to</c><00:14:48.720><c> transfer</c><00:14:49.040><c> the</c>
+
+00:14:49.269 --> 00:14:49.279 align:start position:0%
+similar. Again, remember to transfer the
+ 
+
+00:14:49.279 --> 00:14:51.509 align:start position:0%
+similar. Again, remember to transfer the
+image<00:14:49.440><c> you</c><00:14:49.680><c> like</c><00:14:49.839><c> to</c><00:14:50.079><c> your</c><00:14:50.320><c> create</c><00:14:50.639><c> profile</c>
+
+00:14:51.509 --> 00:14:51.519 align:start position:0%
+image you like to your create profile
+ 
+
+00:14:51.519 --> 00:14:54.710 align:start position:0%
+image you like to your create profile
+via<00:14:51.920><c> upscale</c><00:14:52.720><c> to</c><00:14:52.959><c> gallery.</c><00:14:53.839><c> Of</c><00:14:54.079><c> course,</c><00:14:54.480><c> you</c>
+
+00:14:54.710 --> 00:14:54.720 align:start position:0%
+via upscale to gallery. Of course, you
+ 
+
+00:14:54.720 --> 00:14:56.790 align:start position:0%
+via upscale to gallery. Of course, you
+can<00:14:54.800><c> also</c><00:14:55.120><c> refine</c><00:14:55.440><c> this</c><00:14:55.680><c> further.</c><00:14:56.399><c> To</c><00:14:56.639><c> do</c>
+
+00:14:56.790 --> 00:14:56.800 align:start position:0%
+can also refine this further. To do
+ 
+
+00:14:56.800 --> 00:14:59.750 align:start position:0%
+can also refine this further. To do
+this,<00:14:57.040><c> click</c><00:14:57.279><c> on</c><00:14:57.519><c> edit</c><00:14:57.920><c> again,</c><00:14:58.639><c> then</c><00:14:59.199><c> open</c><00:14:59.519><c> in</c>
+
+00:14:59.750 --> 00:14:59.760 align:start position:0%
+this, click on edit again, then open in
+ 
+
+00:14:59.760 --> 00:15:02.949 align:start position:0%
+this, click on edit again, then open in
+edit<00:15:00.079><c> tab</c><00:15:00.560><c> and</c><00:15:00.800><c> load</c><00:15:01.120><c> an</c><00:15:01.360><c> external</c><00:15:01.839><c> image.</c>
+
+00:15:02.949 --> 00:15:02.959 align:start position:0%
+edit tab and load an external image.
+ 
+
+00:15:02.959 --> 00:15:05.670 align:start position:0%
+edit tab and load an external image.
+Interestingly,<00:15:03.920><c> cropped</c><00:15:04.399><c> images</c><00:15:05.199><c> such</c><00:15:05.440><c> as</c>
+
+00:15:05.670 --> 00:15:05.680 align:start position:0%
+Interestingly, cropped images such as
+ 
+
+00:15:05.680 --> 00:15:09.509 align:start position:0%
+Interestingly, cropped images such as
+PNG<00:15:06.240><c> files</c><00:15:07.120><c> work</c><00:15:07.440><c> very</c><00:15:07.959><c> well.</c><00:15:08.959><c> Then</c><00:15:09.199><c> you</c><00:15:09.360><c> no</c>
+
+00:15:09.509 --> 00:15:09.519 align:start position:0%
+PNG files work very well. Then you no
+ 
+
+00:15:09.519 --> 00:15:11.710 align:start position:0%
+PNG files work very well. Then you no
+longer<00:15:09.760><c> need</c><00:15:09.920><c> to</c><00:15:10.079><c> use</c><00:15:10.320><c> the</c><00:15:10.800><c> smart</c><00:15:11.199><c> select</c>
+
+00:15:11.710 --> 00:15:11.720 align:start position:0%
+longer need to use the smart select
+ 
+
+00:15:11.720 --> 00:15:13.670 align:start position:0%
+longer need to use the smart select
+function.<00:15:12.720><c> You</c><00:15:12.880><c> can</c><00:15:12.959><c> see</c><00:15:13.120><c> the</c><00:15:13.279><c> cropped</c>
+
+00:15:13.670 --> 00:15:13.680 align:start position:0%
+function. You can see the cropped
+ 
+
+00:15:13.680 --> 00:15:15.910 align:start position:0%
+function. You can see the cropped
+penguin<00:15:14.160><c> here.</c><00:15:15.040><c> Place</c><00:15:15.279><c> it</c><00:15:15.360><c> in</c><00:15:15.519><c> the</c><00:15:15.680><c> position</c>
+
+00:15:15.910 --> 00:15:15.920 align:start position:0%
+penguin here. Place it in the position
+ 
+
+00:15:15.920 --> 00:15:18.230 align:start position:0%
+penguin here. Place it in the position
+of<00:15:16.079><c> your</c><00:15:16.320><c> choice</c><00:15:16.639><c> and</c><00:15:16.959><c> start</c><00:15:17.199><c> modeling.</c><00:15:18.079><c> This</c>
+
+00:15:18.230 --> 00:15:18.240 align:start position:0%
+of your choice and start modeling. This
+ 
+
+00:15:18.240 --> 00:15:20.509 align:start position:0%
+of your choice and start modeling. This
+is<00:15:18.399><c> now</c><00:15:18.560><c> the</c><00:15:18.720><c> older</c><00:15:19.040><c> brother</c><00:15:19.440><c> of</c><00:15:19.680><c> the</c><00:15:19.920><c> knitted</c>
+
+00:15:20.509 --> 00:15:20.519 align:start position:0%
+is now the older brother of the knitted
+ 
+
+00:15:20.519 --> 00:15:22.949 align:start position:0%
+is now the older brother of the knitted
+penguin.<00:15:21.519><c> Remember</c><00:15:21.839><c> to</c><00:15:22.160><c> erase</c><00:15:22.399><c> the</c><00:15:22.639><c> area</c>
+
+00:15:22.949 --> 00:15:22.959 align:start position:0%
+penguin. Remember to erase the area
+ 
+
+00:15:22.959 --> 00:15:24.790 align:start position:0%
+penguin. Remember to erase the area
+between<00:15:23.199><c> the</c><00:15:23.440><c> two</c><00:15:23.760><c> layers</c><00:15:24.079><c> in</c><00:15:24.320><c> the</c><00:15:24.480><c> background</c>
+
+00:15:24.790 --> 00:15:24.800 align:start position:0%
+between the two layers in the background
+ 
+
+00:15:24.800 --> 00:15:27.030 align:start position:0%
+between the two layers in the background
+image<00:15:25.440><c> so</c><00:15:25.600><c> that</c><00:15:25.760><c> MidJourney</c><00:15:26.399><c> can</c><00:15:26.560><c> blend</c><00:15:26.880><c> the</c>
+
+00:15:27.030 --> 00:15:27.040 align:start position:0%
+image so that MidJourney can blend the
+ 
+
+00:15:27.040 --> 00:15:30.230 align:start position:0%
+image so that MidJourney can blend the
+two<00:15:27.360><c> layers</c><00:15:27.800><c> seamlessly.</c><00:15:28.800><c> Again,</c><00:15:29.600><c> it</c><00:15:29.920><c> worked</c>
+
+00:15:30.230 --> 00:15:30.240 align:start position:0%
+two layers seamlessly. Again, it worked
+ 
+
+00:15:30.240 --> 00:15:32.230 align:start position:0%
+two layers seamlessly. Again, it worked
+perfectly<00:15:30.880><c> without</c><00:15:31.199><c> you</c><00:15:31.360><c> having</c><00:15:31.519><c> to</c><00:15:31.760><c> use</c><00:15:32.000><c> any</c>
+
+00:15:32.230 --> 00:15:32.240 align:start position:0%
+perfectly without you having to use any
+ 
+
+00:15:32.240 --> 00:15:35.030 align:start position:0%
+perfectly without you having to use any
+other<00:15:32.839><c> software.</c><00:15:33.839><c> Both</c><00:15:34.160><c> penguins</c><00:15:34.639><c> now</c><00:15:34.880><c> have</c>
+
+00:15:35.030 --> 00:15:35.040 align:start position:0%
+other software. Both penguins now have
+ 
+
+00:15:35.040 --> 00:15:37.629 align:start position:0%
+other software. Both penguins now have
+their<00:15:35.279><c> very</c><00:15:35.600><c> own</c><00:15:35.839><c> look</c><00:15:36.000><c> and</c><00:15:36.320><c> feel</c><00:15:36.800><c> in</c><00:15:37.040><c> the</c><00:15:37.279><c> same</c>
+
+00:15:37.629 --> 00:15:37.639 align:start position:0%
+their very own look and feel in the same
+ 
+
+00:15:37.639 --> 00:15:40.430 align:start position:0%
+their very own look and feel in the same
+lighting.<00:15:38.639><c> The</c><00:15:38.880><c> job</c><00:15:39.120><c> is</c><00:15:39.360><c> done.</c><00:15:39.920><c> It's</c><00:15:40.160><c> that</c>
+
+00:15:40.430 --> 00:15:40.440 align:start position:0%
+lighting. The job is done. It's that
+ 
+
+00:15:40.440 --> 00:15:42.870 align:start position:0%
+lighting. The job is done. It's that
+simple.<00:15:41.440><c> Don't</c><00:15:41.760><c> overload</c><00:15:42.160><c> the</c><00:15:42.320><c> editor</c><00:15:42.639><c> with</c>
+
+00:15:42.870 --> 00:15:42.880 align:start position:0%
+simple. Don't overload the editor with
+ 
+
+00:15:42.880 --> 00:15:45.590 align:start position:0%
+simple. Don't overload the editor with
+too<00:15:43.040><c> many</c><00:15:43.440><c> layers.</c><00:15:44.160><c> Midjourney</c><00:15:44.800><c> may</c><00:15:45.040><c> become</c><00:15:45.360><c> a</c>
+
+00:15:45.590 --> 00:15:45.600 align:start position:0%
+too many layers. Midjourney may become a
+ 
+
+00:15:45.600 --> 00:15:47.990 align:start position:0%
+too many layers. Midjourney may become a
+little<00:15:46.040><c> overwhelmed.</c><00:15:47.040><c> I</c><00:15:47.279><c> have</c><00:15:47.519><c> been</c><00:15:47.680><c> working</c>
+
+00:15:47.990 --> 00:15:48.000 align:start position:0%
+little overwhelmed. I have been working
+ 
+
+00:15:48.000 --> 00:15:50.710 align:start position:0%
+little overwhelmed. I have been working
+with<00:15:48.240><c> Photoshop</c><00:15:48.800><c> for</c><00:15:48.959><c> about</c><00:15:49.279><c> 25</c><00:15:49.759><c> years.</c>
+
+00:15:50.710 --> 00:15:50.720 align:start position:0%
+with Photoshop for about 25 years.
+ 
+
+00:15:50.720 --> 00:15:52.870 align:start position:0%
+with Photoshop for about 25 years.
+MidJourney<00:15:51.360><c> still</c><00:15:51.600><c> has</c><00:15:51.680><c> a</c><00:15:51.839><c> long</c><00:15:52.000><c> way</c><00:15:52.160><c> to</c><00:15:52.320><c> go</c><00:15:52.639><c> if</c>
+
+00:15:52.870 --> 00:15:52.880 align:start position:0%
+MidJourney still has a long way to go if
+ 
+
+00:15:52.880 --> 00:15:55.430 align:start position:0%
+MidJourney still has a long way to go if
+it<00:15:53.120><c> wants</c><00:15:53.279><c> to</c><00:15:53.440><c> compete</c><00:15:53.759><c> with</c><00:15:54.000><c> Photoshop.</c><00:15:55.360><c> For</c>
+
+00:15:55.430 --> 00:15:55.440 align:start position:0%
+it wants to compete with Photoshop. For
+ 
+
+00:15:55.440 --> 00:15:57.990 align:start position:0%
+it wants to compete with Photoshop. For
+example,<00:15:56.240><c> you</c><00:15:56.480><c> can't</c><00:15:56.639><c> mirror</c><00:15:57.040><c> images</c><00:15:57.360><c> at</c><00:15:57.680><c> all</c>
+
+00:15:57.990 --> 00:15:58.000 align:start position:0%
+example, you can't mirror images at all
+ 
+
+00:15:58.000 --> 00:15:59.910 align:start position:0%
+example, you can't mirror images at all
+and<00:15:58.320><c> many</c><00:15:58.560><c> other</c><00:15:58.800><c> basic</c><00:15:59.120><c> functions</c><00:15:59.600><c> don't</c>
+
+00:15:59.910 --> 00:15:59.920 align:start position:0%
+and many other basic functions don't
+ 
+
+00:15:59.920 --> 00:16:02.310 align:start position:0%
+and many other basic functions don't
+work.<00:16:00.720><c> Think</c><00:16:00.959><c> more</c><00:16:01.199><c> in</c><00:16:01.440><c> terms</c><00:16:01.680><c> of</c><00:16:01.839><c> how</c><00:16:02.000><c> you</c><00:16:02.160><c> can</c>
+
+00:16:02.310 --> 00:16:02.320 align:start position:0%
+work. Think more in terms of how you can
+ 
+
+00:16:02.320 --> 00:16:05.030 align:start position:0%
+work. Think more in terms of how you can
+combine<00:16:02.720><c> two</c><00:16:03.040><c> images</c><00:16:03.639><c> together.</c><00:16:04.639><c> Then</c><00:16:04.800><c> the</c>
+
+00:16:05.030 --> 00:16:05.040 align:start position:0%
+combine two images together. Then the
+ 
+
+00:16:05.040 --> 00:16:06.670 align:start position:0%
+combine two images together. Then the
+success<00:16:05.440><c> rate</c><00:16:05.680><c> is</c><00:16:05.839><c> much</c>
+
+00:16:06.670 --> 00:16:06.680 align:start position:0%
+success rate is much
+ 
+
+00:16:06.680 --> 00:16:09.509 align:start position:0%
+success rate is much
+higher.<00:16:07.680><c> That's</c><00:16:07.920><c> it</c><00:16:08.079><c> for</c><00:16:08.240><c> this</c><00:16:08.399><c> tutorial.</c><00:16:09.199><c> I</c>
+
+00:16:09.509 --> 00:16:09.519 align:start position:0%
+higher. That's it for this tutorial. I
+ 
+
+00:16:09.519 --> 00:16:11.350 align:start position:0%
+higher. That's it for this tutorial. I
+hope<00:16:09.600><c> you</c><00:16:09.759><c> enjoyed</c><00:16:10.079><c> it.</c><00:16:10.639><c> Please</c><00:16:10.959><c> leave</c><00:16:11.120><c> a</c>
+
+00:16:11.350 --> 00:16:11.360 align:start position:0%
+hope you enjoyed it. Please leave a
+ 
+
+00:16:11.360 --> 00:16:13.269 align:start position:0%
+hope you enjoyed it. Please leave a
+like,<00:16:12.160><c> subscribe</c><00:16:12.560><c> to</c><00:16:12.720><c> the</c><00:16:12.880><c> channel,</c><00:16:13.120><c> and</c>
+
+00:16:13.269 --> 00:16:13.279 align:start position:0%
+like, subscribe to the channel, and
+ 
+
+00:16:13.279 --> 00:16:15.509 align:start position:0%
+like, subscribe to the channel, and
+recommend<00:16:13.600><c> it</c><00:16:13.839><c> to</c><00:16:14.000><c> others.</c><00:16:14.959><c> Thank</c><00:16:15.120><c> you</c><00:16:15.279><c> very</c>
+
+00:16:15.509 --> 00:16:15.519 align:start position:0%
+recommend it to others. Thank you very
+ 
+
+00:16:15.519 --> 00:16:18.629 align:start position:0%
+recommend it to others. Thank you very
+much<00:16:15.600><c> for</c><00:16:15.839><c> listening.</c><00:16:16.639><c> See</c><00:16:16.880><c> you</c><00:16:17.320><c> soon.</c><00:16:18.320><c> Your</c>
+
+00:16:18.629 --> 00:16:18.639 align:start position:0%
+much for listening. See you soon. Your
+ 
+
+00:16:18.639 --> 00:16:23.959 align:start position:0%
+much for listening. See you soon. Your
+channel<00:16:19.600><c> AI.</c><00:16:20.480><c> Now</c><00:16:20.720><c> you</c><00:16:20.959><c> know.</c>
+

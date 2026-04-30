@@ -1,0 +1,1416 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.430 align:start position:0%
+ 
+Cloud<00:00:00.320><c> just</c><00:00:00.480><c> introduced</c><00:00:00.880><c> this</c><00:00:01.040><c> concept</c>
+
+00:00:01.430 --> 00:00:01.440 align:start position:0%
+Cloud just introduced this concept
+ 
+
+00:00:01.440 --> 00:00:02.830 align:start position:0%
+Cloud just introduced this concept
+called<00:00:01.640><c> agent</c><00:00:01.920><c> skills.</c><00:00:02.400><c> It</c><00:00:02.480><c> might</c><00:00:02.680><c> look</c>
+
+00:00:02.830 --> 00:00:02.840 align:start position:0%
+called agent skills. It might look
+ 
+
+00:00:02.840 --> 00:00:04.190 align:start position:0%
+called agent skills. It might look
+complicated,<00:00:03.360><c> but</c><00:00:03.480><c> it's</c><00:00:03.600><c> actually</c><00:00:03.880><c> really</c>
+
+00:00:04.190 --> 00:00:04.200 align:start position:0%
+complicated, but it's actually really
+ 
+
+00:00:04.200 --> 00:00:06.470 align:start position:0%
+complicated, but it's actually really
+simple<00:00:04.720><c> ideas,</c><00:00:05.160><c> but</c><00:00:05.360><c> super</c><00:00:05.680><c> powerful.</c><00:00:06.360><c> And</c>
+
+00:00:06.470 --> 00:00:06.480 align:start position:0%
+simple ideas, but super powerful. And
+ 
+
+00:00:06.480 --> 00:00:08.630 align:start position:0%
+simple ideas, but super powerful. And
+many<00:00:06.720><c> things</c><00:00:06.960><c> that</c><00:00:07.160><c> it</c><00:00:07.280><c> might</c><00:00:07.600><c> be</c><00:00:07.800><c> even</c><00:00:08.120><c> bigger</c>
+
+00:00:08.630 --> 00:00:08.640 align:start position:0%
+many things that it might be even bigger
+ 
+
+00:00:08.640 --> 00:00:10.230 align:start position:0%
+many things that it might be even bigger
+than<00:00:08.800><c> MCP.</c><00:00:09.200><c> So,</c><00:00:09.320><c> a</c><00:00:09.360><c> cloud</c><00:00:09.600><c> core</c><00:00:09.760><c> skill</c><00:00:10.000><c> you</c><00:00:10.080><c> can</c>
+
+00:00:10.230 --> 00:00:10.240 align:start position:0%
+than MCP. So, a cloud core skill you can
+ 
+
+00:00:10.240 --> 00:00:12.510 align:start position:0%
+than MCP. So, a cloud core skill you can
+almost<00:00:10.560><c> consider</c><00:00:11.120><c> as</c><00:00:11.360><c> a</c><00:00:11.440><c> combination</c><00:00:12.120><c> of</c><00:00:12.320><c> both</c>
+
+00:00:12.510 --> 00:00:12.520 align:start position:0%
+almost consider as a combination of both
+ 
+
+00:00:12.520 --> 00:00:14.150 align:start position:0%
+almost consider as a combination of both
+a<00:00:12.600><c> prompt</c><00:00:12.920><c> instruction</c><00:00:13.320><c> to</c><00:00:13.440><c> teach</c><00:00:13.680><c> agent</c><00:00:14.000><c> how</c>
+
+00:00:14.150 --> 00:00:14.160 align:start position:0%
+a prompt instruction to teach agent how
+ 
+
+00:00:14.160 --> 00:00:16.110 align:start position:0%
+a prompt instruction to teach agent how
+to<00:00:14.320><c> do</c><00:00:14.480><c> certain</c><00:00:14.760><c> skills,</c><00:00:15.320><c> as</c><00:00:15.520><c> well</c><00:00:15.680><c> as</c><00:00:15.800><c> a</c><00:00:15.840><c> list</c>
+
+00:00:16.110 --> 00:00:16.120 align:start position:0%
+to do certain skills, as well as a list
+ 
+
+00:00:16.120 --> 00:00:18.030 align:start position:0%
+to do certain skills, as well as a list
+of<00:00:16.360><c> assets</c><00:00:16.800><c> and</c><00:00:17.000><c> tools</c><00:00:17.320><c> like</c><00:00:17.560><c> predefined</c>
+
+00:00:18.030 --> 00:00:18.040 align:start position:0%
+of assets and tools like predefined
+ 
+
+00:00:18.040 --> 00:00:20.230 align:start position:0%
+of assets and tools like predefined
+functions<00:00:18.800><c> and</c><00:00:19.000><c> templates</c><00:00:19.400><c> guidelines</c><00:00:20.120><c> to</c>
+
+00:00:20.230 --> 00:00:20.240 align:start position:0%
+functions and templates guidelines to
+ 
+
+00:00:20.240 --> 00:00:22.070 align:start position:0%
+functions and templates guidelines to
+make<00:00:20.440><c> it</c><00:00:20.520><c> produce</c><00:00:20.880><c> more</c><00:00:21.040><c> consistent</c><00:00:21.600><c> result.</c>
+
+00:00:22.070 --> 00:00:22.080 align:start position:0%
+make it produce more consistent result.
+ 
+
+00:00:22.080 --> 00:00:23.550 align:start position:0%
+make it produce more consistent result.
+But<00:00:22.240><c> two</c><00:00:22.360><c> and</c><00:00:22.480><c> assets</c><00:00:22.760><c> are</c><00:00:22.800><c> kind</c><00:00:22.960><c> of</c><00:00:23.040><c> optional.</c>
+
+00:00:23.550 --> 00:00:23.560 align:start position:0%
+But two and assets are kind of optional.
+ 
+
+00:00:23.560 --> 00:00:25.710 align:start position:0%
+But two and assets are kind of optional.
+It<00:00:23.680><c> can</c><00:00:23.920><c> be</c><00:00:24.120><c> as</c><00:00:24.360><c> simple</c><00:00:24.680><c> as</c><00:00:24.840><c> just</c><00:00:25.120><c> one</c><00:00:25.400><c> single</c>
+
+00:00:25.710 --> 00:00:25.720 align:start position:0%
+It can be as simple as just one single
+ 
+
+00:00:25.720 --> 00:00:27.190 align:start position:0%
+It can be as simple as just one single
+prompt<00:00:26.040><c> as</c><00:00:26.200><c> well.</c><00:00:26.640><c> For</c><00:00:26.720><c> example,</c><00:00:26.960><c> for</c><00:00:27.080><c> the</c>
+
+00:00:27.190 --> 00:00:27.200 align:start position:0%
+prompt as well. For example, for the
+ 
+
+00:00:27.200 --> 00:00:29.030 align:start position:0%
+prompt as well. For example, for the
+brand<00:00:27.480><c> guideline</c><00:00:27.960><c> skill,</c><00:00:28.720><c> it's</c><00:00:28.800><c> literally</c>
+
+00:00:29.030 --> 00:00:29.040 align:start position:0%
+brand guideline skill, it's literally
+ 
+
+00:00:29.040 --> 00:00:30.790 align:start position:0%
+brand guideline skill, it's literally
+just<00:00:29.200><c> one</c><00:00:29.360><c> single</c><00:00:29.640><c> prompt</c><00:00:30.080><c> including</c><00:00:30.560><c> very</c>
+
+00:00:30.790 --> 00:00:30.800 align:start position:0%
+just one single prompt including very
+ 
+
+00:00:30.800 --> 00:00:32.749 align:start position:0%
+just one single prompt including very
+specific<00:00:31.560><c> brand</c><00:00:31.840><c> guideline</c><00:00:32.200><c> that</c><00:00:32.320><c> you</c><00:00:32.480><c> want</c>
+
+00:00:32.749 --> 00:00:32.759 align:start position:0%
+specific brand guideline that you want
+ 
+
+00:00:32.759 --> 00:00:34.710 align:start position:0%
+specific brand guideline that you want
+agent<00:00:33.040><c> to</c><00:00:33.120><c> follow.</c><00:00:33.680><c> Same</c><00:00:33.880><c> thing</c><00:00:34.120><c> here,</c><00:00:34.400><c> I</c><00:00:34.440><c> also</c>
+
+00:00:34.710 --> 00:00:34.720 align:start position:0%
+agent to follow. Same thing here, I also
+ 
+
+00:00:34.720 --> 00:00:37.070 align:start position:0%
+agent to follow. Same thing here, I also
+have<00:00:34.960><c> a</c><00:00:35.080><c> UI</c><00:00:35.480><c> design</c><00:00:35.920><c> skills.</c><00:00:36.680><c> They're</c><00:00:36.880><c> just</c>
+
+00:00:37.070 --> 00:00:37.080 align:start position:0%
+have a UI design skills. They're just
+ 
+
+00:00:37.080 --> 00:00:38.830 align:start position:0%
+have a UI design skills. They're just
+one<00:00:37.280><c> single</c><00:00:37.560><c> prompt.</c><00:00:38.200><c> So,</c><00:00:38.360><c> all</c><00:00:38.480><c> the</c><00:00:38.560><c> skills</c>
+
+00:00:38.830 --> 00:00:38.840 align:start position:0%
+one single prompt. So, all the skills
+ 
+
+00:00:38.840 --> 00:00:40.990 align:start position:0%
+one single prompt. So, all the skills
+start<00:00:39.080><c> with</c><00:00:39.200><c> this</c><00:00:39.320><c> skill.md</c><00:00:40.160><c> file.</c><00:00:40.640><c> Including</c>
+
+00:00:40.990 --> 00:00:41.000 align:start position:0%
+start with this skill.md file. Including
+ 
+
+00:00:41.000 --> 00:00:42.870 align:start position:0%
+start with this skill.md file. Including
+this<00:00:41.280><c> short</c><00:00:41.560><c> description</c><00:00:42.080><c> YAML</c><00:00:42.400><c> explained</c><00:00:42.760><c> to</c>
+
+00:00:42.870 --> 00:00:42.880 align:start position:0%
+this short description YAML explained to
+ 
+
+00:00:42.880 --> 00:00:44.430 align:start position:0%
+this short description YAML explained to
+agent<00:00:43.120><c> when</c><00:00:43.280><c> to</c><00:00:43.400><c> use</c><00:00:43.520><c> this</c><00:00:43.640><c> skill.</c><00:00:44.160><c> And</c><00:00:44.280><c> this</c>
+
+00:00:44.430 --> 00:00:44.440 align:start position:0%
+agent when to use this skill. And this
+ 
+
+00:00:44.440 --> 00:00:45.870 align:start position:0%
+agent when to use this skill. And this
+description<00:00:44.880><c> will</c><00:00:45.040><c> always</c><00:00:45.320><c> be</c><00:00:45.480><c> added</c><00:00:45.680><c> to</c><00:00:45.800><c> the</c>
+
+00:00:45.870 --> 00:00:45.880 align:start position:0%
+description will always be added to the
+ 
+
+00:00:45.880 --> 00:00:47.830 align:start position:0%
+description will always be added to the
+agent<00:00:46.160><c> context,</c><00:00:47.080><c> so</c><00:00:47.160><c> it</c><00:00:47.240><c> will</c><00:00:47.360><c> know</c><00:00:47.520><c> what</c><00:00:47.680><c> kind</c>
+
+00:00:47.830 --> 00:00:47.840 align:start position:0%
+agent context, so it will know what kind
+ 
+
+00:00:47.840 --> 00:00:49.590 align:start position:0%
+agent context, so it will know what kind
+of<00:00:47.920><c> skills</c><00:00:48.200><c> it</c><00:00:48.360><c> has</c><00:00:48.560><c> access</c><00:00:48.840><c> to.</c><00:00:49.240><c> And</c><00:00:49.360><c> when</c>
+
+00:00:49.590 --> 00:00:49.600 align:start position:0%
+of skills it has access to. And when
+ 
+
+00:00:49.600 --> 00:00:51.510 align:start position:0%
+of skills it has access to. And when
+agent<00:00:49.880><c> decide</c><00:00:50.200><c> to</c><00:00:50.280><c> call</c><00:00:50.480><c> the</c><00:00:50.560><c> skill,</c><00:00:51.280><c> this</c><00:00:51.480><c> is</c>
+
+00:00:51.510 --> 00:00:51.520 align:start position:0%
+agent decide to call the skill, this is
+ 
+
+00:00:51.520 --> 00:00:53.390 align:start position:0%
+agent decide to call the skill, this is
+where<00:00:51.720><c> the</c><00:00:51.880><c> rest</c><00:00:52.160><c> of</c><00:00:52.240><c> the</c><00:00:52.280><c> context</c><00:00:52.960><c> below</c><00:00:53.280><c> will</c>
+
+00:00:53.390 --> 00:00:53.400 align:start position:0%
+where the rest of the context below will
+ 
+
+00:00:53.400 --> 00:00:55.110 align:start position:0%
+where the rest of the context below will
+be<00:00:53.560><c> loaded.</c><00:00:54.160><c> So,</c><00:00:54.280><c> this</c><00:00:54.440><c> part</c><00:00:54.680><c> almost</c><00:00:54.960><c> feel</c>
+
+00:00:55.110 --> 00:00:55.120 align:start position:0%
+be loaded. So, this part almost feel
+ 
+
+00:00:55.120 --> 00:00:57.590 align:start position:0%
+be loaded. So, this part almost feel
+like<00:00:55.320><c> cloud</c><00:00:55.640><c> core</c><00:00:55.840><c> commands.</c><00:00:56.680><c> So,</c><00:00:56.800><c> skill.md</c>
+
+00:00:57.590 --> 00:00:57.600 align:start position:0%
+like cloud core commands. So, skill.md
+ 
+
+00:00:57.600 --> 00:00:59.670 align:start position:0%
+like cloud core commands. So, skill.md
+is<00:00:57.760><c> the</c><00:00:57.840><c> most</c><00:00:58.200><c> necessary</c><00:00:58.640><c> part</c><00:00:58.960><c> of</c><00:00:59.080><c> a</c><00:00:59.120><c> skill.</c>
+
+00:00:59.670 --> 00:00:59.680 align:start position:0%
+is the most necessary part of a skill.
+ 
+
+00:00:59.680 --> 00:01:01.230 align:start position:0%
+is the most necessary part of a skill.
+For<00:00:59.800><c> more</c><00:01:00.000><c> complex</c><00:01:00.480><c> skill,</c><00:01:00.720><c> you</c><00:01:00.840><c> can</c><00:01:01.000><c> also</c>
+
+00:01:01.230 --> 00:01:01.240 align:start position:0%
+For more complex skill, you can also
+ 
+
+00:01:01.240 --> 00:01:03.110 align:start position:0%
+For more complex skill, you can also
+include<00:01:01.600><c> more</c><00:01:01.880><c> resource.</c><00:01:02.760><c> For</c><00:01:02.840><c> example,</c><00:01:03.040><c> for</c>
+
+00:01:03.110 --> 00:01:03.120 align:start position:0%
+include more resource. For example, for
+ 
+
+00:01:03.120 --> 00:01:04.869 align:start position:0%
+include more resource. For example, for
+this<00:01:03.280><c> skill</c><00:01:03.480><c> to</c><00:01:03.600><c> generate</c><00:01:04.000><c> algorithm</c><00:01:04.360><c> art,</c><00:01:04.760><c> it</c>
+
+00:01:04.869 --> 00:01:04.879 align:start position:0%
+this skill to generate algorithm art, it
+ 
+
+00:01:04.879 --> 00:01:06.790 align:start position:0%
+this skill to generate algorithm art, it
+also<00:01:05.080><c> include</c><00:01:05.480><c> resource</c><00:01:05.920><c> like</c><00:01:06.400><c> example</c>
+
+00:01:06.790 --> 00:01:06.800 align:start position:0%
+also include resource like example
+ 
+
+00:01:06.800 --> 00:01:08.910 align:start position:0%
+also include resource like example
+implementation<00:01:07.880><c> and</c><00:01:08.040><c> get</c><00:01:08.320><c> agent</c><00:01:08.600><c> to</c><00:01:08.720><c> read</c>
+
+00:01:08.910 --> 00:01:08.920 align:start position:0%
+implementation and get agent to read
+ 
+
+00:01:08.920 --> 00:01:10.390 align:start position:0%
+implementation and get agent to read
+those<00:01:09.080><c> example</c><00:01:09.440><c> reference</c><00:01:10.040><c> before</c><00:01:10.320><c> they</c>
+
+00:01:10.390 --> 00:01:10.400 align:start position:0%
+those example reference before they
+ 
+
+00:01:10.400 --> 00:01:11.950 align:start position:0%
+those example reference before they
+implement<00:01:10.960><c> to</c><00:01:11.040><c> making</c><00:01:11.320><c> sure</c><00:01:11.440><c> we</c><00:01:11.560><c> have</c><00:01:11.760><c> more</c>
+
+00:01:11.950 --> 00:01:11.960 align:start position:0%
+implement to making sure we have more
+ 
+
+00:01:11.960 --> 00:01:13.990 align:start position:0%
+implement to making sure we have more
+consistent<00:01:12.480><c> result.</c><00:01:13.160><c> But</c><00:01:13.280><c> more</c><00:01:13.480><c> importantly,</c>
+
+00:01:13.990 --> 00:01:14.000 align:start position:0%
+consistent result. But more importantly,
+ 
+
+00:01:14.000 --> 00:01:15.430 align:start position:0%
+consistent result. But more importantly,
+you<00:01:14.080><c> can</c><00:01:14.200><c> also</c><00:01:14.440><c> include</c><00:01:14.760><c> some</c><00:01:14.920><c> predefined</c>
+
+00:01:15.430 --> 00:01:15.440 align:start position:0%
+you can also include some predefined
+ 
+
+00:01:15.440 --> 00:01:17.190 align:start position:0%
+you can also include some predefined
+functions.<00:01:16.160><c> Like</c><00:01:16.360><c> in</c><00:01:16.440><c> this</c><00:01:16.640><c> Slack</c><00:01:17.000><c> GIF</c>
+
+00:01:17.190 --> 00:01:17.200 align:start position:0%
+functions. Like in this Slack GIF
+ 
+
+00:01:17.200 --> 00:01:18.950 align:start position:0%
+functions. Like in this Slack GIF
+creator<00:01:17.640><c> skill,</c><00:01:18.080><c> it</c><00:01:18.200><c> already</c><00:01:18.480><c> imported</c><00:01:18.840><c> a</c>
+
+00:01:18.950 --> 00:01:18.960 align:start position:0%
+creator skill, it already imported a
+ 
+
+00:01:18.960 --> 00:01:21.190 align:start position:0%
+creator skill, it already imported a
+package<00:01:19.680><c> and</c><00:01:19.920><c> predefined</c><00:01:20.360><c> functions.</c><00:01:21.000><c> And</c>
+
+00:01:21.190 --> 00:01:21.200 align:start position:0%
+package and predefined functions. And
+ 
+
+00:01:21.200 --> 00:01:22.710 align:start position:0%
+package and predefined functions. And
+the<00:01:21.240><c> instruction</c><00:01:21.760><c> here</c><00:01:21.960><c> basically</c><00:01:22.240><c> tell</c><00:01:22.600><c> the</c>
+
+00:01:22.710 --> 00:01:22.720 align:start position:0%
+the instruction here basically tell the
+ 
+
+00:01:22.720 --> 00:01:24.470 align:start position:0%
+the instruction here basically tell the
+agent<00:01:23.120><c> how</c><00:01:23.320><c> to</c><00:01:23.560><c> use</c><00:01:23.760><c> those</c><00:01:23.920><c> functions</c><00:01:24.360><c> to</c>
+
+00:01:24.470 --> 00:01:24.480 align:start position:0%
+agent how to use those functions to
+ 
+
+00:01:24.480 --> 00:01:26.590 align:start position:0%
+agent how to use those functions to
+create<00:01:24.960><c> a</c><00:01:25.000><c> nice</c><00:01:25.280><c> GIF</c><00:01:25.680><c> out</c><00:01:25.800><c> of</c><00:01:25.880><c> box.</c><00:01:26.320><c> And</c><00:01:26.400><c> here's</c>
+
+00:01:26.590 --> 00:01:26.600 align:start position:0%
+create a nice GIF out of box. And here's
+ 
+
+00:01:26.600 --> 00:01:28.230 align:start position:0%
+create a nice GIF out of box. And here's
+why<00:01:26.720><c> I</c><00:01:26.760><c> think</c><00:01:26.960><c> skills</c><00:01:27.480><c> might</c><00:01:27.640><c> be</c><00:01:27.760><c> even</c><00:01:28.000><c> better</c>
+
+00:01:28.230 --> 00:01:28.240 align:start position:0%
+why I think skills might be even better
+ 
+
+00:01:28.240 --> 00:01:30.510 align:start position:0%
+why I think skills might be even better
+than<00:01:28.400><c> MCPs.</c><00:01:29.320><c> So,</c><00:01:29.440><c> MCP</c><00:01:29.760><c> has</c><00:01:30.000><c> been</c><00:01:30.160><c> an</c><00:01:30.200><c> awesome</c>
+
+00:01:30.510 --> 00:01:30.520 align:start position:0%
+than MCPs. So, MCP has been an awesome
+ 
+
+00:01:30.520 --> 00:01:32.710 align:start position:0%
+than MCPs. So, MCP has been an awesome
+way<00:01:30.640><c> to</c><00:01:30.800><c> extend</c><00:01:31.480><c> agent's</c><00:01:31.840><c> capability.</c><00:01:32.600><c> By</c>
+
+00:01:32.710 --> 00:01:32.720 align:start position:0%
+way to extend agent's capability. By
+ 
+
+00:01:32.720 --> 00:01:34.910 align:start position:0%
+way to extend agent's capability. By
+connecting<00:01:33.240><c> agent</c><00:01:33.600><c> with</c><00:01:33.760><c> new</c><00:01:33.960><c> MCPs,</c><00:01:34.760><c> you</c><00:01:34.800><c> can</c>
+
+00:01:34.910 --> 00:01:34.920 align:start position:0%
+connecting agent with new MCPs, you can
+ 
+
+00:01:34.920 --> 00:01:36.230 align:start position:0%
+connecting agent with new MCPs, you can
+suddenly<00:01:35.200><c> do</c><00:01:35.360><c> new</c><00:01:35.520><c> things</c><00:01:35.760><c> that</c><00:01:35.880><c> it</c><00:01:35.960><c> couldn't</c>
+
+00:01:36.230 --> 00:01:36.240 align:start position:0%
+suddenly do new things that it couldn't
+ 
+
+00:01:36.240 --> 00:01:38.070 align:start position:0%
+suddenly do new things that it couldn't
+do<00:01:36.320><c> before.</c><00:01:36.760><c> The</c><00:01:36.880><c> problem</c><00:01:37.280><c> is</c><00:01:37.400><c> that</c><00:01:37.560><c> MCP</c><00:01:38.000><c> in</c>
+
+00:01:38.070 --> 00:01:38.080 align:start position:0%
+do before. The problem is that MCP in
+ 
+
+00:01:38.080 --> 00:01:40.030 align:start position:0%
+do before. The problem is that MCP in
+practical<00:01:38.640><c> is</c><00:01:38.760><c> not</c><00:01:38.920><c> that</c><00:01:39.120><c> easy</c><00:01:39.320><c> to</c><00:01:39.480><c> use.</c>
+
+00:01:40.030 --> 00:01:40.040 align:start position:0%
+practical is not that easy to use.
+ 
+
+00:01:40.040 --> 00:01:41.950 align:start position:0%
+practical is not that easy to use.
+Firstly,<00:01:40.560><c> MCP</c><00:01:40.880><c> can</c><00:01:41.040><c> consume</c><00:01:41.480><c> whole</c><00:01:41.680><c> bunch</c><00:01:41.880><c> of</c>
+
+00:01:41.950 --> 00:01:41.960 align:start position:0%
+Firstly, MCP can consume whole bunch of
+ 
+
+00:01:41.960 --> 00:01:43.950 align:start position:0%
+Firstly, MCP can consume whole bunch of
+tokens<00:01:42.240><c> that</c><00:01:42.360><c> is</c><00:01:42.520><c> unnecessary</c><00:01:43.440><c> because</c><00:01:43.760><c> each</c>
+
+00:01:43.950 --> 00:01:43.960 align:start position:0%
+tokens that is unnecessary because each
+ 
+
+00:01:43.960 --> 00:01:46.150 align:start position:0%
+tokens that is unnecessary because each
+MCP<00:01:44.480><c> can</c><00:01:44.680><c> contain</c><00:01:45.040><c> a</c><00:01:45.120><c> bundle</c><00:01:45.680><c> of</c><00:01:45.840><c> different</c>
+
+00:01:46.150 --> 00:01:46.160 align:start position:0%
+MCP can contain a bundle of different
+ 
+
+00:01:46.160 --> 00:01:47.990 align:start position:0%
+MCP can contain a bundle of different
+tools.<00:01:46.680><c> And</c><00:01:46.840><c> each</c><00:01:46.960><c> tool</c><00:01:47.120><c> here</c><00:01:47.320><c> will</c><00:01:47.400><c> including</c>
+
+00:01:47.990 --> 00:01:48.000 align:start position:0%
+tools. And each tool here will including
+ 
+
+00:01:48.000 --> 00:01:49.310 align:start position:0%
+tools. And each tool here will including
+the<00:01:48.120><c> description</c><00:01:48.600><c> about</c><00:01:48.760><c> when</c><00:01:48.920><c> to</c><00:01:49.040><c> use</c><00:01:49.160><c> this</c>
+
+00:01:49.310 --> 00:01:49.320 align:start position:0%
+the description about when to use this
+ 
+
+00:01:49.320 --> 00:01:51.670 align:start position:0%
+the description about when to use this
+tool,<00:01:49.760><c> as</c><00:01:49.960><c> well</c><00:01:50.160><c> as</c><00:01:50.400><c> input</c><00:01:50.760><c> schema.</c><00:01:51.440><c> And</c><00:01:51.560><c> all</c>
+
+00:01:51.670 --> 00:01:51.680 align:start position:0%
+tool, as well as input schema. And all
+ 
+
+00:01:51.680 --> 00:01:53.350 align:start position:0%
+tool, as well as input schema. And all
+those<00:01:51.880><c> tokens</c><00:01:52.120><c> will</c><00:01:52.240><c> be</c><00:01:52.400><c> loaded</c><00:01:52.840><c> to</c><00:01:53.040><c> agent</c>
+
+00:01:53.350 --> 00:01:53.360 align:start position:0%
+those tokens will be loaded to agent
+ 
+
+00:01:53.360 --> 00:01:55.070 align:start position:0%
+those tokens will be loaded to agent
+context<00:01:54.000><c> regardless</c><00:01:54.560><c> whether</c><00:01:54.760><c> this</c><00:01:54.920><c> is</c>
+
+00:01:55.070 --> 00:01:55.080 align:start position:0%
+context regardless whether this is
+ 
+
+00:01:55.080 --> 00:01:56.990 align:start position:0%
+context regardless whether this is
+useful<00:01:55.400><c> or</c><00:01:55.480><c> not.</c><00:01:56.040><c> And</c><00:01:56.160><c> more</c><00:01:56.320><c> importantly,</c>
+
+00:01:56.990 --> 00:01:57.000 align:start position:0%
+useful or not. And more importantly,
+ 
+
+00:01:57.000 --> 00:01:58.750 align:start position:0%
+useful or not. And more importantly,
+quite<00:01:57.200><c> often</c><00:01:57.480><c> MCP</c><00:01:57.960><c> builder</c><00:01:58.320><c> will</c><00:01:58.480><c> want</c><00:01:58.680><c> to</c>
+
+00:01:58.750 --> 00:01:58.760 align:start position:0%
+quite often MCP builder will want to
+ 
+
+00:01:58.760 --> 00:02:00.710 align:start position:0%
+quite often MCP builder will want to
+build<00:01:58.920><c> the</c><00:01:59.000><c> tools</c><00:01:59.360><c> in</c><00:01:59.520><c> a</c><00:01:59.600><c> more</c><00:02:00.000><c> modular</c><00:02:00.440><c> way,</c>
+
+00:02:00.710 --> 00:02:00.720 align:start position:0%
+build the tools in a more modular way,
+ 
+
+00:02:00.720 --> 00:02:02.830 align:start position:0%
+build the tools in a more modular way,
+so<00:02:00.880><c> it's</c><00:02:01.120><c> reusable</c><00:02:01.600><c> and</c><00:02:01.760><c> more</c><00:02:01.880><c> composable.</c>
+
+00:02:02.830 --> 00:02:02.840 align:start position:0%
+so it's reusable and more composable.
+ 
+
+00:02:02.840 --> 00:02:04.790 align:start position:0%
+so it's reusable and more composable.
+But<00:02:02.960><c> that</c><00:02:03.080><c> also</c><00:02:03.360><c> means</c><00:02:03.800><c> most</c><00:02:04.080><c> of</c><00:02:04.160><c> MCP</c><00:02:04.560><c> is</c><00:02:04.680><c> not</c>
+
+00:02:04.790 --> 00:02:04.800 align:start position:0%
+But that also means most of MCP is not
+ 
+
+00:02:04.800 --> 00:02:06.510 align:start position:0%
+But that also means most of MCP is not
+something<00:02:05.080><c> you</c><00:02:05.160><c> just</c><00:02:05.360><c> connect</c><00:02:05.760><c> and</c><00:02:05.920><c> use.</c><00:02:06.440><c> You</c>
+
+00:02:06.510 --> 00:02:06.520 align:start position:0%
+something you just connect and use. You
+ 
+
+00:02:06.520 --> 00:02:08.070 align:start position:0%
+something you just connect and use. You
+want<00:02:06.720><c> to</c><00:02:06.840><c> give</c><00:02:07.160><c> agent</c><00:02:07.440><c> more</c><00:02:07.640><c> detailed</c>
+
+00:02:08.070 --> 00:02:08.080 align:start position:0%
+want to give agent more detailed
+ 
+
+00:02:08.080 --> 00:02:09.910 align:start position:0%
+want to give agent more detailed
+instruction<00:02:08.600><c> about</c><00:02:09.000><c> the</c><00:02:09.160><c> order</c><00:02:09.479><c> of</c><00:02:09.640><c> when</c><00:02:09.840><c> to</c>
+
+00:02:09.910 --> 00:02:09.920 align:start position:0%
+instruction about the order of when to
+ 
+
+00:02:09.920 --> 00:02:11.550 align:start position:0%
+instruction about the order of when to
+use<00:02:10.119><c> which</c><00:02:10.280><c> tool.</c><00:02:10.720><c> And</c><00:02:10.880><c> that</c><00:02:11.039><c> makes</c><00:02:11.200><c> setup</c>
+
+00:02:11.550 --> 00:02:11.560 align:start position:0%
+use which tool. And that makes setup
+ 
+
+00:02:11.560 --> 00:02:13.390 align:start position:0%
+use which tool. And that makes setup
+more<00:02:11.760><c> complicated.</c><00:02:12.640><c> But</c><00:02:12.720><c> on</c><00:02:12.800><c> the</c><00:02:12.920><c> other</c><00:02:13.040><c> hand,</c>
+
+00:02:13.390 --> 00:02:13.400 align:start position:0%
+more complicated. But on the other hand,
+ 
+
+00:02:13.400 --> 00:02:14.910 align:start position:0%
+more complicated. But on the other hand,
+the<00:02:13.520><c> way</c><00:02:13.680><c> skill</c><00:02:13.960><c> is</c><00:02:14.040><c> set</c><00:02:14.240><c> up</c><00:02:14.520><c> allow</c><00:02:14.720><c> you</c><00:02:14.800><c> to</c>
+
+00:02:14.910 --> 00:02:14.920 align:start position:0%
+the way skill is set up allow you to
+ 
+
+00:02:14.920 --> 00:02:16.710 align:start position:0%
+the way skill is set up allow you to
+consume<00:02:15.280><c> much</c><00:02:15.520><c> less</c><00:02:15.680><c> token,</c><00:02:16.080><c> but</c><00:02:16.360><c> perform</c>
+
+00:02:16.710 --> 00:02:16.720 align:start position:0%
+consume much less token, but perform
+ 
+
+00:02:16.720 --> 00:02:18.910 align:start position:0%
+consume much less token, but perform
+much<00:02:16.960><c> more</c><00:02:17.160><c> complicated</c><00:02:17.760><c> tasks.</c><00:02:18.480><c> Let's</c><00:02:18.680><c> take</c>
+
+00:02:18.910 --> 00:02:18.920 align:start position:0%
+much more complicated tasks. Let's take
+ 
+
+00:02:18.920 --> 00:02:21.150 align:start position:0%
+much more complicated tasks. Let's take
+Chassis<00:02:19.280><c> and</c><00:02:19.480><c> MCP</c><00:02:19.920><c> as</c><00:02:20.040><c> example.</c><00:02:20.760><c> At</c><00:02:20.880><c> default,</c>
+
+00:02:21.150 --> 00:02:21.160 align:start position:0%
+Chassis and MCP as example. At default,
+ 
+
+00:02:21.160 --> 00:02:22.670 align:start position:0%
+Chassis and MCP as example. At default,
+it<00:02:21.280><c> has</c><00:02:21.600><c> seven</c><00:02:21.960><c> different</c><00:02:22.280><c> tools</c><00:02:22.520><c> for</c>
+
+00:02:22.670 --> 00:02:22.680 align:start position:0%
+it has seven different tools for
+ 
+
+00:02:22.680 --> 00:02:24.150 align:start position:0%
+it has seven different tools for
+different<00:02:22.960><c> purpose.</c><00:02:23.640><c> In</c><00:02:23.760><c> fact,</c><00:02:23.920><c> load</c><00:02:24.080><c> the</c>
+
+00:02:24.150 --> 00:02:24.160 align:start position:0%
+different purpose. In fact, load the
+ 
+
+00:02:24.160 --> 00:02:26.150 align:start position:0%
+different purpose. In fact, load the
+context,<00:02:25.040><c> you</c><00:02:25.120><c> will</c><00:02:25.200><c> see</c><00:02:25.440><c> those</c><00:02:25.680><c> Chassis</c><00:02:26.040><c> and</c>
+
+00:02:26.150 --> 00:02:26.160 align:start position:0%
+context, you will see those Chassis and
+ 
+
+00:02:26.160 --> 00:02:28.790 align:start position:0%
+context, you will see those Chassis and
+MCP<00:02:26.560><c> tools</c><00:02:27.160><c> already</c><00:02:27.400><c> take</c><00:02:27.600><c> about</c><00:02:28.000><c> 4.2</c>
+
+00:02:28.790 --> 00:02:28.800 align:start position:0%
+MCP tools already take about 4.2
+ 
+
+00:02:28.800 --> 00:02:30.550 align:start position:0%
+MCP tools already take about 4.2
+thousand<00:02:29.280><c> token.</c><00:02:29.840><c> But</c><00:02:29.960><c> you</c><00:02:30.000><c> can't</c><00:02:30.200><c> imagine,</c>
+
+00:02:30.550 --> 00:02:30.560 align:start position:0%
+thousand token. But you can't imagine,
+ 
+
+00:02:30.560 --> 00:02:32.110 align:start position:0%
+thousand token. But you can't imagine,
+if<00:02:30.720><c> we</c><00:02:30.840><c> turn</c><00:02:31.080><c> that</c><00:02:31.240><c> into</c><00:02:31.520><c> a</c><00:02:31.600><c> Chassis</c><00:02:32.000><c> and</c>
+
+00:02:32.110 --> 00:02:32.120 align:start position:0%
+if we turn that into a Chassis and
+ 
+
+00:02:32.120 --> 00:02:33.990 align:start position:0%
+if we turn that into a Chassis and
+skill,<00:02:32.600><c> we</c><00:02:32.680><c> can</c><00:02:32.800><c> probably</c><00:02:33.080><c> reduce</c><00:02:33.400><c> token</c><00:02:33.760><c> from</c>
+
+00:02:33.990 --> 00:02:34.000 align:start position:0%
+skill, we can probably reduce token from
+ 
+
+00:02:34.000 --> 00:02:36.470 align:start position:0%
+skill, we can probably reduce token from
+4.2<00:02:34.640><c> thousand</c><00:02:35.200><c> to</c><00:02:35.320><c> just</c><00:02:35.480><c> 70.</c><00:02:36.000><c> And</c><00:02:36.120><c> that</c><00:02:36.240><c> means</c>
+
+00:02:36.470 --> 00:02:36.480 align:start position:0%
+4.2 thousand to just 70. And that means
+ 
+
+00:02:36.480 --> 00:02:38.070 align:start position:0%
+4.2 thousand to just 70. And that means
+your<00:02:36.680><c> agent</c><00:02:37.160><c> can</c><00:02:37.280><c> be</c><00:02:37.360><c> equipped</c><00:02:37.720><c> with</c><00:02:37.840><c> many</c>
+
+00:02:38.070 --> 00:02:38.080 align:start position:0%
+your agent can be equipped with many
+ 
+
+00:02:38.080 --> 00:02:39.670 align:start position:0%
+your agent can be equipped with many
+more<00:02:38.240><c> skills</c><00:02:38.680><c> and</c><00:02:38.840><c> it</c><00:02:38.920><c> should</c><00:02:39.040><c> just</c><00:02:39.240><c> work</c><00:02:39.520><c> out</c>
+
+00:02:39.670 --> 00:02:39.680 align:start position:0%
+more skills and it should just work out
+ 
+
+00:02:39.680 --> 00:02:41.790 align:start position:0%
+more skills and it should just work out
+of<00:02:39.760><c> box</c><00:02:40.200><c> because</c><00:02:40.520><c> skill.md</c><00:02:41.320><c> can</c><00:02:41.520><c> already</c>
+
+00:02:41.790 --> 00:02:41.800 align:start position:0%
+of box because skill.md can already
+ 
+
+00:02:41.800 --> 00:02:43.830 align:start position:0%
+of box because skill.md can already
+contain<00:02:42.360><c> all</c><00:02:42.480><c> the</c><00:02:42.560><c> reference</c><00:02:43.000><c> instructions.</c>
+
+00:02:43.830 --> 00:02:43.840 align:start position:0%
+contain all the reference instructions.
+ 
+
+00:02:43.840 --> 00:02:45.550 align:start position:0%
+contain all the reference instructions.
+Without<00:02:44.160><c> further</c><00:02:44.360><c> ado,</c><00:02:44.480><c> let's</c><00:02:44.680><c> show</c><00:02:44.840><c> example.</c>
+
+00:02:45.550 --> 00:02:45.560 align:start position:0%
+Without further ado, let's show example.
+ 
+
+00:02:45.560 --> 00:02:48.270 align:start position:0%
+Without further ado, let's show example.
+So,<00:02:45.720><c> here</c><00:02:45.960><c> under</c><00:02:46.280><c> doc</c><00:02:46.680><c> cloud/skills,</c><00:02:47.920><c> we</c><00:02:48.040><c> have</c>
+
+00:02:48.270 --> 00:02:48.280 align:start position:0%
+So, here under doc cloud/skills, we have
+ 
+
+00:02:48.280 --> 00:02:49.910 align:start position:0%
+So, here under doc cloud/skills, we have
+loaded<00:02:48.640><c> a</c><00:02:48.720><c> list</c><00:02:49.040><c> of</c><00:02:49.160><c> different</c><00:02:49.440><c> skills.</c><00:02:49.840><c> And</c>
+
+00:02:49.910 --> 00:02:49.920 align:start position:0%
+loaded a list of different skills. And
+ 
+
+00:02:49.920 --> 00:02:51.390 align:start position:0%
+loaded a list of different skills. And
+there's<00:02:50.120><c> one</c><00:02:50.360><c> skill</c><00:02:50.600><c> called</c><00:02:50.800><c> Slack</c><00:02:51.160><c> GIF</c>
+
+00:02:51.390 --> 00:02:51.400 align:start position:0%
+there's one skill called Slack GIF
+ 
+
+00:02:51.400 --> 00:02:52.590 align:start position:0%
+there's one skill called Slack GIF
+creator,<00:02:51.880><c> which</c><00:02:52.080><c> including</c><00:02:52.520><c> the</c>
+
+00:02:52.590 --> 00:02:52.600 align:start position:0%
+creator, which including the
+ 
+
+00:02:52.600 --> 00:02:54.590 align:start position:0%
+creator, which including the
+description,<00:02:53.280><c> the</c><00:02:53.400><c> full</c><00:02:53.680><c> details</c><00:02:54.160><c> about</c><00:02:54.440><c> how</c>
+
+00:02:54.590 --> 00:02:54.600 align:start position:0%
+description, the full details about how
+ 
+
+00:02:54.600 --> 00:02:55.950 align:start position:0%
+description, the full details about how
+to<00:02:54.680><c> create</c><00:02:54.880><c> a</c><00:02:54.920><c> GIF,</c><00:02:55.320><c> as</c><00:02:55.520><c> well</c><00:02:55.640><c> as</c><00:02:55.760><c> some</c>
+
+00:02:55.950 --> 00:02:55.960 align:start position:0%
+to create a GIF, as well as some
+ 
+
+00:02:55.960 --> 00:02:58.470 align:start position:0%
+to create a GIF, as well as some
+predefined<00:02:56.600><c> functions.</c><00:02:57.280><c> So,</c><00:02:57.400><c> if</c><00:02:57.600><c> I</c><00:02:57.720><c> ask</c><00:02:57.960><c> it</c><00:02:58.080><c> to</c>
+
+00:02:58.470 --> 00:02:58.480 align:start position:0%
+predefined functions. So, if I ask it to
+ 
+
+00:02:58.480 --> 00:03:00.550 align:start position:0%
+predefined functions. So, if I ask it to
+create<00:02:58.720><c> a</c><00:02:58.760><c> GIF</c><00:02:59.000><c> for</c><00:02:59.120><c> my</c><00:02:59.280><c> Slack</c><00:03:00.000><c> around</c><00:03:00.280><c> daily</c>
+
+00:03:00.550 --> 00:03:00.560 align:start position:0%
+create a GIF for my Slack around daily
+ 
+
+00:03:00.560 --> 00:03:02.470 align:start position:0%
+create a GIF for my Slack around daily
+standup<00:03:00.960><c> time,</c><00:03:01.680><c> you</c><00:03:01.760><c> will</c><00:03:01.840><c> try</c><00:03:02.000><c> to</c><00:03:02.120><c> call</c><00:03:02.320><c> this</c>
+
+00:03:02.470 --> 00:03:02.480 align:start position:0%
+standup time, you will try to call this
+ 
+
+00:03:02.480 --> 00:03:04.870 align:start position:0%
+standup time, you will try to call this
+command<00:03:03.160><c> Slack</c><00:03:03.480><c> GIF</c><00:03:03.760><c> creator</c><00:03:04.360><c> with</c><00:03:04.520><c> a</c><00:03:04.560><c> custom</c>
+
+00:03:04.870 --> 00:03:04.880 align:start position:0%
+command Slack GIF creator with a custom
+ 
+
+00:03:04.880 --> 00:03:06.310 align:start position:0%
+command Slack GIF creator with a custom
+prompt.<00:03:05.320><c> As</c><00:03:05.480><c> I</c><00:03:05.560><c> mentioned</c><00:03:05.880><c> before,</c><00:03:06.160><c> this</c>
+
+00:03:06.310 --> 00:03:06.320 align:start position:0%
+prompt. As I mentioned before, this
+ 
+
+00:03:06.320 --> 00:03:08.110 align:start position:0%
+prompt. As I mentioned before, this
+skill<00:03:06.520><c> is</c><00:03:06.640><c> basically</c><00:03:06.960><c> reuse</c><00:03:07.360><c> the</c><00:03:07.560><c> command</c>
+
+00:03:08.110 --> 00:03:08.120 align:start position:0%
+skill is basically reuse the command
+ 
+
+00:03:08.120 --> 00:03:09.990 align:start position:0%
+skill is basically reuse the command
+infrastructure.<00:03:09.000><c> If</c><00:03:09.120><c> you</c><00:03:09.200><c> click</c><00:03:09.360><c> it</c><00:03:09.440><c> yes,</c><00:03:09.920><c> it</c>
+
+00:03:09.990 --> 00:03:10.000 align:start position:0%
+infrastructure. If you click it yes, it
+ 
+
+00:03:10.000 --> 00:03:11.790 align:start position:0%
+infrastructure. If you click it yes, it
+will<00:03:10.080><c> start</c><00:03:10.320><c> loading</c><00:03:10.600><c> all</c><00:03:10.760><c> skills</c><00:03:11.120><c> here.</c><00:03:11.600><c> Then</c>
+
+00:03:11.790 --> 00:03:11.800 align:start position:0%
+will start loading all skills here. Then
+ 
+
+00:03:11.800 --> 00:03:13.830 align:start position:0%
+will start loading all skills here. Then
+it<00:03:11.920><c> will</c><00:03:12.040><c> create</c><00:03:12.480><c> this</c><00:03:12.760><c> Python</c><00:03:13.160><c> code</c><00:03:13.520><c> and</c><00:03:13.680><c> run</c>
+
+00:03:13.830 --> 00:03:13.840 align:start position:0%
+it will create this Python code and run
+ 
+
+00:03:13.840 --> 00:03:15.470 align:start position:0%
+it will create this Python code and run
+this<00:03:14.000><c> Python</c><00:03:14.280><c> code,</c><00:03:14.600><c> which</c><00:03:14.760><c> generates</c><00:03:15.040><c> GIF.</c>
+
+00:03:15.470 --> 00:03:15.480 align:start position:0%
+this Python code, which generates GIF.
+ 
+
+00:03:15.480 --> 00:03:16.990 align:start position:0%
+this Python code, which generates GIF.
+It<00:03:15.560><c> doesn't</c><00:03:15.720><c> look</c><00:03:15.920><c> perfect,</c><00:03:16.560><c> but</c><00:03:16.680><c> thing</c><00:03:16.840><c> is</c>
+
+00:03:16.990 --> 00:03:17.000 align:start position:0%
+It doesn't look perfect, but thing is
+ 
+
+00:03:17.000 --> 00:03:18.230 align:start position:0%
+It doesn't look perfect, but thing is
+that<00:03:17.200><c> it's</c><00:03:17.320><c> very</c><00:03:17.560><c> easy</c><00:03:17.800><c> for</c><00:03:17.920><c> you</c><00:03:18.000><c> to</c><00:03:18.080><c> think</c>
+
+00:03:18.230 --> 00:03:18.240 align:start position:0%
+that it's very easy for you to think
+ 
+
+00:03:18.240 --> 00:03:20.030 align:start position:0%
+that it's very easy for you to think
+about<00:03:18.480><c> how</c><00:03:18.600><c> to</c><00:03:18.760><c> improve</c><00:03:19.320><c> this</c><00:03:19.640><c> skill</c><00:03:19.960><c> or</c>
+
+00:03:20.030 --> 00:03:20.040 align:start position:0%
+about how to improve this skill or
+ 
+
+00:03:20.040 --> 00:03:21.470 align:start position:0%
+about how to improve this skill or
+pipeline<00:03:20.520><c> by</c><00:03:20.640><c> just</c><00:03:20.840><c> improving</c><00:03:21.280><c> those</c>
+
+00:03:21.470 --> 00:03:21.480 align:start position:0%
+pipeline by just improving those
+ 
+
+00:03:21.480 --> 00:03:23.070 align:start position:0%
+pipeline by just improving those
+predefined<00:03:22.000><c> functions.</c><00:03:22.640><c> There's</c><00:03:22.840><c> another</c>
+
+00:03:23.070 --> 00:03:23.080 align:start position:0%
+predefined functions. There's another
+ 
+
+00:03:23.080 --> 00:03:24.910 align:start position:0%
+predefined functions. There's another
+skill<00:03:23.320><c> called</c><00:03:23.520><c> algorithm</c><00:03:23.920><c> art.</c><00:03:24.280><c> If</c><00:03:24.440><c> I</c><00:03:24.520><c> tell</c><00:03:24.800><c> it</c>
+
+00:03:24.910 --> 00:03:24.920 align:start position:0%
+skill called algorithm art. If I tell it
+ 
+
+00:03:24.920 --> 00:03:26.590 align:start position:0%
+skill called algorithm art. If I tell it
+to<00:03:25.040><c> help</c><00:03:25.200><c> me</c><00:03:25.280><c> create</c><00:03:25.520><c> animated</c><00:03:26.040><c> Zen</c><00:03:26.320><c> style</c>
+
+00:03:26.590 --> 00:03:26.600 align:start position:0%
+to help me create animated Zen style
+ 
+
+00:03:26.600 --> 00:03:28.350 align:start position:0%
+to help me create animated Zen style
+mountain<00:03:27.000><c> algorithm</c><00:03:27.520><c> art.</c><00:03:27.920><c> Again,</c><00:03:28.200><c> it</c><00:03:28.280><c> will</c>
+
+00:03:28.350 --> 00:03:28.360 align:start position:0%
+mountain algorithm art. Again, it will
+ 
+
+00:03:28.360 --> 00:03:29.670 align:start position:0%
+mountain algorithm art. Again, it will
+call<00:03:28.560><c> this</c><00:03:28.760><c> command.</c><00:03:29.200><c> It</c><00:03:29.280><c> will</c><00:03:29.360><c> firstly</c>
+
+00:03:29.670 --> 00:03:29.680 align:start position:0%
+call this command. It will firstly
+ 
+
+00:03:29.680 --> 00:03:31.870 align:start position:0%
+call this command. It will firstly
+create<00:03:29.920><c> a</c><00:03:30.040><c> MD</c><00:03:30.440><c> file</c><00:03:30.880><c> to</c><00:03:31.080><c> really</c><00:03:31.360><c> design</c><00:03:31.760><c> and</c>
+
+00:03:31.870 --> 00:03:31.880 align:start position:0%
+create a MD file to really design and
+ 
+
+00:03:31.880 --> 00:03:33.630 align:start position:0%
+create a MD file to really design and
+plan<00:03:32.400><c> the</c><00:03:32.520><c> artwork.</c><00:03:33.120><c> It</c><00:03:33.200><c> will</c><00:03:33.320><c> read</c><00:03:33.520><c> the</c>
+
+00:03:33.630 --> 00:03:33.640 align:start position:0%
+plan the artwork. It will read the
+ 
+
+00:03:33.640 --> 00:03:35.350 align:start position:0%
+plan the artwork. It will read the
+template<00:03:34.040><c> file</c><00:03:34.440><c> that</c><00:03:34.520><c> we</c><00:03:34.600><c> define</c><00:03:34.960><c> here</c><00:03:35.240><c> as</c>
+
+00:03:35.350 --> 00:03:35.360 align:start position:0%
+template file that we define here as
+ 
+
+00:03:35.360 --> 00:03:37.030 align:start position:0%
+template file that we define here as
+example<00:03:35.840><c> reference.</c><00:03:36.640><c> Then</c><00:03:36.800><c> it</c><00:03:36.840><c> just</c>
+
+00:03:37.030 --> 00:03:37.040 align:start position:0%
+example reference. Then it just
+ 
+
+00:03:37.040 --> 00:03:39.350 align:start position:0%
+example reference. Then it just
+generates<00:03:37.480><c> animated</c><00:03:38.000><c> art</c><00:03:38.360><c> using</c><00:03:38.600><c> P5.js.</c>
+
+00:03:39.350 --> 00:03:39.360 align:start position:0%
+generates animated art using P5.js.
+ 
+
+00:03:39.360 --> 00:03:40.790 align:start position:0%
+generates animated art using P5.js.
+Meanwhile,<00:03:39.960><c> another</c><00:03:40.240><c> really</c><00:03:40.440><c> cool</c><00:03:40.680><c> thing</c>
+
+00:03:40.790 --> 00:03:40.800 align:start position:0%
+Meanwhile, another really cool thing
+ 
+
+00:03:40.800 --> 00:03:42.710 align:start position:0%
+Meanwhile, another really cool thing
+about<00:03:41.120><c> skill</c><00:03:41.360><c> is</c><00:03:41.480><c> that</c><00:03:41.720><c> you</c><00:03:41.800><c> can</c><00:03:42.000><c> also</c><00:03:42.360><c> start</c>
+
+00:03:42.710 --> 00:03:42.720 align:start position:0%
+about skill is that you can also start
+ 
+
+00:03:42.720 --> 00:03:44.870 align:start position:0%
+about skill is that you can also start
+using<00:03:43.120><c> skill</c><00:03:43.520><c> for</c><00:03:43.680><c> your</c><00:03:43.840><c> own</c><00:03:43.960><c> code</c><00:03:44.160><c> base</c><00:03:44.600><c> as</c><00:03:44.800><c> a</c>
+
+00:03:44.870 --> 00:03:44.880 align:start position:0%
+using skill for your own code base as a
+ 
+
+00:03:44.880 --> 00:03:46.790 align:start position:0%
+using skill for your own code base as a
+way<00:03:45.040><c> to</c><00:03:45.160><c> make</c><00:03:45.440><c> agent</c><00:03:45.760><c> self-improving.</c><00:03:46.680><c> So,</c>
+
+00:03:46.790 --> 00:03:46.800 align:start position:0%
+way to make agent self-improving. So,
+ 
+
+00:03:46.800 --> 00:03:48.230 align:start position:0%
+way to make agent self-improving. So,
+here's<00:03:47.040><c> how</c><00:03:47.200><c> I</c><00:03:47.240><c> create</c><00:03:47.480><c> skills</c><00:03:47.800><c> for</c><00:03:47.960><c> my</c><00:03:48.120><c> own</c>
+
+00:03:48.230 --> 00:03:48.240 align:start position:0%
+here's how I create skills for my own
+ 
+
+00:03:48.240 --> 00:03:49.630 align:start position:0%
+here's how I create skills for my own
+code<00:03:48.440><c> base.</c><00:03:48.840><c> So,</c><00:03:48.960><c> I'm</c><00:03:49.040><c> building</c><00:03:49.280><c> this</c><00:03:49.400><c> cloud</c>
+
+00:03:49.630 --> 00:03:49.640 align:start position:0%
+code base. So, I'm building this cloud
+ 
+
+00:03:49.640 --> 00:03:51.310 align:start position:0%
+code base. So, I'm building this cloud
+platform<00:03:50.080><c> for</c><00:03:50.240><c> super</c><00:03:50.520><c> design.</c><00:03:51.000><c> And</c><00:03:51.120><c> we</c><00:03:51.200><c> have</c>
+
+00:03:51.310 --> 00:03:51.320 align:start position:0%
+platform for super design. And we have
+ 
+
+00:03:51.320 --> 00:03:53.270 align:start position:0%
+platform for super design. And we have
+this<00:03:51.520><c> fairly</c><00:03:51.880><c> large</c><00:03:52.240><c> mono</c><00:03:52.440><c> repo.</c><00:03:52.960><c> And</c><00:03:53.080><c> what</c><00:03:53.200><c> I</c>
+
+00:03:53.270 --> 00:03:53.280 align:start position:0%
+this fairly large mono repo. And what I
+ 
+
+00:03:53.280 --> 00:03:54.630 align:start position:0%
+this fairly large mono repo. And what I
+do<00:03:53.400><c> is</c><00:03:53.520><c> that</c><00:03:53.680><c> I</c><00:03:53.720><c> load</c><00:03:53.920><c> the</c><00:03:54.000><c> skill</c><00:03:54.280><c> creator</c>
+
+00:03:54.630 --> 00:03:54.640 align:start position:0%
+do is that I load the skill creator
+ 
+
+00:03:54.640 --> 00:03:56.750 align:start position:0%
+do is that I load the skill creator
+skill<00:03:55.120><c> inside</c><00:03:55.440><c> the</c><00:03:55.520><c> doc</c><00:03:55.720><c> cloud</c><00:03:56.040><c> folder.</c><00:03:56.600><c> So,</c><00:03:56.720><c> I</c>
+
+00:03:56.750 --> 00:03:56.760 align:start position:0%
+skill inside the doc cloud folder. So, I
+ 
+
+00:03:56.760 --> 00:03:58.030 align:start position:0%
+skill inside the doc cloud folder. So, I
+can<00:03:56.880><c> give</c><00:03:57.000><c> it</c><00:03:57.080><c> a</c><00:03:57.120><c> prompt.</c><00:03:57.440><c> We</c><00:03:57.560><c> have</c><00:03:57.720><c> the</c><00:03:57.800><c> front</c>
+
+00:03:58.030 --> 00:03:58.040 align:start position:0%
+can give it a prompt. We have the front
+ 
+
+00:03:58.040 --> 00:03:59.350 align:start position:0%
+can give it a prompt. We have the front
+end<00:03:58.160><c> in</c><00:03:58.240><c> this</c><00:03:58.400><c> folder</c><00:03:58.800><c> and</c><00:03:58.960><c> also</c><00:03:59.160><c> share</c>
+
+00:03:59.350 --> 00:03:59.360 align:start position:0%
+end in this folder and also share
+ 
+
+00:03:59.360 --> 00:04:01.310 align:start position:0%
+end in this folder and also share
+package<00:03:59.640><c> here.</c><00:04:00.000><c> Please</c><00:04:00.240><c> go</c><00:04:00.400><c> investigate</c><00:04:01.240><c> our</c>
+
+00:04:01.310 --> 00:04:01.320 align:start position:0%
+package here. Please go investigate our
+ 
+
+00:04:01.320 --> 00:04:02.670 align:start position:0%
+package here. Please go investigate our
+current<00:04:01.560><c> convention</c><00:04:02.040><c> and</c><00:04:02.200><c> tell</c><00:04:02.400><c> me</c><00:04:02.520><c> what's</c>
+
+00:04:02.670 --> 00:04:02.680 align:start position:0%
+current convention and tell me what's
+ 
+
+00:04:02.680 --> 00:04:04.310 align:start position:0%
+current convention and tell me what's
+the<00:04:02.720><c> best</c><00:04:03.000><c> practice</c><00:04:03.520><c> for</c><00:04:03.720><c> any</c><00:04:03.920><c> new</c><00:04:04.160><c> UI</c>
+
+00:04:04.310 --> 00:04:04.320 align:start position:0%
+the best practice for any new UI
+ 
+
+00:04:04.320 --> 00:04:05.950 align:start position:0%
+the best practice for any new UI
+component.<00:04:05.080><c> Great.</c><00:04:05.280><c> So,</c><00:04:05.400><c> it</c><00:04:05.480><c> did</c><00:04:05.640><c> a</c><00:04:05.680><c> quite</c>
+
+00:04:05.950 --> 00:04:05.960 align:start position:0%
+component. Great. So, it did a quite
+ 
+
+00:04:05.960 --> 00:04:07.670 align:start position:0%
+component. Great. So, it did a quite
+deep<00:04:06.280><c> investigation</c><00:04:06.920><c> and</c><00:04:07.040><c> come</c><00:04:07.280><c> back</c><00:04:07.520><c> with</c>
+
+00:04:07.670 --> 00:04:07.680 align:start position:0%
+deep investigation and come back with
+ 
+
+00:04:07.680 --> 00:04:09.070 align:start position:0%
+deep investigation and come back with
+the<00:04:07.760><c> convention.</c><00:04:08.520><c> Now,</c><00:04:08.680><c> let's</c><00:04:08.840><c> create</c><00:04:09.040><c> a</c>
+
+00:04:09.070 --> 00:04:09.080 align:start position:0%
+the convention. Now, let's create a
+ 
+
+00:04:09.080 --> 00:04:10.350 align:start position:0%
+the convention. Now, let's create a
+skill<00:04:09.320><c> called</c><00:04:09.480><c> front</c><00:04:09.720><c> end</c><00:04:09.800><c> including</c><00:04:10.160><c> all</c><00:04:10.280><c> the</c>
+
+00:04:10.350 --> 00:04:10.360 align:start position:0%
+skill called front end including all the
+ 
+
+00:04:10.360 --> 00:04:11.470 align:start position:0%
+skill called front end including all the
+best<00:04:10.640><c> practice</c><00:04:11.000><c> for</c><00:04:11.160><c> front</c><00:04:11.400><c> end</c>
+
+00:04:11.470 --> 00:04:11.480 align:start position:0%
+best practice for front end
+ 
+
+00:04:11.480 --> 00:04:13.150 align:start position:0%
+best practice for front end
+implementation<00:04:12.040><c> for</c><00:04:12.160><c> our</c><00:04:12.240><c> code</c><00:04:12.400><c> base.</c><00:04:12.960><c> Let's</c>
+
+00:04:13.150 --> 00:04:13.160 align:start position:0%
+implementation for our code base. Let's
+ 
+
+00:04:13.160 --> 00:04:15.910 align:start position:0%
+implementation for our code base. Let's
+start<00:04:13.560><c> with</c><00:04:13.800><c> how</c><00:04:14.040><c> to</c><00:04:14.280><c> add</c><00:04:14.480><c> UI</c><00:04:14.680><c> components.</c><00:04:15.760><c> So,</c>
+
+00:04:15.910 --> 00:04:15.920 align:start position:0%
+start with how to add UI components. So,
+ 
+
+00:04:15.920 --> 00:04:17.630 align:start position:0%
+start with how to add UI components. So,
+it<00:04:16.040><c> will</c><00:04:16.160><c> try</c><00:04:16.320><c> to</c><00:04:16.440><c> call</c><00:04:16.600><c> the</c><00:04:16.720><c> skill.</c><00:04:17.239><c> Initially</c>
+
+00:04:17.630 --> 00:04:17.640 align:start position:0%
+it will try to call the skill. Initially
+ 
+
+00:04:17.640 --> 00:04:19.270 align:start position:0%
+it will try to call the skill. Initially
+skill<00:04:17.959><c> front</c><00:04:18.280><c> end,</c><00:04:18.600><c> which</c><00:04:18.720><c> will</c><00:04:18.840><c> be</c><00:04:18.959><c> created</c>
+
+00:04:19.270 --> 00:04:19.280 align:start position:0%
+skill front end, which will be created
+ 
+
+00:04:19.280 --> 00:04:21.030 align:start position:0%
+skill front end, which will be created
+here.<00:04:19.640><c> Including</c><00:04:20.000><c> file</c><00:04:20.239><c> that</c><00:04:20.400><c> generates</c>
+
+00:04:21.030 --> 00:04:21.040 align:start position:0%
+here. Including file that generates
+ 
+
+00:04:21.040 --> 00:04:22.510 align:start position:0%
+here. Including file that generates
+generic<00:04:21.320><c> description.</c><00:04:21.880><c> Obviously,</c><00:04:22.280><c> you</c><00:04:22.400><c> can</c>
+
+00:04:22.510 --> 00:04:22.520 align:start position:0%
+generic description. Obviously, you can
+ 
+
+00:04:22.520 --> 00:04:24.110 align:start position:0%
+generic description. Obviously, you can
+update<00:04:22.880><c> that.</c><00:04:23.160><c> Also,</c><00:04:23.360><c> it</c><00:04:23.440><c> start</c><00:04:23.760><c> including</c>
+
+00:04:24.110 --> 00:04:24.120 align:start position:0%
+update that. Also, it start including
+ 
+
+00:04:24.120 --> 00:04:25.910 align:start position:0%
+update that. Also, it start including
+those<00:04:24.280><c> best</c><00:04:24.640><c> practice</c><00:04:25.080><c> about</c><00:04:25.360><c> our</c><00:04:25.520><c> front</c><00:04:25.800><c> end</c>
+
+00:04:25.910 --> 00:04:25.920 align:start position:0%
+those best practice about our front end
+ 
+
+00:04:25.920 --> 00:04:27.510 align:start position:0%
+those best practice about our front end
+and<00:04:26.040><c> UI</c><00:04:26.200><c> implementation.</c><00:04:26.920><c> It</c><00:04:27.040><c> even</c><00:04:27.240><c> created</c>
+
+00:04:27.510 --> 00:04:27.520 align:start position:0%
+and UI implementation. It even created
+ 
+
+00:04:27.520 --> 00:04:29.830 align:start position:0%
+and UI implementation. It even created
+further<00:04:27.960><c> reference</c><00:04:28.400><c> file</c><00:04:28.920><c> for</c><00:04:29.240><c> the</c><00:04:29.360><c> component</c>
+
+00:04:29.830 --> 00:04:29.840 align:start position:0%
+further reference file for the component
+ 
+
+00:04:29.840 --> 00:04:31.510 align:start position:0%
+further reference file for the component
+guideline,<00:04:30.280><c> as</c><00:04:30.440><c> well</c><00:04:30.640><c> as</c><00:04:30.800><c> style</c><00:04:31.080><c> guide.</c><00:04:31.400><c> With</c>
+
+00:04:31.510 --> 00:04:31.520 align:start position:0%
+guideline, as well as style guide. With
+ 
+
+00:04:31.520 --> 00:04:32.870 align:start position:0%
+guideline, as well as style guide. With
+this<00:04:31.680><c> one,</c><00:04:31.960><c> next</c><00:04:32.160><c> time</c><00:04:32.280><c> if</c><00:04:32.400><c> I</c><00:04:32.480><c> ask</c><00:04:32.720><c> it</c><00:04:32.800><c> to</c>
+
+00:04:32.870 --> 00:04:32.880 align:start position:0%
+this one, next time if I ask it to
+ 
+
+00:04:32.880 --> 00:04:34.230 align:start position:0%
+this one, next time if I ask it to
+create<00:04:33.080><c> new</c><00:04:33.240><c> UI</c><00:04:33.400><c> component</c><00:04:33.880><c> like</c><00:04:34.040><c> let's</c>
+
+00:04:34.230 --> 00:04:34.240 align:start position:0%
+create new UI component like let's
+ 
+
+00:04:34.240 --> 00:04:35.870 align:start position:0%
+create new UI component like let's
+create<00:04:34.480><c> new</c><00:04:34.680><c> UI</c><00:04:34.840><c> component</c><00:04:35.280><c> for</c><00:04:35.440><c> emoji</c><00:04:35.800><c> and</c>
+
+00:04:35.870 --> 00:04:35.880 align:start position:0%
+create new UI component for emoji and
+ 
+
+00:04:35.880 --> 00:04:37.550 align:start position:0%
+create new UI component for emoji and
+image<00:04:36.200><c> picker</c><00:04:36.720><c> in</c><00:04:36.800><c> our</c><00:04:36.880><c> front</c><00:04:37.120><c> end,</c><00:04:37.360><c> it</c><00:04:37.440><c> will</c>
+
+00:04:37.550 --> 00:04:37.560 align:start position:0%
+image picker in our front end, it will
+ 
+
+00:04:37.560 --> 00:04:39.670 align:start position:0%
+image picker in our front end, it will
+firstly<00:04:37.960><c> call</c><00:04:38.160><c> the</c><00:04:38.280><c> skills</c><00:04:38.880><c> to</c><00:04:39.000><c> get</c><00:04:39.200><c> the</c><00:04:39.320><c> best</c>
+
+00:04:39.670 --> 00:04:39.680 align:start position:0%
+firstly call the skills to get the best
+ 
+
+00:04:39.680 --> 00:04:41.510 align:start position:0%
+firstly call the skills to get the best
+practice<00:04:40.280><c> and</c><00:04:40.440><c> coding</c><00:04:40.760><c> convention</c><00:04:41.280><c> in</c><00:04:41.400><c> our</c>
+
+00:04:41.510 --> 00:04:41.520 align:start position:0%
+practice and coding convention in our
+ 
+
+00:04:41.520 --> 00:04:42.990 align:start position:0%
+practice and coding convention in our
+code<00:04:41.720><c> base</c><00:04:41.880><c> first</c><00:04:42.280><c> and</c><00:04:42.400><c> then</c><00:04:42.520><c> start</c><00:04:42.720><c> building</c>
+
+00:04:42.990 --> 00:04:43.000 align:start position:0%
+code base first and then start building
+ 
+
+00:04:43.000 --> 00:04:44.550 align:start position:0%
+code base first and then start building
+things<00:04:43.200><c> properly</c><00:04:43.880><c> following</c><00:04:44.280><c> the</c><00:04:44.320><c> best</c>
+
+00:04:44.550 --> 00:04:44.560 align:start position:0%
+things properly following the best
+ 
+
+00:04:44.560 --> 00:04:46.150 align:start position:0%
+things properly following the best
+practice.<00:04:45.440><c> So,</c><00:04:45.520><c> this</c><00:04:45.640><c> is</c><00:04:45.680><c> how</c><00:04:45.760><c> you</c><00:04:45.880><c> can</c><00:04:46.000><c> use</c>
+
+00:04:46.150 --> 00:04:46.160 align:start position:0%
+practice. So, this is how you can use
+ 
+
+00:04:46.160 --> 00:04:48.350 align:start position:0%
+practice. So, this is how you can use
+skill<00:04:46.400><c> feature</c><00:04:46.800><c> to</c><00:04:47.040><c> really</c><00:04:47.280><c> extend</c><00:04:48.040><c> agent's</c>
+
+00:04:48.350 --> 00:04:48.360 align:start position:0%
+skill feature to really extend agent's
+ 
+
+00:04:48.360 --> 00:04:50.070 align:start position:0%
+skill feature to really extend agent's
+capability<00:04:49.040><c> and</c><00:04:49.120><c> make</c><00:04:49.240><c> it</c><00:04:49.360><c> continuously</c>
+
+00:04:50.070 --> 00:04:50.080 align:start position:0%
+capability and make it continuously
+ 
+
+00:04:50.080 --> 00:04:51.590 align:start position:0%
+capability and make it continuously
+improving.<00:04:50.720><c> I</c><00:04:50.800><c> just</c><00:04:50.960><c> started</c><00:04:51.160><c> this</c><00:04:51.240><c> repo</c>
+
+00:04:51.590 --> 00:04:51.600 align:start position:0%
+improving. I just started this repo
+ 
+
+00:04:51.600 --> 00:04:53.070 align:start position:0%
+improving. I just started this repo
+called<00:04:51.800><c> awesome</c><00:04:52.080><c> cloud</c><00:04:52.320><c> skills.</c><00:04:52.800><c> And</c><00:04:52.920><c> one</c><00:04:53.000><c> of</c>
+
+00:04:53.070 --> 00:04:53.080 align:start position:0%
+called awesome cloud skills. And one of
+ 
+
+00:04:53.080 --> 00:04:54.790 align:start position:0%
+called awesome cloud skills. And one of
+most<00:04:53.280><c> of</c><00:04:53.360><c> them</c><00:04:53.520><c> is</c><00:04:53.640><c> from</c><00:04:53.840><c> official</c><00:04:54.280><c> cloud,</c><00:04:54.680><c> but</c>
+
+00:04:54.790 --> 00:04:54.800 align:start position:0%
+most of them is from official cloud, but
+ 
+
+00:04:54.800 --> 00:04:56.310 align:start position:0%
+most of them is from official cloud, but
+I<00:04:54.840><c> start</c><00:04:55.120><c> adding</c><00:04:55.360><c> some</c><00:04:55.520><c> stuff</c><00:04:55.960><c> like</c><00:04:56.120><c> UI</c>
+
+00:04:56.310 --> 00:04:56.320 align:start position:0%
+I start adding some stuff like UI
+ 
+
+00:04:56.320 --> 00:04:57.830 align:start position:0%
+I start adding some stuff like UI
+design,<00:04:56.880><c> which</c><00:04:57.000><c> including</c><00:04:57.320><c> very</c><00:04:57.480><c> specific</c>
+
+00:04:57.830 --> 00:04:57.840 align:start position:0%
+design, which including very specific
+ 
+
+00:04:57.840 --> 00:04:59.030 align:start position:0%
+design, which including very specific
+prompt<00:04:58.080><c> that</c><00:04:58.200><c> I've</c><00:04:58.280><c> been</c><00:04:58.400><c> using.</c><00:04:58.840><c> And</c><00:04:58.960><c> I'll</c>
+
+00:04:59.030 --> 00:04:59.040 align:start position:0%
+prompt that I've been using. And I'll
+ 
+
+00:04:59.040 --> 00:05:00.510 align:start position:0%
+prompt that I've been using. And I'll
+keep<00:04:59.200><c> adding</c><00:04:59.360><c> new</c><00:04:59.480><c> stuff.</c><00:04:59.920><c> Also,</c><00:05:00.160><c> feel</c><00:05:00.360><c> free</c>
+
+00:05:00.510 --> 00:05:00.520 align:start position:0%
+keep adding new stuff. Also, feel free
+ 
+
+00:05:00.520 --> 00:05:01.910 align:start position:0%
+keep adding new stuff. Also, feel free
+to<00:05:00.640><c> contribute</c><00:05:01.080><c> and</c><00:05:01.160><c> create</c><00:05:01.360><c> PRs.</c><00:05:01.800><c> And</c>
+
+00:05:01.910 --> 00:05:01.920 align:start position:0%
+to contribute and create PRs. And
+ 
+
+00:05:01.920 --> 00:05:02.870 align:start position:0%
+to contribute and create PRs. And
+meanwhile,<00:05:02.200><c> if</c><00:05:02.320><c> you're</c><00:05:02.400><c> interested</c><00:05:02.800><c> in</c>
+
+00:05:02.870 --> 00:05:02.880 align:start position:0%
+meanwhile, if you're interested in
+ 
+
+00:05:02.880 --> 00:05:05.030 align:start position:0%
+meanwhile, if you're interested in
+diving<00:05:03.160><c> into</c><00:05:03.640><c> cloud</c><00:05:03.960><c> skills</c><00:05:04.360><c> more,</c><00:05:04.920><c> we're</c>
+
+00:05:05.030 --> 00:05:05.040 align:start position:0%
+diving into cloud skills more, we're
+ 
+
+00:05:05.040 --> 00:05:06.710 align:start position:0%
+diving into cloud skills more, we're
+diving<00:05:05.280><c> a</c><00:05:05.320><c> bit</c><00:05:05.520><c> deeper</c><00:05:05.880><c> in</c><00:05:06.000><c> our</c><00:05:06.120><c> upcoming</c>
+
+00:05:06.710 --> 00:05:06.720 align:start position:0%
+diving a bit deeper in our upcoming
+ 
+
+00:05:06.720 --> 00:05:08.750 align:start position:0%
+diving a bit deeper in our upcoming
+weekly<00:05:07.000><c> workshop</c><00:05:07.440><c> at</c><00:05:07.760><c> AI</c><00:05:07.920><c> builder</c><00:05:08.160><c> club.</c><00:05:08.680><c> So,</c>
+
+00:05:08.750 --> 00:05:08.760 align:start position:0%
+weekly workshop at AI builder club. So,
+ 
+
+00:05:08.760 --> 00:05:10.030 align:start position:0%
+weekly workshop at AI builder club. So,
+you<00:05:08.800><c> can</c><00:05:08.920><c> click</c><00:05:09.120><c> on</c><00:05:09.200><c> the</c><00:05:09.280><c> link</c><00:05:09.480><c> below</c><00:05:09.720><c> to</c><00:05:09.840><c> join</c>
+
+00:05:10.030 --> 00:05:10.040 align:start position:0%
+you can click on the link below to join
+ 
+
+00:05:10.040 --> 00:05:11.310 align:start position:0%
+you can click on the link below to join
+if<00:05:10.160><c> you're</c><00:05:10.240><c> interested.</c><00:05:10.840><c> I</c><00:05:10.920><c> hope</c><00:05:11.080><c> you</c><00:05:11.120><c> enjoyed</c>
+
+00:05:11.310 --> 00:05:11.320 align:start position:0%
+if you're interested. I hope you enjoyed
+ 
+
+00:05:11.320 --> 00:05:12.430 align:start position:0%
+if you're interested. I hope you enjoyed
+this<00:05:11.400><c> video.</c><00:05:11.840><c> Thank</c><00:05:12.040><c> you</c><00:05:12.120><c> and</c><00:05:12.240><c> I'll</c><00:05:12.280><c> see</c><00:05:12.400><c> you</c>
+
+00:05:12.430 --> 00:05:12.440 align:start position:0%
+this video. Thank you and I'll see you
+ 
+
+00:05:12.440 --> 00:05:14.960 align:start position:0%
+this video. Thank you and I'll see you
+next<00:05:12.640><c> time.</c>
+

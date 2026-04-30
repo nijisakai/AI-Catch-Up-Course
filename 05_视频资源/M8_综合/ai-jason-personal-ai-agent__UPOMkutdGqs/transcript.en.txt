@@ -1,0 +1,635 @@
+Hey everybody. So, over the past couple
+of weeks, I've built a personal agent
+that can do sophisticated research,
+helping me understand topics I want to
+write about, or helping me find the most
+interesting content trends and topics
+that I should be paying attention to or
+having my teams pay attention to. It has
+complex writing and content creation
+capabilities, and it knows how to
+evaluate its own work in order to
+approve it. Often, it's using those
+research capabilities to understand what
+great content looks like.
+and it's integrated into a whole bunch
+of my other tools like Google Docs,
+Google Sheets, and Google Drive. It's
+connected to my Slack. It can access my
+Apple Notes and even my Apple reminders.
+It has the ability to take in my
+request, derive my desired intent, and
+then it looks at all the available tools
+that it has, and it creates a plan for
+how to achieve that intent, and then
+executes it.
+So, I'm going to show you how I managed
+to get here, what I learned from trying
+to do this in a few different ways, some
+of them more successful than others, and
+if you stick around till the end, I'm
+going to share something with you
+that'll help you to get started on
+creating this stuff on your own. So, if
+you don't know me, my name is Jason
+Seir. I'm the VP of design for Cisco's
+security business. I've spent 25 years
+learning how to make products people
+love to use. On this channel, I share
+what's worked for me and more and more
+I'm starting to share my learnings that
+are occurring at the intersection of
+design and AI. So, if any of that sounds
+interesting, I I do encourage you please
+subscribe. I try to post a couple times
+a month.
+So, why did I want to create an agent?
+Well, more than anything, I'm really
+curious about all this. We're in the
+midst of a massive transformation, and
+as a product builder at heart, I just
+see so many incredible opportunities
+here. At Cisco, we're already committed
+to using AI, to securing AI, and to
+ensure that our customers can deploy AI
+with confidence. We know that our
+customers are going to go down this
+agentic road, and we need to be able to
+stay out in front and deliver amazing
+experiences to support them on their
+journey. We've already announced AI
+canvas, which is our Agentic Ops
+experience, and I'm going to talk about
+that a little bit later. But now, why
+should you care? Well, there are a
+couple of reasons I think that are
+important. First of all, if you are
+someone who plays a role in making
+software for people, you need to learn
+these things. And I suggest you get your
+hands on them. You need to develop taste
+around these new experiences, the way
+that people use them. You need to use as
+many of these tools as you can get your
+hands on. You may also be someone who
+simply wants to be an early adopter to
+these agent capabilities. You're trying
+to figure out how this stuff works so
+you can use it in your work or you can
+support it in your own business. Okay,
+so let's explore my learnings. For me,
+it all started in Verscell Vzero. My
+intro to Vibe prototyping.
+Vibe coding, for those of you who aren't
+familiar with it, is this idea that you
+can code complex things um by simply
+using an LLM and a prompt interface. And
+you can describe in natural language
+what you want and the system writes the
+code to deliver it. Forcel is one of
+these tools and it's focused on
+delivering um products and front-end
+experiences and we're using it on our
+team to develop really rich prototypes
+really quickly in order to express our
+ideas. And so it was a couple months ago
+that I got really deep into using
+Verselv and and it really started to to
+show me the the the deep value in um
+being able to vibe code and build these
+prototypes. So based on my experience
+with Vzero, it really got me thinking
+about like what what would it be like to
+actually build an agent or an agentic
+workflow. And so I started um doing
+research on YouTube. And I discovered I
+discovered a a great channel, Greg
+Eisenberg, um who's posting a lot of
+stuff about AI and vibe coding and
+tooling these days. Um and he had a guy
+on um his channel, James Dickerson, who
+is known as the boring marketer. Um, and
+James had developed u an agentic
+workflow using N8N and he was talking
+through how he did that. Um, and he was
+kind enough to be to offer to share the
+JSON file um, from his N8N deployment of
+this workflow so that people could take
+it and use it as a starting point to
+build their own um, agentic workflows
+based on, you know, sort of the one that
+that he had created. And so I took him
+up on that offer. I got in touch. I got
+a hold of the JSON file recognizing that
+I have no idea what to do with a JSON
+file or even what N8N was at the time.
+But um I went to my chat GPT assistant
+and I started asking questions about um
+you know what to do with this and how to
+move forward. And really quickly I was
+able to get into N8N which is a tool.
+It's called a no code or low code tool
+and it allows you to stitch together all
+of these different nodes um in order to
+get a workflow accomplished. And these
+nodes can be connected by API to various
+different tools or also to um different
+um LLM models. So let me talk you
+through exactly what this workflow does.
+So it takes an input um which is
+essentially a um a search term. Um so I
+would put in something like AI and
+design and it takes that and it splits
+into two work streams. In uh the top
+work stream, it is going out and finding
+high-erforming YouTube videos related to
+that topic. And in the bottom stream,
+it's doing the same, but it's doing it
+on uh Twitter or X. The YouTube videos,
+it comes back with a list of about 30
+videos, and then it loops through that
+list of videos, pulling this transcripts
+from each of those videos, and putting
+all of that text into a file. It does
+the same with all of the tweets or um
+exposts that it finds and it puts all of
+that data into a file together. Then it
+passes that big chunk of data over to a
+content idea generator. And this is
+connected to um Chat GPT, OpenAI model
+by API and it looks at all of that
+information and evaluates it for
+opportunities to write about new content
+that hasn't been covered yet, new
+opportunities. and it creates a list of
+new um uh essentially LinkedIn post
+ideas. And once it has that list, it
+passes it over to a research agent who
+goes out and does deep research on all
+of those different topics to figure out
+which have the best supporting
+information. What can it find in terms
+of stats and figures that support the
+thinking um in those new ideas? And
+based on that, it sends all of that
+information over to another AI agent. In
+this case, it's using Claude because
+Claude is particularly good at writing.
+Um, it sends all of that information to
+a Claude model and it asks it to write a
+new LinkedIn post. Once that post is
+written, it passes it over and it is
+connected to your Google Docs. So, it
+creates a new Google Doc with that post.
+it sends you a link in Slack to that
+Google Doc where you can go in and um
+click on it. You can review the
+information, you can make changes to it
+um as you see fit and then you can click
+a button in your Slack channel in order
+to post that directly to your LinkedIn.
+And now the point of this is like I
+don't need an automated LinkedIn post
+workflow. I I use chatpt all the time to
+help me write content that I'm sharing
+online. Um but I certainly don't need to
+completely automate that. But the point
+wasn't to create an engine for my
+LinkedIn content. This is more of a
+marketing sort of workflow. The point
+was I really wanted to learn how all of
+this works. And what I learned was that
+you can get this up and running fairly
+quickly, especially when you're working
+with an existing workflow like this. If
+I had to figure this out and build it
+all um from scratch, it would have taken
+a lot longer for sure. I think for the
+noviceses out there, the biggest thing
+to wrap your head around is for these
+individual nodes, you have to go in and
+connect them to your versions of these
+tools. So, you need to have, you know,
+um an API account for OpenAI or for CL
+cloud that you can connect, you can
+create an API token, which is sort of
+your your uh programming login to that
+interface and you can insert that token
+into these nodes. You need to go um
+into, you know, the Google developer
+portal and create API tokens for giving
+access to your Google Suite. You need to
+go um and set up some additional tools
+like the scraping tools that it uses to
+pull down this information, a tool
+called Appify. So, you need to go and
+create an account with Apify and create
+an API token. So, that's kind of the
+hardest part of getting this figured
+out. But once you wrap your head around
+that concept of these tools um have
+APIs, you know, you create these API
+tokens and that gives you access to them
+programmatically, then it starts to make
+um a ton of sense. I was super proud of
+this workflow and I was telling a bunch
+of people at work about it. Um and then
+I got to thinking, man, you know, my
+understanding of an agent um is it's
+more than just an endto-end workflow.
+Like this is a very static end toend
+workflow. You put something in one end,
+you get something out the other end. And
+sure, it's using AI along the way to do
+a bunch of these jobs. But I really
+think that a true agent is more than
+this. And I think that a true agent is
+going to take um some instructions or
+direction. It is going to have access to
+a bunch of different tools that it can
+use in different way and it's going to
+choose how to use those tools in order
+to deploy or in order to achieve the
+thing that you're asking it to do. And
+this is where I started thinking that I
+wanted to recreate this using um a true
+agentic system and using what's called
+MCP servers. So MCP servers are model
+context protocol servers and think of
+them essentially as a way that um you
+that AI tools AI um models and agents
+can get access to various different
+tools using a consistent sort of
+language. So an MCP server would have a
+bunch of tools available behind it.
+Those tools may all be using different
+APIs to different systems, but the MCP
+server essentially um exposes what tools
+it has to the AI agent, explains what
+those tools are used for, and then the
+agent knows that it has access to those
+things and it can use them for
+accomplishing various tasks. So I wanted
+to build a more complex system like
+this. And so I I thought I was going to
+try to move away from N8 and and and
+build something, you know, a little bit
+more autonomous. Um, so the first thing
+I did was, you know, I went to Claude
+and I told it, I said, "Look, I've got
+this NAND system that does these things.
+I don't think that this is a true
+autonomous agent system and I want to
+build one using MCP. Would it be
+possible to do that?" And it said, "Yes,
+of course." and it explains, you know,
+how I can go and and do that. And it
+suggests, you know, using V 0ero as one
+of the tools to be able to do this. Um,
+and so that's what I did was I started
+using Versel V0. That allowed me to
+start building out the front end. Chat
+GPT was starting to tell me how to build
+out the MCP servers on the back end. And
+that started to require a little bit
+more heavy lifting. So, you know, chat
+GPT would be telling me about the files
+that I needed to create and it would um
+ask me to create them and I would go um
+and start doing that in my own file
+system. I needed to start installing
+things like a node server to be able to
+run um JavaScript and different things.
+And so at first it was a little
+intimidating, but anytime that I felt
+like I didn't know at all what I was
+doing, I would just ask, you know, my AI
+assistant to explain it to me and walk
+me through it. And it made it actually
+really easy to figure out. I did have to
+get familiar with um using more of a
+command line interface for my operating
+system in order to run um some of these
+tools. But that was, you know, pretty
+pretty quick and easy to figure out
+again with the help of of um Claude and
+Open AAI. Um, but what started to happen
+was it started to get a little bit
+frustrating because I was updating all
+of my front-end system and you know the
+front end to this thing I I had sort of
+built a very rudimentary AI agent front
+end that had a you know a chat window
+and it had all sorts of debugging
+information on it to help me figure out
+what was working and what wasn't
+working. So I was using Verscell to
+update that and then I was using Claude
+and copying and pasting files to update
+the back end.
+And it was very tedious. And um I got to
+a point where I just simply asked cloud.
+I was like this is really tedious. Is
+there a better way where I don't have to
+do all this copying and pasting? And it
+said yeah you can use a tool called
+cursor. And so I went and installed
+cursor and pointed it to my you know
+project files. And this was a big
+turning point. So this completely
+changed everything for me because now
+I'm actually in a development
+environment. there's an IDE, an
+integrated development environment, and
+I'm able to um still use an AI
+assistant. So, it actually has Claude
+built into um this IDE. So, you can
+interact with your AI assistant just
+like I was, but now it can actually go
+and change all of these files and write
+code and it can debug things and it can
+automatically see error messages and it
+makes it really efficient to figure
+things out. And so once I moved in this
+direction, I started making some really
+good progress. But it was still a little
+clunky that I had my own front end
+because I was trying to get the UI to do
+things that I was familiar with in some
+of these assistants, like the type of
+feedback that I would get and the the
+way that it would show me responses. And
+I was just spending a lot of time trying
+to vibe coat that element of it. And so
+then again, I went in and asked um
+Claude if there was a better way to do
+this. and it and it told me that I can
+actually connect MCP servers to the
+cloud desktop application and that ties
+all this together. That was the other
+big sort of piece of the puzzle that I
+realized is that I can go into cloud and
+if you go into the desktop app and into
+settings under developer, you can
+actually start connecting MCP servers
+with a real simple um config file to
+allow you to do that. That was the other
+big piece of the puzzle that unlocked
+for me. So I went back into my um cursor
+and I said, "Okay, I want to completely
+rearchitect this system so that rather
+than having my own front end and my own
+UI, I'm going to use Claude as my UI."
+And it went and very quickly
+rearchitected the system so that all of
+these MCP servers are now connected into
+Claude. So, let's take a look at what
+that looks like. If I go over to Claude
+here,
+um, now if I go under my tools section,
+you can see that I have a whole bunch of
+custom tools that have been exposed from
+my Aentic system. So, I've got a whole
+bunch of things related to creating
+content. It can create Google Docs and
+Google Sheets and it can access, you
+know, YouTube and Medium and do all of
+these different things.
+But most importantly, it's got this
+distill intent tool that is able to take
+a request that I type into, you know, um
+the the Claude prompt and it's able to
+figure out what's the basic intent of
+what I'm trying to get it to do. Then
+it's able to go and look at all these
+tools that it has available and it
+figures out how it can execute on that
+intent intent based on the tools and
+then it has an orchestrator which
+actually executes on that plan and runs
+through you know all the different
+tools. So let's see what else I've got.
+I've got um I ended up building a a rag
+service so that I can act get access to
+my Apple notes. I have other Mac OS
+integrations. So, it's able to connect
+to my reminders and create reminders for
+me. And it's able to search my notes. It
+is uh connected to Perplexity, which is
+a very sophisticated sort of AI search
+engine for doing deep research on the
+internet. So, all of these different
+tools are now available to Claude. And
+so, like, let's take a look at what this
+looks like um for real. So, here's my
+prompt. Help me find the most
+interesting new articles, podcasts, and
+YouTubetubes, blogs, etc. that relate to
+the intersection of AI and design. Store
+them in my content spreadsheet, which is
+a Google sheet. Um, and also create a
+brief summary write up on why you
+thought they were interesting. Provide
+that to me with links to all of the
+things and save that into a Google doc.
+then create a reminder for me to review
+that Google doc and add um and add it to
+my content list in reminders include the
+link to the Google doc. So this is a
+whole bunch of things that I'm that I'm
+asking it to go and do. And so what
+you're going to see is it's going to
+take in that request. It's going to
+figure it out and it's going to start
+using the tools that it has available to
+go off and execute on some of that. So
+it is going off and searching for a you
+know the search term. um it's going to
+go off and do another search to sort of
+make sure that it's getting um a full um
+list of the opportunities.
+It's doing yet another search. So, it's
+it's able to reason through executing on
+this task and as it's completing these
+steps, it's actually evaluating itself
+and and understanding, hey, did I
+complete that step properly or do I need
+to keep working on that step? So that's
+why you see it do like multiple
+different web searches. And then it is
+um adding all of these podcast videos
+that it found to my content tracker,
+which is a big spreadsheet of content
+that I'm, you know, keeping track of and
+finding. Here's where what we ended up
+with. So we have um a summary document
+that was created. Um it created a
+reminder for me in my reminders app.
+It created this reminders for me over in
+my reminders app. Um, and it created a
+Google doc that I can go and look at
+that has all of the content it found and
+some explanation on why it found it
+interesting. Um, and links to all of
+those topics. So, you can certainly see,
+you know, how powerful and valuable
+um, tools like this can be. Okay. So, at
+risk of this video being way too long, I
+get super excited about this stuff and
+could go into great detail. Um,
+so I'm going to try and stop here and
+focus on, okay, what are my what are my
+takeaways here? What do what do we take
+away from this? Okay, so first of all,
+if I can do this, so can you because I
+wrote code early in my career. Um, but I
+was able to do all of this without
+writing uh a single line of code. And
+that blew me away at how intuitive um
+all of this was. If you're not familiar
+with these things, if you don't know how
+to do these things, just tell your AI
+assistant that you're not familiar or
+that you need help or that you need it
+to do it for you. Especially in cursor,
+it can do a lot of this for you. It can
+create files. It can run um debugging
+scripts. It can do all sorts of really
+incredible things. just, you know, tell
+it what to do. Um, and and you know,
+just follow along with it. Um, and based
+on that, the other thing I've taken away
+is this
+vibing, as people are calling it, vibe
+coding, vibe designing, whatever it is
+that you're doing. Um, this vibing is so
+intuitive, or at least I think it is.
+And I think it's because as a leader it
+feels very much like communicating with
+people or a team or colleagues. You are
+um asking it to accomplish something for
+you. The quality of what you get is
+based on how clear you are with your
+instructions and defining the outcomes
+and what success looks like. Um if you
+don't like it, you're providing feedback
+and providing guidance. you're not
+telling it exactly what to do. Like this
+is the wonderful thing. It's a lot like
+leading a team um of people where you
+don't understand that discipline. You
+don't have the detail to tell it exactly
+what to do. And I think in this case,
+that's a really good thing. You just
+need to be really clear on the outcome
+that you're trying to achieve and what
+success looks like and what you're
+looking for. And if you're doing those
+things, these systems are behaving
+incredibly well.
+The other thing that I'm realizing is um
+I think as more and more people get a
+taste for what it's going to be like to
+use these tools in this more intuitive
+way and as these tools become more and
+more connected and powerful um people
+are really going to be demanding this as
+a key experience in the products that
+they're using. So as product people we
+need to be ready. We need to be ready to
+deliver these AI native sort of vibe
+like experiences in the products that we
+deliver at Cisco. We're doing that.
+We've recently launched AI canvas which
+is you know our agentic ops capability
+for managing your networking and
+security products. Um I'll put a link in
+the in the description. You can go and
+watch the the launch video for that.
+Like I mean we're super proud of that
+work and this is the first step in this
+direction for us. Um but I think that
+the other thing that we need to realize
+is that we need to be ready to deliver
+really amazing experiences if we go down
+this road or you simply run the risk of
+becoming an MCP server that's going to
+get plugged in behind somebody else's
+UI. And what makes me realize that is
+the the moment when I realize, man, why
+am I building my own complicated UI to
+do a bunch of things that chat GPT or
+Claude already does, I can expose all of
+these capabilities and and and bring
+them out behind, you know, Claude and
+let it do the um all of these things in
+a much more effective way. I think for
+uh AI canvas in what we're delivering at
+Cisco, we are leaning in to deliver a
+world-class experience for network
+admins and security admins. Um and I and
+I believe that that is going to become
+more and more critical. Um and so as
+product people, as designers, um this is
+an opportunity. This is a great
+opportunity for us to actually lead the
+way. Um because experience really will
+matter in a lot of these cases. Um, so
+wrapping up, I've I've mentioned a ton
+of resources in this video and I want to
+make sure that everybody has access to
+them. So I'm going to put as much stuff
+in the description as I can. Be sure to
+check them out. Um, and also at the
+beginning of the video, I mentioned that
+I' that I'd share something with you. So
+I actually went into cursor and said,
+"Hey, can you give me a prompt that
+describes this system that would allow
+someone to take that prompt and put it
+into their own cursor in order to
+recreate this?" And so it's given me a
+prompt and I'm happy to share that
+prompt with people and see if it's a
+great way for you to get started. I
+believe it will be um and I've
+simplified it a lot so it doesn't have
+all of the complex tooling and
+integrations that I've added in because
+I think that part of um the magic of
+doing this is is learning it, right? So,
+I've made it so that it has just a
+single integration into Google um apps
+so that you can have Google Docs and
+Google Sheets as a place to start with
+and then from there you just need to
+continue to communicate with cursor and
+tell it what you want to add and it will
+build additional capabilities into the
+system. You will need to go and um you
+know get integrated with other tooling
+and get API keys and plug them in. But
+cursor will make that really easy for
+you. So, I'm I'm happy to share that.
+What I ask is that you just leave a
+comment for me. Let me know that you're
+interested in that and then I can reach
+out and um and share that with you. Um
+have fun. Like I mean let me know how
+it's going as you experiment with these
+things. Share some of the learning back.
+Um I really think that we all need to be
+sharing with each other and learning
+with each other um as we progress down
+this road. As I said in the beginning um
+this is the type of content that I'm
+really interested in in producing. It's
+it's based on things that I'm doing um
+myself. Anyways, if you're interested in
+this um subscribe, you'll you'll see
+more of it. Um and for those of you um
+who made it all the way through this
+long video, I appreciate it. I had a lot
+to share and I'm excited about it. Um
+and I hope to see you uh at the next
+one. Thanks.

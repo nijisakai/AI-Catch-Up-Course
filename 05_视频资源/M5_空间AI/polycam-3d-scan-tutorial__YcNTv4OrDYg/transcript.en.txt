@@ -1,0 +1,137 @@
+what's up guys Nono here in this video
+we'll learn how to create a 3D model
+like this one and this by only using
+your smartphone and you can use this 3D
+model in any renderer be it lumion D5
+render Unreal Engine or Corona render
+and no you don't have to use an iPhone
+for this it works both on Android and
+iOS we are going to use a technique
+called photogrammetry and what is
+photogrammetry you ask to put it simple
+it is a photography mapping technique of
+objects and in our case it allows us to
+take several photos of an object and
+translate that into a 3D model the most
+popular company doing this is quick saw
+with their Mega scans from small plants
+to massive Cliffs since it's a
+photograph from The Real World the
+results are super detailed realistic 3D
+models and textures we are going to use
+an app called polycam which you can
+download from the app store on iOS or
+the Play Store on Android after doing so
+open the app and this is the interface
+first you need to create an account this
+way you have all your models on the
+clouds
+on the top you can see this light bulb
+icon which has some tips on how to use
+the app and take your photos as you can
+see it's best to take photos from all
+angles a minimum of 80 photos is
+recommended and I suggest even taking
+some close-up shots on the bottom left
+we have this icon that says Auto this
+will take automatically the photos also
+press the start button I like to have
+control of what photos I want to take so
+I switch this to manual now there are a
+couple of things you might want to do if
+you want the best 3D model out of the
+capture you are going to make you'll
+have to shoot around the object so
+either you place your object in a place
+you can move around it or in my case I
+went to Ikea and bought this round
+kitchen wooden tray it's quite
+affordable and perfect to take photos of
+small to medium sized objects if you
+have some light with a soft box I
+recommend using it because this way you
+will not have any harsh Shadows baked
+into the texture of your 3D object if
+you don't have any soft box just shoot
+next to a window without direct sunlight
+that works great as well by the way just
+like my Instagram with your best scanned
+3D models if you would like to get
+featured on my Instagram stories now I
+just placed the object in the center
+hold my phone in the same position and
+then I just rotate the plate for each
+new photo
+I take several photos from different
+angles so I can capture all the details
+as I mentioned before I also take some
+close-up shots to get the best details
+and by the way if you can't shoot
+against the white wall or just put a
+piece of paper in front of it so it will
+be easier for the software to cut out
+your object after you take all your
+photos you can click here on the images
+and see the photos you have taken you
+can quickly swipe for them and if you
+see one that is autofocus you can click
+the trash icon to delete it here in the
+detail section you can select which type
+of processing you want if you're going
+to use this for rendering I recommend
+using the full since it has a higher
+poly count and higher resolution
+textures it also comes with all the
+necessary Maps select use object masking
+if you don't want the background to be
+processed then just click here upload
+and process to let the magic begin after
+it's done it will show you the model on
+your phone you can see this looks very
+good and really detailed now on the
+computer let's go to polycam.com and log
+into our account we can see here all the
+models we created let's click on this
+one we can inspect here the model as
+well
+and now in the top right corner we have
+the export button
+I usually select fbx and obj fbx comes
+with the textures already applied to the
+object but I like to have them
+separately as well so I download the obj
+which comes with the texture separately
+let's open the model in any 3D model
+application and delete the areas we
+don't need
+save it and let's import it to any 3D
+renderer in my case I'm going to load
+the Italian
+I just click import and then press OK
+and as you can see it comes already with
+all the textures applied I don't need to
+do anything else let's just take a quick
+render
+it looks pretty good especially for a 3D
+model that took less than 5 minutes to
+make now let's load the same model in D5
+render we will click this icon to import
+and as you can see here we need to load
+the textures so I'll go to the model
+folder and load the textures
+I'll adjust some values
+and this is the final result
+and again it's basically the same as the
+real world object he looks really good
+by the way you can use this polycam app
+for free and get 100 captures or you can
+subscribe for a monthly fee and get 154
+captures per month and access all your
+model captures on the web and Export to
+all formats I hope you enjoyed this
+tutorial and let me know in the comments
+below what you think of this app for 3D
+model scans don't forget to give it a
+like and tag me on Instagram with your
+3D scans to get features on my stories
+and I'll see you in the next video

@@ -1,0 +1,801 @@
+In this video of openclaw, we are going
+to be talking about how you can work
+with openclaws AI agent AI agent skills,
+memory and chron jobs of openclaw. This
+is one of the most important
+foundational concepts that we need to
+understand in order to tame openclaw our
+truly personal AI assistant. In our
+earlier video, we already discussed
+about how you can install openclaw from
+the complete groundup and also we
+discussed how you can configure openclaw
+with the telegram and how you can
+establish a connection and communicate
+with openclaw along with the local large
+language model which is the lama. We
+already discussed about it and we have
+already done everything successfully in
+our earlier video. And in this video,
+we're going to go a level further and
+understand the more important core
+concepts of OpenClaw so that we can make
+our AI assistant a truly personal AI
+assistant. And these are the
+foundational building blocks that you
+need to understand. So that's what we're
+going to be discussing in this
+particular video. So let's get started
+with it and understand how things work.
+[music]
+So first thing first, I'm going to be
+starting off with the insulation of the
+open claw itself. And I have did a basic
+insulation over here already. So it is
+it is doing fine right now. So I'm going
+to be stopping it. So as you can see
+over here uh it is going to create this
+uh openclaw folder for us. And you might
+have realized that this is going to be
+the folder which is going to have all
+the details for you in the open cloud
+there. And you can see that now now the
+openclaw is there. So I'm going to be
+creating the sessions. I'm going to be
+restarting the gateway service. So these
+are the things that we have already
+discussed. That's the reason why I'm
+really not going to go very deep into
+that right now. Uh it's going to take
+some time. So I'm going to just stop it
+because I already have gateways and
+everything uh there. But still you can
+do a open claw of config command if you
+have worked on it before. You can see
+that you can do one more installation or
+maybe if you want to change the models
+and things you can do it from the open
+claw config command. You can see that
+you can select the local and you can
+create the workspace if it doesn't exist
+uh in your folder. I think it is uh it
+is there right now the workspace folder
+as you can see over here once I selected
+it. And then you can also choose the
+model that you're working with. So you
+can choose the model from here or you
+can use the Olama over here. I'm going
+to be using the Olama as well even in
+this video. But I'm going to be using
+the Olama cloud models instead of
+running it in my local machine this
+time. That is the only difference from
+my earlier video with this video. The
+reason why I'm doing it is because this
+entire open claw is running on an ibuntu
+machine which is actually running in my
+parallels desktop of Mac operating
+system as you can see over here. So this
+is like a virtual machine which is
+running on the top of my Mac operating
+system. So essentially this is just a
+virtual machine. So I don't really want
+to overblot my machine with a lot of
+resources and it's not really going to
+handle the ammo with the local large
+language model as well. So that's the
+reason why I'm not going to do it and
+I'm going to use the Olas cloud model
+this time. Well, as I said, I'm going to
+hit this thing continue over here and we
+have done all the configuration in the
+next tab over there. I'm going to start
+off with Olama there. And the moment I'm
+going to hit Lama, you see that in my
+home folder, I don't really have any uh
+any lama there, which is which means
+that the Olama is going to be starting
+off from the scratch right now. And the
+moment I'm going to hit enter, you can
+see that it is going to tell me which
+model that you're going to be connecting
+with. And the good thing is you see that
+the latest version of Olama if you have
+installed it, it's also going to tell
+you launch open claw there. This is
+amazing because now you can configure
+even your open claw with this lama
+there. So I'm going to hit launch over
+there. And the moment I do it, see that
+we have got a new folder created which
+means now we are talking right. So let's
+do with whatever it is doing. And I'm
+going to choose the recommended model
+which is the Kimmy K2.5
+cloud model. And this is an amazing
+model. I've seen its performance. It's
+quite amazing. So I'm going to go with
+that one. And just for a note here, the
+Olama cloud is going to be a paid
+versions model. But the good thing is
+for the free version, you still have got
+some SK so that you can try it out and
+see how things work. But again, it's not
+going to be like a reliably available
+for you all the time. You have to either
+pay for them for that. But the reason
+why I really wanted to show you this one
+is because you can use any provider. You
+can use the anthropic or even uh copilot
+or any other uh models. But I'm just
+using this one just for the initial
+setup to show you that you also have an
+option to work with the cloud models.
+Well, as that said, I'm going to hit
+press enter there. And you can see that
+now the Olama says that I'm going to go
+and modify your ola open claw
+openclaw.json file which is somewhere
+sitting inside this particular folder
+called as openclaw.js file. So I'm going
+to say okay just go ahead and proceed
+with that. And now you see that it is
+going to launch the openclaw with kim uh
+k2.5 cloud model. Oh yeah look at that.
+So it says that open claw has been
+configured with and the gateway is
+already running which is great. So now
+if I'm going to go to my browser over
+here and if I'm going to go to the local
+host over here, voila, we have got our
+open CL up and running. The installation
+part as I told you again we already have
+it done it in our earlier video more
+step by step. So please go ahead and
+watch there. It has got all the details.
+Pretty cool. So now you can see that I
+don't really have a gateway token which
+is currently connecting because this is
+a old gateway token that I had which I
+have completely removed as well. So I
+need to somehow connect with the correct
+gateway token over here. That is the
+only thing that I have to do. So what
+I'm going to do it is I'm first going to
+see what is my gateway token in first
+place. So I'm going to do a code and I'm
+going to go connect with my open claw uh
+and then I'm going to hit enter. So it's
+going to open this particular directory
+uh in the uh in the visual studio code
+over here. And if I'm going to go to the
+open claw over here, you see that now
+the uh the gateway has got a token over
+here. So this is the token that I need
+to be essentially using it uh which I
+have not configured it correctly. So I'm
+going to copy this particular gateway
+token. And note that we also have got
+the model over here which is the Olama
+Kimmy K2.5 cloud model. See all of these
+cloud setup is done directly from the
+Olama. time is way more simpler and
+easier than what we actually discussed
+in our earlier video where I was copy
+pasting the model configuration for you
+if you remember. So that is somehow
+something is taken care over here and
+you see that there is a model provider
+which says this is the Olama
+configuration and this is the model that
+we are using. Cool. So now I have copied
+the uh the actual gateway token. So I'm
+going to go paste this and if I'm going
+to connect it you see that the status is
+okay which means the setup is done. Next
+up, we are going to be talking about the
+AI agents and how they are configured.
+All right, when it comes to the AI
+agents, you can see that OpenCloud has
+got a lot of different ways to set up
+the AI agents. And one of the way that
+they have set up over here uh is uh the
+agent which are sitting as a files as
+you can see over here. So by default you
+can see that we have going to got a main
+agent but you can configure multiple
+agents as well. I know the documentation
+of the open claw itself is bit clunky
+and you can't really understand what
+they're really talking about if you're
+nontechnical but if you are technical
+you know what they are really talking
+about but for a nontechnical person I'm
+just going to give you an idea what
+these agents are really doing. See
+currently there is a there is just only
+one agent. It's not a multi- aent setup
+or whatsoever. But this agent has got a
+lot of files. For instance, there is an
+agent file which says uh I'm a file and
+uh I am going to first run the
+bootstrap.md file and if this thing
+exists then this is a birth certificate
+and it is going to launch some initial
+setup for you. So what is this
+bootstrap.md? If just going to go here
+see that there is another file and if
+I'm going to open this it says that you
+just woke up time to figure out who you
+are. See it's pretty much like you are
+born to the world and then you are just
+asking yourself who you are. So there is
+no memory yet. There is no fresh
+workspace. So it's a normal that the
+memory file don't exist until you
+created one. So at this point of time
+you don't even have a memory because it
+is a fresh instance of an AI agent which
+is your personal AI agent and this is
+completely fresh this time. What you're
+going to be doing right now is the
+moment you're going to be starting to
+interact with OpenCloud all these things
+will start setting up. Even there is a
+soul.md file pretty much like a human
+being right it says you are not a
+chatbot you are becoming someone that's
+really big way of saying it but anyways
+you see that the core truth is be
+genuinely helpful not uh performatively
+helpful uh and these are the things that
+you're going to be doing and there is
+also something called as tool MD file
+this is the tool which are going to be
+useful for you in due course of time for
+instance your agent will start accessing
+some of the SSH file uh SSH connection
+that you're going to make in uh for
+other computers later on and some of the
+connect connections that you're going to
+make with the playright MCP server or
+Selenium MCP servers or maybe some other
+MCP servers. So you're going to do that
+connectivity or maybe you are using the
+MC porter later on which we'll be
+discussing in this particular video
+anyways. So all those tool
+connectivities are going to be sitting
+in this tools.mmd file and there is also
+an identity.md file which is essentially
+going to tell who am I which means who
+this guy this this open claw is all
+about. So this file will be
+automatically updated once you start
+interacting with it. So I will show you
+how this really works and there is an
+user.md file which really names what it
+is and also there is a heartbeat which
+is going to keep track of how this uh
+this agent is really running. So let's
+see what these files are going to be
+updated with the moment we are going to
+start interacting with our open claw. I
+know this is a lot of detail to digest
+but it's going to be easier once we
+start seeing as a live demo and then you
+will get used to it the moment we are
+going to be start to using it this one.
+All right. Well as that said I'm going
+to start interacting with the openclaw
+chats. So in order to work with the
+openclaw chat I'm just going to say hi.
+The moment I'm going to say hi over
+here. What are going to happen is now
+the agent is going to come to life and
+you're going to say hi. I just came
+online. Who am I? Uh who are you? I look
+like a fresh workspace. No memory file
+yet. Want to figure me want to help me
+figure out who I should be. See this is
+the bootstrap message which has been
+invoked. So the AI agent is just a
+collection of MD file or markdown files.
+Now they are invoking the other files.
+That's how this is really working behind
+the scene. So I'm going to say I'm going
+to call you as Jack and you call me as
+Karthik. So simple. And the moment I'm
+going to say this say perfect nice to
+meet you Karthik. I am Jack. Let me
+write down so I remember. So it it now
+start to remembers as well. And I'm
+going to say what is
+the weather look like in Oakuckland uh
+right now. And if I'm going to ask this
+question because OpenClaw also have got
+access to uh the browsers capabilities
+as well as the internet capabilities. It
+can go and access some informations as
+well because it also has got the model
+connectivity as well. So it can get you
+some information there. And look at
+that. Now it's going to give you pretty
+nice out there in Oakland. It is 22°
+centiggrade which is great. Not uh bad
+for an evening. Cool. So we have got all
+these things set up. And now if I'm
+going to go to the agent and if I'm
+going to go to the identity and if I'm
+going to refresh this identity a bit,
+you should see that this time the
+identity.md has changed that it says the
+name is Jack and the creator is AI
+assistant and the emoji it has just
+chosen at fire fox there. Cool. Look at
+that. That's that's all changing, right?
+This is all happening because we have
+started interacting with the agent. Due
+course, these things will start changing
+and there is no memory yet. And I'm
+going to show you how the AI agents
+memory works.
+So memory, when it comes to memory,
+there are two types of memory. One is
+the long-term memory. Another one is the
+daily conversational memory. You can
+store the memory in an static MD file
+which is going to be in this agent
+itself which is this one which is going
+to be resurrected once I start talking
+with it. But there is also a way people
+are doing it in online where the people
+store these memory in a notion notebooks
+as well. That is amazing because that
+way you can store all the conversation
+in notion which is also clouds synced as
+well and you can retrieve the memory
+even if you are going to be deleting
+this open CL and you're going to putting
+it in other machine maybe Mac mini or
+some other powerful machine later on. So
+you just bring all the memory in there
+instead of just copy pasting these
+files. So that is another way of people
+doing it. They're also building some UIs
+to maintain the memories as well which
+is even pretty daunting to see. But
+anyways I'm going to show you the memory
+really. So I'm going to say can you
+store all the conversations
+in memory uh for long time. So I'm just
+going to say this because I know what's
+really happening behind the scene. But
+anyways, I'm just saying as if like a
+human being there that I really wanted
+all of these to be saved. And the moment
+I'm going to do this, I'm going to say I
+can help you with that. Let me explain
+how the memory works here. And then so
+it's doing something behind the scene.
+And it says that there we go. There are
+two tier system as I told you right. One
+is the daily log. Another one is the
+long-term memory. So daily log is going
+to be the thing which is going to be the
+raw nodes of what we talked about every
+single day. And the long-term memory is
+going to be sitting on the memory MD
+file. That's a markdown file that we
+have got and it has got all of these
+informations over there. See even the AI
+agent is just giving me all the
+information which is pretty amazing. And
+now if I'm going to go back to the agent
+uh and you know what if I'm going to
+refresh what's going to happen? So this
+is really not working. So if I'm going
+to just do a refresh over here and go go
+to the file u we should see a memory md
+file uh been coming up but for some
+reason this is not really coming and
+maybe refreshing it again. H this is
+some somehow this is happening but I you
+know what if I'm going to go to the uh
+VS code uh and if I'm going to see if
+there is a memory uh MD file for some
+reason it is not there so which means it
+it has not saved in the MD file the
+memory md file yet okay so it looks like
+I'm going to say yes uh do that for me
+and uh start storing them all I think
+What I have did is like I have really
+not started I have not told the system
+to do it because it just gave me the
+explanation of what these memories are
+and because I have not told that yet it
+has not started saving this conversation
+in the memory yet but now it is going to
+say perfect let me set up the full
+memory system for the interaction. So so
+what has really gone is that at the
+moment there is no memory being saved
+but the moment I'm going to say yes
+start storing things for me in the
+memory now this time it is really
+talking. See the memory is up and
+running. It's in the memory.mmd file and
+there is also a memory uh folder which
+has got this daily conversation sitting
+in as well. So if I'm going to go to the
+agent this time and if I'm going to
+refresh this time. Oh there we go. We
+have got the memory.md file created this
+time and as I told you we also have got
+a folder called as memory uh which is
+going to have all the conversation that
+we are doing. So uh I think it is
+sitting in the uh where is exactly is
+that? So it's s sitting under memory of
+this one. So let's see where is the
+folder really uh if I'm going to go to
+the workspace. Yeah, look at that. There
+is a memory and this is the date and
+time uh it has put there. Cool. So
+that's about the memory that we have
+got. And the next thing that I'm going
+to talk about is the AI agent skills.
+This is super important.
+&gt;&gt; [music]
+&gt;&gt; So AI agent skills as it names is going
+to empower your AI agent with quite some
+skills. To be honest, there are some
+built-in skills which are currently
+being disabled as you can see over here.
+But you know what? While the
+installation of the open claw happens to
+also ask you do you want to choose some
+skills which we actually skipped
+completely even our last video. But this
+video I'm going to show you how you can
+create your own skills and also how you
+can actually uh use the existing skills
+that they have. So there are skills
+available in many different places these
+days. One is the skills.sh.
+Uh if you just go there, there is this
+is the skill.sh which is very very
+popular. People are using this for many
+different operations. You can uh you can
+do a lot of things over there. So one of
+them is like let's say if you're going
+to be working with the automation
+testing with playright you can see there
+is some playright skills this is the UI
+automation skills that you can use it as
+well and these skills essentially are
+like a markdown file which is going to
+have a set of instructions which is
+going to give a perspective for your AI
+agent like a procedural knowledge of how
+to work with and there is also a skill
+called as clawhub.ai and this is one
+which is created by the openclaw team
+itself or the creator itself. So you can
+see that they have got a lot of skills
+as well and you can browse the skills.
+There are 10,322
+during the time of recording. So I'm
+sure even if you're going to refresh
+this page tomorrow, it's going to be
+10,700 or something like that. People
+are just keep on putting skills a lot
+and there are so many skills people are
+downloading it uh and they are really
+cool to be honest. And one skill that I
+wanted to show you today is going to be
+the GitHub skill which is this one. and
+it's created by the author of open cloud
+itself and this skill is very very
+simple that's the reason why I'm
+choosing this uh it's also easy for me
+to demo so you see that this is the the
+skill.mmd file and you can you can do
+two ways you can either go and download
+this zip file and start installing it or
+you can also copy the skill.md file
+because there is no python code or
+anything like that available over here
+so I can just even u you know copy that
+one as well if I wanted to but two
+things I can do either copy this entire
+skills MD file from here or if you are
+like the new person for the first time
+using it just go ahead and download this
+zip file uh and open this zip file uh
+over here which is going to be this one.
+I've already downloaded it. So uh I'm
+going to copy this. So inside this zip
+file you can see that we have got a
+skill.md file. So this is the actual uh
+maybe a structure that needs to be
+followed while you work with a skill. So
+skill needs to have a skill in capital
+letter MD which refers the skill that
+you have got. And if you open the skill
+file, it's not really anything advanced
+there. All it has is uh just a bunch of
+text saying the name of the skill is
+GitHub and the description is interact
+with the GitHub using the GH CLI. Uh use
+this GS uh use GH issue, GHPR, GH run,
+GH API for all of these operation. And
+these are the bunch of command that you
+do like a pretty much like a like a like
+a procedural details that you put so
+that the AI agent can understand and
+because open claw itself is an AI agent
+in first place and it can really talk
+with these skills in a very very easier
+fashion and that's exactly what we're
+going to be doing over here. So uh I'm
+going to go to the uh GitHub over here.
+I'm going to copy this skill. See what I
+what I'm going to do it is very very
+simple. You can install the skill. so
+much easily in OpenCloud. Just go to the
+OpenCloud folder here. I see some people
+are creating some tool to install the
+skill. You don't even need a tool for
+that matter. It's so easy. All you have
+to do is just go over here and then uh
+just create uh in the in the in the in
+the workspace uh just create a uh folder
+uh or maybe you can even create it uh
+under the open claw folder itself. uh
+create a folder called as uh skills and
+within the skills you can just paste
+this GitHub skills over there. That's
+it. The moment you do it uh now if
+you're going to go to the open cloud
+control uh this is the gateway over
+there and go to the skills and just
+search for GitHub. Uh am I getting it?
+See this? Oh, look at that. We have got
+a GitHub skill which is eligible right
+now. So it is already there. You just
+copy paste the GitHub skill and you
+already have one. That's it. This is the
+GitHub skill for you. And now you can
+actually ask a bunch of question to this
+particular AI agent which is the open
+claw and it will start interacting with
+you as if like it has the new skill that
+it has got. For instance, if I'm going
+to go to uh github.com/execute
+automation of the uh playright MCP
+server for that matters. This is the MCP
+server that I have built uh for the
+playright even before Microsoft really
+built. So I'm just using the same player
+MCP server over here. And if I'm going
+to ask a question over here saying can
+you tell me who built
+uh this uh GitHub repo and if I'm going
+to paste this thing over there it is
+going to go and use the skill right now
+and it is going to get the information
+for you. So you look at that, it's going
+to get you that EZ automation built it
+and this is the GitHub repository blah
+blah blah. So it's going to get that for
+you, right? And it says logged uh which
+is great. And now uh I'm going to say
+the reason why it says logged is because
+now it's storing everything in the
+memory as well behind the scene which is
+which is pretty amazing. And I'm going
+to say, can you uh check if the
+repository has any open uh issues or
+PRs. So I'm going to just ask that over
+there. So now it's going to use the gh
+command of the GitHub command line to go
+and bring all of these information for
+you. So now look at that. Now this
+question I have asked over here. So now
+our agent the fox or the jack is
+starting to work with uh for us and it's
+going to use the skill that it is
+configured with and it is starting to uh
+get the information for that particular
+repository that we have got. So we have
+given that information there and look at
+that it's bringing all the information.
+So it's seeing that is there are six
+open pull requests that is been oh it's
+it's opened long time before and you can
+see that there are some open issues as
+well over here and it's getting all the
+information for us. So all of these are
+happening because we have got the skill
+being configured there and that's the
+reason why we are getting all of these
+information which is amazing. So this is
+how you can see that we can see the
+power of the skills coming up over here.
+I also say the conversations being
+logged over here. So it's keep on
+storing all the conversation uh in the
+memory so that next time you're going to
+be opening it, it's going to have all
+these information uh in the memory as
+well. So this is what is the first
+installation of a skill. I'm going to
+show you some more skill this time which
+is a very very super simple skill that I
+really wanted to show you which is
+nothing but you can configure your own
+daily digest as well. For instance, if I
+want to do a daily digest of some of the
+website and I wanted the uh open claw to
+keep track of that and tell me every
+single time, then I can also do that
+over here which is nothing but I can ask
+the open claw itself to create a skill
+for some of the daily digest and tell me
+uh every morning that uh what is the top
+10 news uh that I have got for a
+specific website. I have already built
+it. Uh so I'm just going to use that one
+directly over here. You might have seen
+it while I was just going to the
+downloads folder. There was a skill uh
+skills folder or something like that
+which is this one. And I have got a lot
+of skills there. I'm going to show talk
+about this test pride skill which is
+going to automatically invoke and do
+some automation testing wonders for you
+and similarly the playright uh thing as
+well. But for now you know what for now
+I'm going to just uh take the daily
+briefing skills over here. This daily
+briefing skill is something which I have
+created entirely with our open claw
+itself. You see that this is the
+skill.mmd file. It's going to generate a
+daily AI news briefing by fetching top
+news from hacker news which is o
+combinator uh simon's williams blog mac
+rumors neowind.net and it's also going
+to get top 10 news from all these
+website for me and it's going to show me
+everything in a tabular format. So I'm
+also going to schedule this in the chron
+job as well in a minute. But there are
+some scripts as well. It has written
+like a python script to do all of these
+operation because it's bit of a token
+consuming process. I want to not use my
+free tier Olama and make this thing
+break. So I'm not going to do show how
+that thing work. But I'm going to go to
+the open claw and I'm going to go to the
+skill. Paste that thing over here. And
+the moment I have got a skill there. If
+I'm going to go to the skill, you see
+that we have got the daily AI briefing
+coming up over here. Immediately the
+skill is up there in our open clock
+gateway dashboard. And now I can
+actually go to the chat over here. And
+of course I'm going to say can you get
+me my daily uh briefing
+uh over here. The moment I do it, it is
+actually going to use that skill that we
+have got and it is going to bring me all
+this information. This is pretty cool
+because now if you're working with the
+telegram or slack or something like that
+you can create your own custom skills
+put it all there in the skills uh over
+there. So it is going to take a bit of a
+time and it is also going to be a time
+consuming token consuming process. Uh so
+look at that. So it's bringing me all
+the information. So yeah look at that
+pretty cool. So it has brought all the
+uh top news for me over there. So 38
+news has come through and see that
+steering 8 billion language models
+explained any token. So if I'm going to
+go to the hacker news which is going to
+be the news y combinator uh over there
+something like this. So the first news
+is uh the steering 8 billion 8 uh 8
+billion language model token. So it's
+it's ignoring all the nonI related
+stuffs. It's just bringing the AI
+related stuffs alone for me. That is the
+important thing that I have told in the
+skill as well. Don't bring me some
+unnecessary additional news. I only want
+the AI news. That's the reason why it's
+just bringing me all the AI news over
+here which is just amazing. So that's
+the that's the way you can use the skill
+to bring all these information and I
+have actually created a lot of skills.
+For instance, I can convert this
+selenium code to playrite code. Also use
+test sprite for do automation testing. I
+am going to create a separate video for
+that. Please let me know if you are very
+much interested and put the details in
+the comments below if you are looking
+for any other tools that you want to see
+uh and way of working with with
+OpenCloud. But this is how you do this
+for you over there. The last thing which
+I want to do is it's it's asking me that
+want me to set up this to run
+automatically every morning. I'm going
+to say yes do set uh for me by 900 a.m.
+And while I do it now this news is going
+to be sent me as a toast message in the
+telegram if I have configured it. Uh and
+I'm going to get daily briefing from our
+open claw every single time by 9:00 a.m.
+and I don't even have to go through all
+these uh websites to see the link. I am
+going to get all the news immediately
+over there. So this is how you can see
+that I'm going to get the information
+and also you can see that it's been
+chron jobbed which means it is also been
+scheduled for me. So these are things
+that you can see we can do using
+openclaw and these are the things which
+are very very important. So now we have
+understood about how to work with
+memories, how to work with AI agents,
+how to work with skills and how you can
+even install some other skills and how
+you can create your own skills and even
+schedule them with the cron jobs. As I
+told you, you can use the agents uh
+skill from the skills.sh file as well.
+For instance, if you're going to be
+using the playright skill, which is
+going to be this one just I'm going to
+show you immediately like how this is
+going to work. Just copy this particular
+command the npx skill add this
+particular command. uh go to the
+terminal and if I'm going to go paste
+this particular command over here and
+hit enter this is going to install the
+skill for me in the in the agents folder
+uh over there and I'm going to say
+global and do a sim link and you see
+that it has actually installed the
+playright skill even in the open claw as
+well see that the sim link of open claw
+has been done which means it's also
+installing that I'm going to say proceed
+the installation and the installation is
+complete
+And now if I'm going to go to my
+opencloud dashboard and skill, you
+should see a playright skill as well. So
+you can also install a playright skill
+as well right from the skill.sh as well.
+So these are things that you can do over
+here. So hope you got the idea of
+openclaw skills uh as well as the
+agents, memories and cron jobs. These
+are things that you need to know while
+you wanted to tame openclaw your true
+personal assistance. Once again thank
+you so much for watching this video.
+Catch you in the next one.

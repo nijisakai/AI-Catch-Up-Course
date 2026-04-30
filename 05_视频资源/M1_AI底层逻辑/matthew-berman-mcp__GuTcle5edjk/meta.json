@@ -3,6 +3,12 @@
   "url": "https://www.youtube.com/watch?v=GuTcle5edjk",
   "title": "you need to learn MCP RIGHT NOW!! (Model Context Protocol)",
   "channel": "Matthew Berman",
+  "duration_sec": 0,
+  "upload_date": "",
   "topic": "M1_AI底层逻辑",
-  "slug": "matthew-berman-mcp"
+  "slug": "matthew-berman-mcp",
+  "transcripts": {
+    "en_lines": 1099,
+    "zh_lines": 1084
+  }
 }

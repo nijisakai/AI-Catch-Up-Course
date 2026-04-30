@@ -3,6 +3,12 @@
   "url": "https://www.youtube.com/watch?v=Wjrdr0NU4Sk",
   "title": "host ALL your AI locally",
   "channel": "NetworkChuck",
+  "duration_sec": 0,
+  "upload_date": "",
   "topic": "M2_对话式AI",
-  "slug": "networkchuck-ollama-local-ai"
+  "slug": "networkchuck-ollama-local-ai",
+  "transcripts": {
+    "en_lines": 822,
+    "zh_lines": 674
+  }
 }

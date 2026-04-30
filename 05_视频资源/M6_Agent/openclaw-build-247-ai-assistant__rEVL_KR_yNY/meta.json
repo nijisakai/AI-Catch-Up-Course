@@ -1,8 +1,14 @@
 {
   "video_id": "rEVL_KR_yNY",
   "url": "https://www.youtube.com/watch?v=rEVL_KR_yNY",
-  "title": "Build a 24/7 Personal AI Assistant with OpenClaw",
+  "title": "Build a 24/7 Personal AI Assistant with Just 4 Features | OpenClaw",
   "channel": "Community",
+  "duration_sec": 0,
+  "upload_date": "",
   "topic": "M6_Agent",
-  "slug": "openclaw-build-247-ai-assistant"
+  "slug": "openclaw-build-247-ai-assistant",
+  "transcripts": {
+    "en_lines": 801,
+    "zh_lines": 0
+  }
 }

@@ -1,0 +1,785 @@
+So you're vibe coding or maybe you're
+doing some AI assisted development and
+you want to figure out which is the best
+tool to use. So I usually build out apps
+and prototypes using cursor on this
+channel. But Claude Code has piqued my
+interest over the last couple of months
+because it's gaining a lot more traction
+and it's becoming more and more mature
+as a development tool. So, in this
+video, I'm going to give you a
+beginner's introduction to Claw Code,
+how I use it alongside Cursor, what are
+its strengths and weaknesses, when I
+would use cursor over Claude and vice
+versa, and I'm going to share my
+opinionated favorite without sitting on
+the fence. Not only am I going to show
+you how to use Claude code, we're
+actually going to build a functioning
+micro SAS that you could actually use in
+your own business or sell on to somebody
+else. So, with the app that we're going
+to create, I'm going to be able to drop
+in an invoice. It's going to be uploaded
+to OpenAI to be processed. OpenAI is
+going to parse the image and extract all
+the relevant information into a format
+that's usable that I can then connect
+into QuickBooks or Zero to reconcile my
+invoices. Sell this as a microsass and
+have a nice little recurring revenue
+stream for yourself. So, hopefully you
+find my lessons useful. If you want to
+go deeper on this topic, there's a huge
+course in there which takes you all the
+way from beginner to advanced in terms
+of launching your own AI application
+with all the principles that I talk
+about in my videos. So, in order to get
+set up, we just go to Antropic Clawude
+Code and you're going to need to have
+NodeJS installed version 18 or up. So,
+just type in Node-V and you'll get your
+version number. And I'm on version 22,
+so I'm good. Then you want to copy this
+little command here, mpm install general
+anthropics. And we can just paste that
+command in. I'm just going to hit
+return. Now we can just type in claude
+and hit return. And it should give you
+this welcome screen. You can just pick
+dark mode. So you have two different
+options here. You can go with the uh
+anthropic console using API usage
+billing or you can go with a
+subscription account. So, if you're
+using the console, it's build per
+request, and it gets pretty expensive uh
+quickly. So, I generally don't recommend
+that. You can rack up a lot of costs
+pretty quick. At minimum, go for the $20
+pro tier, which gives you access to uh
+Sonnet 4, Claude Sonnet 4, which is
+basically your workhorse model, the one
+that you're going to use for the
+majority of implementation. Now, you
+don't get access to Opus, which is a
+slightly higher rated model than Claude
+Sonnet on the Pro tier. You only get
+that access at the $100 tier. And with
+that, you get access to Opus up to a
+certain point before you get rate
+limited and it switches down to Claude
+Sonnet. Personally,
+everybody talks a lot about Opus being,
+you know, a gamecher. I don't feel like
+I'm seeing a huge difference when I use
+Opus over Sonnet or even against Gemini,
+which would be a cheaper setup. So, I'm
+kind of happy enough to be on the $20
+pro pricing for now. Um, but I'm going
+to do some more testing and see if Opus
+really wins out or where it wins out.
+Maybe it works better larger code bases
+or in autonomous actions. So I'm going
+to click the subscription mode here and
+I can just hit enter. I'm going to
+accept the default here and again we
+need to accept the trust of the folder.
+So two different commands here that are
+helpful. You can switch between plan
+mode and regular mode by just hitting
+shift tab. I can hit question mark to
+give me a list of common commands. And
+then if I hit slash I can get more
+commands as well that I can run and run
+down through the list. So, I'm just
+going to quit out of the terminal for
+now. And so, I'm just going to create a
+new folder on my hard drive. Usually, I
+open this up in a development folder
+somewhere on my machine. So, let's just
+create an empty folder. And then from
+cursor, I'm going to open that folder.
+So, in cursor, I'm going to open a new
+terminal window. So, just go up to the
+menu, type in new terminal. And
+important to note that you can see up
+here that the root of our folder is that
+folder that we opened. So, I've called
+it invoicebot one. So, in here, we're
+just going to type in claude, and that
+should kick it off. Do I want to trust
+this folder? Yes. And we're all set up.
+Now, usually when I'm in cursor, I'll be
+using my chat window here, and I'll
+basically tell it to create a new
+next.js application. Now trying that
+here in Claude uh it doesn't work as
+well because what Claude will do is it
+creates a set of files in the root
+directory that it uses for configuration
+before it starts to do anything else.
+And when you're installing Nex.js, it
+will uh give an error if it tries to
+install in a a folder that already has
+anything in there. So the workaround is
+just to open up a new terminal and just
+run the setup for Nex.js yourself. It's
+just one line, so it's easy to do. So,
+mpx create next app latest. And this
+little dot tells it to install in this
+particular folder. And just hit return.
+And then we'll follow through on the
+defaults.
+Now, you'll see everything is installed
+here in our file directory on the left
+hand side. And if I want to test this
+out, I just hit npm rundev and will give
+me a little development server that we
+can start working on. And that will open
+on localhost 3000. So if I commandclick
+on that, it should open up my browser
+here and we've got our little Nex.js app
+ready to go. Perfect. So a useful
+command when you're stepping into a new
+codebase with Claude is just type
+slashinit.
+So type slashinit and this will
+initialize a new claude uh markdown file
+with codebase documentation. So
+essentially what this will do is scan
+through your existing code base and
+create a uh review or a markdown file
+for it which is useful for it uh when it
+starts to uh interact with your project
+on an ongoing basis. So we can already
+see here how Claude is working. It's got
+access to multiple different tools in
+the same way that cursor or any other
+agent would. It's able to list files,
+read files, create files, um, write to
+files, and search using different GP
+patterns as well. Doing all this to
+understand, um, your codebase. And you
+can see up here now we have a difference
+view created. So we have this file
+that's created and then everything in
+green here is what's been added in. So
+this is giving us a quick overview of
+our project.
+So, as a default, Claude is going to ask
+your permission to run any of the tools.
+So, in this case, it says, "Do you want
+me to make this edit to the file?" So, I
+have options here. I can click yes. I
+can click yes and don't ask me again in
+this session or I want to do something
+differently. So, when you're starting
+out, I recommend you don't go into auto
+accept mode. It's a good idea just to
+understand what's happening at each
+stage. As you get more proficient and
+more comfortable, you can switch on the
+auto accept mode, which just moves a
+whole lot faster. But that can also get
+you into trouble as well. It'll go off
+in directions that you didn't
+anticipate. So, we have the same thing
+in cursor. Um, it used to be called the
+yolo mode or you only live once. Um, but
+now it has different rules for accepting
+um, uh, whatever kind of commands that
+are going to be run. So you have a
+choice at a granular level to select
+what commands do get run, what are okay,
+and what should never be um allowed to
+be run automatically. So I'm just going
+to go with yes here for now.
+So no matter what project I'm working
+on, I'm always going to have a quick
+chat at the start with a product manager
+agent. And when I mean agent, basically
+it's just a simple prompt that I have
+created and use on most projects to give
+a starting point for my developer agent.
+I'll leave a link in the description to
+these prompts, but for now I'm just
+going to run this. So you'll see I've
+just created this folder here, Docs
+agents, and I've got my product manager
+markdown prompt here. And in claude as
+it's connected to the IDE, you'll see
+that I have a reference to the current
+file that's open. You're in the product
+manager MDE. And if you just want to
+check your IDE setup, you can just type
+in / IDE, hit return, and you can see
+that it's selected as cursor at the
+moment. So with my cursor in here,
+you'll see that it's now referencing
+this particular file with claude. So I
+can say run this prompt. So you can see
+the response here. Please explain your
+project to me. What product or
+application are you looking to build?
+And so I'm just going to give it my idea
+for what it is that I want to build. And
+I'm just going to use some voice
+dictation using Whisper Flow to do that.
+So I've got my prompt pasted in there.
+You can pause it if you want to take a
+look. And I'm just going to hit return.
+So it's given me a list of questions.
+And typically they're numbered. So, I'll
+just answer them with short answers like
+this. Cool. So, it's given me my
+elevator pitch, my primary users, my
+characteristics, my functional
+requirements, all the different headers
+that I needed just to get started,
+including user stories. And as per my
+prompt, it's gone and created an output
+docs folder and it's given me that PRD
+that we can reference going forward.
+Now, by typing the at@ symbol, I can
+reference any file that I want. So I've
+typed in at here and PR has given me the
+actual file that I want. So if I hit
+return, it's given me the full context.
+It's given me the full file.
+Now this is a nice feature of clawed
+code that was released recently. I can
+switch into plan mode. So if you type
+shift and tab, you can switch into plan
+mode. And I've got my attached PRD. So
+I'm just going to hit return. So I have
+the option here of accepting this plan
+or I can click no and keep planning. So
+let's just click that. So I'm just
+saying here for the MVP, let's keep
+things simple. So this is something
+important as you're developing with AI.
+So what we're going to do here instead
+of building out the whole app with one
+shot, we're going to break it down into
+smaller sections into an MVP. We want to
+see if we can just get the main
+functionality working so that we can
+just test it out with a couple of users.
+And we don't necessarily need to have a
+database attached at this point. So you
+can see here it's come back with a more
+refined plan based on my feedback. So
+you could go again to refine it further,
+but I think this is kind of enough for
+the MVP. So as you start out, best to
+keep it simple so you're understanding
+everything that you're working through.
+So I'm just going to accept this plan.
+So you can see here that Claude keeps a
+to-do list scratch pad. So, basically,
+it's got an updated list of to-do that
+it will actually start to work through.
+You'll note or you'll have heard of
+maybe other tools like taskmaster
+or windsurf now has a planning mode
+where it has a mixture of two different
+models which will do long-term planning
+and short-term planning around your task
+list. Uh to be honest, how I normally
+handle it in cursor is I just have a
+rules file that I attach that says, you
+know, create a task list if it doesn't
+exist and update that task list as we
+proceed through our planning stages. It
+doesn't need to be any more complicated
+than that. So it is nice to see it baked
+in directly into cloud code. So it's
+asking me, do I want to install the open
+AI SDK? So I'm just going to go ahead.
+So it's talking us through the process
+here. It's gone and created av local
+file and put in a sample placeholder for
+our open AAI API key. So while that is
+working away there, let's go and get our
+open AI key. So you need to go to
+platform.opai
+and go to dashboard and then go down to
+your open AI API keys. We're going to
+create a new secret key and then we're
+just going to copy this key and we're
+going to paste it in. So, I've pasted in
+my API key there, and it's important to
+keep that secret. I'll be deleting this,
+of course, before I put the video live.
+Or will I actually remember to do that?
+Who knows? Maybe go test it. Now, you
+can see it's stepped through and created
+a couple of different files. So, if you
+look in the left hand side here, you'll
+see that anything marked in blue here,
+uh, is a modified file, and anything
+with a U is basically it's unttracked or
+it's brand new. So this is a useful way
+of seeing you know what the model is
+adding. So it's created an API route and
+two different endpoints one to parse one
+to upload. It's got a file upload
+component and then there is a library
+directory and uh utility for working
+with open AI.
+Now you'll see here it's giving me a
+difference view. It's showing me what's
+being removed and what's being added as
+it makes its way through the files. And
+so that's great, but I find that cursor
+just has a better way of allowing me to
+review and check through the changes.
+What I can do here though, as it's
+integrated with cursor, is I can just
+commandclick on any of these files and
+open them up in the browser above. And
+then I could basically look through the
+file to see if there's anything that I
+want to change. What I like to do quite
+a bit uh with cursor uh and this is
+something that's missing from Claude I
+guess is I might decide I want to you
+know highlight a certain piece of the
+code like this and to get a further
+explanation of how this how this works.
+Uh just so I'm learning as I progress.
+So it's asked me to run lint and lint is
+just basically a way of checking the
+code quality and that's something I'm
+happy for it to always run on its own.
+So I'm just going to say yes and don't
+ask me to run that again. So you'll
+notice when you do that a new folder
+appears up here with your claw
+configurations and you're seeing here
+what you have given permissions to
+allow. Okay. So it's gone and fixed all
+those errors and uh it's asking me does
+it want can it run the development
+server. Typically I don't want it to run
+the development server. I want to do
+that myself. So I'm just going to say no
+and I'm going to run that separately.
+So I'm just going to go over here to
+node and then I I already have it
+running from earlier on. So let's just
+restart it to be sure because we've done
+a lot of changes. So I just type in npm
+rundev to run the development server.
+And then if we commandclick on our
+localhost 3000, it'll bring us to our
+local Nex.js version. Here we have our
+invoice extractor.
+Let's see if it works.
+So I'm going to upload a invoice from
+notion
+telling me it's processing the invoice
+and we got an error failed to parse the
+invoice. That is to be expected. Let's
+see what the error might be. So there's
+two ways you can check your errors. You
+can go to uh commandal alt I and get
+your browser console information just to
+see what pops up there. And so we were
+given a uh response an internal server
+response error on the parse. And so
+we'll probably get more information on
+that within our terminal itself. So if
+we look here now your development server
+terminal holds the key to most of the
+problems you're going to encounter. So
+basically you can just scroll through
+the trace errors and basically pick out
+the part that you want. Usually that
+starts at the point where you see error.
+So, we can just copy that and pull down
+everything to this point. And then we
+can copy this. Usually, what I do in
+cursor is I just click add to chat. But
+because we're using Claude, I can just
+control C or command C to copy that.
+Let's pop back over to Claude. And then
+I'm just going to paste in that
+information. And I'm going to add a
+prompt. Usually, if it's a small error,
+I'll just type in something like fix or
+change or something like that. But when
+it's a more detailed error that I really
+haven't a clue what's going on, um, I
+want to get the AI to diagnose the error
+first and give me a couple of options to
+solve it. So, this does two things.
+Number one, it educates me on what the
+problem is. So, I'm learning something
+and uh I'm moving forward to help the
+model itself because often times I'll
+need to go and search for something or
+do some kind of an independent research
+to help solve the problem. Uh so I often
+just say diagnose the error and don't
+jump into implementation. So because
+we're dealing with a API and parsing
+setup, I'm not exactly sure or confident
+that using the clawed for model that
+it's got the upto-date knowledge about
+that API. So basically it's using what
+it's crawled from a couple of months ago
+as its reference. So we want to use the
+search capability to kind of back up its
+findings. So I'm telling it, can you
+search the web to back up your research?
+because Claude code has search built in
+the same way that cursor or winds surf
+or other tools have as well.
+So based on the search, Claude is still
+pretty happy with its first option. So
+we're going to go ahead with that option
+one. So let's just hit one and return
+here. So it's giving me a list of
+changes that it applied and a confidence
+rating that the app will run. I've seen
+this before. So let's see how it goes.
+So I'm instantly getting a Webpack
+error. So I just need to restart my
+server. Okay. So let's test out our
+invoice extractor. I'm going to drop in
+a invoice from notion. It's going to
+process that invoice. It's sending it to
+the open AI file storage. Then it's
+making a call to the image API to
+extract all the information from it. And
+this is spot on. It's got all the vendor
+information, invoice details, etc.
+Financial summary, and that is the
+correct amount. So this is such a big
+timesaver. I've got so many invoices
+that come into my account that I need to
+reconcile against my bank account and I
+need to extract all the information like
+tax um exactly what the totals were so
+that they match. And some software will
+actually do this for you like zero, but
+it will do it in a haphazard way or it
+will only try and do extractions based
+on text parsing. And this is something
+you could easily use in your own company
+to save you a ton of time or actually
+package as a product and sell on to
+other companies. So if you'd like to see
+the full process for building out this
+app, I'm going to cover it in my
+community at switchdimension.com.
+The link is in the description. Another
+useful thing in Clawed Code is adding
+memories. So let's say you like to build
+your components in a certain way or
+you'd like to have the model remind you
+to commit constantly. You can create
+that memory by typing uh hash and then
+just giving it a descriptive name. Now
+the reason you want to use a descriptive
+name is that the model will have context
+to know when to call that. And you can
+also view all your memories by typing
+slash and then memory. And then you can
+edit the clawed memory files. What would
+claude code be without MCPs? Of course,
+Enthropic invented the MCP. So you can
+also add in your MCP servers. If I type
+/mcp,
+you can manage MCP servers. I'm just
+going to hit return. And it's saying
+we've no MCP servers configured. So I
+need to step outside of claude in order
+to configure my MCPS into the terminal.
+So I'm just going to create a new
+terminal here. and we're going to type
+in clawed MCP and hit return. So,
+there's a couple of ways to quickly add
+an MCP. You've got the ability to type
+in clawed MCP add, and then I would type
+in the commands for the MCP that I want
+to add. So, it would be npx, the name of
+the server, and any other commands that
+might go with it. A far simpler way to
+do it is just to add the MCPS to your
+Clawed Desktop setup. You can type in
+claude MCP add from Claw Desktop and
+just run that command and it's going to
+give you a list of the MCPs that you've
+already got set up with Claude Desktop.
+So I've got context 7 there, Genttop
+Commander. So I'm actually going to hit
+space to switch off these ones, desktop
+commander for now. And then we can add
+in the rest of those by just hitting
+return. And so if I go back again to my
+project over here and if I type slashmcp
+mcp, I'm still not getting any servers
+in there as well. So I'm just going to
+exit out. So I'm just going to type in
+exit.
+So I would just type claude-
+c to continue again. And then it's
+saying no MCP servers configured. And I
+just type in MCP again and see what it
+gets. Yeah. And because we've um because
+we've restarted the terminal instance,
+we can now see them all connected. Out
+of interest, these are some great MCPS
+at the moment. Browser MCP allows your
+allows cloud code or cursor to go and
+check on the actual app itself to see if
+it's running okay or to take
+screenshots. and context 7 goes and
+searches all the recent documentation
+for whatever you're trying to install or
+set up. So now Claude will have access
+to those. And how I would invoke that is
+I would basically say, you know, um use
+the browser MCP to uh check the console
+logs or use context 7 to find the most
+recent documentation.
+some other helpful commands. If you just
+type question mark, you'll get some of
+the useful other commands that I might
+not have mentioned. So, we've covered
+slash, we've covered the at for the file
+path, for context, we've covered
+memorization. If it's working through a
+particular problem and you don't like
+where it's going, just hit escape twice.
+So, double tap it and it will quit out
+of that particular run. Same thing you
+have in cursor, you can hit stop or
+reject. Um, you can set up auto accept
+of the edits. So, you'll note as I went
+through, I made sure to accept each edit
+as it happened because I wanted to know
+exactly what was going on. You can click
+shift tab to auto accept those edits.
+And if you're typing a prompt and you
+want to get a new line, just type shift
+and return and you'll get multiple new
+lines as you progress through um a
+longer prompt.
+So you can also paste images from your
+clipboard directly into the CLI. So just
+copy whatever you have in terms of a
+screenshot. And instead of hitting
+commandV on a Mac, you need to hit
+controlV or you can actually give
+reference to the actual file address and
+just hit return.
+And you can see here it successfully
+gave me feedback on what I pasted in.
+So, Entropic has some good documentation
+here on some common workflows that are
+well worth uh taking a look at and they
+apply to any AI assisted development
+workflow. Some of the things I like are
+the fact that you can go and run Claude
+in non-interactive mode. So, what we've
+been doing is interacting with Claude in
+the terminal in a conversational manner,
+but you can actually decide to run
+Claude independently on smaller tasks.
+And I would say it's only good for
+smaller tasks because as you see, you
+need to work with the model on anything
+that's complex to help uh keep moving it
+along.
+If you've quit out of claude at any
+point, I mentioned that you can use
+claude continue to pick up on the same
+session or you can actually use claude
+resume and you'll get a conversation
+picker when you can decide, you know,
+which conversation you want to pick up
+on. If you are a power user and you
+can't be bothered waiting the 30 seconds
+for the model to come back to you, you
+can actually decide to use something
+called uh work trees, which you can do
+this with any tool. This isn't exclusive
+to claude, but it's a nice idea where
+you can have various different branches
+of your codebase set up in a work tree.
+So I can actually check out independent
+branches to each uh instance of claude.
+So technically I could have multiple uh
+clawed terminals open and open working
+on various different feature branches at
+the same time. I don't know if my brain
+can handle that but it's an interesting
+idea as we move more towards uh agentic
+solutions to problems and having the
+agents work on multiple things at the
+same time. What is cool about claude
+that sets it apart from a specific IDE
+like cursor or wind surf is its
+scriptability because it's running in
+the terminal and it's running as this
+session. It's got its own SDK. It's got
+its own ability to be scripted in
+whatever way you want to. So that opens
+up a whole new set of advanced use
+cases.
+So things that I really like about
+Claude is that it's really flexible. You
+can add it to any IDE because it exists
+in the terminal. So you could add it to
+Jet Brains, Cursor, VS Code, whatever
+tool you want. Or if you're a Vim user,
+you can actually just run it separately
+as well. So if you're a Power user and
+you're comfortable being in the command
+line most of the time, I think it's
+actually a really good tool. Um the
+second thing is Antropic do make the
+best models or the ones that I use the
+most. I rely on Claude sonnet series for
+most of the work I do. Previously it was
+3.5. Wasn't the biggest fan of 3.7.
+Claude 4 isn't an improvement and it's
+the one that I used the most in terms of
+designing and uh developing software.
+Um, if you're a Max user, you get a huge
+amount of usage up to 20x depending on
+the uh plan that you're on and you get
+unlimited access to Opus. Personally, I
+don't find a huge difference in using
+Opus over using Sonnet. But that's
+because most of the coding I do is in a
+interactive manner where I'm working
+with the model to make changes and to
+develop out software in a prototyping
+fashion. Perhaps if I was more agentic
+in how I worked in that I set processes
+in place and let the agent work away,
+uh, Opus might be a better choice. But
+I've tried that in multiple different
+occasions. I run independent agents
+working on tasks. And inevitably, I feel
+like you still need a human in the loop
+to check on the work or to correct the
+model as it goes in different
+directions. So, not the strongest use
+case for me. I really like that it's
+scripted. scriptable. So again, it's got
+its own SDK and its own little SL or a
+CLI. You can spin up multiple versions
+in multiple different terminals and have
+it working on different work threes um
+with Git. So that potentially will be
+very powerful in the future and it'll be
+interesting to see where the team take
+it. And I really like the built-in
+planning mode. Um it really just helps
+that it keeps a list of to-dos and it
+helps you work through those. But again,
+that's something I can easily do with a
+rules file in cursor or wind surf um on
+my own and have more control over how it
+works because that can be quite
+opinionated to each individual person.
+So the pros of cursor, it's a graphical
+interface. So it's an IDE where you can
+see all the buttons where it's got
+different tabs. It's very much like VS
+Code. A lot of people will have learned
+how to program and develop using VS
+Code. So, if you're a designer, a
+front-end designer, an entrepreneur
+that's just getting into vibe coding or
+AI assisted coding, I think the cursor
+interface is just that little bit more
+friendly. Or you could also check out
+windsurf as well. Um, I like the fact
+that I don't have to go and learn a list
+of commands. If you're that kind of
+person who is more designorientated or
+uh isn't a uh full stack constant
+day-to-day developer, um you might not
+be that comfortable living in a terminal
+all the time. So, the fact that I don't
+have to learn a list of commands is a
+bit of a bonus. Um I like the fact that
+cursor has background agents now which I
+can spin up and run in the background. I
+like that I've got file review. So, as
+an agent develops out the code, uh I
+like in cursor the way that I get the
+page review and the file review at a
+much granular level. You do get that in
+clawed, but it doesn't give you the
+ability to accept specific lines of code
+or reject them. And it doesn't give you
+an as nice of an interface to be able to
+review the changes and accept them that
+are being made. So I think that's a plus
+for cursor. And then the biggest thing
+if I was to throw away all of those
+other features is the fact that cursor
+is model agnostic. So what does that
+mean? It means that I get to pick
+whatever model that I want to use. And
+there is a bit of a model war that goes
+on. There's different prices. There's
+different use cases. And I want to be
+able to pick the best model for the job.
+That being said, I do use Claude quite a
+bit, but I'd like to be able to use
+Gemini. I'd like to be able to use the
+Open AI series. And with cursor, I have
+the ability to select whatever model I
+want for the job. If I'm in Claw Code,
+I'm limited to using the Claw series. If
+I'm in Windsurf, I can only use the Open
+AI series of models. So my biggest win
+for cursor over everything is the fact
+that it is model agnostic and I can
+choose whatever model that I want. So in
+a nutshell, which one is right for you?
+I think if you want the full toolkit and
+access to every cutting edge LLM, go
+with cursor. probably more suited to
+vibe coders or AI assisted developers or
+people who are just getting into
+prototyping or starting their journey
+with developing applications because it
+mimics how VS Code works um on so many
+different levels. If you're more of an
+advanced developer, you like living in
+the terminal and you like the idea of
+scripting multiple different agents and
+having them running different processes,
+then Claude could be a good step for you
+because on the various different Max
+plans, you get a ton of usage for it to
+uh work through in the background if
+you're running multiple different
+agents. So, personally, I think I'll be
+using cursor for the bulk of my full
+stack development, especially the
+interactive stuff. But when it comes to
+spinning up agents or having background
+processes running, I'm going to continue
+to explore Claude, keep it open in the
+terminal, and use it where it's best
+suited. So, if you've been using Claude
+code for a while, I would love to get
+your opinions on what your favorite
+features are and what the strongest use
+cases are for you. If you can add them
+down into the comments, I'll call them
+out and feature them in a future

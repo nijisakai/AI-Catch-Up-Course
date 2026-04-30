@@ -1,0 +1,320 @@
+so this is Manis a generalized AI agent
+system that allows you to build or
+research or do pretty much anything and
+it's using the most cuttingedge tools
+out there it's like combining operator
+with deep research giving it its own
+Linux environment having multiple agents
+work together and it works really well
+let's just watch a demo of how it works
+so this is deeply analyzing the Tesla
+stock and this is a replay so I'd like a
+thorough analysis of Tesla stock
+including and we give it a bunch of
+instructions the first thing you'll see
+it do is come up with a to-do list and
+so this is what you're seeing and it's
+operating at the same time by the way so
+create a project directory create a
+to-do file outline all the requirements
+and it's really cool because you can
+actually see it working along the way
+and it can use the browser and you can
+take over at any time and check out the
+Linux environment it's super impressive
+but the cool thing is most of these
+tools are open source it's probably
+using CLA 3.7 Sonet under the Hood it's
+using browser use for the actual agent
+to be able to control the browser it's
+using Linux and so technically anybody
+can really create this not to say that
+it's not really difficult to do it right
+but they're not using a fine-tuned model
+there's not really anything under the
+hood that you couldn't use yourself but
+again it's very very impressive and very
+difficult to pull off well so here we
+can see I'll help you create a
+comprehensive analysis of the Tesla
+stock here it's connecting data sources
+so of course it can do web search here
+you can see it's navigating through its
+own Linux environment so make directory
+P Tesla analysis and CD into that
+directory and create the to-do file and
+so this is definitely the most
+comprehensive no code agent software
+that I've ever seen here you can see it
+navigating through the directory it's
+installing beautiful soup and here it's
+starting to Output some information now
+here if we go forward we can also see
+here's some code here's the terminal it
+switches back to its to-do list and
+checks it off as it's going I mean it is
+just super impressive I'd say the most
+impressive part is its ability to make
+errors and then fix those errors and so
+when you kick off a task in Manis you
+should be prepared for it to be going
+for a while I asked it to write two
+games so far and it took hours to do and
+so look at all of this output this is
+all the research that it's doing so you
+could see it's actually creating
+different charts and graphs and at the
+very end we actually have a live
+dashboard so if we click into it here it
+is this was created by Manis all in one
+go so here you could see the investment
+recommendations the different financial
+performance and valuation analysis
+market analysis technical analysis I
+mean this looks absolutely gorgeous and
+was completely built by Manis so they
+have a bunch of different examples
+here's one trip to Japan in April so
+we'll skip to the results it's just
+replaying one that's already done and so
+here's the 7-Day itinerary so day one
+arrival in Tokyo day two exploration day
+three hidden gems really really
+impressive and it did a bunch of
+research on our behalf and so it does
+have a benchmark it has the Gaia
+Benchmark which it's only comparing
+against deep research which I found
+interesting and so we have level one
+level two and level three and in all
+three Manis pass at one scored well
+above deep research and level two about
+even and then level three well above
+deep research now again I find it very
+interesting that it's only comparing
+against deep research because it is so
+much more than just deep research since
+it has its own environment its ability
+to code its ability to execute code it
+can go browse the web similar to deep
+research and just so much more now Jen
+on X says so I simply asked manace to
+give me the files and it gave me their
+sandbox runtime code so it is claudon it
+with 29 different tools it says without
+multi-agent but I'm pretty sure it's
+using multi-agent I think there's a
+manager agent and I think that manager
+agent dispatches things to specialized
+agents to accomplish it is using browser
+use which is an open source framework to
+allow agents to control a browser and
+the CEO of man has actually jumped in
+and confirmed it's not that complicated
+the sandbox is directly accessible to
+each user each session has its own
+sandbox completely isolated from other
+sessions user can enter the sandbox
+directly through mana's interface and
+again manace is impressive because it is
+the most holistic use of AI that I've
+seen it basically takes the best of
+everything we've seen out there and puts
+it all together in a really nice package
+the code in the sandbox is only used to
+receive commands from from the agent so
+it's lightly ausc the tools design isn't
+a secret and it says right here
+multi-agent implementation is one of
+man's key features when messaging with
+Manis you only communicate with the
+executor agent which itself doesn't know
+the details of knowledge planner or
+other agents I mean this is just so so
+cool and we did use browser source's
+open source code which is great it's
+open source that's the point in fact we
+use many different open source
+Technologies which is why I specifically
+mentioned in the launch video that Manis
+wouldn't exist without the open source
+Community we'll have a series of
+acknowledgements and collaborations
+coming up I truly hope Manis itself goes
+open source but I'm not holding my
+breath but towards the end he does say
+we'll be open sourcing quite a few good
+things in the near future now although
+it's being reported that they're using
+Claud Sonet he does say right here we
+have a lot of fine tune models in our
+company some of man's planning
+techniques originated from this model
+I've open sourced last October so there
+it is the Steiner 32b preview thanks to
+the the sponsor of this segment Lang
+trce they have been awesome Partners to
+us so excited to tell you about them
+again today Lang trce is a leading AI
+software development consulting company
+that builds AI products to propel your
+business forward those products include
+an open source and open Telemetry based
+observability and evaluations platform
+that helps you evaluate and improve your
+llm usage in your application it's
+trusted by thousands of developers from
+early stage companies all the way up to
+Fortune 500 companies Lang Trace helps
+developers collect and analyze traces
+collect data sets and run evaluations
+resulting in highly reliable and secure
+AI systems again link traces open source
+and open Telemetry and plugs in easily
+with open AI mraw deep seek Gemini weeva
+pine cone and more L Trace offers
+endtoend observability tracing
+everything from llms to Vector databases
+and framework level calls like crew AI
+llama index dspi and Lang chain with
+Native support for crew AI which you
+know I love L Trace provides a
+custombuilt dashboard to track crew AI
+sessions agents tasks tools and memory
+track everything your agents are doing
+so go from shiny demos to Reliable AI
+products easily with Lang trce check out
+Lang trce it is open source and if you
+want to use their hosted version you can
+get 20% off right now if you use the
+link in my description and if you want
+to learn more Join one of their coming
+webinars where they go over everything
+so check them out they've been a great
+partner go star their GitHub and thanks
+again to L Trace now back to the video
+all right so let me show you a few
+examples of what people have built with
+Manis so this is AK from Twitter prompt
+make a 3js endless Runner game and there
+we go I mean this is super impressive
+this is one prompt one go here are some
+more examples here is clone the Apple
+website and this sure looks good to me
+and of course here is the 3D browser
+based Flight Simulator game and this
+looks darn good as well here's an AI
+game kind of looks like Red Dead
+Redemption but you can't walk around yet
+but still very impressive here's an
+incredible animation really cool really
+dizzying and here's another open source
+project that we know it uses now e2b
+which is an open source coding runtime
+for AI agents so a lot of really cool
+open source Technologies all being put
+together in a single very polished
+product I was able to get a Manis invite
+code from hattis from Groo thank you so
+much to her for giving that to me and
+one thing that surprised me is that
+Manis is actually the same company that
+made monica. IM who has sponsored this
+channel although this video is not
+sponsored and I got access to manace on
+my own so I created two different games
+just to try it out the first is one that
+I've seen everywhere online which is
+create a 3D browser based multiplayer
+flight simulator and I wanted to see how
+far we can get in one go so that's what
+I did and you can already see so making
+the directory making the to-do and if I
+click into it you can see the to-do list
+list so research 3D web Technologies
+research multiplayer implementation
+evaluate framework options and it took a
+long time but of course it should it's a
+big project and so you can see all of
+the output here and at the very end it
+actually tried to run the game within
+its own environment but I couldn't get
+it working uh so I actually just said
+download me the files and surprisingly
+that worked it zipped up the files and
+let me download it quite easily the
+other game that I created is a game
+called cho cho rocket maybe you've heard
+of it it was a really fun game way back
+on the Dreamcast console and it was kind
+of a unique game where there's these
+little mice running around a board and
+you basically try to get them to if I
+remember correctly fall into a hole and
+it's a multiplayer game kind of high
+intensity high energy it was a lot of
+fun so I asked it to create that as well
+and it actually did its research which
+you can see here so it found a PDF for
+it and it scrolled through the PDF
+learned everything about the game and
+this is the game it's kind of hard to
+read on this PDF but it's really cool
+it's basically the exact instructions on
+how this game works and so then it
+started building I've successfully
+implemented the core game Mechanics for
+our Choo Cho rocket web implementation
+and all the way at the bottom it finally
+did it and it told me how to get it
+running and allowed me to download the
+file as well now unfortunately both of
+the games that I created out of the box
+didn't quite work they were kind of
+close to starting but they didn't work
+so here's an example you can actually
+see the 3D flight simulator kind of
+loaded up but definitely not working and
+here's Choo Cho rocket enter your name
+I'll join a room hit ready and it says
+all players are ready game starting but
+does not start so I could probably work
+a little bit more with Manis to get
+these working but I just wanted to show
+it to you and show you that sometimes it
+doesn't get it going right away and
+already because a lot of the underlying
+technology of Manis is built with open
+source and nothing really specialized we
+we have multiple open-source versions of
+Manis already the first is called Owl by
+camel Ai and here it is it already by
+the way has 8 and half thousand stars it
+achieves a 58.8 on the Gaia Benchmark
+and that was within just a few hours of
+being created and so just like Manis it
+has real-time information retrieval
+multimodal processing browser automation
+document parsing code execution and a
+ton of built-in tools and then we have
+another version called Anis yes that is
+how you pronounce it Anis same thing
+execute complex tasks collaborate in
+multi-agent environments execute with
+web services and this is so awesome
+every time a new project comes out where
+it's closed Source although we'll see if
+manice ends up being open source the
+open source Community Dives in and
+starts building it and the funny thing
+is it was actually built with Manis so
+Manis was used to build one of these
+open source projects so Manz is very
+impressive I've seen a bunch of really
+good working demos obviously on the
+website you can see it yourself so yeah
+I'm going to keep playing with it let me
+know what you think if you enjoyed this
+video please consider giving a like And
+subscribe and I'll see you in the next
+one

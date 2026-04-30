@@ -1,8 +1,14 @@
 {
   "video_id": "AMdG7IjgSPM",
   "url": "https://www.youtube.com/watch?v=AMdG7IjgSPM",
-  "title": "Python Tutorial: UV - A Faster, All-in-One Package Manager",
+  "title": "Python Tutorial: UV - A Faster, All-in-One Package Manager to Replace Pip and Venv",
   "channel": "Fireship",
+  "duration_sec": 0,
+  "upload_date": "",
   "topic": "M0_AI工作站",
-  "slug": "fireship-uv-package-manager"
+  "slug": "fireship-uv-package-manager",
+  "transcripts": {
+    "en_lines": 639,
+    "zh_lines": 618
+  }
 }

@@ -3,6 +3,12 @@
   "url": "https://www.youtube.com/watch?v=1WImBwiA7RA",
   "title": "Claude Skills - the SOP for your agent that is bigger than MCP",
   "channel": "AI Jason",
+  "duration_sec": 0,
+  "upload_date": "",
   "topic": "M1_AI底层逻辑",
-  "slug": "ai-jason-claude-skills-sop"
+  "slug": "ai-jason-claude-skills-sop",
+  "transcripts": {
+    "en_lines": 177,
+    "zh_lines": 174
+  }
 }

@@ -3,6 +3,12 @@
   "url": "https://www.youtube.com/watch?v=HyzlYwjoXOQ",
   "title": "Claude's Model Context Protocol is here... Let's test it",
   "channel": "Fireship",
+  "duration_sec": 0,
+  "upload_date": "",
   "topic": "M1_AI底层逻辑",
-  "slug": "fireship-mcp-test"
+  "slug": "fireship-mcp-test",
+  "transcripts": {
+    "en_lines": 254,
+    "zh_lines": 245
+  }
 }

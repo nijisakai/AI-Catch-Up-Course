@@ -1,0 +1,66 @@
+Have you ever looked at a complex GitHub project&nbsp;
+and wished it was easier to understand? Well,&nbsp;&nbsp;
+now there is a solution! We've just launched&nbsp;
+a brand new online service that takes any&nbsp;&nbsp;
+GitHub codebase and transforms it into a simple,&nbsp;
+easy-to-follow tutorial using AI. Check this out!&nbsp;&nbsp;
+This is the page. You can see all the latest&nbsp;
+tutorials generated right here – folks have&nbsp;&nbsp;
+been busy in just the last few hours! And yes,&nbsp;
+the entire underlying project is open-sourced.&nbsp;
+Using it is incredibly simple. All you need to&nbsp;
+do is paste a GitHub link into this input box.&nbsp;&nbsp;
+For example, let's use this GitHub repository for&nbsp;
+the Python SDK of the Modal Context Protocol. It's&nbsp;&nbsp;
+super popular, tons of stars, everyone wants to&nbsp;
+use it to connect AI agents with tools. But let's&nbsp;&nbsp;
+be honest, the GitHub README can be a bit dense&nbsp;
+and not very beginner-friendly. So, instead of&nbsp;&nbsp;
+struggling, I just copy the link, paste it right&nbsp;
+here, and hit the button 'Generate Tutorial.'&nbsp;
+Our AI then gets to work. It crawls the GitHub&nbsp;
+repo, intelligently identifies the key files&nbsp;&nbsp;
+to read – automatically unchecking things like&nbsp;
+licenses but focusing on markdown and Python code&nbsp;&nbsp;
+files. You can even customize this selection&nbsp;
+if you want. Once you click on the 'Generate&nbsp;&nbsp;
+Tutorial' button, it takes about 5 minutes.&nbsp;
+You'll see the AI working behind the scenes: it is&nbsp;&nbsp;
+fetching the repo, reading the files, identifying&nbsp;
+core abstractions, building a knowledge graph, and&nbsp;&nbsp;
+finally, writing the tutorial chapter by chapter.
+And boom! You are automatically redirected to&nbsp;&nbsp;
+your customized tutorial. Look at this:&nbsp;
+it starts with a high-level summary of the&nbsp;&nbsp;
+project and a neat diagram breaking down core&nbsp;
+abstractions like the command line interface,&nbsp;&nbsp;
+Fast MCP Servers, and key primitives.
+The chapters are logically organized,&nbsp;&nbsp;
+starting from the high-level entry points and&nbsp;
+the basic ideas, then gradually diving deeper.&nbsp;&nbsp;
+You learn about MCP services, primitives, and how&nbsp;
+to use resources, and even what happens behind&nbsp;&nbsp;
+the scenes with helpful sequence diagrams.&nbsp;
+It's not just how to use it, but also how it&nbsp;&nbsp;
+is implemented. For instance, Chapter 5 here&nbsp;
+delves into transport layers – standard I/O,&nbsp;&nbsp;
+HTTP, WebSockets – it's all there!
+Now, this online service is built on&nbsp;&nbsp;
+our open-source project, which has over 8,000&nbsp;
+stars right now! I've previously made YouTube&nbsp;&nbsp;
+videos diving deep into its development and even&nbsp;
+did an interview with Angel about its journey.&nbsp;&nbsp;
+Both got a ton of views and positive feedback.
+So, with all that passion from you, we thought,&nbsp;&nbsp;
+'Why not make it even easier for everyone to use&nbsp;
+that?' And that's why we've built this online&nbsp;&nbsp;
+service. No more feeling overwhelmed by complex&nbsp;
+codebases. If you want to learn something new,&nbsp;&nbsp;
+this is the way to go. It's a simple service&nbsp;
+wrapping our powerful open-source project,&nbsp;&nbsp;
+making it super user-friendly.
+We are already thinking about new&nbsp;&nbsp;
+features, so try it out! The link is in the&nbsp;
+description. Let us know what you think and&nbsp;&nbsp;
+how it goes. This is a quick video, but I hope&nbsp;
+you find it useful. See you in the next one!

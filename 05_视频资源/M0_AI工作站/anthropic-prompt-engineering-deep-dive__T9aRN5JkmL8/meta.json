@@ -3,6 +3,12 @@
   "url": "https://www.youtube.com/watch?v=T9aRN5JkmL8",
   "title": "AI prompt engineering: A deep dive",
   "channel": "Anthropic",
+  "duration_sec": 0,
+  "upload_date": "",
   "topic": "M0_AI工作站",
-  "slug": "anthropic-prompt-engineering-deep-dive"
+  "slug": "anthropic-prompt-engineering-deep-dive",
+  "transcripts": {
+    "en_lines": 2794,
+    "zh_lines": 0
+  }
 }

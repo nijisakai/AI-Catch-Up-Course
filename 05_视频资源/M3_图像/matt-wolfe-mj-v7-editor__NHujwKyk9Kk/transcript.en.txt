@@ -1,0 +1,399 @@
+I've created almost 25,000 images with
+Midshine, so I know the tool pretty
+well. Today, I want to talk about the
+Mid Churnney editor. It has been around
+for a while, but now you can also work
+with layers. That's very
+useful. I tested the editor from a
+beginner's view and tried many different
+things.
+I'll show you step by step how it works.
+If you want to further customize images
+in MidJourney, then you've come to the
+right place because the editor in
+Midjourney is exactly the right solution
+for this. There are actually two of
+them. One can be found on the left in
+the navigation. This is the so-called
+external image editor. If I click on it,
+I am redirected to the edit your images
+page. Assuming you haven't worked with
+it yet, you will initially only see this
+edit new image section. If you click on
+it, you now have the option of either
+using images from a URL or uploading
+images from an external source. If we
+want to use the URL, simply rightclick
+on an image of your choice and then
+click on copy image URL under share and
+save. Then simply return to the edit
+from URL input mask and then paste the
+link you just copied there. Midjourney
+will then use exactly this image here.
+The second way to activate the external
+image editor is as already mentioned
+this brown button. This allows you to
+select an image from your hard disk. But
+there is actually a third way to edit
+images. Simply click on an image of your
+choice and you will see the
+inconspicuous edit button at the bottom
+right. Now it may be that this is not
+visible for you. This is probably
+because you have not yet activated its
+visibility via more options and more
+actions. If I uncheck the box, you can
+see what happens. This means simply
+click on more options and place a red
+check mark next to more actions. Then
+simply click on edit. Now we are in the
+internal image editor. Confusing a
+little. This internal editor is used as
+the name suggests to modify images
+created purely via midjourney. We also
+find the normal standard functions in
+the top right hand corner. More on this
+in a moment. What is different here
+however is the vary function and the
+editor actions field. There we find the
+open and edit tab button. In short,
+clicking on it triggers the same action
+as clicking on edit in the navigation on
+the left. But now let's work with the
+more versatile tool, the external image
+editor. To do this, click on edit in the
+navigation on the left. Then click on
+edit new image. And now I select the
+brown edit uploaded image field to edit
+an image. I've already prepared
+something for this. This blurred
+background image. The two tabs edit and
+retexture are crucial here. Both
+functions are fundamentally different.
+With edit you can edit images just like
+in a graphics program. With retexture
+you can change the style and color of
+images i.e their entire
+substance. Step one is the edit
+function. The tools that we see directly
+below become relevant when we have
+already executed a task. More on this in
+a moment. The first tool is called move
+and resize. If you activate this
+function, the image will have a white
+handle in each corner. If I move one of
+these white fields while holding down
+the mouse button, I can reduce or
+enlarge the image. The other alternative
+is this slider on the left, you can use
+it to change images by percentage. A pro
+tip at this point, don't reduce the
+image too much because the smaller the
+image is, the wilder midjourneys
+interpretations become. Stay roughly in
+the same range as what you see here. You
+can simply grab the image and move it to
+a position of your choice within the
+canvas. You can also change the aspect
+ratio here. I reset the entire
+arrangement for now. For example, you
+can change the canvas size to 3x4, 2x3,
+16x9, or
+9x6. And of course, you can use the
+slider again to adjust the image scale.
+By the way, more than 100% is not
+possible. In this tutorial, we will
+initially stick to the standard format
+of 16x9. Incidentally, you can see that
+the tools below edit have now been
+activated. These are undo or redo or
+reset. I can use undo to go back step by
+step to the activities I've carried out
+so far. Redo is self-explanatory. With
+reset, I return to the original state of
+the image. If we next look at the paint
+tool, we find two editing options, erase
+and restore. Below this, I can define
+the brush size. If you look at the
+image, you will see this slightly
+transparent circle. This is the size of
+your brush. I can not only reduce or
+enlarge it with the mouse wheel, but
+also with the slider on the left.
+Another pro tip, always make the brush
+slightly larger so that you give
+midjourney the freedom to interpret the
+image better. If I now mark an area with
+erase, for example, these flags here,
+and then click on restore, you will see
+a shadow of the original image in the
+background. You now have the option of
+refining your selection. To do this,
+simply reduce the brush size slightly
+and remove what you have already
+selected. If I now click on submit edit,
+MidJourney is instructed to only make
+changes in the area you have selected.
+Let me first reset the entire setup via
+reset. I'll show you the smart select
+function in a moment. First, let's jump
+to the layers topic. You'll find this at
+the bottom left. As the term suggests,
+you can place different layers on top of
+each other, just like in Photoshop, for
+example. I've tested this extensively
+and found that it actually works very
+well with one to two layers. If there
+are several layers, midjourney still has
+a bit of a problem. So, what exactly can
+you do here? Simply click on the word
+add and upload an external image. I
+select an image from my external hard
+disk and add it to my composition as a
+second layer, so to speak. This image of
+a single penguin is now in front of my
+background image and is marked red as
+active at the bottom left. You can
+select the individual layers at any time
+and delete them again. The one marked in
+red is currently being edited. By using
+this image of the penguin, I can now
+explain the smart select tool very well.
+Here we find the include and exclude
+functions. If I select include and click
+on the penguin with the left mouse
+button, midjourney recognizes the figure
+and marks it with this green
+hatching. Exclude removes selected areas
+again. That was step one. Now you can
+use erase selection to delete the active
+selection from the image. In other
+words, cut a hole in the image or use
+erase background to remove the area that
+is now not highlighted in green. This is
+exactly the inverse effect. However, we
+want the figure to remain and only the
+background to be removed. That's why I
+click on erase background here.
+Incidentally, if you have made a
+mistake, you can use the undo and redo
+functions at any time and go back step
+by step. The penguin is still layer 1.
+The background is layer two. On the far
+right, we see the basic element, the
+original image. If we now combine the
+individual tools with each other, for
+example, move and resize, then I can
+move the penguin to a different position
+in the image. Now, the actual
+modification process begins. To do this,
+I go to layer 2, the background image,
+and select the erase function. What I'm
+about to show you is crucial. You have
+to give MidJourney the option of
+blending the two layers into each other.
+To do this, I take the brush and erase
+image content at the transition between
+the two objects. In this specific case,
+I want the transition between the
+penguin and the background to be nicely
+interpolated by midjourney. If I've
+inadvertently performed a wrong action,
+I can either click undo or use restore.
+Then I can remove what I have marked
+incorrectly.
+Next, I add the prompt a penguin looks
+amazed to the top of the command bar and
+then click on submit edit. Midjourney
+now leaves the basic structure with the
+individual layers. If I click on the
+basic element on the top right again, I
+can change my entire job again, even
+though midjourney is already working on
+the new job. This means that whatever is
+outlined in red at the top right is
+shown here as an enlarged image. I now
+select one of these four pictures. It is
+outlined in red at the top right and
+displayed here in large. Midjourney has
+now perfectly modeled the penguin into
+the background without you having to do
+any major editing. By the way, if you
+have to stop working on a current
+project, you don't need to worry that
+everything is gone. Midjourney saves the
+log. Simply restart the application. Go
+to edit and you will find your last
+edited file there under recent. It's as
+simple as that. Then just click on it
+again and all the elements are there
+again. So nothing has disappeared. Of
+course I can still go backwards and
+forwards. Everything you have done and
+all the images are still there. Now
+let's continue to change this picture
+here. To do this, I'll choose an image
+from the four suggestions that I like
+best. I'll take this one. By the way,
+you can see that this picture is new and
+has no further layers. Please don't
+confuse the two. Next, I select move and
+resize again and place the image in the
+middle at a reduced size. Again,
+remember not to reduce the image too
+much. Midjourney remains very
+unconventional and could simply insert
+something unwanted into the image if it
+has too much leeway. I press submit edit
+again with the same prompt. Of course, I
+could have written a different request.
+with my prompt. Midjourney now expands
+the image on all sides and performs a
+zoom effect to put it bluntly. If we
+click again on the basic element, this
+was our source image. That's where I
+basically assembled the entire scene.
+Then I took this picture and in the
+latest version, I have a somewhat
+wide-angle shot. Of course, it's clear
+that not all pictures are perfect.
+That's why MidJourney gives you four
+alternatives to choose from. This
+picture already looks quite good and so
+you can gradually refine your image. In
+this picture, the penguin is standing on
+a small hill. I actually like that very
+much. And now comes the part that makes
+midjourney quite
+extraordinary. But before we go any
+deeper, here's another pro tip. When you
+found a picture you like, always
+remember to mark it so that it is
+displayed large and then save it via
+upscale to gallery. If you don't do
+this, your image will not be transferred
+to your normal midjourney gallery. You
+could also download images directly from
+the editor, but I always go the way via
+upscale. But now back to the very
+special part. This is a really powerful
+feature if you know how to use it. You
+can add incredible depth to your image.
+How does it work? Select one of your
+images in the editor. Reduce its size.
+Place it in the middle. And now comes
+the big moment of
+personalization. In the top right hand
+corner of the editor, there is this P
+symbol which stands for
+personalization. Click on it and switch
+on the function. This basically
+activates it yet without further
+specifications. Now select a mood board
+that you particularly like. I use faces
+colorful. You could also combine several
+styles with each other, but this will
+eventually become a huge mishmash with
+no clear
+identification. You can see that
+personalization is active by the red P
+symbol. Now midjourney knows I have to
+transfer the selected style to the new
+image. Now I click on submit edit again.
+For this example, I have slightly
+modified the prompt. The changes relate
+exclusively to the gray area marked here
+in the image. Now we can see the result.
+Midjourney leaves the original style in
+the center and generates a new theme
+that matches the style of the mood board
+you have selected. Midjourney also
+ensures that the two images are blended
+into one another. This allows you to
+create completely new scenes. Of course,
+I can resize the output and write a
+different prompt. for example, trees and
+orcs. Erase the current profile and then
+select a new style from your mood
+boards. For example, cool guy. And now
+in the next step, midjourney adds the
+new style of the second mood board into
+the scene. Here is one last test again
+with a different
+prompt. I simply write another prompt
+and select the flower details mood
+board. Unfortunately, you can't see
+which style is hidden behind which mood
+board's name. You either have to
+memorize the styles, which is most
+likely not possible in most cases, or
+it's a bit of guesswork. And again, the
+image has changed. Don't forget to
+deactivate personalization again if you
+no longer want to use it. If I want to
+see what I've already edited in the
+editor, I click on view all in the top
+leftand corner. This takes me to the
+already familiar edit your images page.
+Here I can select all the images I have
+created by holding down the left mouse
+button and then hide them using more and
+hide. If you want to delete your job
+completely in the editor, simply click
+on the small dust bin icon on the right
+of the image. Now you can restart from
+the beginning. The images which I
+transferred via upscale to gallery can
+now be found in the overview section.
+Let's now have a look at the retexture
+function in step two. To do this, click
+on the retexture tab on the right. We
+will ignore the rest for this test. At
+this point, it is important to think
+creatively. For example, enter knitted
+penguin and then click on submit
+retexture. This will produce the
+following results. Pay attention to the
+flags and the figures in the background.
+Here we see the free interpretation of
+midjourney which visualized a knitted
+depiction from your 3D rendering. This
+produces results like this or something
+similar. Again, remember to transfer the
+image you like to your create profile
+via upscale to gallery. Of course, you
+can also refine this further. To do
+this, click on edit again, then open in
+edit tab and load an external image.
+Interestingly, cropped images such as
+PNG files work very well. Then you no
+longer need to use the smart select
+function. You can see the cropped
+penguin here. Place it in the position
+of your choice and start modeling. This
+is now the older brother of the knitted
+penguin. Remember to erase the area
+between the two layers in the background
+image so that MidJourney can blend the
+two layers seamlessly. Again, it worked
+perfectly without you having to use any
+other software. Both penguins now have
+their very own look and feel in the same
+lighting. The job is done. It's that
+simple. Don't overload the editor with
+too many layers. Midjourney may become a
+little overwhelmed. I have been working
+with Photoshop for about 25 years.
+MidJourney still has a long way to go if
+it wants to compete with Photoshop. For
+example, you can't mirror images at all
+and many other basic functions don't
+work. Think more in terms of how you can
+combine two images together. Then the
+success rate is much
+higher. That's it for this tutorial. I
+hope you enjoyed it. Please leave a
+like, subscribe to the channel, and
+recommend it to others. Thank you very
+much for listening. See you soon. Your
+channel AI. Now you know.

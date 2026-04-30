@@ -1,0 +1,260 @@
+What if I told you that you could create
+professional videos of yourself that
+actually look and sound like you with
+your mannerisms wearing almost anything
+from multiple angles in almost any
+environment?
+&gt;&gt; [music]
+&gt;&gt; What you just witnessed was Avatar 5,
+HeyGen's most advanced avatar model yet.
+And [music] I know it's cliché to say,
+but this is literally a game-changer for
+AI video generation. All the avatar
+models were good, but they had their
+limits. Sometimes they felt stiff,
+sometimes they were lifeless, and
+sometimes just a little too close to the
+uncanny valley for my liking. If you
+wanted a different look or environment,
+you usually had to record again. And on
+longer clips, consistency could start to
+drift. Avatar 5 changes that by learning
+how you move, gesture, speak, and
+express yourself. So, instead of a
+lifeless avatar, you get a digital twin
+that feels far more natural and far more
+usable. That means better consistency
+from the first minute to the last,
+stronger lip sync, more accurate facial
+expressions, and way more flexibility
+than before. And the best part? You no
+need a crew, a massive budget, a
+wardrobe [music] change, or hours of
+footage. A one-time 15-second recording
+in whatever you're wearing, wherever you
+are, unlocks professional-grade video at
+scale. And in this video, I'm going to
+show you exactly how to use Avatar 5 in
+HeyGen, and the best practices to get
+the most realistic results, coming up.
+All right, let's start by creating your
+avatar clone. Inside of HeyGen in the
+left-hand sidebar, click on avatars. And
+once you're there, hit create avatar in
+the top right-hand corner. You'll be
+asked to choose between cloning a real
+person or creating a virtual character.
+And so, since we're building a digital
+twin, click on clone a real person
+option. Now, here's where the magic
+starts. HeyGen is going to ask you to
+record a 15-second video of yourself,
+and that's it. 15 seconds, not 15
+minutes. You can do this directly from
+your webcam right here in the browser,
+record via your phone, or upload footage
+you've already captured. And here's the
+part I really want you to hear. You
+don't need a professional studio for
+this. To prove it, I'm going to do this
+twice. Once with my iPhone right here,
+without any professional studio
+lighting, just a regular spot against a
+blank wall with some natural window
+light. And once with a full cinema
+camera setup back in the studio. And so,
+later in the video, we'll compare both
+outputs side by side so you can see
+exactly what difference your gear
+actually makes. Now, the only real
+requirement, make sure your face is
+clearly visible and you're in a
+reasonably well-lit space. Your
+background generally doesn't matter.
+HeyGen strictly studies how you move,
+your gestures, your expressions, your
+mannerisms. That's what it's extracting.
+Now, one crucial factor for best
+results, be expressive. A flat
+nonchalant expression while recording
+results in an avatar that looks robotic
+and lifeless. But, recording with
+genuine energy and expression, that
+produces a natural, believable digital
+twin that actually feels like you. Now,
+once your motion capture is done, HeyGen
+will give you the option to record a
+voice clone. Now, this is completely
+optional, but here's the thing. Your
+voice plays a major role in creating a
+convincing avatar. To sell the illusion,
+this small addition can make all the
+difference. HeyGen captures your rhythm,
+your tone, your natural verbal habits,
+all the things that make your voice
+distinctly yours. And at this point,
+HeyGen gives you two choices. To use the
+audio from the clip you just recorded,
+or record a dedicated voice clone, which
+I strongly recommend as it gives HeyGen
+enough detail to work with and tends to
+produce a much stronger result. Hi, I'm
+excited you're here. This is your voice
+clone preview. Okay, so now that your
+avatar's been created, let's talk about
+adding some additional looks.
+First start by clicking design with AI.
+The first thing you need to do is choose
+your base look. Think of this as
+avatar's identity photo. It's the
+foundation the AI references every
+single time it generates a new look for
+you. Pick something strong. A half-body
+or close-up shot works best. Make sure
+your face is clearly visible, and
+honestly, just pick one where you like
+how you look. Once your base look is
+locked in, you've got two ways to
+generate new looks. Option one, browse
+the scene library. They are pre-built
+looks with different outfits,
+environments, and vibes. One click and
+the AI drops your face into that scene.
+Option two, write your own prompt. This
+is where the real power is. Want to be
+in a professional office in a navy
+blazer?
+Done. On a rooftop at sunset in
+streetwear?
+Also done. The AI generates a brand new
+look of you based on whatever you
+describe. You can even prompt a side
+profile look, and the avatar will still
+maintain consistency from a completely
+different angle. And if your generated
+look is close, but not quite right, hit
+edits to fine-tune it some more. Tweak
+the outfit, the background, the
+lighting, whatever needs adjusting. And
+the end result is you've got an entire
+wardrobe of professional-looking
+versions of yourself, different outfits,
+different environments, all from one
+15-second recording. Now, let's take one
+of these looks and actually make a
+video.
+All right, let's make a video. Hover
+over any look you want to use and hit
+create an AI studio. This drops you into
+HeyGen's AI studio. And the first thing
+you want to check over here on the
+right-hand panel is the motion engine.
+Make sure it's set to Avatar 5. Now,
+here's where you add your content.
+You've got two options for the script.
+Option one, if you already have a script
+prepared, type or paste your script
+directly into the text bar. Option two,
+and this one is quite genuinely
+impressive, click the AI script
+generator. It's powered by OpenAI's
+ChatGPT. Give it a topic, a tone, a
+target length, and it writes a script
+for you right there inside the platform.
+Here, I'll type in a quick topic, and
+just like that, a full script is ready
+to go. Now, here's something new in
+Avatar 5 that you didn't have in older
+versions. Near the motion engine option,
+open up the advanced settings. You'll
+see a motion type selector. This lets
+you control how your avatar moves. You
+can also choose from the variety of
+different motions based off of previous
+videos that you recorded in your
+15-second clips. And there it is, a
+fully produced Avatar 5 video. Your
+face, your voice, your look, done in
+minutes, not hours. YouTube marketing is
+a game-changer for businesses. With over
+2 billion users, it offers an
+unparalleled platform to reach potential
+customers. Now, let's cover video agent,
+because this isn't just the fastest way
+to create content with Avatar 5, it's
+also the most powerful.
+Head over to video agent in the left
+sidebar and select the avatar you
+previously created. Also, you should
+know that when you have a real human
+avatar selected, it automatically uses
+Avatar 5. So, no extra steps here are
+needed. But, what makes video agent
+special is this. You're not just
+creating a single clip. You can prompt
+HeyGen to create multiple scenes and
+automatically combine them into a full,
+ready-to-publish video. That's the
+script, your avatar, the layout, and the
+scenes, all from one prompt. And that's
+a complete video from start to finish.
+Now, there's a whole strategy behind
+writing great prompts for video agent,
+and I have a fully dedicated video in
+exactly that. So, you can go check that
+out. The link will be in the
+description. But, here's the short
+version if you just want to get a video
+out. First, you want to describe your
+topic, your audience, and the tone
+you're going for. Video agent handles
+the script, the avatar, the layout, and
+puts together a ready-to-publish video
+from a single prompt. It's as close to
+hands-free video creation as you can get
+right now. And with Avatar 5, the
+quality has never been better. In 2026,
+the marketing landscape is louder than
+ever. But, one platform still stands
+above the rest as the most powerful tool
+for growing your business, YouTube.
+Now, here are three things that will
+make a difference between "That's a
+pretty good avatar" and "Wait, is that
+even AI?" Number one, be ridiculously
+expressive when you record your motion
+clip. I know it feels weird, but you
+should do it anyway. The energy you put
+into that 15-second clip is exactly what
+your avatar gives back. So, if you have
+a flat recording, it will result in a
+flat avatar. So, bring the energy.
+Number two is to choose a strong base
+look photo. Close-up, face clearly
+visible, subtle expression, no
+accessories. This is the foundation for
+every AI-generated look you'll ever
+create. Get it right once, and
+everything else builds from there. And
+lastly, number three, do the standalone
+voice clone. Don't skip it. Don't just
+use the audio from your motion clip.
+Give HeyGen a dedicated voice recording.
+It captures the nuances that make your
+voice yours. So, two extra minutes,
+massive difference. So, how many videos
+could you create if you only had to show
+up on camera once? Well, that's what
+Avatar 5 actually makes possible. One
+recording, any look, any environment,
+any video on demand. This isn't a future
+update. It's a completely different way
+to think about content creation. If this
+tech is as exciting to you as it is to
+me, hit that subscribe button. I've got
+more HeyGen tutorials coming that you're
+not going to want to miss. And if you're
+already testing Avatar 5, drop a comment
+below. I want to know what you're
+building with it. And that's it for this
+video. I'll see you in the next one.

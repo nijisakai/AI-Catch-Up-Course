@@ -1,0 +1,1258 @@
+so you might have heard about Manis AI
+this I think is fair to say is the
+world's first autonomous AI agent I got
+a chance to test it out and uh you need
+to see this really fast here are some of
+the other people that I follow online
+that have tested it here's McKay rley
+saying it's legitimately impressive and
+as a reminder I don't do paid posts he's
+kind of Blown Away by it starting to
+freak out a little bit I may have
+undersold this what in the world did I
+get access to Here Without exaggeration
+I'm genuinely being a super Earnest
+about about this I think this experience
+has shifted my worldview a bit that was
+basically 80% of what I imagine
+experiencing AGI will be like and I
+agree with what he's saying and I do
+have a need to tell you that no this is
+not sponsored no one's paying me to say
+these things this is I think the first
+example of a fully autonomous AI agent
+this seems way ahead of open AI of
+anthropic I think this is what openi is
+planning to release as their you know
+$20,000 a month or for $10,000 or $2,000
+month agents I think this is that
+there's a couple things that it did that
+I don't understand how it did that it
+seems very smart across the board but
+yeah I think March 7th this thing was
+released I think that is the day we
+entered the era of autonomous AI agents
+so I was able to run five tests on it
+before hitting my limit I've requested
+an increase there's like a million
+person waiting list so we'll see if
+that's a possibility but take a look and
+let me know what you think about 5
+minutes ago I got access to to Mattis
+let's go all right so first and foremost
+we have standard High effort so high
+effort mode employs a longer Chain of
+Thought and performs more detailed tasks
+breakdown though it requires more
+processing time during the experimental
+period this mode is limited to one use
+per day all right we'll we'll save that
+for last we'll stick with standard for
+now so first and foremost let's uh let's
+do some research on the AI made games
+that are kind of going nuts you might
+have seen fly Peter right that game that
+was coded up with grock and CLA 2 by
+Peter levels think last I checked it's
+pulling in something like 100,000 per
+month based on this fairly simple game
+that was coded up fairly quickly using
+AI technology so so we're going to say
+research video games that were created
+recently using AI for example using
+cursor Gro 3 Cloud 3.7 Etc one example
+is flyer.com basically whatever the
+whatever they're doing however they're
+making the code as long as it's
+utilizing AI to build it that's what
+we're looking for so so let's research
+the top five to 10 games like that must
+have been built in the last 3 months or
+so get details about these games like
+how they were built who is the creator
+list any resources the Creator posted
+online talking about how this was built
+like videos X posts Etc let's say
+YouTube videos so if they have YouTube
+videos talking about how they built this
+thing or posts on X about it uh we want
+to see those then create a website that
+showcases all of this with links to the
+game to the Creator and a summary about
+the most important things about the game
+make the website have the aesthetic feel
+of a '90s video game and away we go so
+I've covered some this in the previous
+video but what completely blew away my
+mind about Manis is the way that they've
+built it so so far I've only seen other
+people using it this is the first time
+that I I'm I'm using it Hands-On but as
+far as I could tell from the previous
+videos posted online madus itself so
+they it has its own sort of computer its
+own cloud computer that's running Linux
+specifically it looks like Ubuntu and
+it's got access to the command line
+meaning it's kind of a super user on an
+open source operat system which if done
+correctly basically gives it tons of
+power to do a lot of different stuff so
+as you can see here the layout is a
+little bit similar to Devon by cognition
+AI to where you kind of have these
+different windows and you can kind of
+look through to see what it's doing so
+here is a list of all of the sort of
+websites that it's looking to and we can
+scroll forward to see where it is in the
+process all right so as you can see here
+it created a to-do MD so in Linux MD is
+a mark down file so you can kind of
+think of it as a text editor but with
+like a little bit more functionality so
+it can be used for code for text Etc and
+as you can see here it broke down the
+tasks I gave it into subtasks we have
+the search phase the research phase the
+website creation Etc and for each one of
+those it has subtasks and it shows it
+completing the subtasks as it goes along
+so as you can see here it's searching
+YouTube I'm trying to find a shot of
+where it actually is using the terminal
+because we saw it pretty clearly in in
+in another video that I saw online
+interestingly we can also use mantis's
+computer looks like we use vs code or
+browser we'll do that later I don't want
+to mess it up right now looks like it
+does get blocked by Reddit so a lot of
+the times when you're using these um you
+know virtual machines it's not like an
+actual desktop sitting somewhere it's
+just a virtual machine that's kind of
+simulating a desktop experience but um
+as you can see here we can take control
+so they've basically recreated operator
+opening eyes operator they've also
+recreated a lot of the functionality in
+clad coder the brand new thing the
+research preview that they've released
+so here is the live view so is it is it
+just sitting there watching a video I
+wonder that's very interesting I'd be
+surprised if it actually watches the
+videos I don't think anything right now
+currently actually does that most of
+them just use the the transcript and use
+the text in the transcript meanwhile I
+will do another test on it so one thing
+that I really wanted to test with this
+is to see how well it's able to do
+coding now currently my understanding is
+this isn't its main thing that it's
+supposed to be doing I don't expect good
+results which is fine this is not going
+to lower my opinion of it this is more
+like a web surfing agent like a
+knowledge worker something they can do
+some coding like creating HTML websites
+Etc but it's not the software engineer
+quite yet but this is what we're going
+to do we're going to say lots of people
+want to get started using a Linux to
+create things with AI let's create a
+full online course about how to do that
+including videos lessons links to
+resources Etc start by creating a
+walkthrough of how to install Ubuntu so
+walk them through the basics of using
+Ubuntu they'll need to install something
+called Cloud coder I will go ahead and
+drop the link in there just so it
+doesn't get confused later I'm going to
+test it specifically on how well it's
+able to find this information online but
+currently I'm I'm testing something
+different I don't want it to trip up on
+that particular thing because I'm
+testing something else and I'm I guess
+I'm kind of assuming that it will have
+some weaknesses or mistakes we'll see it
+might not but teach them the basics the
+need to install Cloud coder and the
+commands that they need so there's like
+just a handful of commands that you have
+to be able to run in order to install
+clot coder so we don't want to like
+overwhelmed in the person but at the
+same time they need like three or four
+different things that they have to type
+in in order to proceed assume little to
+no Linux experience prior to this then
+explain what GitHub is and how to use it
+and then find one simple project that
+you can try on GitHub by using Cloud
+coder to clone the repo this will be a
+lesson that demonstrates how to use
+GitHub and Cloud coder in conjunction
+okay so this is where it's sort of like
+generates the lesson plan and Next Step
+will be actually creating the website
+with the lesson plan make it in dark
+mode so create the website that has all
+the lessons and walkthroughs make it in
+dark mode with a black and yellow theme
+all right so we're going to click go so
+for the people that may be not familiar
+with what I'm talking about here so
+basically a lot of the stuff that gets
+released in the sort of the AI space
+often gets released on Linux and apple
+first because they are sort of similar
+Apple's OS is sort of built on the same
+sort of foundation as Linux and so if
+you're a Windows user very often you're
+going to be waiting for the updates or
+stuff is not going to work as intended
+Cloud coder I could not get it to run on
+Windows and I do believe more and more
+people get interested in using Linux
+especially since things like this run on
+Linux I think a lot more things will
+start running on Linux things like
+Ubuntu Etc Ubuntu is sort of a a flavor
+a distribution of Linux kind of a
+version of it customized for certain
+specific things and back in the days you
+know 5 10 years ago it was fairly
+difficult at least for people that don't
+have a lot of experience with it it had
+a bit of a learning curve now not only
+is it getting a lot better to use
+because of all the AI tools that you can
+use with it but also it's getting a lot
+easier to learn because the AI can
+assist you in using it if you have Linux
+open you know the terminal in one sort
+of window and then something like Chad
+PT in another Chad PT will just walk you
+through all the commands and exactly
+what to do and it's pretty good at doing
+so so I think this is going to be I'm
+kind of calling it now I think there's
+going to be a lot more interesting stuff
+like this so what I'm trying to do here
+is to create a beginner friendly guide
+to how to get into it right so and and
+it's going to cover a lot of you know
+before you had things like Chad gbt to
+help you out doing this would be you
+know fairly difficult for a beginner you
+know figuring out how GitHub Works
+figure out how Cloud coder Works how to
+use the command line all these things
+would have a steep learning curve but as
+you hopefully you'll see now it's it's a
+lot easier to get in there and start
+building and start tweaking things and
+figuring out how they work which I think
+is going to be a lot more interesting
+for people so let's leave that to do its
+thing oh and here we can see Manis using
+the terminal okay so we're still able to
+see it so let me move this over here so
+this is Manis using the Ubuntu terminal
+right so as you can see here it's
+actually typing in you know change
+directory go to this directory and so it
+usually what it does when you give a
+task a project it starts by creating a
+new directory that that it's going to
+work on so each project it's own
+directory and whatever assets whatever
+files it creates to complete that
+project go into that directory so this
+is very similar to Cloud coder and as
+you can see here on the previous page
+actually I can probably go back so as
+you can see here so it needs Cloud flare
+workers so this is likely for creating
+the website that we asked it for so as
+you can see here it's initializing a get
+repository so GitHub is a place where a
+lot of people store code that anybody
+can use right so I can go there and if
+somebody created a piece of software
+that does something I can just clone
+that to my computer and then I can use
+it or work on it to upgrade in some ways
+I can either Fork it meaning I can kind
+of create a different version and take
+it into sort of whatever Direction I
+want to or contribute to the original
+it's kind of this open source ecosystem
+so here it's using that to I'm assuming
+this is for building the website so
+looks like it's using uh it's talking
+about database config it's uh using a
+SQL file to reset the D database or
+rather this is probably some
+documentation that it's reading about
+how to do that and so if we go live here
+is the layout. TSX which includes the
+HTML text for the website that we've
+asked for noex is adding all the you
+know the copyright and all that stuff in
+the footer so it kind of like knows how
+to do that stuff this is the cool thing
+about kind of the um the agents like
+this because you know when you're
+dealing with a chatbot you know there's
+a certain context window so it it tries
+to shorten things up right so if you go
+a project that's massive they can't run
+it in one thing by creating these kind
+of agentic structures you kind of create
+these like Loops that it's able to do
+like now do this now do this now do it
+now do this right and you can do one
+thing at a time and here it explains the
+Showcase right so this is the AI game
+development thing so it's saying this
+website highlights the incredible
+progress in AI assistant game
+development all these games were built
+in the last 3 months so this is we're
+beginning to see the power of these AI
+agents right so you kind of give it this
+top level goal and it has enough
+intelligence to not only figure out how
+to break it into little pieces but when
+it gets to for example you know creating
+the website knows okay like I need to
+describe what this website is right
+because it has to appear in for example
+Google you know search results plus the
+people that are looking at the website
+have to know what it is so it figures
+out how to describe it based on the
+description I gave to it right so it
+takes kind of the words that I've used
+translates them into the description of
+the website it's it's little things like
+that like normally you would have to
+have a human being that sat there and
+thought about that and rewrote it right
+there's a little bit of a cognitive load
+involved with that but it's lowlevel
+it's you know kind of boring if that's
+all you had to do it's not high LEL
+tasks the huge thing about AI agents
+like Manis is that a lot of that stuff
+it can do for you right and then if if
+it's off if you want to improve it you
+can step in and manually adjust things
+or just tell it to try again or specify
+how it should do it Etc so we have a
+space shooter by Alex Finn Frogger with
+rocket launch by Micah flight simulator
+by Peter levels shooter game by Jagger
+Barda and a 3D seen by AI oriented Dev I
+think I I'm familiar with like two or
+three of those so so as you see here
+it's creating a kind of a development
+environment to run to render the website
+locally so we'll come back to this but
+so far this little robot is doing a
+great job very very proud so looks like
+going back to the Linux AI course it's
+now on GitHub and it's checking out okay
+so it found a python artificial
+intelligence projects for beginners
+which is probably the thing that it's
+going to use as its demonstration
+project wow so for a second there if you
+saw that let me see if I can go back so
+for a second there I can't quite find
+that frame um but for a second there you
+could see the the bounding boxes around
+kind of all the usable objects on screen
+so that's how it seems like it's like
+able to navigate stuff like that which
+is interesting so that's not quite how
+the open aai operator does it the open
+aai operator if I understand it actually
+uses like real Vision uh the the vision
+model looking at the screen and then
+moving the mouse to click on it this
+still has some sort of a like it it
+finds a different objects on there and
+then goes to click on them and there are
+sort of pros and cons to both from what
+I've seen kind of the advantages to
+using something like this is you're
+going to be much faster and much more
+accurate within the things that that
+approach can do but there's going to be
+some like weird use cases where it it
+doesn't quite work like that right so if
+you if it's having a hard time defining
+certain little things on screen as
+objects it might miss those but for most
+of the stuff online this is going to be
+the faster more accurate just easier
+approach so as you can see here you know
+one of the course is that it walks you
+through is setting up your environment
+so if you're going to code of python
+it's very good to use certain virtual
+environments to make sure that kind of
+everything works well within that
+environment where you have all the tools
+that you need the correct version right
+it's just a way to manage the complexity
+a little bit so they're walking you
+through exactly how to do that so you
+have your sort of your terminal bash you
+create a directory you navigate to that
+directory you create a virtual
+environment you activate the virtual
+environment and then within that
+environment you install the required
+packages this looks terrific so far then
+it walks you through how to use cloth
+coder to clone the the repo this this
+looks great I got to say so far I'm very
+very impressed all right but let's test
+its coding abilities is it a coder so
+we're going to create a 3Gs game where
+you control a plane make the plane a
+World War II fighter plane create
+several environments to fly over like
+ocean Forest City at a day and night
+cycle create an attack function that
+fires a machine gun and we're going to
+say add lots of visual effects to make
+it realistic smoke lens flares Trace
+rounds for the machine gun clouds Etc so
+let's start there and see where this
+takes us if it Nails this that I got to
+say would be fairly impressive so
+there's this new thing so it says
+knowledge suggestions when pending so
+let's see what this is okay so this is a
+way to store like permanent knowledge or
+memory as open AI cause it um so when I
+ask for a 3js WW2 fighter plane it's
+saying should we just assume you want
+all of those things in there which is
+pretty cool not quite there yet because
+um I want to see how it how it works on
+this first attempt and then later maybe
+we'll add that as in addition to every
+single prompt this is going to be very
+effective if you're doing the same thing
+over and over again so but we're going
+to reject it for now all right but that
+was a child's play well not really it's
+it's kind of complicated but let's see
+if we can uh crank up the difficulty
+just a little bit we're going to ask it
+to do this so we're going to create a
+tool that takes a prompt like a woman is
+talking about how amazing this hamster
+cage product is and an llm of my choice
+writes out a script for that then that
+script gets voiced over in 11 Labs with
+the voice of my choosing then that voice
+over is fed into haen to create a video
+Avatar that says the thing that says
+that script and use the apis for
+everything I will provide API keys and
+by the way keep in mind that if it fails
+at any one of these then we can always
+bump it into that extended thinking mode
+so once we figure out like what where
+the limit is we'll we'll test that out
+as well all right so here we got a
+notification Manis is attempting to
+deploy a service located at you know
+whatever so basically it's asking me if
+it's okay to deploy the application to
+the public network yeah why not
+unleashing this egi onto the internet
+what could possibly go wrong all right
+so here we have so it's hitting an M
+error which is a which is a package
+manager for for JavaScript but as you
+can see here so when it encounters an
+error it just completes it it it keeps
+troubleshooting and figuring out how to
+get around it Etc creating optimized
+production build so not that long ago if
+you recall we were sitting here kind of
+like dreaming anticipating the day then
+something like this would exist where
+you tell it to do something and it just
+goes off because I mean some of these
+things have been running for 20 minutes
+now right so for 20 minutes from one
+prompt this thing is sitting there and
+just thinking and work and doing and
+troubleshooting optimizing with almost
+zero input from me now if it's able to
+create these World War II fighter
+playing games by the way look at this
+this subtask right list this this game
+development right look at how many
+subtasks it created right environments
+ocean Forest City environment switching
+mechanism day night cycle machine like
+like look at that so we're about I don't
+know 20 minutes in maybe and we're less
+than a third of the way maybe a third of
+the way into it completing all the
+things by the way really fast so if it
+can do something like this and keep on
+adding various functionality to it in an
+effective manner why is that important
+right is it just that oh now you have a
+little shooting plane game that you can
+mess around with well you know again
+this is the fly Peter game that he
+created very very quickly so you know
+you can have the various different
+things you can purchase different planes
+like the F16 but we'll just start with
+the Cessna all right so you know I I'll
+have the sound off so it doesn't get too
+annoying but you know this this game is
+multiplayer so you're able to fly around
+with a lot of different people all over
+the world and as you can see here like
+right this blimp says a synth flow on it
+Etc freelancer whatever right so these
+are people that chose to pay money to
+advertise within this game and this game
+is pulling in quite a bit of money from
+these advertisements even if I see it
+correctly an advertisement on the moon
+can't quite tell what it is but it's
+there right and that game rapidly scaled
+up to where it's making 50,000 a month
+and I even been seeing uh potentially
+got up to 100,000 a month in monthly
+recurring revenue or maybe it's not
+recurring if it's like a sponsorship
+placements I'm not sure but the point is
+it's it's a lot from something that was
+created very quickly so initially it was
+made in just 30 minutes with AI tools so
+it kind of gives you a glimpse into how
+quickly these things are proceeding
+because when you know claw 3.7 grock 3
+when they came out it really
+supercharged developers to create a lot
+of stuff things that could be scaled up
+very very quickly to make significant
+amounts of money so people used
+something like cursor which is a
+development environment that's
+integrated with these large language
+models like Claude or 03 mini High
+whichever one you prefer but you still
+needed to know some things in order to
+kind of use it you still have to have
+some technical background with this and
+again we have to see how well it's going
+to complete these tasks but it does seem
+more and more that these large language
+models these AI tools they're kind of
+separating the human from like the code
+the command line because you know in the
+very beginning a long long time ago
+everything had to be written out by hand
+right so each word each letter of the of
+the code had to be done by a human each
+command line had to be written out you
+know on a keyboard Etc and now as you
+can see here this AI tool is running the
+commands in the command line it's
+creating the documents is populating it
+with code so far I didn't do anything I
+didn't write one bit of code I wrote
+everything out in natural language in
+English and the important thing to keep
+in mind is so I don't know how well this
+thing is going to come out like the
+coding how well it's going to come out
+but here's the thing that the large
+language models that are being used by
+this I don't know exactly what they're
+using but they're saying that they've
+been fine-tuned so they took some
+probably open- Source large language
+model they've fine-tuned it to be good
+at you know being Manis Etc and that's
+what's being used and they said that
+they're going to open source this thing
+later this here 2025 so think about that
+for a second so in 2025 let's say you
+have this entire sort of scaffolding
+right the the what Manis is so if you
+think of this thing as scaffolding plus
+a large language model that's kind of
+what this is by scaffolding I mean the
+thing that's you know kind of like that
+kind of says okay so first thing you
+know create these subtasks and then run
+these commands right so it kind of like
+turns this into an agent right allows it
+to surf the web Etc but I think the
+important thing to understand here is
+that if it is open source then and and
+the whatever large language models that
+they're using under the hood isn't the
+top of the line they can very simply
+switch in the top of the line right you
+can put in Cloud 3.7 Sonet or grock 3 or
+03 mini high or any time the next big
+thing comes out you just put it in there
+I'm curious to know if they're using
+deep seek for this that would certainly
+make sense all right so here it's saying
+it's waiting for user all right so this
+is Manis it says thank you for your
+patience a very very polite I like that
+okay so it says we've completed the
+Ubuntu installation Basics Etc and it's
+saying should I just continue working
+making the adjustments or show you a
+preview I'm going to say preview
+actually now that I'm thinking about it
+I'm going to say preview please this
+thing is a little bit too advanced I I
+feel like I should be polite back
+preview please so I going to deploy a
+temporary version so you can see how it
+looks with the Dark theme using black
+and yellow colors meanwhile our AI
+generate video games so it's also asking
+if it should deploy to the public
+network let's say go for it and our
+automated video creation with llm and
+apis it's asking for the API Keys now
+interestingly in anthropics and Cloud
+coder when it's time to get to the point
+where you know you give up your API keys
+to the thing I mean there's obviously
+security issues with that so Cloud coder
+refuses to do it but then if you just
+you know you copy and paste your uh API
+key in there it kind of like it like
+lectures you about it kind of grumbles
+about it's like well you really
+shouldn't do that young young sir but it
+it does still take the API keys and put
+it where it's supposed to go again you
+know don't do this or at least be aware
+of the risks of doing this I'm willing
+to be your giddy pig to test this thing
+out but you know there are security
+issues with just doing something like
+this all right so I added all of my API
+keys this is one of those things where
+you have to be careful what you're doing
+I plan to delete those API keys after
+testing this thing you know and before
+uploading this video but I've created
+unique API keys for testing this thing
+and later if I wanted to use it long
+term I would actually have to go in
+myself and add those keys in a secure
+way but let's take a look at our AI
+generated video game research preview so
+we're going to click to view and wow it
+is glorious absolutely glorious oh wow
+and it's got the little scrolling text
+absolutely incredible look at that games
+created with AI tools like cursor Gro 3
+and Cloud 3.7 in the last 3 months so it
+kind of literally copied what I said but
+that's okay no coding experience
+required the future of game development
+is here okay and it added those this is
+I mean this is good so far so good right
+wow all right recently created with AI
+we got the space shooter game by Alex
+Finn it's got oh and it like has a
+little popup thing wow okay this is very
+good and look at that it writes out uh
+how it was created we can click on more
+info and it gives us more info I wow wow
+wow wow used grock's deep research for
+research and planning used grock's think
+or Cloud 3.7 to execute the code
+deployed via GitHub all the resources it
+it gives how many followers this person
+has look at that it's got the YouTube
+channel a newsletter a website notable
+results it got multiple Elon Musk
+retweets very very cool but okay but
+where's the game dude okay so it doesn't
+have a link to the game but but not
+everybody hosts their game online but I
+know Peter fly Peter does so let's see
+if it has the oh okay so it has a play
+game and more info okay and this this
+winter 3D game okay so if I click play
+game okay it takes me to this thing and
+if I click play game it takes me to the
+game this is terrific okay so that's
+that's good okay okay so this is the
+game you can click to move the bear
+around zoom in and out okay very very
+cool all right and it provides the AI
+tools used as well as the Creator
+resources it tells you how to recreate
+this thing so basically what I was
+trying to do with this uh particular
+prompt is you know right now people are
+super interested in all these games
+people want to learn how to create them
+people want to see who's creating what
+and it would be kind of cool to have
+like one resource one website that has
+you know an Ever updating list of all
+these games with any resource that we
+know about how to create these games and
+if you wanted to recreate it how would
+you go about recreating that now
+obviously you know if you were doing it
+yourself that would be kind of a pain in
+the butt right it would take a lot of
+time a lot of research but as you can
+see here this was all done with you know
+me being AFK basically right I give it a
+prompt I go away now the next step would
+be to see how well we're able to add on
+to this right so can we include more
+resources can we include more games I
+mean you can imagine just having that
+thing kind of run every 24 hours or
+whatever updating this database uh in
+real time basically creating a perfect
+sort of ever updated resource for people
+looking for this stuff I I'm just I'm
+blown away I am absolutely Blown Away
+okay I mean this is A+ right this is
+kind of mindblowing from one prompt keep
+in mind we're going to test sort of
+iterating on this but so far wow okay so
+it presented the final deliverables to
+user okay we're going to come back to
+this but wow all right so our buun
+course is ready to be deployed to the
+public network go for it did we not say
+that already not sure oh okay so it's
+this is the preview it's asking us do we
+want to continue working it or do we
+want to get the preview and the WW2
+fighter plane still working automated
+video creation still working and so it
+looks like there's a Manis dospace where
+it hosts these things for its user so it
+kind of generates a random username for
+you and then creates it so mine is Gizzy
+yazel Manis dospace so I'll post this
+link down below if you wanted to check
+it out this this is throwing me a little
+bit here this this feels like a little
+bit too good you know what I'm going to
+start a new session here and uh I'm
+going to say research everything you can
+about Manis AI what llm are they using
+for it who's behind it what Vision model
+are they using Etc anything and
+everything about how this thing is made
+let's see where that takes us all right
+and it looks like our World War 2
+fighter plane game is ready to be tested
+out it has been submitted for our
+approval all right so we're getting a
+little uh error so we got an error
+message I'm just going to post it right
+back in there you know that Meme where
+Fry from Futurama is like Shut Up And
+Take My Money uh this might be one of
+those products where it's like I feel
+like I need a subscription to this I
+want to be testing out like the extended
+version of it this this thing is kind of
+Bonkers all right let's do one more
+thing so all right let's say I invested
+$1,000 each into the following stocks
+Nvidia Microsoft Google Tesla Amazon
+meta on January 01 2020 so create a cool
+looking display of my investments
+include a way to customize the view to
+see the data in detail so let's see how
+it sort of interprets that I literally
+was just saying how like just you know
+shut up and take my money I want to keep
+using it I ran out of my standard but I
+still have sort of one high effort task
+remaining and and ideally I'm going to
+use that for whatever it fails to do or
+for whatever it sort of like struggles
+with here is our fighter plane jet
+fighting thing and it's not showing up
+okay so right off the bat it doesn't
+seem to be functioning so I load a
+screenshot and I said the heads up
+display shows up but nothing else so I
+think it should be able to figure that
+out and so it's on it so it looks like
+we can still continue going back and
+forth with the previous projects we just
+can't start new ones interestingly it
+has these little sort of uh icons
+displaying so this one's like stocks or
+charts right this one's gaming so it's
+pretty good at at naming and Visually
+kind of referencing these so it's a
+little bit easier to find all right I'll
+go ahead and delete this one for the
+time being and here's our Linux AI
+development course that's looking pretty
+neat so we might mess around to change
+the visuals but so far so good so you
+can start with start learning so it
+walks you through understanding Ubuntu
+what you need to do before you begin
+backing up your data Etc it's got you
+links to where you need to go creating a
+bootable USB drive with link to rofus
+phenomenal it seems perfect I'm not
+going line by line but man yeah
+everything is just like it's snailing
+all the points uh the various you know
+stuff you need to to get started just
+the basics right graphic drivers Etc
+walks you through the terminal how to
+start the terminal gives you the
+keyboard shortcut perfect how to
+navigate through the terminal this is
+terrific I mean I guess that's not that
+impressive I mean cuz this is available
+in like 50 million different places
+online so this this shouldn't be that
+impressive but notice that it did do a
+very good job what I wanted what I
+described because in this one I gave it
+very specifically here's what I want it
+did that I would say flawlessly yeah
+it's going through node.js and then how
+to install clot coder if I was going to
+nitpick just a little bit this does not
+belong here so this is they've copied
+this from the installation page on
+anthropic and saying if you're using
+Windows subsist systems so yeah I mean
+that's an important thing to know but in
+the context of this thing we're not so
+this is literally how to install Linux
+um and then use it so but again I can't
+say this is wrong it's just maybe not
+needed probably not needed but otherwise
+terrific then we have a a brief GitHub
+tutorial and a project demo okay so this
+is where I was curious if I was going to
+drop the ball or not so basically what
+we're doing is we are asking you to do
+something that the documentation for
+which isn't really available online
+because you know normally if you want to
+install a project from GitHub there's
+documentation on that if you want to
+install clot coder there's documentation
+on that but if you wanted to use clot
+coder to have clot coder install the or
+you know clone the GitHub repository
+there's not going to be a lot of
+information on that it's kind of a brand
+new thing so I was curious to see if it
+would figure it out this to me shows
+that whatever model they're using under
+the hood is is smart is powerful this
+isn't some half-baked model they're
+using it figured it out based on context
+cuz again there's not a lot of like data
+out there on this so to figured out that
+in order to clone the repository with
+Cloud coder you don't run the commands
+yourself you tell CLA coder I I want to
+clone this project from this person or
+whatever on GitHub so I hope you
+understand kind of what I'm saying here
+like this this this thing that it did
+right here this whole thing this took
+intelligence took learning this is not
+available online there's not a lot of
+resource that spell this out this is
+kind of crazy I got to say I'm curious
+what they're using what model they're
+using for this then they're saying clot
+coder will help you with the process
+suggesting the appropriate git command
+how do they know this as far as you can
+tell it it went it read read the manual
+it read anthropics manual this is way
+better than than than I would have
+expected I am kind of Blown Away this
+thing seems smarter than it should be
+yeah walks you through how to use CLA
+coder exploring the database adding
+visualizations and it's literally
+telling you how to commit changes to
+GitHub again with Claude coder how did
+it this is this seems like it's an
+output from Claude I'm wondering if it
+like actually installed coder on its own
+thing to then run it it's something this
+is weird this is weird I'm I'm a little
+bit blown away this this this is
+throwing me for a loop here um okay I'm
+not 100% sure how it did that I so I
+know that it read anthropics
+documentation on Claude coder so as far
+as I can tell it like understood what
+what Claude coder was kind of like and
+it was able to kind of imagine what it
+would say and what it would do in those
+scenarios maybe I'm missing something
+but this this feels this whole thing
+kind of feels Next Level somehow next
+we're testing our fighter plane but
+sandbox not found so we just paste that
+right back in there so it did a lot of
+research on itself basically and it's
+saying that Manis likly employs
+technology similar to deep seek R1 and
+V3 models while the specific Vision
+model isn't explicitly named Manis has
+confirmed multi modal capabilities
+including image processing and Analysis
+as part of its system so we've tested
+uploading a screenshot but now that I
+think about it I actually kind of told
+it what's in the screenshot as as one of
+our next tests will be kind of like just
+uploading visual information to see how
+well it's able to do that because I did
+kind of spell it out in the text I said
+this is what this is what's rendering
+this is what is not rendering so it it
+didn't even need a screenshot really and
+uh Manis uses a multi-agent architecture
+where specialized AI sub agents operate
+independently under executive oversight
+it features cloud-based asynchronous
+operation and sandbox virtual
+environments for safety so there was a
+little bit of a confusion here because
+it's um created a readme file it's like
+oh clone the repository but there's no
+repository it's just a bunch of files
+that it has on its computer so we kind
+of had to go back and forth and have to
+say okay just zip all the files and and
+G them to me now what I think might be
+happening is since we ran out of our
+sort of quota for the day and now we're
+still going back and forth and talking
+within a certain project maybe
+downgrades you to a different model
+that's not quite escapable I'm going to
+need to do more testing to like figure
+it out but this seems like a fairly
+simple problem to solve basically it
+thinks that all the files are that you
+have all the files but it's actually on
+its computer so so you have to kind of
+connect the dots for it but uh we'll see
+if it works all right but next we have
+our video Creation with LM and apis 11
+Labs so the haen API it could not get it
+to work there seemed to be some issues
+we're going to look at that later so for
+the time being I just said use open AI
+to create a script and then 11 labs to
+voice that script so it completed it it
+gave me the project file here and it
+explained how to install it so I just
+copi and pasted the command it told me
+to and then installed all the
+requirements we run the command and we
+just type in whatever prompt we want
+into it so we're going to say Manis is
+the best AI Agent app for world
+domination so let's see what it does
+with that and so what it's doing is it's
+sending that through an API to the open
+AI client and the open AI whatever model
+we're using 40 probably it sort of
+creates a little script of a person kind
+of like talking about how awesome the
+thing is that I requested then it takes
+that script it sends it to the 11 Labs
+API so that it's able to produce it in
+an AI voice and then it takes that and
+saves it in this folder so here we have
+the generated script and the speech
+output let's take a listen hey everyone
+if you've ever dreamed of taking over
+the world or at least felt like you
+could manage things a bit better than
+the powers that be then you've got to
+check out Manis the ultimate AI Agent
+app designed for well world domination
+now I know how that sounds a bit like a
+plot out of a sci-fi movie right but
+hear me out Manis isn't just any app
+it's designed with the kind of features
+that not only help you make smarter
+decisions but actually anticipate
+problems before they arise it goes on
+for a while so again rating this I mean
+it's excellent again it wasn't able to
+troubleshoot the hay video generation
+but I actually haven't used it in a
+while so maybe there's some issues that
+I'm not aware of so I'm going to try to
+after this see if there's like some
+issue that's caused by haen and if
+that's the case I'll just provide a
+solution to this thing cuz I feel like I
+feel like it should be able to do it if
+this is caused by haen I would give it
+an a for this uh for nailing the prompt
+if this was something that it failed at
+then that certainly marks it down to a b
+or a C+ but I still want to give it a
+very high rating because so much of it
+was was done really well I mean created
+all the files it it taught me how to set
+up those files right how to run the
+application so I gave it the API keys
+and it sort of put them in the config
+slnv file it has a read me file it even
+created like a like a web interface
+here's kind of uh what that looks like
+right if you say rats are not pets I if
+you have a rat then we can select
+whatever voice that we want and click
+generate audio so it's processing our
+request and here's the generate audio
+okay let's talk about rats now when you
+hear the word rat what comes to mind
+maybe you think of dark alleys or
+perhaps old cartoons with villains
+surrounded by these creatures there's a
+good reason for these associations rats
+in the wild so as you can see there's a
+lot of good stuff Happening Here the
+reason it has that failed to generate
+audio is some of these voices are like
+premium voices and I guess I've and I
+think I've downgraded my subscription
+recently so I can use the default voice
+but not some of the other voices but it
+throws up that error message but it's
+still completes the task with the
+default voice all right so here towards
+the end so we kept getting console
+errors I'm putting it back in there and
+it says matus performance May decline so
+it it stopped so I think the reason that
+is happening is they're getting hit with
+a lot of people trying to test this
+these things out I'm sure they're
+melting their servers so we ran into
+we've hit a limit a while ago and we
+still continued you know updating and
+and going under each of the tasks that
+we were allowed to start we kept doing
+follow-up questions digging deeper and
+deeper so I think probably we I would
+assume maybe we got downgraded to a
+lesser model and eventually this thing
+just sto because we've hit some limit so
+I I don't quite want to give it a rating
+on this for a number of reasons one
+first of all it's not a software
+development agent it's kind of a general
+well-rounded agent two I should probably
+use the extended version version of this
+cuz this is a fairly complicated prompt
+that requires a lot of coding a lot of
+back and forth and some of these issues
+I ran into with other coders as well so
+I don't want to give it a final score
+without really testing it just on this
+prompt on its own when I have my full
+sort of quota available to me Etc but on
+all the other tasks I got to say I'm
+kind of blown away so the website about
+the AI generated video games made with a
+kind of 90s video game theme I love it I
+love everything about it it is
+phenomenal right it did it really
+captured exactly what we wanted to gives
+a lot of info about the games a lot of
+resources everything it's obviously
+doing its research just phenomenal it
+also links to the games themselves also
+gives you more info this is all I could
+have hoped for and more and now if I'm
+able to I can run follow-up commands to
+say Okay add five more games or add
+these features that you want to talk
+about to every single game or every
+single listing Etc we're at a point
+where if you're designing websites or
+you want a website designed for you you
+don't have to hire somebody you can just
+tell this thing what to do and it'll go
+and and do it it'll update it uh
+eventually if you can even schedule
+tasks like every morning go out there
+and find if there's a new game and add
+it to the resource you're basically just
+kind of like queuing these things up to
+happen at certain intervals that feature
+as far as I know is not available but
+that's super simple everything else just
+seems to be there and and ready to go
+this is like a plus to me just
+mind-blowing so this is the Linux AI
+development course it designed like a
+little V graphic for it and like I said
+I was kind of Blown Away here because I
+was sure I was going to get some of
+these things wrong because some of the
+stuff isn't really like available online
+yet like how do you use CLA coder to
+work with GitHub it it nailed it and I'm
+not 100% sure how it did that I'd be
+curious to know like it seemed like it
+just like read the manual and then just
+just it's a really smart model
+underneath it that figured out how to
+sort of like put that information
+together just kind of mind-blowing if I
+had to nitpick there was like one or two
+things in there specifically like this
+section that like I would not have put
+in there because again the whole point
+of this is to install Linux right and
+saying here if you're using Windows
+subsystems for Linux you can do this I
+understand why I put it in there it's
+not needed so kind of like if I had to
+nitpick out say this this section would
+not be in there but everything else is
+just just perfect A+ then we did a very
+simple just overview of Manus Ai and it
+brought back some really good
+information and it gave me this whole
+massive research that it conducted like
+just really deep dive onto every single
+member of the company where it's coming
+from what open source architecture it's
+using deep seek Etc I mean just really
+really huge in-depth things and then
+also and gave me this really simple like
+four bullet point description that kind
+of gives me like the top level overview
+of what I need to know again A+ probably
+a simpler prompt but I was impressed
+with the sort of depth of knowledge the
+Little Gems of wisdom that I was able to
+find online and fairly quickly too again
+A+ blown away next thing is the
+automated you know using openai API to
+then write a script that script uses the
+11 Labs API to to do a voice over that
+voiceover gets popped into haen to
+create a video it struggled a lot with
+setting up haen what I had to do is
+actually I realized that I didn't have a
+haen subscription at the time so I
+re-enabled it I regenerate the API key I
+gave it to it it still wasn't able to do
+it so it didn't complete a part of the
+prompt but I don't to call it as that
+was its mistake it might have been just
+something to do with my account at the
+time or how the API is I still have to
+see why specifically it failed so I
+don't want to gr it on that aspect of it
+but the rest of it it handled flawlessly
+it gave me all the files it created a
+read me it told me how to like install
+it and run it locally it even created a
+little web UI that it could use it put
+the API keys in the right place both for
+functionality and just like security
+basically if it put the API Keys kind of
+just in the main code right and then you
+wanted to upload it to GitHub you'd sort
+of expose your API Keys publicly but
+there's certain locations where you
+you're supposed to put your API key so
+that if you're you know sharing it with
+G GitHub and stuff like that those don't
+get shared it put them in the right
+place so not only does it understand how
+to like use them functionally but also
+like where to put them for security
+purposes and again I would say this is
+an A+ assuming that the issue of the
+haen was on haen side not on mana's side
+but still it's very impressive in any
+case and our World War II simulation I'm
+not ready to call it yet I'm going to
+have to like rerun it and see what the
+issue is looks like we hit the context
+window on here so and this makes sense
+uh what I maybe should have done is
+actually once it completed it I could
+have just throw it in a cursor or
+something else and had that
+troubleshooted because that's
+specifically made to be a software
+engineer you know an AI used for coding
+this isn't so this might might not have
+been like the best way to test it but
+based on everything I've seen this is
+just extremely exciting extremely
+capable multiple times where I was kind
+of like Blown Away by what it was able
+to do and they're talking about open
+sourcing some of it so I'm not sure
+exactly if they're doing everything all
+of it or just certain portions of it so
+we'll see but man this thing feels very
+powerful and it feels ahead of open Ai
+and anthropic in terms of like the AI
+agents sort of structure that they've
+created so let me know what you think
+but from my experience from what I've
+seen online people are losing their
+minds over this thing if you've made it
+this far thank you so much for watching
+my name is Wes rth and I'll see you next
+time

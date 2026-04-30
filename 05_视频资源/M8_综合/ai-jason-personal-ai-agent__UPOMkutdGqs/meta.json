@@ -1,8 +1,14 @@
 {
   "video_id": "UPOMkutdGqs",
   "url": "https://www.youtube.com/watch?v=UPOMkutdGqs",
-  "title": "I Built a Personal AI Agent That Does Almost EVERYTHING",
+  "title": "I Built a Personal AI Agent That Does Almost EVERYTHING - Here's How I did it",
   "channel": "AI Jason",
+  "duration_sec": 0,
+  "upload_date": "",
   "topic": "M8_综合",
-  "slug": "ai-jason-personal-ai-agent"
+  "slug": "ai-jason-personal-ai-agent",
+  "transcripts": {
+    "en_lines": 635,
+    "zh_lines": 0
+  }
 }
