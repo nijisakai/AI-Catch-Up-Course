@@ -180,9 +180,24 @@ function _cellInlineRuns(text, fg) {
 }
 
 function tableCell(text, opts = {}) {
-  const { isHeader = false, isAlt = false, width = 2340, align = AlignmentType.LEFT, verticalAlign = VerticalAlign.CENTER } = opts;
-  const fill = isHeader ? C.tableHead : (isAlt ? C.tableAlt : null);
-  const fg = isHeader ? C.tableHeadFg : C.body;
+  const {
+    isHeader = false,
+    isAlt = false,
+    width = 2340,
+    align = AlignmentType.LEFT,
+    verticalAlign = VerticalAlign.CENTER,
+    // 图表专用样式
+    diagramFirstCol = false,   // arch / layout / timeline 第一列：深色 fill + 白色粗体
+    diagramRowColor = null,    // 整行一个特殊填色（如 layout 用主题色按区段变）
+  } = opts;
+  let fill = isHeader ? C.tableHead : (isAlt ? C.tableAlt : null);
+  let fg = isHeader ? C.tableHeadFg : C.body;
+  if (!isHeader && diagramFirstCol) {
+    fill = C.primary;       // navy
+    fg = '#FFFFFF';
+  } else if (!isHeader && diagramRowColor) {
+    fill = diagramRowColor;
+  }
 
   // cell 内允许 <br> 拆多段；首段含 ➤ 时按要点列表渲染
   const segments = String(text).split(/<br\s*\/?>/i).map(s => s.trim()).filter(s => s.length > 0);
@@ -194,6 +209,16 @@ function tableCell(text, opts = {}) {
       spacing: { line: 320 },
       children: [new TextRun({ text, bold: true, font: FONT, size: 21, color: fg })],
     }));
+  } else if (diagramFirstCol) {
+    // 第一列在 arch/layout/timeline 中：深蓝底 + 白粗体 + 居中
+    segments.forEach((seg, idx) => {
+      const cleaned = seg.replace(/^\*\*/, '').replace(/\*\*$/, ''); // 去掉外层 **
+      paragraphs.push(new Paragraph({
+        alignment: AlignmentType.CENTER,
+        spacing: { before: idx === 0 ? 0 : 60, after: idx === segments.length - 1 ? 0 : 40, line: 300 },
+        children: [new TextRun({ text: cleaned, bold: true, font: FONT, size: 22, color: 'FFFFFF' })],
+      }));
+    });
   } else if (segments.length === 0) {
     paragraphs.push(new Paragraph({
       alignment: align,
@@ -227,7 +252,7 @@ function tableCell(text, opts = {}) {
   const cellOpts = {
     borders: tableBorders,
     width: { size: width, type: WidthType.DXA },
-    margins: { top: 120, bottom: 120, left: 160, right: 160 },
+    margins: { top: diagramFirstCol ? 160 : 120, bottom: diagramFirstCol ? 160 : 120, left: 160, right: 160 },
     verticalAlign,
     children: paragraphs,
   };
@@ -235,12 +260,19 @@ function tableCell(text, opts = {}) {
   return new TableCell(cellOpts);
 }
 
-function buildTable(headers, rows, colWidths) {
+function buildTable(headers, rows, colWidths, opts = {}) {
+  const { diagramMode = null } = opts; // 'arch' | 'layout' | 'timeline' | null
   if (!colWidths) {
     const totalW = 9000;
     colWidths = headers.map(() => Math.floor(totalW / headers.length));
   }
   const totalW = colWidths.reduce((a, b) => a + b, 0);
+
+  // layout 模式给前/中/后三段不同色调
+  const layoutColors = ['FFE699', 'D9D9D9', 'C5E0B4']; // 暖金 / 中灰 / 浅绿
+  // arch 模式各层的浅色底（第二列），按层级渐变
+  const archAltColors = ['F2F6FA', 'EAF2FA', 'E0EBF7', 'D6E5F4', 'CCDFEF', 'C2D9EC', 'B9D3E9'];
+
   return new Table({
     width: { size: totalW, type: WidthType.DXA },
     columnWidths: colWidths,
@@ -251,7 +283,21 @@ function buildTable(headers, rows, colWidths) {
         children: headers.map((h, i) => tableCell(h, { isHeader: true, width: colWidths[i] })),
       }),
       ...rows.map((row, rIdx) => new TableRow({
-        children: row.map((c, i) => tableCell(c, { isAlt: rIdx % 2 === 1, width: colWidths[i] })),
+        children: row.map((c, i) => {
+          const cellOpts = { width: colWidths[i] };
+          if (diagramMode && i === 0) {
+            cellOpts.diagramFirstCol = true;
+          } else if (diagramMode === 'layout' && i === 1) {
+            cellOpts.diagramRowColor = layoutColors[rIdx % layoutColors.length];
+          } else if (diagramMode === 'arch' && i === 1) {
+            cellOpts.diagramRowColor = archAltColors[rIdx % archAltColors.length];
+          } else if (diagramMode === 'timeline' && i === 1) {
+            cellOpts.isAlt = rIdx % 2 === 1;
+          } else {
+            cellOpts.isAlt = rIdx % 2 === 1;
+          }
+          return tableCell(c, cellOpts);
+        }),
       })),
     ],
   });
@@ -314,14 +360,27 @@ function flushParagraph(buf) {
   if (text) children.push(P(text));
 }
 
+let pendingDiagramMode = null; // <!-- arch --> 等标记的状态
+
 while (i < lines.length) {
   const line = lines[i];
   const trimmed = line.trim();
   if (!trimmed) { i++; continue; }
+
+  // HTML 注释标记：<!-- arch --> / <!-- layout --> / <!-- timeline -->
+  const diagramMarker = trimmed.match(/^<!--\s*(arch|layout|timeline)\s*-->$/);
+  if (diagramMarker) {
+    pendingDiagramMode = diagramMarker[1];
+    i++;
+    continue;
+  }
+  // 其他 HTML 注释：忽略
+  if (/^<!--.*-->$/.test(trimmed)) { i++; continue; }
+
   if (/^[-*_]{3,}$/.test(trimmed)) { i++; continue; }
-  if (/^#\s/.test(trimmed)) { children.push(H1(trimmed.replace(/^#\s+/, ''))); i++; continue; }
-  if (/^##\s/.test(trimmed)) { children.push(H2(trimmed.replace(/^##\s+/, ''))); i++; continue; }
-  if (/^###\s/.test(trimmed)) { children.push(H3(trimmed.replace(/^###\s+/, ''))); i++; continue; }
+  if (/^#\s/.test(trimmed)) { children.push(H1(trimmed.replace(/^#\s+/, ''))); i++; pendingDiagramMode = null; continue; }
+  if (/^##\s/.test(trimmed)) { children.push(H2(trimmed.replace(/^##\s+/, ''))); i++; pendingDiagramMode = null; continue; }
+  if (/^###\s/.test(trimmed)) { children.push(H3(trimmed.replace(/^###\s+/, ''))); i++; pendingDiagramMode = null; continue; }
   if (/^```/.test(trimmed)) {
     const buf = [];
     i++;
@@ -354,8 +413,11 @@ while (i < lines.length) {
     const ncols = headerCells.length;
     let finalWidths;
 
-    // 2 列表格特殊优化：右列含 <br> 要点列表 → 30/70；否则 35/65 或 50/50
-    if (ncols === 2) {
+    if (pendingDiagramMode && ncols === 2) {
+      // 架构图 / 平面图 / 时间线 都是 2 列，第 1 列窄（深色 banner），第 2 列宽（描述）
+      finalWidths = pendingDiagramMode === 'timeline' ? [2200, 6800] : [2600, 6400];
+    } else if (ncols === 2) {
+      // 2 列表格特殊优化：右列含 <br> 要点列表 → 30/70；否则 35/65 或 50/50
       const rightHasList = rows.some(r => /<br\s*\/?>/i.test(r[1] || ''));
       if (rightHasList) {
         finalWidths = [2700, 6300]; // 30 / 70
@@ -375,8 +437,9 @@ while (i < lines.length) {
       finalWidths = [total];
     }
 
-    children.push(buildTable(headerCells, rows, finalWidths));
+    children.push(buildTable(headerCells, rows, finalWidths, { diagramMode: pendingDiagramMode }));
     children.push(new Paragraph({ spacing: { before: 120 }, children: [new TextRun('')] }));
+    pendingDiagramMode = null;
     continue;
   }
   if (/^[-*]\s/.test(trimmed)) {
