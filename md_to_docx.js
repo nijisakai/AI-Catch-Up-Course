@@ -163,34 +163,73 @@ function codeLines(text) {
   }));
 }
 
+function _cellInlineRuns(text, fg) {
+  return inlineRuns(String(text)).map(r => {
+    if (r instanceof TextRun) {
+      return new TextRun({
+        text: r.options?.text || '',
+        bold: r.options?.bold,
+        italics: r.options?.italics,
+        font: r.options?.font || FONT,
+        size: 20,
+        color: r.options?.color || fg,
+      });
+    }
+    return r;
+  });
+}
+
 function tableCell(text, opts = {}) {
   const { isHeader = false, isAlt = false, width = 2340, align = AlignmentType.LEFT, verticalAlign = VerticalAlign.CENTER } = opts;
   const fill = isHeader ? C.tableHead : (isAlt ? C.tableAlt : null);
   const fg = isHeader ? C.tableHeadFg : C.body;
+
+  // cell 内允许 <br> 拆多段；首段含 ➤ 时按要点列表渲染
+  const segments = String(text).split(/<br\s*\/?>/i).map(s => s.trim()).filter(s => s.length > 0);
+  const paragraphs = [];
+
+  if (isHeader) {
+    paragraphs.push(new Paragraph({
+      alignment: align,
+      spacing: { line: 320 },
+      children: [new TextRun({ text, bold: true, font: FONT, size: 21, color: fg })],
+    }));
+  } else if (segments.length === 0) {
+    paragraphs.push(new Paragraph({
+      alignment: align,
+      spacing: { line: 320 },
+      children: [new TextRun({ text: '', font: FONT, size: 20, color: fg })],
+    }));
+  } else {
+    segments.forEach((seg, idx) => {
+      // 检测要点：以 ➤ ▸ ▶ ■ • - * 开头
+      const bulletMatch = seg.match(/^([➤▸▶■•·]|-|\*)\s*(.+)$/);
+      if (bulletMatch) {
+        paragraphs.push(new Paragraph({
+          alignment: AlignmentType.LEFT,
+          spacing: { before: idx === 0 ? 0 : 40, after: 40, line: 320 },
+          indent: { left: 240, hanging: 240 },
+          children: [
+            new TextRun({ text: '➤  ', font: FONT, size: 20, color: C.secondary, bold: true }),
+            ..._cellInlineRuns(bulletMatch[2], fg),
+          ],
+        }));
+      } else {
+        paragraphs.push(new Paragraph({
+          alignment: align,
+          spacing: { before: idx === 0 ? 0 : 60, after: 40, line: 320 },
+          children: _cellInlineRuns(seg, fg),
+        }));
+      }
+    });
+  }
+
   const cellOpts = {
     borders: tableBorders,
     width: { size: width, type: WidthType.DXA },
-    margins: { top: 100, bottom: 100, left: 140, right: 140 },
+    margins: { top: 120, bottom: 120, left: 160, right: 160 },
     verticalAlign,
-    children: [new Paragraph({
-      alignment: align,
-      spacing: { line: 320 },
-      children: isHeader
-        ? [new TextRun({ text, bold: true, font: FONT, size: 21, color: fg })]
-        : inlineRuns(String(text)).map(r => {
-            if (r instanceof TextRun) {
-              return new TextRun({
-                text: r.options?.text || '',
-                bold: r.options?.bold,
-                italics: r.options?.italics,
-                font: r.options?.font || FONT,
-                size: 20,
-                color: r.options?.color || fg,
-              });
-            }
-            return r;
-          }),
-    })],
+    children: paragraphs,
   };
   if (fill) cellOpts.shading = { type: ShadingType.CLEAR, fill };
   return new TableCell(cellOpts);
@@ -310,21 +349,32 @@ while (i < lines.length) {
       rows.push(cells);
       i++;
     }
-    // 智能列宽：第一列窄（编号 / 序号），其余均分
+    // 智能列宽
     const total = 9000;
-    const widths = headerCells.length === 0
-      ? [total]
-      : headerCells.map((h, idx) => {
-          if (idx === 0 && /^(#|序号|编号|项|类目)/.test(h.replace(/\s/g, ''))) return 600;
-          if (idx === 0 && h.length <= 2) return 800;
-          const reserved = (idx === 0) ? 0 : (/^(#|序号|编号|项|类目)/.test(headerCells[0].replace(/\s/g, '')) ? 600 : 800);
-          return Math.floor((total - reserved) / (headerCells.length - 1 || 1));
-        });
-    // 修正第一列规则
-    const w0 = /^(#|序号|编号|项|类目)/.test(headerCells[0].replace(/\s/g, '')) ? 600 :
-               (headerCells[0].length <= 2 ? 800 : Math.floor(total / headerCells.length));
-    const wRest = Math.floor((total - w0) / Math.max(1, headerCells.length - 1));
-    const finalWidths = headerCells.map((_, idx) => idx === 0 ? w0 : wRest);
+    const ncols = headerCells.length;
+    let finalWidths;
+
+    // 2 列表格特殊优化：右列含 <br> 要点列表 → 30/70；否则 35/65 或 50/50
+    if (ncols === 2) {
+      const rightHasList = rows.some(r => /<br\s*\/?>/i.test(r[1] || ''));
+      if (rightHasList) {
+        finalWidths = [2700, 6300]; // 30 / 70
+      } else if (headerCells[0].length <= 4 && headerCells[1].length > 4) {
+        finalWidths = [2200, 6800]; // 短表头 + 长内容
+      } else {
+        finalWidths = [3200, 5800]; // 35 / 65
+      }
+    } else if (ncols >= 3) {
+      // 第一列窄（如果是序号 / 编号 / # / 模块）
+      const firstHeader = headerCells[0].replace(/\s/g, '');
+      const w0 = /^(#|序号|编号|项|类目|模块)/.test(firstHeader) ? 800 :
+                 (headerCells[0].length <= 3 ? 1000 : Math.floor(total / ncols));
+      const wRest = Math.floor((total - w0) / (ncols - 1));
+      finalWidths = headerCells.map((_, idx) => idx === 0 ? w0 : wRest);
+    } else {
+      finalWidths = [total];
+    }
+
     children.push(buildTable(headerCells, rows, finalWidths));
     children.push(new Paragraph({ spacing: { before: 120 }, children: [new TextRun('')] }));
     continue;
