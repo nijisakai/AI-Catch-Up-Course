@@ -1,0 +1,24 @@
+# M0_AI工作站
+https://www.youtube.com/watch?v=AMdG7IjgSPM  # Fireship - UV 包管理器
+https://www.youtube.com/watch?v=T9aRN5JkmL8  # Anthropic - 提示词工程深度
+
+# M1_AI底层逻辑
+https://www.youtube.com/watch?v=LCEmiRjPEtQ  # Karpathy - Software Is Changing (Again)
+https://www.youtube.com/watch?v=1WImBwiA7RA  # AI Jason - Claude Skills SOP
+https://www.youtube.com/watch?v=HyzlYwjoXOQ  # Fireship - MCP 测试
+https://www.youtube.com/watch?v=GuTcle5edjk  # Matthew Berman - 你必须学 MCP
+
+# M2_对话式AI
+https://www.youtube.com/watch?v=UAxr6bWonFs  # Matthew Berman - Cursor vs Claude Code
+https://www.youtube.com/watch?v=Wjrdr0NU4Sk  # NetworkChuck - 本地跑所有 AI
+
+# M6_Agent
+https://www.youtube.com/watch?v=wVvfXZm4Lvg  # Matthew Berman - Manus 全能 Agent
+https://www.youtube.com/watch?v=rEVL_KR_yNY  # OpenClaw 24/7 个人助理
+
+# M7_VibeCoding
+https://www.youtube.com/watch?v=96jN2OCOfLs  # Karpathy - Vibe Coding to Agentic Engineering
+https://www.youtube.com/watch?v=faezjTHA5SU  # Riley Brown - Cursor for Non-Coders
+
+# M8_综合
+https://www.youtube.com/watch?v=UPOMkutdGqs  # AI Jason - 个人 AI Agent 全能助手
